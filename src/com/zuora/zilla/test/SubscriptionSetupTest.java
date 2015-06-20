@@ -97,7 +97,7 @@ public class SubscriptionSetupTest extends TestCase {
 
 			//Set up a ProductRatePlanChargeTier
 			ProductRatePlanChargeTier testPrpct = new ProductRatePlanChargeTier();
-			testPrpct.setActive(true);
+			//testPrpct.setActive(true);
 			testPrpct.setCurrency("USD");
 			testPrpct.setPrice(new BigDecimal(9.99));
 			testPrpct.setTier(0);

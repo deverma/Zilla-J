@@ -1,1 +1,3825 @@
-package com.sforce.soap.enterprise.sobject;/** * Generated class, please do not edit. */public class Contact extends com.sforce.soap.enterprise.sobject.SObject {  /**   * Constructor   */  public Contact() {  }        /**   * element  : Account of type {urn:sobject.enterprise.soap.sforce.com}Account   * java type: com.sforce.soap.enterprise.sobject.Account   */  private static final com.sforce.ws.bind.TypeInfo Account__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Account","urn:sobject.enterprise.soap.sforce.com","Account",0,1,true);  private boolean Account__is_set = false;  private com.sforce.soap.enterprise.sobject.Account Account;  public com.sforce.soap.enterprise.sobject.Account getAccount() {    return Account;  }    public void setAccount(com.sforce.soap.enterprise.sobject.Account Account) {    this.Account = Account;    Account__is_set = true;  }    /**   * element  : AccountContactRoles of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo AccountContactRoles__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","AccountContactRoles","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean AccountContactRoles__is_set = false;  private com.sforce.soap.enterprise.QueryResult AccountContactRoles;  public com.sforce.soap.enterprise.QueryResult getAccountContactRoles() {    return AccountContactRoles;  }    public void setAccountContactRoles(com.sforce.soap.enterprise.QueryResult AccountContactRoles) {    this.AccountContactRoles = AccountContactRoles;    AccountContactRoles__is_set = true;  }    /**   * element  : AccountId of type {urn:enterprise.soap.sforce.com}ID   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo AccountId__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","AccountId","urn:enterprise.soap.sforce.com","ID",0,1,true);  private boolean AccountId__is_set = false;  private java.lang.String AccountId;  public java.lang.String getAccountId() {    return AccountId;  }    public void setAccountId(java.lang.String AccountId) {    this.AccountId = AccountId;    AccountId__is_set = true;  }    /**   * element  : ActivityHistories of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo ActivityHistories__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","ActivityHistories","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean ActivityHistories__is_set = false;  private com.sforce.soap.enterprise.QueryResult ActivityHistories;  public com.sforce.soap.enterprise.QueryResult getActivityHistories() {    return ActivityHistories;  }    public void setActivityHistories(com.sforce.soap.enterprise.QueryResult ActivityHistories) {    this.ActivityHistories = ActivityHistories;    ActivityHistories__is_set = true;  }    /**   * element  : Assets of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Assets__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Assets","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Assets__is_set = false;  private com.sforce.soap.enterprise.QueryResult Assets;  public com.sforce.soap.enterprise.QueryResult getAssets() {    return Assets;  }    public void setAssets(com.sforce.soap.enterprise.QueryResult Assets) {    this.Assets = Assets;    Assets__is_set = true;  }    /**   * element  : AssistantName of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo AssistantName__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","AssistantName","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean AssistantName__is_set = false;  private java.lang.String AssistantName;  public java.lang.String getAssistantName() {    return AssistantName;  }    public void setAssistantName(java.lang.String AssistantName) {    this.AssistantName = AssistantName;    AssistantName__is_set = true;  }    /**   * element  : AssistantPhone of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo AssistantPhone__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","AssistantPhone","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean AssistantPhone__is_set = false;  private java.lang.String AssistantPhone;  public java.lang.String getAssistantPhone() {    return AssistantPhone;  }    public void setAssistantPhone(java.lang.String AssistantPhone) {    this.AssistantPhone = AssistantPhone;    AssistantPhone__is_set = true;  }    /**   * element  : Attachments of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Attachments__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Attachments","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Attachments__is_set = false;  private com.sforce.soap.enterprise.QueryResult Attachments;  public com.sforce.soap.enterprise.QueryResult getAttachments() {    return Attachments;  }    public void setAttachments(com.sforce.soap.enterprise.QueryResult Attachments) {    this.Attachments = Attachments;    Attachments__is_set = true;  }    /**   * element  : Birthdate of type {http://www.w3.org/2001/XMLSchema}date   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo Birthdate__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Birthdate","http://www.w3.org/2001/XMLSchema","date",0,1,true);  private boolean Birthdate__is_set = false;  private java.util.Calendar Birthdate;  public java.util.Calendar getBirthdate() {    return Birthdate;  }    public void setBirthdate(java.util.Calendar Birthdate) {    this.Birthdate = Birthdate;    Birthdate__is_set = true;  }    /**   * element  : CampaignMembers of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo CampaignMembers__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","CampaignMembers","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean CampaignMembers__is_set = false;  private com.sforce.soap.enterprise.QueryResult CampaignMembers;  public com.sforce.soap.enterprise.QueryResult getCampaignMembers() {    return CampaignMembers;  }    public void setCampaignMembers(com.sforce.soap.enterprise.QueryResult CampaignMembers) {    this.CampaignMembers = CampaignMembers;    CampaignMembers__is_set = true;  }    /**   * element  : CaseContactRoles of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo CaseContactRoles__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","CaseContactRoles","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean CaseContactRoles__is_set = false;  private com.sforce.soap.enterprise.QueryResult CaseContactRoles;  public com.sforce.soap.enterprise.QueryResult getCaseContactRoles() {    return CaseContactRoles;  }    public void setCaseContactRoles(com.sforce.soap.enterprise.QueryResult CaseContactRoles) {    this.CaseContactRoles = CaseContactRoles;    CaseContactRoles__is_set = true;  }    /**   * element  : Cases of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Cases__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Cases","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Cases__is_set = false;  private com.sforce.soap.enterprise.QueryResult Cases;  public com.sforce.soap.enterprise.QueryResult getCases() {    return Cases;  }    public void setCases(com.sforce.soap.enterprise.QueryResult Cases) {    this.Cases = Cases;    Cases__is_set = true;  }    /**   * element  : ContractContactRoles of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo ContractContactRoles__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","ContractContactRoles","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean ContractContactRoles__is_set = false;  private com.sforce.soap.enterprise.QueryResult ContractContactRoles;  public com.sforce.soap.enterprise.QueryResult getContractContactRoles() {    return ContractContactRoles;  }    public void setContractContactRoles(com.sforce.soap.enterprise.QueryResult ContractContactRoles) {    this.ContractContactRoles = ContractContactRoles;    ContractContactRoles__is_set = true;  }    /**   * element  : ContractsSigned of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo ContractsSigned__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","ContractsSigned","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean ContractsSigned__is_set = false;  private com.sforce.soap.enterprise.QueryResult ContractsSigned;  public com.sforce.soap.enterprise.QueryResult getContractsSigned() {    return ContractsSigned;  }    public void setContractsSigned(com.sforce.soap.enterprise.QueryResult ContractsSigned) {    this.ContractsSigned = ContractsSigned;    ContractsSigned__is_set = true;  }    /**   * element  : CreatedBy of type {urn:sobject.enterprise.soap.sforce.com}User   * java type: com.sforce.soap.enterprise.sobject.User   */  private static final com.sforce.ws.bind.TypeInfo CreatedBy__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","CreatedBy","urn:sobject.enterprise.soap.sforce.com","User",0,1,true);  private boolean CreatedBy__is_set = false;  private com.sforce.soap.enterprise.sobject.User CreatedBy;  public com.sforce.soap.enterprise.sobject.User getCreatedBy() {    return CreatedBy;  }    public void setCreatedBy(com.sforce.soap.enterprise.sobject.User CreatedBy) {    this.CreatedBy = CreatedBy;    CreatedBy__is_set = true;  }    /**   * element  : CreatedById of type {urn:enterprise.soap.sforce.com}ID   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo CreatedById__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","CreatedById","urn:enterprise.soap.sforce.com","ID",0,1,true);  private boolean CreatedById__is_set = false;  private java.lang.String CreatedById;  public java.lang.String getCreatedById() {    return CreatedById;  }    public void setCreatedById(java.lang.String CreatedById) {    this.CreatedById = CreatedById;    CreatedById__is_set = true;  }    /**   * element  : CreatedDate of type {http://www.w3.org/2001/XMLSchema}dateTime   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo CreatedDate__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","CreatedDate","http://www.w3.org/2001/XMLSchema","dateTime",0,1,true);  private boolean CreatedDate__is_set = false;  private java.util.Calendar CreatedDate;  public java.util.Calendar getCreatedDate() {    return CreatedDate;  }    public void setCreatedDate(java.util.Calendar CreatedDate) {    this.CreatedDate = CreatedDate;    CreatedDate__is_set = true;  }    /**   * element  : Department of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Department__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Department","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Department__is_set = false;  private java.lang.String Department;  public java.lang.String getDepartment() {    return Department;  }    public void setDepartment(java.lang.String Department) {    this.Department = Department;    Department__is_set = true;  }    /**   * element  : Description of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Description__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Description","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Description__is_set = false;  private java.lang.String Description;  public java.lang.String getDescription() {    return Description;  }    public void setDescription(java.lang.String Description) {    this.Description = Description;    Description__is_set = true;  }    /**   * element  : Email of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Email__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Email","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Email__is_set = false;  private java.lang.String Email;  public java.lang.String getEmail() {    return Email;  }    public void setEmail(java.lang.String Email) {    this.Email = Email;    Email__is_set = true;  }    /**   * element  : EmailBouncedDate of type {http://www.w3.org/2001/XMLSchema}dateTime   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo EmailBouncedDate__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","EmailBouncedDate","http://www.w3.org/2001/XMLSchema","dateTime",0,1,true);  private boolean EmailBouncedDate__is_set = false;  private java.util.Calendar EmailBouncedDate;  public java.util.Calendar getEmailBouncedDate() {    return EmailBouncedDate;  }    public void setEmailBouncedDate(java.util.Calendar EmailBouncedDate) {    this.EmailBouncedDate = EmailBouncedDate;    EmailBouncedDate__is_set = true;  }    /**   * element  : EmailBouncedReason of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo EmailBouncedReason__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","EmailBouncedReason","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean EmailBouncedReason__is_set = false;  private java.lang.String EmailBouncedReason;  public java.lang.String getEmailBouncedReason() {    return EmailBouncedReason;  }    public void setEmailBouncedReason(java.lang.String EmailBouncedReason) {    this.EmailBouncedReason = EmailBouncedReason;    EmailBouncedReason__is_set = true;  }    /**   * element  : EmailStatuses of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo EmailStatuses__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","EmailStatuses","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean EmailStatuses__is_set = false;  private com.sforce.soap.enterprise.QueryResult EmailStatuses;  public com.sforce.soap.enterprise.QueryResult getEmailStatuses() {    return EmailStatuses;  }    public void setEmailStatuses(com.sforce.soap.enterprise.QueryResult EmailStatuses) {    this.EmailStatuses = EmailStatuses;    EmailStatuses__is_set = true;  }    /**   * element  : Events of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Events__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Events","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Events__is_set = false;  private com.sforce.soap.enterprise.QueryResult Events;  public com.sforce.soap.enterprise.QueryResult getEvents() {    return Events;  }    public void setEvents(com.sforce.soap.enterprise.QueryResult Events) {    this.Events = Events;    Events__is_set = true;  }    /**   * element  : Fax of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Fax__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Fax","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Fax__is_set = false;  private java.lang.String Fax;  public java.lang.String getFax() {    return Fax;  }    public void setFax(java.lang.String Fax) {    this.Fax = Fax;    Fax__is_set = true;  }    /**   * element  : FeedSubscriptionsForEntity of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo FeedSubscriptionsForEntity__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","FeedSubscriptionsForEntity","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean FeedSubscriptionsForEntity__is_set = false;  private com.sforce.soap.enterprise.QueryResult FeedSubscriptionsForEntity;  public com.sforce.soap.enterprise.QueryResult getFeedSubscriptionsForEntity() {    return FeedSubscriptionsForEntity;  }    public void setFeedSubscriptionsForEntity(com.sforce.soap.enterprise.QueryResult FeedSubscriptionsForEntity) {    this.FeedSubscriptionsForEntity = FeedSubscriptionsForEntity;    FeedSubscriptionsForEntity__is_set = true;  }    /**   * element  : Feeds of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Feeds__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Feeds","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Feeds__is_set = false;  private com.sforce.soap.enterprise.QueryResult Feeds;  public com.sforce.soap.enterprise.QueryResult getFeeds() {    return Feeds;  }    public void setFeeds(com.sforce.soap.enterprise.QueryResult Feeds) {    this.Feeds = Feeds;    Feeds__is_set = true;  }    /**   * element  : FirstName of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo FirstName__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","FirstName","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean FirstName__is_set = false;  private java.lang.String FirstName;  public java.lang.String getFirstName() {    return FirstName;  }    public void setFirstName(java.lang.String FirstName) {    this.FirstName = FirstName;    FirstName__is_set = true;  }    /**   * element  : Histories of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Histories__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Histories","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Histories__is_set = false;  private com.sforce.soap.enterprise.QueryResult Histories;  public com.sforce.soap.enterprise.QueryResult getHistories() {    return Histories;  }    public void setHistories(com.sforce.soap.enterprise.QueryResult Histories) {    this.Histories = Histories;    Histories__is_set = true;  }    /**   * element  : HomePhone of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo HomePhone__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","HomePhone","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean HomePhone__is_set = false;  private java.lang.String HomePhone;  public java.lang.String getHomePhone() {    return HomePhone;  }    public void setHomePhone(java.lang.String HomePhone) {    this.HomePhone = HomePhone;    HomePhone__is_set = true;  }    /**   * element  : IsDeleted of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo IsDeleted__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","IsDeleted","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean IsDeleted__is_set = false;  private java.lang.Boolean IsDeleted;  public java.lang.Boolean getIsDeleted() {    return IsDeleted;  }    public void setIsDeleted(java.lang.Boolean IsDeleted) {    this.IsDeleted = IsDeleted;    IsDeleted__is_set = true;  }    /**   * element  : Jigsaw of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Jigsaw__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Jigsaw","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Jigsaw__is_set = false;  private java.lang.String Jigsaw;  public java.lang.String getJigsaw() {    return Jigsaw;  }    public void setJigsaw(java.lang.String Jigsaw) {    this.Jigsaw = Jigsaw;    Jigsaw__is_set = true;  }    /**   * element  : JigsawContactId of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo JigsawContactId__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","JigsawContactId","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean JigsawContactId__is_set = false;  private java.lang.String JigsawContactId;  public java.lang.String getJigsawContactId() {    return JigsawContactId;  }    public void setJigsawContactId(java.lang.String JigsawContactId) {    this.JigsawContactId = JigsawContactId;    JigsawContactId__is_set = true;  }    /**   * element  : Languages__c of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Languages__c__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Languages__c","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Languages__c__is_set = false;  private java.lang.String Languages__c;  public java.lang.String getLanguages__c() {    return Languages__c;  }    public void setLanguages__c(java.lang.String Languages__c) {    this.Languages__c = Languages__c;    Languages__c__is_set = true;  }    /**   * element  : LastActivityDate of type {http://www.w3.org/2001/XMLSchema}date   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo LastActivityDate__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastActivityDate","http://www.w3.org/2001/XMLSchema","date",0,1,true);  private boolean LastActivityDate__is_set = false;  private java.util.Calendar LastActivityDate;  public java.util.Calendar getLastActivityDate() {    return LastActivityDate;  }    public void setLastActivityDate(java.util.Calendar LastActivityDate) {    this.LastActivityDate = LastActivityDate;    LastActivityDate__is_set = true;  }    /**   * element  : LastCURequestDate of type {http://www.w3.org/2001/XMLSchema}dateTime   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo LastCURequestDate__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastCURequestDate","http://www.w3.org/2001/XMLSchema","dateTime",0,1,true);  private boolean LastCURequestDate__is_set = false;  private java.util.Calendar LastCURequestDate;  public java.util.Calendar getLastCURequestDate() {    return LastCURequestDate;  }    public void setLastCURequestDate(java.util.Calendar LastCURequestDate) {    this.LastCURequestDate = LastCURequestDate;    LastCURequestDate__is_set = true;  }    /**   * element  : LastCUUpdateDate of type {http://www.w3.org/2001/XMLSchema}dateTime   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo LastCUUpdateDate__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastCUUpdateDate","http://www.w3.org/2001/XMLSchema","dateTime",0,1,true);  private boolean LastCUUpdateDate__is_set = false;  private java.util.Calendar LastCUUpdateDate;  public java.util.Calendar getLastCUUpdateDate() {    return LastCUUpdateDate;  }    public void setLastCUUpdateDate(java.util.Calendar LastCUUpdateDate) {    this.LastCUUpdateDate = LastCUUpdateDate;    LastCUUpdateDate__is_set = true;  }    /**   * element  : LastModifiedBy of type {urn:sobject.enterprise.soap.sforce.com}User   * java type: com.sforce.soap.enterprise.sobject.User   */  private static final com.sforce.ws.bind.TypeInfo LastModifiedBy__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastModifiedBy","urn:sobject.enterprise.soap.sforce.com","User",0,1,true);  private boolean LastModifiedBy__is_set = false;  private com.sforce.soap.enterprise.sobject.User LastModifiedBy;  public com.sforce.soap.enterprise.sobject.User getLastModifiedBy() {    return LastModifiedBy;  }    public void setLastModifiedBy(com.sforce.soap.enterprise.sobject.User LastModifiedBy) {    this.LastModifiedBy = LastModifiedBy;    LastModifiedBy__is_set = true;  }    /**   * element  : LastModifiedById of type {urn:enterprise.soap.sforce.com}ID   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo LastModifiedById__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastModifiedById","urn:enterprise.soap.sforce.com","ID",0,1,true);  private boolean LastModifiedById__is_set = false;  private java.lang.String LastModifiedById;  public java.lang.String getLastModifiedById() {    return LastModifiedById;  }    public void setLastModifiedById(java.lang.String LastModifiedById) {    this.LastModifiedById = LastModifiedById;    LastModifiedById__is_set = true;  }    /**   * element  : LastModifiedDate of type {http://www.w3.org/2001/XMLSchema}dateTime   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo LastModifiedDate__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastModifiedDate","http://www.w3.org/2001/XMLSchema","dateTime",0,1,true);  private boolean LastModifiedDate__is_set = false;  private java.util.Calendar LastModifiedDate;  public java.util.Calendar getLastModifiedDate() {    return LastModifiedDate;  }    public void setLastModifiedDate(java.util.Calendar LastModifiedDate) {    this.LastModifiedDate = LastModifiedDate;    LastModifiedDate__is_set = true;  }    /**   * element  : LastName of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo LastName__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastName","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean LastName__is_set = false;  private java.lang.String LastName;  public java.lang.String getLastName() {    return LastName;  }    public void setLastName(java.lang.String LastName) {    this.LastName = LastName;    LastName__is_set = true;  }    /**   * element  : LeadSource of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo LeadSource__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LeadSource","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean LeadSource__is_set = false;  private java.lang.String LeadSource;  public java.lang.String getLeadSource() {    return LeadSource;  }    public void setLeadSource(java.lang.String LeadSource) {    this.LeadSource = LeadSource;    LeadSource__is_set = true;  }    /**   * element  : Level__c of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Level__c__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Level__c","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Level__c__is_set = false;  private java.lang.String Level__c;  public java.lang.String getLevel__c() {    return Level__c;  }    public void setLevel__c(java.lang.String Level__c) {    this.Level__c = Level__c;    Level__c__is_set = true;  }    /**   * element  : MailingCity of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo MailingCity__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","MailingCity","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean MailingCity__is_set = false;  private java.lang.String MailingCity;  public java.lang.String getMailingCity() {    return MailingCity;  }    public void setMailingCity(java.lang.String MailingCity) {    this.MailingCity = MailingCity;    MailingCity__is_set = true;  }    /**   * element  : MailingCountry of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo MailingCountry__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","MailingCountry","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean MailingCountry__is_set = false;  private java.lang.String MailingCountry;  public java.lang.String getMailingCountry() {    return MailingCountry;  }    public void setMailingCountry(java.lang.String MailingCountry) {    this.MailingCountry = MailingCountry;    MailingCountry__is_set = true;  }    /**   * element  : MailingPostalCode of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo MailingPostalCode__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","MailingPostalCode","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean MailingPostalCode__is_set = false;  private java.lang.String MailingPostalCode;  public java.lang.String getMailingPostalCode() {    return MailingPostalCode;  }    public void setMailingPostalCode(java.lang.String MailingPostalCode) {    this.MailingPostalCode = MailingPostalCode;    MailingPostalCode__is_set = true;  }    /**   * element  : MailingState of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo MailingState__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","MailingState","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean MailingState__is_set = false;  private java.lang.String MailingState;  public java.lang.String getMailingState() {    return MailingState;  }    public void setMailingState(java.lang.String MailingState) {    this.MailingState = MailingState;    MailingState__is_set = true;  }    /**   * element  : MailingStreet of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo MailingStreet__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","MailingStreet","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean MailingStreet__is_set = false;  private java.lang.String MailingStreet;  public java.lang.String getMailingStreet() {    return MailingStreet;  }    public void setMailingStreet(java.lang.String MailingStreet) {    this.MailingStreet = MailingStreet;    MailingStreet__is_set = true;  }    /**   * element  : MasterRecord of type {urn:sobject.enterprise.soap.sforce.com}Contact   * java type: com.sforce.soap.enterprise.sobject.Contact   */  private static final com.sforce.ws.bind.TypeInfo MasterRecord__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","MasterRecord","urn:sobject.enterprise.soap.sforce.com","Contact",0,1,true);  private boolean MasterRecord__is_set = false;  private com.sforce.soap.enterprise.sobject.Contact MasterRecord;  public com.sforce.soap.enterprise.sobject.Contact getMasterRecord() {    return MasterRecord;  }    public void setMasterRecord(com.sforce.soap.enterprise.sobject.Contact MasterRecord) {    this.MasterRecord = MasterRecord;    MasterRecord__is_set = true;  }    /**   * element  : MasterRecordId of type {urn:enterprise.soap.sforce.com}ID   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo MasterRecordId__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","MasterRecordId","urn:enterprise.soap.sforce.com","ID",0,1,true);  private boolean MasterRecordId__is_set = false;  private java.lang.String MasterRecordId;  public java.lang.String getMasterRecordId() {    return MasterRecordId;  }    public void setMasterRecordId(java.lang.String MasterRecordId) {    this.MasterRecordId = MasterRecordId;    MasterRecordId__is_set = true;  }    /**   * element  : MobilePhone of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo MobilePhone__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","MobilePhone","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean MobilePhone__is_set = false;  private java.lang.String MobilePhone;  public java.lang.String getMobilePhone() {    return MobilePhone;  }    public void setMobilePhone(java.lang.String MobilePhone) {    this.MobilePhone = MobilePhone;    MobilePhone__is_set = true;  }    /**   * element  : Name of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Name__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Name","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Name__is_set = false;  private java.lang.String Name;  public java.lang.String getName() {    return Name;  }    public void setName(java.lang.String Name) {    this.Name = Name;    Name__is_set = true;  }    /**   * element  : Notes of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Notes__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Notes","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Notes__is_set = false;  private com.sforce.soap.enterprise.QueryResult Notes;  public com.sforce.soap.enterprise.QueryResult getNotes() {    return Notes;  }    public void setNotes(com.sforce.soap.enterprise.QueryResult Notes) {    this.Notes = Notes;    Notes__is_set = true;  }    /**   * element  : NotesAndAttachments of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo NotesAndAttachments__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","NotesAndAttachments","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean NotesAndAttachments__is_set = false;  private com.sforce.soap.enterprise.QueryResult NotesAndAttachments;  public com.sforce.soap.enterprise.QueryResult getNotesAndAttachments() {    return NotesAndAttachments;  }    public void setNotesAndAttachments(com.sforce.soap.enterprise.QueryResult NotesAndAttachments) {    this.NotesAndAttachments = NotesAndAttachments;    NotesAndAttachments__is_set = true;  }    /**   * element  : OpenActivities of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo OpenActivities__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","OpenActivities","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean OpenActivities__is_set = false;  private com.sforce.soap.enterprise.QueryResult OpenActivities;  public com.sforce.soap.enterprise.QueryResult getOpenActivities() {    return OpenActivities;  }    public void setOpenActivities(com.sforce.soap.enterprise.QueryResult OpenActivities) {    this.OpenActivities = OpenActivities;    OpenActivities__is_set = true;  }    /**   * element  : Opportunities of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Opportunities__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Opportunities","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Opportunities__is_set = false;  private com.sforce.soap.enterprise.QueryResult Opportunities;  public com.sforce.soap.enterprise.QueryResult getOpportunities() {    return Opportunities;  }    public void setOpportunities(com.sforce.soap.enterprise.QueryResult Opportunities) {    this.Opportunities = Opportunities;    Opportunities__is_set = true;  }    /**   * element  : OpportunityContactRoles of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo OpportunityContactRoles__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","OpportunityContactRoles","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean OpportunityContactRoles__is_set = false;  private com.sforce.soap.enterprise.QueryResult OpportunityContactRoles;  public com.sforce.soap.enterprise.QueryResult getOpportunityContactRoles() {    return OpportunityContactRoles;  }    public void setOpportunityContactRoles(com.sforce.soap.enterprise.QueryResult OpportunityContactRoles) {    this.OpportunityContactRoles = OpportunityContactRoles;    OpportunityContactRoles__is_set = true;  }    /**   * element  : OtherCity of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo OtherCity__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","OtherCity","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean OtherCity__is_set = false;  private java.lang.String OtherCity;  public java.lang.String getOtherCity() {    return OtherCity;  }    public void setOtherCity(java.lang.String OtherCity) {    this.OtherCity = OtherCity;    OtherCity__is_set = true;  }    /**   * element  : OtherCountry of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo OtherCountry__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","OtherCountry","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean OtherCountry__is_set = false;  private java.lang.String OtherCountry;  public java.lang.String getOtherCountry() {    return OtherCountry;  }    public void setOtherCountry(java.lang.String OtherCountry) {    this.OtherCountry = OtherCountry;    OtherCountry__is_set = true;  }    /**   * element  : OtherPhone of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo OtherPhone__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","OtherPhone","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean OtherPhone__is_set = false;  private java.lang.String OtherPhone;  public java.lang.String getOtherPhone() {    return OtherPhone;  }    public void setOtherPhone(java.lang.String OtherPhone) {    this.OtherPhone = OtherPhone;    OtherPhone__is_set = true;  }    /**   * element  : OtherPostalCode of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo OtherPostalCode__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","OtherPostalCode","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean OtherPostalCode__is_set = false;  private java.lang.String OtherPostalCode;  public java.lang.String getOtherPostalCode() {    return OtherPostalCode;  }    public void setOtherPostalCode(java.lang.String OtherPostalCode) {    this.OtherPostalCode = OtherPostalCode;    OtherPostalCode__is_set = true;  }    /**   * element  : OtherState of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo OtherState__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","OtherState","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean OtherState__is_set = false;  private java.lang.String OtherState;  public java.lang.String getOtherState() {    return OtherState;  }    public void setOtherState(java.lang.String OtherState) {    this.OtherState = OtherState;    OtherState__is_set = true;  }    /**   * element  : OtherStreet of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo OtherStreet__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","OtherStreet","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean OtherStreet__is_set = false;  private java.lang.String OtherStreet;  public java.lang.String getOtherStreet() {    return OtherStreet;  }    public void setOtherStreet(java.lang.String OtherStreet) {    this.OtherStreet = OtherStreet;    OtherStreet__is_set = true;  }    /**   * element  : Owner of type {urn:sobject.enterprise.soap.sforce.com}User   * java type: com.sforce.soap.enterprise.sobject.User   */  private static final com.sforce.ws.bind.TypeInfo Owner__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Owner","urn:sobject.enterprise.soap.sforce.com","User",0,1,true);  private boolean Owner__is_set = false;  private com.sforce.soap.enterprise.sobject.User Owner;  public com.sforce.soap.enterprise.sobject.User getOwner() {    return Owner;  }    public void setOwner(com.sforce.soap.enterprise.sobject.User Owner) {    this.Owner = Owner;    Owner__is_set = true;  }    /**   * element  : OwnerId of type {urn:enterprise.soap.sforce.com}ID   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo OwnerId__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","OwnerId","urn:enterprise.soap.sforce.com","ID",0,1,true);  private boolean OwnerId__is_set = false;  private java.lang.String OwnerId;  public java.lang.String getOwnerId() {    return OwnerId;  }    public void setOwnerId(java.lang.String OwnerId) {    this.OwnerId = OwnerId;    OwnerId__is_set = true;  }    /**   * element  : Phone of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Phone__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Phone","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Phone__is_set = false;  private java.lang.String Phone;  public java.lang.String getPhone() {    return Phone;  }    public void setPhone(java.lang.String Phone) {    this.Phone = Phone;    Phone__is_set = true;  }    /**   * element  : ProcessInstances of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo ProcessInstances__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","ProcessInstances","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean ProcessInstances__is_set = false;  private com.sforce.soap.enterprise.QueryResult ProcessInstances;  public com.sforce.soap.enterprise.QueryResult getProcessInstances() {    return ProcessInstances;  }    public void setProcessInstances(com.sforce.soap.enterprise.QueryResult ProcessInstances) {    this.ProcessInstances = ProcessInstances;    ProcessInstances__is_set = true;  }    /**   * element  : ProcessSteps of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo ProcessSteps__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","ProcessSteps","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean ProcessSteps__is_set = false;  private com.sforce.soap.enterprise.QueryResult ProcessSteps;  public com.sforce.soap.enterprise.QueryResult getProcessSteps() {    return ProcessSteps;  }    public void setProcessSteps(com.sforce.soap.enterprise.QueryResult ProcessSteps) {    this.ProcessSteps = ProcessSteps;    ProcessSteps__is_set = true;  }    /**   * element  : Quotes of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Quotes__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Quotes","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Quotes__is_set = false;  private com.sforce.soap.enterprise.QueryResult Quotes;  public com.sforce.soap.enterprise.QueryResult getQuotes() {    return Quotes;  }    public void setQuotes(com.sforce.soap.enterprise.QueryResult Quotes) {    this.Quotes = Quotes;    Quotes__is_set = true;  }    /**   * element  : ReportsTo of type {urn:sobject.enterprise.soap.sforce.com}Contact   * java type: com.sforce.soap.enterprise.sobject.Contact   */  private static final com.sforce.ws.bind.TypeInfo ReportsTo__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","ReportsTo","urn:sobject.enterprise.soap.sforce.com","Contact",0,1,true);  private boolean ReportsTo__is_set = false;  private com.sforce.soap.enterprise.sobject.Contact ReportsTo;  public com.sforce.soap.enterprise.sobject.Contact getReportsTo() {    return ReportsTo;  }    public void setReportsTo(com.sforce.soap.enterprise.sobject.Contact ReportsTo) {    this.ReportsTo = ReportsTo;    ReportsTo__is_set = true;  }    /**   * element  : ReportsToId of type {urn:enterprise.soap.sforce.com}ID   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo ReportsToId__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","ReportsToId","urn:enterprise.soap.sforce.com","ID",0,1,true);  private boolean ReportsToId__is_set = false;  private java.lang.String ReportsToId;  public java.lang.String getReportsToId() {    return ReportsToId;  }    public void setReportsToId(java.lang.String ReportsToId) {    this.ReportsToId = ReportsToId;    ReportsToId__is_set = true;  }    /**   * element  : Salutation of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Salutation__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Salutation","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Salutation__is_set = false;  private java.lang.String Salutation;  public java.lang.String getSalutation() {    return Salutation;  }    public void setSalutation(java.lang.String Salutation) {    this.Salutation = Salutation;    Salutation__is_set = true;  }    /**   * element  : Shares of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Shares__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Shares","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Shares__is_set = false;  private com.sforce.soap.enterprise.QueryResult Shares;  public com.sforce.soap.enterprise.QueryResult getShares() {    return Shares;  }    public void setShares(com.sforce.soap.enterprise.QueryResult Shares) {    this.Shares = Shares;    Shares__is_set = true;  }    /**   * element  : SystemModstamp of type {http://www.w3.org/2001/XMLSchema}dateTime   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo SystemModstamp__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","SystemModstamp","http://www.w3.org/2001/XMLSchema","dateTime",0,1,true);  private boolean SystemModstamp__is_set = false;  private java.util.Calendar SystemModstamp;  public java.util.Calendar getSystemModstamp() {    return SystemModstamp;  }    public void setSystemModstamp(java.util.Calendar SystemModstamp) {    this.SystemModstamp = SystemModstamp;    SystemModstamp__is_set = true;  }    /**   * element  : Tasks of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Tasks__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Tasks","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Tasks__is_set = false;  private com.sforce.soap.enterprise.QueryResult Tasks;  public com.sforce.soap.enterprise.QueryResult getTasks() {    return Tasks;  }    public void setTasks(com.sforce.soap.enterprise.QueryResult Tasks) {    this.Tasks = Tasks;    Tasks__is_set = true;  }    /**   * element  : Title of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Title__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Title","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Title__is_set = false;  private java.lang.String Title;  public java.lang.String getTitle() {    return Title;  }    public void setTitle(java.lang.String Title) {    this.Title = Title;    Title__is_set = true;  }    /**   * element  : zqu__County__c of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo zqu__County__c__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","zqu__County__c","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean zqu__County__c__is_set = false;  private java.lang.String zqu__County__c;  public java.lang.String getZqu__County__c() {    return zqu__County__c;  }    public void setZqu__County__c(java.lang.String zqu__County__c) {    this.zqu__County__c = zqu__County__c;    zqu__County__c__is_set = true;  }    /**   * element  : zqu__Quotes2__r of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo zqu__Quotes2__r__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","zqu__Quotes2__r","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean zqu__Quotes2__r__is_set = false;  private com.sforce.soap.enterprise.QueryResult zqu__Quotes2__r;  public com.sforce.soap.enterprise.QueryResult getZqu__Quotes2__r() {    return zqu__Quotes2__r;  }    public void setZqu__Quotes2__r(com.sforce.soap.enterprise.QueryResult zqu__Quotes2__r) {    this.zqu__Quotes2__r = zqu__Quotes2__r;    zqu__Quotes2__r__is_set = true;  }    /**   * element  : zqu__Quotes__r of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo zqu__Quotes__r__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","zqu__Quotes__r","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean zqu__Quotes__r__is_set = false;  private com.sforce.soap.enterprise.QueryResult zqu__Quotes__r;  public com.sforce.soap.enterprise.QueryResult getZqu__Quotes__r() {    return zqu__Quotes__r;  }    public void setZqu__Quotes__r(com.sforce.soap.enterprise.QueryResult zqu__Quotes__r) {    this.zqu__Quotes__r = zqu__Quotes__r;    zqu__Quotes__r__is_set = true;  }    /**   */  public void write(javax.xml.namespace.QName __element,      com.sforce.ws.parser.XmlOutputStream __out, com.sforce.ws.bind.TypeMapper __typeMapper)      throws java.io.IOException {    __out.writeStartTag(__element.getNamespaceURI(), __element.getLocalPart());    __typeMapper.writeXsiType(__out, "urn:sobject.enterprise.soap.sforce.com", "Contact");    writeFields(__out, __typeMapper);    __out.writeEndTag(__element.getNamespaceURI(), __element.getLocalPart());  }  protected void writeFields(com.sforce.ws.parser.XmlOutputStream __out,      com.sforce.ws.bind.TypeMapper __typeMapper) throws java.io.IOException {   super.writeFields(__out, __typeMapper);    __typeMapper.writeObject(__out, Account__typeInfo, Account, Account__is_set);    __typeMapper.writeObject(__out, AccountContactRoles__typeInfo, AccountContactRoles, AccountContactRoles__is_set);    __typeMapper.writeString(__out, AccountId__typeInfo, AccountId, AccountId__is_set);    __typeMapper.writeObject(__out, ActivityHistories__typeInfo, ActivityHistories, ActivityHistories__is_set);    __typeMapper.writeObject(__out, Assets__typeInfo, Assets, Assets__is_set);    __typeMapper.writeString(__out, AssistantName__typeInfo, AssistantName, AssistantName__is_set);    __typeMapper.writeString(__out, AssistantPhone__typeInfo, AssistantPhone, AssistantPhone__is_set);    __typeMapper.writeObject(__out, Attachments__typeInfo, Attachments, Attachments__is_set);    __typeMapper.writeObject(__out, Birthdate__typeInfo, Birthdate, Birthdate__is_set);    __typeMapper.writeObject(__out, CampaignMembers__typeInfo, CampaignMembers, CampaignMembers__is_set);    __typeMapper.writeObject(__out, CaseContactRoles__typeInfo, CaseContactRoles, CaseContactRoles__is_set);    __typeMapper.writeObject(__out, Cases__typeInfo, Cases, Cases__is_set);    __typeMapper.writeObject(__out, ContractContactRoles__typeInfo, ContractContactRoles, ContractContactRoles__is_set);    __typeMapper.writeObject(__out, ContractsSigned__typeInfo, ContractsSigned, ContractsSigned__is_set);    __typeMapper.writeObject(__out, CreatedBy__typeInfo, CreatedBy, CreatedBy__is_set);    __typeMapper.writeString(__out, CreatedById__typeInfo, CreatedById, CreatedById__is_set);    __typeMapper.writeObject(__out, CreatedDate__typeInfo, CreatedDate, CreatedDate__is_set);    __typeMapper.writeString(__out, Department__typeInfo, Department, Department__is_set);    __typeMapper.writeString(__out, Description__typeInfo, Description, Description__is_set);    __typeMapper.writeString(__out, Email__typeInfo, Email, Email__is_set);    __typeMapper.writeObject(__out, EmailBouncedDate__typeInfo, EmailBouncedDate, EmailBouncedDate__is_set);    __typeMapper.writeString(__out, EmailBouncedReason__typeInfo, EmailBouncedReason, EmailBouncedReason__is_set);    __typeMapper.writeObject(__out, EmailStatuses__typeInfo, EmailStatuses, EmailStatuses__is_set);    __typeMapper.writeObject(__out, Events__typeInfo, Events, Events__is_set);    __typeMapper.writeString(__out, Fax__typeInfo, Fax, Fax__is_set);    __typeMapper.writeObject(__out, FeedSubscriptionsForEntity__typeInfo, FeedSubscriptionsForEntity, FeedSubscriptionsForEntity__is_set);    __typeMapper.writeObject(__out, Feeds__typeInfo, Feeds, Feeds__is_set);    __typeMapper.writeString(__out, FirstName__typeInfo, FirstName, FirstName__is_set);    __typeMapper.writeObject(__out, Histories__typeInfo, Histories, Histories__is_set);    __typeMapper.writeString(__out, HomePhone__typeInfo, HomePhone, HomePhone__is_set);    __typeMapper.writeObject(__out, IsDeleted__typeInfo, IsDeleted, IsDeleted__is_set);    __typeMapper.writeString(__out, Jigsaw__typeInfo, Jigsaw, Jigsaw__is_set);    __typeMapper.writeString(__out, JigsawContactId__typeInfo, JigsawContactId, JigsawContactId__is_set);    __typeMapper.writeString(__out, Languages__c__typeInfo, Languages__c, Languages__c__is_set);    __typeMapper.writeObject(__out, LastActivityDate__typeInfo, LastActivityDate, LastActivityDate__is_set);    __typeMapper.writeObject(__out, LastCURequestDate__typeInfo, LastCURequestDate, LastCURequestDate__is_set);    __typeMapper.writeObject(__out, LastCUUpdateDate__typeInfo, LastCUUpdateDate, LastCUUpdateDate__is_set);    __typeMapper.writeObject(__out, LastModifiedBy__typeInfo, LastModifiedBy, LastModifiedBy__is_set);    __typeMapper.writeString(__out, LastModifiedById__typeInfo, LastModifiedById, LastModifiedById__is_set);    __typeMapper.writeObject(__out, LastModifiedDate__typeInfo, LastModifiedDate, LastModifiedDate__is_set);    __typeMapper.writeString(__out, LastName__typeInfo, LastName, LastName__is_set);    __typeMapper.writeString(__out, LeadSource__typeInfo, LeadSource, LeadSource__is_set);    __typeMapper.writeString(__out, Level__c__typeInfo, Level__c, Level__c__is_set);    __typeMapper.writeString(__out, MailingCity__typeInfo, MailingCity, MailingCity__is_set);    __typeMapper.writeString(__out, MailingCountry__typeInfo, MailingCountry, MailingCountry__is_set);    __typeMapper.writeString(__out, MailingPostalCode__typeInfo, MailingPostalCode, MailingPostalCode__is_set);    __typeMapper.writeString(__out, MailingState__typeInfo, MailingState, MailingState__is_set);    __typeMapper.writeString(__out, MailingStreet__typeInfo, MailingStreet, MailingStreet__is_set);    __typeMapper.writeObject(__out, MasterRecord__typeInfo, MasterRecord, MasterRecord__is_set);    __typeMapper.writeString(__out, MasterRecordId__typeInfo, MasterRecordId, MasterRecordId__is_set);    __typeMapper.writeString(__out, MobilePhone__typeInfo, MobilePhone, MobilePhone__is_set);    __typeMapper.writeString(__out, Name__typeInfo, Name, Name__is_set);    __typeMapper.writeObject(__out, Notes__typeInfo, Notes, Notes__is_set);    __typeMapper.writeObject(__out, NotesAndAttachments__typeInfo, NotesAndAttachments, NotesAndAttachments__is_set);    __typeMapper.writeObject(__out, OpenActivities__typeInfo, OpenActivities, OpenActivities__is_set);    __typeMapper.writeObject(__out, Opportunities__typeInfo, Opportunities, Opportunities__is_set);    __typeMapper.writeObject(__out, OpportunityContactRoles__typeInfo, OpportunityContactRoles, OpportunityContactRoles__is_set);    __typeMapper.writeString(__out, OtherCity__typeInfo, OtherCity, OtherCity__is_set);    __typeMapper.writeString(__out, OtherCountry__typeInfo, OtherCountry, OtherCountry__is_set);    __typeMapper.writeString(__out, OtherPhone__typeInfo, OtherPhone, OtherPhone__is_set);    __typeMapper.writeString(__out, OtherPostalCode__typeInfo, OtherPostalCode, OtherPostalCode__is_set);    __typeMapper.writeString(__out, OtherState__typeInfo, OtherState, OtherState__is_set);    __typeMapper.writeString(__out, OtherStreet__typeInfo, OtherStreet, OtherStreet__is_set);    __typeMapper.writeObject(__out, Owner__typeInfo, Owner, Owner__is_set);    __typeMapper.writeString(__out, OwnerId__typeInfo, OwnerId, OwnerId__is_set);    __typeMapper.writeString(__out, Phone__typeInfo, Phone, Phone__is_set);    __typeMapper.writeObject(__out, ProcessInstances__typeInfo, ProcessInstances, ProcessInstances__is_set);    __typeMapper.writeObject(__out, ProcessSteps__typeInfo, ProcessSteps, ProcessSteps__is_set);    __typeMapper.writeObject(__out, Quotes__typeInfo, Quotes, Quotes__is_set);    __typeMapper.writeObject(__out, ReportsTo__typeInfo, ReportsTo, ReportsTo__is_set);    __typeMapper.writeString(__out, ReportsToId__typeInfo, ReportsToId, ReportsToId__is_set);    __typeMapper.writeString(__out, Salutation__typeInfo, Salutation, Salutation__is_set);    __typeMapper.writeObject(__out, Shares__typeInfo, Shares, Shares__is_set);    __typeMapper.writeObject(__out, SystemModstamp__typeInfo, SystemModstamp, SystemModstamp__is_set);    __typeMapper.writeObject(__out, Tasks__typeInfo, Tasks, Tasks__is_set);    __typeMapper.writeString(__out, Title__typeInfo, Title, Title__is_set);    __typeMapper.writeString(__out, zqu__County__c__typeInfo, zqu__County__c, zqu__County__c__is_set);    __typeMapper.writeObject(__out, zqu__Quotes2__r__typeInfo, zqu__Quotes2__r, zqu__Quotes2__r__is_set);    __typeMapper.writeObject(__out, zqu__Quotes__r__typeInfo, zqu__Quotes__r, zqu__Quotes__r__is_set);  }  public void load(com.sforce.ws.parser.XmlInputStream __in,      com.sforce.ws.bind.TypeMapper __typeMapper) throws java.io.IOException, com.sforce.ws.ConnectionException {    __typeMapper.consumeStartTag(__in);    loadFields(__in, __typeMapper);    __typeMapper.consumeEndTag(__in);  }  protected void loadFields(com.sforce.ws.parser.XmlInputStream __in,      com.sforce.ws.bind.TypeMapper __typeMapper) throws java.io.IOException, com.sforce.ws.ConnectionException {   super.loadFields(__in, __typeMapper);    __in.peekTag();    if (__typeMapper.isElement(__in, Account__typeInfo)) {      setAccount((com.sforce.soap.enterprise.sobject.Account)__typeMapper.readObject(__in, Account__typeInfo, com.sforce.soap.enterprise.sobject.Account.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, AccountContactRoles__typeInfo)) {      setAccountContactRoles((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, AccountContactRoles__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, AccountId__typeInfo)) {      setAccountId((java.lang.String)__typeMapper.readString(__in, AccountId__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, ActivityHistories__typeInfo)) {      setActivityHistories((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, ActivityHistories__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Assets__typeInfo)) {      setAssets((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Assets__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, AssistantName__typeInfo)) {      setAssistantName((java.lang.String)__typeMapper.readString(__in, AssistantName__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, AssistantPhone__typeInfo)) {      setAssistantPhone((java.lang.String)__typeMapper.readString(__in, AssistantPhone__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Attachments__typeInfo)) {      setAttachments((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Attachments__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Birthdate__typeInfo)) {      setBirthdate((java.util.Calendar)__typeMapper.readObject(__in, Birthdate__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, CampaignMembers__typeInfo)) {      setCampaignMembers((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, CampaignMembers__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, CaseContactRoles__typeInfo)) {      setCaseContactRoles((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, CaseContactRoles__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Cases__typeInfo)) {      setCases((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Cases__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, ContractContactRoles__typeInfo)) {      setContractContactRoles((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, ContractContactRoles__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, ContractsSigned__typeInfo)) {      setContractsSigned((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, ContractsSigned__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, CreatedBy__typeInfo)) {      setCreatedBy((com.sforce.soap.enterprise.sobject.User)__typeMapper.readObject(__in, CreatedBy__typeInfo, com.sforce.soap.enterprise.sobject.User.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, CreatedById__typeInfo)) {      setCreatedById((java.lang.String)__typeMapper.readString(__in, CreatedById__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, CreatedDate__typeInfo)) {      setCreatedDate((java.util.Calendar)__typeMapper.readObject(__in, CreatedDate__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Department__typeInfo)) {      setDepartment((java.lang.String)__typeMapper.readString(__in, Department__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Description__typeInfo)) {      setDescription((java.lang.String)__typeMapper.readString(__in, Description__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Email__typeInfo)) {      setEmail((java.lang.String)__typeMapper.readString(__in, Email__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, EmailBouncedDate__typeInfo)) {      setEmailBouncedDate((java.util.Calendar)__typeMapper.readObject(__in, EmailBouncedDate__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, EmailBouncedReason__typeInfo)) {      setEmailBouncedReason((java.lang.String)__typeMapper.readString(__in, EmailBouncedReason__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, EmailStatuses__typeInfo)) {      setEmailStatuses((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, EmailStatuses__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Events__typeInfo)) {      setEvents((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Events__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Fax__typeInfo)) {      setFax((java.lang.String)__typeMapper.readString(__in, Fax__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, FeedSubscriptionsForEntity__typeInfo)) {      setFeedSubscriptionsForEntity((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, FeedSubscriptionsForEntity__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Feeds__typeInfo)) {      setFeeds((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Feeds__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, FirstName__typeInfo)) {      setFirstName((java.lang.String)__typeMapper.readString(__in, FirstName__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Histories__typeInfo)) {      setHistories((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Histories__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, HomePhone__typeInfo)) {      setHomePhone((java.lang.String)__typeMapper.readString(__in, HomePhone__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, IsDeleted__typeInfo)) {      setIsDeleted((java.lang.Boolean)__typeMapper.readObject(__in, IsDeleted__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Jigsaw__typeInfo)) {      setJigsaw((java.lang.String)__typeMapper.readString(__in, Jigsaw__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, JigsawContactId__typeInfo)) {      setJigsawContactId((java.lang.String)__typeMapper.readString(__in, JigsawContactId__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Languages__c__typeInfo)) {      setLanguages__c((java.lang.String)__typeMapper.readString(__in, Languages__c__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastActivityDate__typeInfo)) {      setLastActivityDate((java.util.Calendar)__typeMapper.readObject(__in, LastActivityDate__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastCURequestDate__typeInfo)) {      setLastCURequestDate((java.util.Calendar)__typeMapper.readObject(__in, LastCURequestDate__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastCUUpdateDate__typeInfo)) {      setLastCUUpdateDate((java.util.Calendar)__typeMapper.readObject(__in, LastCUUpdateDate__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastModifiedBy__typeInfo)) {      setLastModifiedBy((com.sforce.soap.enterprise.sobject.User)__typeMapper.readObject(__in, LastModifiedBy__typeInfo, com.sforce.soap.enterprise.sobject.User.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastModifiedById__typeInfo)) {      setLastModifiedById((java.lang.String)__typeMapper.readString(__in, LastModifiedById__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastModifiedDate__typeInfo)) {      setLastModifiedDate((java.util.Calendar)__typeMapper.readObject(__in, LastModifiedDate__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastName__typeInfo)) {      setLastName((java.lang.String)__typeMapper.readString(__in, LastName__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LeadSource__typeInfo)) {      setLeadSource((java.lang.String)__typeMapper.readString(__in, LeadSource__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Level__c__typeInfo)) {      setLevel__c((java.lang.String)__typeMapper.readString(__in, Level__c__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, MailingCity__typeInfo)) {      setMailingCity((java.lang.String)__typeMapper.readString(__in, MailingCity__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, MailingCountry__typeInfo)) {      setMailingCountry((java.lang.String)__typeMapper.readString(__in, MailingCountry__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, MailingPostalCode__typeInfo)) {      setMailingPostalCode((java.lang.String)__typeMapper.readString(__in, MailingPostalCode__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, MailingState__typeInfo)) {      setMailingState((java.lang.String)__typeMapper.readString(__in, MailingState__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, MailingStreet__typeInfo)) {      setMailingStreet((java.lang.String)__typeMapper.readString(__in, MailingStreet__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, MasterRecord__typeInfo)) {      setMasterRecord((com.sforce.soap.enterprise.sobject.Contact)__typeMapper.readObject(__in, MasterRecord__typeInfo, com.sforce.soap.enterprise.sobject.Contact.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, MasterRecordId__typeInfo)) {      setMasterRecordId((java.lang.String)__typeMapper.readString(__in, MasterRecordId__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, MobilePhone__typeInfo)) {      setMobilePhone((java.lang.String)__typeMapper.readString(__in, MobilePhone__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Name__typeInfo)) {      setName((java.lang.String)__typeMapper.readString(__in, Name__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Notes__typeInfo)) {      setNotes((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Notes__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, NotesAndAttachments__typeInfo)) {      setNotesAndAttachments((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, NotesAndAttachments__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, OpenActivities__typeInfo)) {      setOpenActivities((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, OpenActivities__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Opportunities__typeInfo)) {      setOpportunities((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Opportunities__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, OpportunityContactRoles__typeInfo)) {      setOpportunityContactRoles((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, OpportunityContactRoles__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, OtherCity__typeInfo)) {      setOtherCity((java.lang.String)__typeMapper.readString(__in, OtherCity__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, OtherCountry__typeInfo)) {      setOtherCountry((java.lang.String)__typeMapper.readString(__in, OtherCountry__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, OtherPhone__typeInfo)) {      setOtherPhone((java.lang.String)__typeMapper.readString(__in, OtherPhone__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, OtherPostalCode__typeInfo)) {      setOtherPostalCode((java.lang.String)__typeMapper.readString(__in, OtherPostalCode__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, OtherState__typeInfo)) {      setOtherState((java.lang.String)__typeMapper.readString(__in, OtherState__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, OtherStreet__typeInfo)) {      setOtherStreet((java.lang.String)__typeMapper.readString(__in, OtherStreet__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Owner__typeInfo)) {      setOwner((com.sforce.soap.enterprise.sobject.User)__typeMapper.readObject(__in, Owner__typeInfo, com.sforce.soap.enterprise.sobject.User.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, OwnerId__typeInfo)) {      setOwnerId((java.lang.String)__typeMapper.readString(__in, OwnerId__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Phone__typeInfo)) {      setPhone((java.lang.String)__typeMapper.readString(__in, Phone__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, ProcessInstances__typeInfo)) {      setProcessInstances((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, ProcessInstances__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, ProcessSteps__typeInfo)) {      setProcessSteps((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, ProcessSteps__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Quotes__typeInfo)) {      setQuotes((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Quotes__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, ReportsTo__typeInfo)) {      setReportsTo((com.sforce.soap.enterprise.sobject.Contact)__typeMapper.readObject(__in, ReportsTo__typeInfo, com.sforce.soap.enterprise.sobject.Contact.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, ReportsToId__typeInfo)) {      setReportsToId((java.lang.String)__typeMapper.readString(__in, ReportsToId__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Salutation__typeInfo)) {      setSalutation((java.lang.String)__typeMapper.readString(__in, Salutation__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Shares__typeInfo)) {      setShares((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Shares__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, SystemModstamp__typeInfo)) {      setSystemModstamp((java.util.Calendar)__typeMapper.readObject(__in, SystemModstamp__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Tasks__typeInfo)) {      setTasks((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Tasks__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Title__typeInfo)) {      setTitle((java.lang.String)__typeMapper.readString(__in, Title__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, zqu__County__c__typeInfo)) {      setZqu__County__c((java.lang.String)__typeMapper.readString(__in, zqu__County__c__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, zqu__Quotes2__r__typeInfo)) {      setZqu__Quotes2__r((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, zqu__Quotes2__r__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, zqu__Quotes__r__typeInfo)) {      setZqu__Quotes__r((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, zqu__Quotes__r__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }  }  public String toString() {    java.lang.StringBuilder sb = new java.lang.StringBuilder();    sb.append("[Contact ");    sb.append(super.toString());    sb.append(" Account=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Account)+"'\n");    sb.append(" AccountContactRoles=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(AccountContactRoles)+"'\n");    sb.append(" AccountId=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(AccountId)+"'\n");    sb.append(" ActivityHistories=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(ActivityHistories)+"'\n");    sb.append(" Assets=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Assets)+"'\n");    sb.append(" AssistantName=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(AssistantName)+"'\n");    sb.append(" AssistantPhone=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(AssistantPhone)+"'\n");    sb.append(" Attachments=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Attachments)+"'\n");    sb.append(" Birthdate=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Birthdate)+"'\n");    sb.append(" CampaignMembers=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(CampaignMembers)+"'\n");    sb.append(" CaseContactRoles=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(CaseContactRoles)+"'\n");    sb.append(" Cases=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Cases)+"'\n");    sb.append(" ContractContactRoles=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(ContractContactRoles)+"'\n");    sb.append(" ContractsSigned=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(ContractsSigned)+"'\n");    sb.append(" CreatedBy=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(CreatedBy)+"'\n");    sb.append(" CreatedById=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(CreatedById)+"'\n");    sb.append(" CreatedDate=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(CreatedDate)+"'\n");    sb.append(" Department=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Department)+"'\n");    sb.append(" Description=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Description)+"'\n");    sb.append(" Email=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Email)+"'\n");    sb.append(" EmailBouncedDate=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(EmailBouncedDate)+"'\n");    sb.append(" EmailBouncedReason=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(EmailBouncedReason)+"'\n");    sb.append(" EmailStatuses=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(EmailStatuses)+"'\n");    sb.append(" Events=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Events)+"'\n");    sb.append(" Fax=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Fax)+"'\n");    sb.append(" FeedSubscriptionsForEntity=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(FeedSubscriptionsForEntity)+"'\n");    sb.append(" Feeds=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Feeds)+"'\n");    sb.append(" FirstName=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(FirstName)+"'\n");    sb.append(" Histories=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Histories)+"'\n");    sb.append(" HomePhone=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(HomePhone)+"'\n");    sb.append(" IsDeleted=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(IsDeleted)+"'\n");    sb.append(" Jigsaw=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Jigsaw)+"'\n");    sb.append(" JigsawContactId=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(JigsawContactId)+"'\n");    sb.append(" Languages__c=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Languages__c)+"'\n");    sb.append(" LastActivityDate=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastActivityDate)+"'\n");    sb.append(" LastCURequestDate=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastCURequestDate)+"'\n");    sb.append(" LastCUUpdateDate=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastCUUpdateDate)+"'\n");    sb.append(" LastModifiedBy=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastModifiedBy)+"'\n");    sb.append(" LastModifiedById=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastModifiedById)+"'\n");    sb.append(" LastModifiedDate=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastModifiedDate)+"'\n");    sb.append(" LastName=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastName)+"'\n");    sb.append(" LeadSource=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LeadSource)+"'\n");    sb.append(" Level__c=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Level__c)+"'\n");    sb.append(" MailingCity=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(MailingCity)+"'\n");    sb.append(" MailingCountry=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(MailingCountry)+"'\n");    sb.append(" MailingPostalCode=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(MailingPostalCode)+"'\n");    sb.append(" MailingState=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(MailingState)+"'\n");    sb.append(" MailingStreet=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(MailingStreet)+"'\n");    sb.append(" MasterRecord=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(MasterRecord)+"'\n");    sb.append(" MasterRecordId=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(MasterRecordId)+"'\n");    sb.append(" MobilePhone=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(MobilePhone)+"'\n");    sb.append(" Name=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Name)+"'\n");    sb.append(" Notes=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Notes)+"'\n");    sb.append(" NotesAndAttachments=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(NotesAndAttachments)+"'\n");    sb.append(" OpenActivities=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(OpenActivities)+"'\n");    sb.append(" Opportunities=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Opportunities)+"'\n");    sb.append(" OpportunityContactRoles=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(OpportunityContactRoles)+"'\n");    sb.append(" OtherCity=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(OtherCity)+"'\n");    sb.append(" OtherCountry=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(OtherCountry)+"'\n");    sb.append(" OtherPhone=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(OtherPhone)+"'\n");    sb.append(" OtherPostalCode=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(OtherPostalCode)+"'\n");    sb.append(" OtherState=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(OtherState)+"'\n");    sb.append(" OtherStreet=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(OtherStreet)+"'\n");    sb.append(" Owner=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Owner)+"'\n");    sb.append(" OwnerId=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(OwnerId)+"'\n");    sb.append(" Phone=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Phone)+"'\n");    sb.append(" ProcessInstances=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(ProcessInstances)+"'\n");    sb.append(" ProcessSteps=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(ProcessSteps)+"'\n");    sb.append(" Quotes=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Quotes)+"'\n");    sb.append(" ReportsTo=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(ReportsTo)+"'\n");    sb.append(" ReportsToId=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(ReportsToId)+"'\n");    sb.append(" Salutation=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Salutation)+"'\n");    sb.append(" Shares=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Shares)+"'\n");    sb.append(" SystemModstamp=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(SystemModstamp)+"'\n");    sb.append(" Tasks=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Tasks)+"'\n");    sb.append(" Title=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Title)+"'\n");    sb.append(" zqu__County__c=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(zqu__County__c)+"'\n");    sb.append(" zqu__Quotes2__r=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(zqu__Quotes2__r)+"'\n");    sb.append(" zqu__Quotes__r=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(zqu__Quotes__r)+"'\n");    sb.append("]\n");    return sb.toString();  }}
+/**
+ * Contact.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package com.sforce.soap.enterprise.sobject;
+
+public class Contact  extends com.sforce.soap.enterprise.sobject.SObject  implements java.io.Serializable {
+    private com.sforce.soap.enterprise.QueryResult acceptedEventRelations;
+
+    private com.sforce.soap.enterprise.sobject.Account account;
+
+    private com.sforce.soap.enterprise.QueryResult accountContactRoles;
+
+    private java.lang.String accountId;
+
+    private com.sforce.soap.enterprise.QueryResult activityHistories;
+
+    private com.sforce.soap.enterprise.QueryResult assets;
+
+    private java.lang.String assistantName;
+
+    private java.lang.String assistantPhone;
+
+    private com.sforce.soap.enterprise.QueryResult attachedContentDocuments;
+
+    private com.sforce.soap.enterprise.QueryResult attachments;
+
+    private java.util.Date birthdate;
+
+    private com.sforce.soap.enterprise.QueryResult campaignMembers;
+
+    private com.sforce.soap.enterprise.QueryResult caseContactRoles;
+
+    private com.sforce.soap.enterprise.QueryResult cases;
+
+    private java.lang.String cleanStatus;
+
+    private com.sforce.soap.enterprise.QueryResult combinedAttachments;
+
+    private com.sforce.soap.enterprise.QueryResult contactCleanInfos;
+
+    private com.sforce.soap.enterprise.QueryResult contractContactRoles;
+
+    private com.sforce.soap.enterprise.QueryResult contractsSigned;
+
+    private com.sforce.soap.enterprise.sobject.User createdBy;
+
+    private java.lang.String createdById;
+
+    private java.util.Calendar createdDate;
+
+    private com.sforce.soap.enterprise.QueryResult declinedEventRelations;
+
+    private java.lang.String department;
+
+    private java.lang.String description;
+
+    private com.sforce.soap.enterprise.QueryResult duplicateRecordItems;
+
+    private java.lang.String email;
+
+    private java.util.Calendar emailBouncedDate;
+
+    private java.lang.String emailBouncedReason;
+
+    private com.sforce.soap.enterprise.QueryResult emailStatuses;
+
+    private com.sforce.soap.enterprise.QueryResult eventRelations;
+
+    private com.sforce.soap.enterprise.QueryResult events;
+
+    private java.lang.String fax;
+
+    private com.sforce.soap.enterprise.QueryResult feedSubscriptionsForEntity;
+
+    private com.sforce.soap.enterprise.QueryResult feeds;
+
+    private java.lang.String firstName;
+
+    private com.sforce.soap.enterprise.QueryResult histories;
+
+    private java.lang.String homePhone;
+
+    private java.lang.Boolean isDeleted;
+
+    private java.lang.Boolean isEmailBounced;
+
+    private java.lang.String jigsaw;
+
+    private java.lang.String jigsawContactId;
+
+    private java.lang.String languages__c;
+
+    private java.util.Date lastActivityDate;
+
+    private java.util.Calendar lastCURequestDate;
+
+    private java.util.Calendar lastCUUpdateDate;
+
+    private com.sforce.soap.enterprise.sobject.User lastModifiedBy;
+
+    private java.lang.String lastModifiedById;
+
+    private java.util.Calendar lastModifiedDate;
+
+    private java.lang.String lastName;
+
+    private java.util.Calendar lastReferencedDate;
+
+    private java.util.Calendar lastViewedDate;
+
+    private java.lang.String leadSource;
+
+    private java.lang.String level__c;
+
+    private com.sforce.soap.enterprise.QueryResult lookedUpFromActivities;
+
+    private com.sforce.soap.enterprise.Address mailingAddress;
+
+    private java.lang.String mailingCity;
+
+    private java.lang.String mailingCountry;
+
+    private java.lang.Double mailingLatitude;
+
+    private java.lang.Double mailingLongitude;
+
+    private java.lang.String mailingPostalCode;
+
+    private java.lang.String mailingState;
+
+    private java.lang.String mailingStreet;
+
+    private com.sforce.soap.enterprise.sobject.Contact masterRecord;
+
+    private java.lang.String masterRecordId;
+
+    private java.lang.String mobilePhone;
+
+    private java.lang.String name;
+
+    private com.sforce.soap.enterprise.QueryResult notes;
+
+    private com.sforce.soap.enterprise.QueryResult notesAndAttachments;
+
+    private com.sforce.soap.enterprise.QueryResult openActivities;
+
+    private com.sforce.soap.enterprise.QueryResult opportunities;
+
+    private com.sforce.soap.enterprise.QueryResult opportunityContactRoles;
+
+    private com.sforce.soap.enterprise.Address otherAddress;
+
+    private java.lang.String otherCity;
+
+    private java.lang.String otherCountry;
+
+    private java.lang.Double otherLatitude;
+
+    private java.lang.Double otherLongitude;
+
+    private java.lang.String otherPhone;
+
+    private java.lang.String otherPostalCode;
+
+    private java.lang.String otherState;
+
+    private java.lang.String otherStreet;
+
+    private com.sforce.soap.enterprise.sobject.User owner;
+
+    private java.lang.String ownerId;
+
+    private java.lang.String phone;
+
+    private java.lang.String photoUrl;
+
+    private com.sforce.soap.enterprise.QueryResult processInstances;
+
+    private com.sforce.soap.enterprise.QueryResult processSteps;
+
+    private com.sforce.soap.enterprise.QueryResult recordAssociatedGroups;
+
+    private com.sforce.soap.enterprise.sobject.Contact reportsTo;
+
+    private java.lang.String reportsToId;
+
+    private java.lang.String salutation;
+
+    private com.sforce.soap.enterprise.QueryResult shares;
+
+    private java.util.Calendar systemModstamp;
+
+    private com.sforce.soap.enterprise.QueryResult tasks;
+
+    private java.lang.String title;
+
+    private com.sforce.soap.enterprise.QueryResult topicAssignments;
+
+    private com.sforce.soap.enterprise.QueryResult undecidedEventRelations;
+
+    private com.sforce.soap.enterprise.sobject.UserRecordAccess userRecordAccess;
+
+    private java.lang.String zqu__County__c;
+
+    private com.sforce.soap.enterprise.QueryResult zqu__Quotes2__r;
+
+    private com.sforce.soap.enterprise.QueryResult zqu__Quotes__r;
+
+    public Contact() {
+    }
+
+    public Contact(
+           java.lang.String[] fieldsToNull,
+           java.lang.String id,
+           com.sforce.soap.enterprise.QueryResult acceptedEventRelations,
+           com.sforce.soap.enterprise.sobject.Account account,
+           com.sforce.soap.enterprise.QueryResult accountContactRoles,
+           java.lang.String accountId,
+           com.sforce.soap.enterprise.QueryResult activityHistories,
+           com.sforce.soap.enterprise.QueryResult assets,
+           java.lang.String assistantName,
+           java.lang.String assistantPhone,
+           com.sforce.soap.enterprise.QueryResult attachedContentDocuments,
+           com.sforce.soap.enterprise.QueryResult attachments,
+           java.util.Date birthdate,
+           com.sforce.soap.enterprise.QueryResult campaignMembers,
+           com.sforce.soap.enterprise.QueryResult caseContactRoles,
+           com.sforce.soap.enterprise.QueryResult cases,
+           java.lang.String cleanStatus,
+           com.sforce.soap.enterprise.QueryResult combinedAttachments,
+           com.sforce.soap.enterprise.QueryResult contactCleanInfos,
+           com.sforce.soap.enterprise.QueryResult contractContactRoles,
+           com.sforce.soap.enterprise.QueryResult contractsSigned,
+           com.sforce.soap.enterprise.sobject.User createdBy,
+           java.lang.String createdById,
+           java.util.Calendar createdDate,
+           com.sforce.soap.enterprise.QueryResult declinedEventRelations,
+           java.lang.String department,
+           java.lang.String description,
+           com.sforce.soap.enterprise.QueryResult duplicateRecordItems,
+           java.lang.String email,
+           java.util.Calendar emailBouncedDate,
+           java.lang.String emailBouncedReason,
+           com.sforce.soap.enterprise.QueryResult emailStatuses,
+           com.sforce.soap.enterprise.QueryResult eventRelations,
+           com.sforce.soap.enterprise.QueryResult events,
+           java.lang.String fax,
+           com.sforce.soap.enterprise.QueryResult feedSubscriptionsForEntity,
+           com.sforce.soap.enterprise.QueryResult feeds,
+           java.lang.String firstName,
+           com.sforce.soap.enterprise.QueryResult histories,
+           java.lang.String homePhone,
+           java.lang.Boolean isDeleted,
+           java.lang.Boolean isEmailBounced,
+           java.lang.String jigsaw,
+           java.lang.String jigsawContactId,
+           java.lang.String languages__c,
+           java.util.Date lastActivityDate,
+           java.util.Calendar lastCURequestDate,
+           java.util.Calendar lastCUUpdateDate,
+           com.sforce.soap.enterprise.sobject.User lastModifiedBy,
+           java.lang.String lastModifiedById,
+           java.util.Calendar lastModifiedDate,
+           java.lang.String lastName,
+           java.util.Calendar lastReferencedDate,
+           java.util.Calendar lastViewedDate,
+           java.lang.String leadSource,
+           java.lang.String level__c,
+           com.sforce.soap.enterprise.QueryResult lookedUpFromActivities,
+           com.sforce.soap.enterprise.Address mailingAddress,
+           java.lang.String mailingCity,
+           java.lang.String mailingCountry,
+           java.lang.Double mailingLatitude,
+           java.lang.Double mailingLongitude,
+           java.lang.String mailingPostalCode,
+           java.lang.String mailingState,
+           java.lang.String mailingStreet,
+           com.sforce.soap.enterprise.sobject.Contact masterRecord,
+           java.lang.String masterRecordId,
+           java.lang.String mobilePhone,
+           java.lang.String name,
+           com.sforce.soap.enterprise.QueryResult notes,
+           com.sforce.soap.enterprise.QueryResult notesAndAttachments,
+           com.sforce.soap.enterprise.QueryResult openActivities,
+           com.sforce.soap.enterprise.QueryResult opportunities,
+           com.sforce.soap.enterprise.QueryResult opportunityContactRoles,
+           com.sforce.soap.enterprise.Address otherAddress,
+           java.lang.String otherCity,
+           java.lang.String otherCountry,
+           java.lang.Double otherLatitude,
+           java.lang.Double otherLongitude,
+           java.lang.String otherPhone,
+           java.lang.String otherPostalCode,
+           java.lang.String otherState,
+           java.lang.String otherStreet,
+           com.sforce.soap.enterprise.sobject.User owner,
+           java.lang.String ownerId,
+           java.lang.String phone,
+           java.lang.String photoUrl,
+           com.sforce.soap.enterprise.QueryResult processInstances,
+           com.sforce.soap.enterprise.QueryResult processSteps,
+           com.sforce.soap.enterprise.QueryResult recordAssociatedGroups,
+           com.sforce.soap.enterprise.sobject.Contact reportsTo,
+           java.lang.String reportsToId,
+           java.lang.String salutation,
+           com.sforce.soap.enterprise.QueryResult shares,
+           java.util.Calendar systemModstamp,
+           com.sforce.soap.enterprise.QueryResult tasks,
+           java.lang.String title,
+           com.sforce.soap.enterprise.QueryResult topicAssignments,
+           com.sforce.soap.enterprise.QueryResult undecidedEventRelations,
+           com.sforce.soap.enterprise.sobject.UserRecordAccess userRecordAccess,
+           java.lang.String zqu__County__c,
+           com.sforce.soap.enterprise.QueryResult zqu__Quotes2__r,
+           com.sforce.soap.enterprise.QueryResult zqu__Quotes__r) {
+        super(
+            fieldsToNull,
+            id);
+        this.acceptedEventRelations = acceptedEventRelations;
+        this.account = account;
+        this.accountContactRoles = accountContactRoles;
+        this.accountId = accountId;
+        this.activityHistories = activityHistories;
+        this.assets = assets;
+        this.assistantName = assistantName;
+        this.assistantPhone = assistantPhone;
+        this.attachedContentDocuments = attachedContentDocuments;
+        this.attachments = attachments;
+        this.birthdate = birthdate;
+        this.campaignMembers = campaignMembers;
+        this.caseContactRoles = caseContactRoles;
+        this.cases = cases;
+        this.cleanStatus = cleanStatus;
+        this.combinedAttachments = combinedAttachments;
+        this.contactCleanInfos = contactCleanInfos;
+        this.contractContactRoles = contractContactRoles;
+        this.contractsSigned = contractsSigned;
+        this.createdBy = createdBy;
+        this.createdById = createdById;
+        this.createdDate = createdDate;
+        this.declinedEventRelations = declinedEventRelations;
+        this.department = department;
+        this.description = description;
+        this.duplicateRecordItems = duplicateRecordItems;
+        this.email = email;
+        this.emailBouncedDate = emailBouncedDate;
+        this.emailBouncedReason = emailBouncedReason;
+        this.emailStatuses = emailStatuses;
+        this.eventRelations = eventRelations;
+        this.events = events;
+        this.fax = fax;
+        this.feedSubscriptionsForEntity = feedSubscriptionsForEntity;
+        this.feeds = feeds;
+        this.firstName = firstName;
+        this.histories = histories;
+        this.homePhone = homePhone;
+        this.isDeleted = isDeleted;
+        this.isEmailBounced = isEmailBounced;
+        this.jigsaw = jigsaw;
+        this.jigsawContactId = jigsawContactId;
+        this.languages__c = languages__c;
+        this.lastActivityDate = lastActivityDate;
+        this.lastCURequestDate = lastCURequestDate;
+        this.lastCUUpdateDate = lastCUUpdateDate;
+        this.lastModifiedBy = lastModifiedBy;
+        this.lastModifiedById = lastModifiedById;
+        this.lastModifiedDate = lastModifiedDate;
+        this.lastName = lastName;
+        this.lastReferencedDate = lastReferencedDate;
+        this.lastViewedDate = lastViewedDate;
+        this.leadSource = leadSource;
+        this.level__c = level__c;
+        this.lookedUpFromActivities = lookedUpFromActivities;
+        this.mailingAddress = mailingAddress;
+        this.mailingCity = mailingCity;
+        this.mailingCountry = mailingCountry;
+        this.mailingLatitude = mailingLatitude;
+        this.mailingLongitude = mailingLongitude;
+        this.mailingPostalCode = mailingPostalCode;
+        this.mailingState = mailingState;
+        this.mailingStreet = mailingStreet;
+        this.masterRecord = masterRecord;
+        this.masterRecordId = masterRecordId;
+        this.mobilePhone = mobilePhone;
+        this.name = name;
+        this.notes = notes;
+        this.notesAndAttachments = notesAndAttachments;
+        this.openActivities = openActivities;
+        this.opportunities = opportunities;
+        this.opportunityContactRoles = opportunityContactRoles;
+        this.otherAddress = otherAddress;
+        this.otherCity = otherCity;
+        this.otherCountry = otherCountry;
+        this.otherLatitude = otherLatitude;
+        this.otherLongitude = otherLongitude;
+        this.otherPhone = otherPhone;
+        this.otherPostalCode = otherPostalCode;
+        this.otherState = otherState;
+        this.otherStreet = otherStreet;
+        this.owner = owner;
+        this.ownerId = ownerId;
+        this.phone = phone;
+        this.photoUrl = photoUrl;
+        this.processInstances = processInstances;
+        this.processSteps = processSteps;
+        this.recordAssociatedGroups = recordAssociatedGroups;
+        this.reportsTo = reportsTo;
+        this.reportsToId = reportsToId;
+        this.salutation = salutation;
+        this.shares = shares;
+        this.systemModstamp = systemModstamp;
+        this.tasks = tasks;
+        this.title = title;
+        this.topicAssignments = topicAssignments;
+        this.undecidedEventRelations = undecidedEventRelations;
+        this.userRecordAccess = userRecordAccess;
+        this.zqu__County__c = zqu__County__c;
+        this.zqu__Quotes2__r = zqu__Quotes2__r;
+        this.zqu__Quotes__r = zqu__Quotes__r;
+    }
+
+
+    /**
+     * Gets the acceptedEventRelations value for this Contact.
+     * 
+     * @return acceptedEventRelations
+     */
+    public com.sforce.soap.enterprise.QueryResult getAcceptedEventRelations() {
+        return acceptedEventRelations;
+    }
+
+
+    /**
+     * Sets the acceptedEventRelations value for this Contact.
+     * 
+     * @param acceptedEventRelations
+     */
+    public void setAcceptedEventRelations(com.sforce.soap.enterprise.QueryResult acceptedEventRelations) {
+        this.acceptedEventRelations = acceptedEventRelations;
+    }
+
+
+    /**
+     * Gets the account value for this Contact.
+     * 
+     * @return account
+     */
+    public com.sforce.soap.enterprise.sobject.Account getAccount() {
+        return account;
+    }
+
+
+    /**
+     * Sets the account value for this Contact.
+     * 
+     * @param account
+     */
+    public void setAccount(com.sforce.soap.enterprise.sobject.Account account) {
+        this.account = account;
+    }
+
+
+    /**
+     * Gets the accountContactRoles value for this Contact.
+     * 
+     * @return accountContactRoles
+     */
+    public com.sforce.soap.enterprise.QueryResult getAccountContactRoles() {
+        return accountContactRoles;
+    }
+
+
+    /**
+     * Sets the accountContactRoles value for this Contact.
+     * 
+     * @param accountContactRoles
+     */
+    public void setAccountContactRoles(com.sforce.soap.enterprise.QueryResult accountContactRoles) {
+        this.accountContactRoles = accountContactRoles;
+    }
+
+
+    /**
+     * Gets the accountId value for this Contact.
+     * 
+     * @return accountId
+     */
+    public java.lang.String getAccountId() {
+        return accountId;
+    }
+
+
+    /**
+     * Sets the accountId value for this Contact.
+     * 
+     * @param accountId
+     */
+    public void setAccountId(java.lang.String accountId) {
+        this.accountId = accountId;
+    }
+
+
+    /**
+     * Gets the activityHistories value for this Contact.
+     * 
+     * @return activityHistories
+     */
+    public com.sforce.soap.enterprise.QueryResult getActivityHistories() {
+        return activityHistories;
+    }
+
+
+    /**
+     * Sets the activityHistories value for this Contact.
+     * 
+     * @param activityHistories
+     */
+    public void setActivityHistories(com.sforce.soap.enterprise.QueryResult activityHistories) {
+        this.activityHistories = activityHistories;
+    }
+
+
+    /**
+     * Gets the assets value for this Contact.
+     * 
+     * @return assets
+     */
+    public com.sforce.soap.enterprise.QueryResult getAssets() {
+        return assets;
+    }
+
+
+    /**
+     * Sets the assets value for this Contact.
+     * 
+     * @param assets
+     */
+    public void setAssets(com.sforce.soap.enterprise.QueryResult assets) {
+        this.assets = assets;
+    }
+
+
+    /**
+     * Gets the assistantName value for this Contact.
+     * 
+     * @return assistantName
+     */
+    public java.lang.String getAssistantName() {
+        return assistantName;
+    }
+
+
+    /**
+     * Sets the assistantName value for this Contact.
+     * 
+     * @param assistantName
+     */
+    public void setAssistantName(java.lang.String assistantName) {
+        this.assistantName = assistantName;
+    }
+
+
+    /**
+     * Gets the assistantPhone value for this Contact.
+     * 
+     * @return assistantPhone
+     */
+    public java.lang.String getAssistantPhone() {
+        return assistantPhone;
+    }
+
+
+    /**
+     * Sets the assistantPhone value for this Contact.
+     * 
+     * @param assistantPhone
+     */
+    public void setAssistantPhone(java.lang.String assistantPhone) {
+        this.assistantPhone = assistantPhone;
+    }
+
+
+    /**
+     * Gets the attachedContentDocuments value for this Contact.
+     * 
+     * @return attachedContentDocuments
+     */
+    public com.sforce.soap.enterprise.QueryResult getAttachedContentDocuments() {
+        return attachedContentDocuments;
+    }
+
+
+    /**
+     * Sets the attachedContentDocuments value for this Contact.
+     * 
+     * @param attachedContentDocuments
+     */
+    public void setAttachedContentDocuments(com.sforce.soap.enterprise.QueryResult attachedContentDocuments) {
+        this.attachedContentDocuments = attachedContentDocuments;
+    }
+
+
+    /**
+     * Gets the attachments value for this Contact.
+     * 
+     * @return attachments
+     */
+    public com.sforce.soap.enterprise.QueryResult getAttachments() {
+        return attachments;
+    }
+
+
+    /**
+     * Sets the attachments value for this Contact.
+     * 
+     * @param attachments
+     */
+    public void setAttachments(com.sforce.soap.enterprise.QueryResult attachments) {
+        this.attachments = attachments;
+    }
+
+
+    /**
+     * Gets the birthdate value for this Contact.
+     * 
+     * @return birthdate
+     */
+    public java.util.Date getBirthdate() {
+        return birthdate;
+    }
+
+
+    /**
+     * Sets the birthdate value for this Contact.
+     * 
+     * @param birthdate
+     */
+    public void setBirthdate(java.util.Date birthdate) {
+        this.birthdate = birthdate;
+    }
+
+
+    /**
+     * Gets the campaignMembers value for this Contact.
+     * 
+     * @return campaignMembers
+     */
+    public com.sforce.soap.enterprise.QueryResult getCampaignMembers() {
+        return campaignMembers;
+    }
+
+
+    /**
+     * Sets the campaignMembers value for this Contact.
+     * 
+     * @param campaignMembers
+     */
+    public void setCampaignMembers(com.sforce.soap.enterprise.QueryResult campaignMembers) {
+        this.campaignMembers = campaignMembers;
+    }
+
+
+    /**
+     * Gets the caseContactRoles value for this Contact.
+     * 
+     * @return caseContactRoles
+     */
+    public com.sforce.soap.enterprise.QueryResult getCaseContactRoles() {
+        return caseContactRoles;
+    }
+
+
+    /**
+     * Sets the caseContactRoles value for this Contact.
+     * 
+     * @param caseContactRoles
+     */
+    public void setCaseContactRoles(com.sforce.soap.enterprise.QueryResult caseContactRoles) {
+        this.caseContactRoles = caseContactRoles;
+    }
+
+
+    /**
+     * Gets the cases value for this Contact.
+     * 
+     * @return cases
+     */
+    public com.sforce.soap.enterprise.QueryResult getCases() {
+        return cases;
+    }
+
+
+    /**
+     * Sets the cases value for this Contact.
+     * 
+     * @param cases
+     */
+    public void setCases(com.sforce.soap.enterprise.QueryResult cases) {
+        this.cases = cases;
+    }
+
+
+    /**
+     * Gets the cleanStatus value for this Contact.
+     * 
+     * @return cleanStatus
+     */
+    public java.lang.String getCleanStatus() {
+        return cleanStatus;
+    }
+
+
+    /**
+     * Sets the cleanStatus value for this Contact.
+     * 
+     * @param cleanStatus
+     */
+    public void setCleanStatus(java.lang.String cleanStatus) {
+        this.cleanStatus = cleanStatus;
+    }
+
+
+    /**
+     * Gets the combinedAttachments value for this Contact.
+     * 
+     * @return combinedAttachments
+     */
+    public com.sforce.soap.enterprise.QueryResult getCombinedAttachments() {
+        return combinedAttachments;
+    }
+
+
+    /**
+     * Sets the combinedAttachments value for this Contact.
+     * 
+     * @param combinedAttachments
+     */
+    public void setCombinedAttachments(com.sforce.soap.enterprise.QueryResult combinedAttachments) {
+        this.combinedAttachments = combinedAttachments;
+    }
+
+
+    /**
+     * Gets the contactCleanInfos value for this Contact.
+     * 
+     * @return contactCleanInfos
+     */
+    public com.sforce.soap.enterprise.QueryResult getContactCleanInfos() {
+        return contactCleanInfos;
+    }
+
+
+    /**
+     * Sets the contactCleanInfos value for this Contact.
+     * 
+     * @param contactCleanInfos
+     */
+    public void setContactCleanInfos(com.sforce.soap.enterprise.QueryResult contactCleanInfos) {
+        this.contactCleanInfos = contactCleanInfos;
+    }
+
+
+    /**
+     * Gets the contractContactRoles value for this Contact.
+     * 
+     * @return contractContactRoles
+     */
+    public com.sforce.soap.enterprise.QueryResult getContractContactRoles() {
+        return contractContactRoles;
+    }
+
+
+    /**
+     * Sets the contractContactRoles value for this Contact.
+     * 
+     * @param contractContactRoles
+     */
+    public void setContractContactRoles(com.sforce.soap.enterprise.QueryResult contractContactRoles) {
+        this.contractContactRoles = contractContactRoles;
+    }
+
+
+    /**
+     * Gets the contractsSigned value for this Contact.
+     * 
+     * @return contractsSigned
+     */
+    public com.sforce.soap.enterprise.QueryResult getContractsSigned() {
+        return contractsSigned;
+    }
+
+
+    /**
+     * Sets the contractsSigned value for this Contact.
+     * 
+     * @param contractsSigned
+     */
+    public void setContractsSigned(com.sforce.soap.enterprise.QueryResult contractsSigned) {
+        this.contractsSigned = contractsSigned;
+    }
+
+
+    /**
+     * Gets the createdBy value for this Contact.
+     * 
+     * @return createdBy
+     */
+    public com.sforce.soap.enterprise.sobject.User getCreatedBy() {
+        return createdBy;
+    }
+
+
+    /**
+     * Sets the createdBy value for this Contact.
+     * 
+     * @param createdBy
+     */
+    public void setCreatedBy(com.sforce.soap.enterprise.sobject.User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+
+    /**
+     * Gets the createdById value for this Contact.
+     * 
+     * @return createdById
+     */
+    public java.lang.String getCreatedById() {
+        return createdById;
+    }
+
+
+    /**
+     * Sets the createdById value for this Contact.
+     * 
+     * @param createdById
+     */
+    public void setCreatedById(java.lang.String createdById) {
+        this.createdById = createdById;
+    }
+
+
+    /**
+     * Gets the createdDate value for this Contact.
+     * 
+     * @return createdDate
+     */
+    public java.util.Calendar getCreatedDate() {
+        return createdDate;
+    }
+
+
+    /**
+     * Sets the createdDate value for this Contact.
+     * 
+     * @param createdDate
+     */
+    public void setCreatedDate(java.util.Calendar createdDate) {
+        this.createdDate = createdDate;
+    }
+
+
+    /**
+     * Gets the declinedEventRelations value for this Contact.
+     * 
+     * @return declinedEventRelations
+     */
+    public com.sforce.soap.enterprise.QueryResult getDeclinedEventRelations() {
+        return declinedEventRelations;
+    }
+
+
+    /**
+     * Sets the declinedEventRelations value for this Contact.
+     * 
+     * @param declinedEventRelations
+     */
+    public void setDeclinedEventRelations(com.sforce.soap.enterprise.QueryResult declinedEventRelations) {
+        this.declinedEventRelations = declinedEventRelations;
+    }
+
+
+    /**
+     * Gets the department value for this Contact.
+     * 
+     * @return department
+     */
+    public java.lang.String getDepartment() {
+        return department;
+    }
+
+
+    /**
+     * Sets the department value for this Contact.
+     * 
+     * @param department
+     */
+    public void setDepartment(java.lang.String department) {
+        this.department = department;
+    }
+
+
+    /**
+     * Gets the description value for this Contact.
+     * 
+     * @return description
+     */
+    public java.lang.String getDescription() {
+        return description;
+    }
+
+
+    /**
+     * Sets the description value for this Contact.
+     * 
+     * @param description
+     */
+    public void setDescription(java.lang.String description) {
+        this.description = description;
+    }
+
+
+    /**
+     * Gets the duplicateRecordItems value for this Contact.
+     * 
+     * @return duplicateRecordItems
+     */
+    public com.sforce.soap.enterprise.QueryResult getDuplicateRecordItems() {
+        return duplicateRecordItems;
+    }
+
+
+    /**
+     * Sets the duplicateRecordItems value for this Contact.
+     * 
+     * @param duplicateRecordItems
+     */
+    public void setDuplicateRecordItems(com.sforce.soap.enterprise.QueryResult duplicateRecordItems) {
+        this.duplicateRecordItems = duplicateRecordItems;
+    }
+
+
+    /**
+     * Gets the email value for this Contact.
+     * 
+     * @return email
+     */
+    public java.lang.String getEmail() {
+        return email;
+    }
+
+
+    /**
+     * Sets the email value for this Contact.
+     * 
+     * @param email
+     */
+    public void setEmail(java.lang.String email) {
+        this.email = email;
+    }
+
+
+    /**
+     * Gets the emailBouncedDate value for this Contact.
+     * 
+     * @return emailBouncedDate
+     */
+    public java.util.Calendar getEmailBouncedDate() {
+        return emailBouncedDate;
+    }
+
+
+    /**
+     * Sets the emailBouncedDate value for this Contact.
+     * 
+     * @param emailBouncedDate
+     */
+    public void setEmailBouncedDate(java.util.Calendar emailBouncedDate) {
+        this.emailBouncedDate = emailBouncedDate;
+    }
+
+
+    /**
+     * Gets the emailBouncedReason value for this Contact.
+     * 
+     * @return emailBouncedReason
+     */
+    public java.lang.String getEmailBouncedReason() {
+        return emailBouncedReason;
+    }
+
+
+    /**
+     * Sets the emailBouncedReason value for this Contact.
+     * 
+     * @param emailBouncedReason
+     */
+    public void setEmailBouncedReason(java.lang.String emailBouncedReason) {
+        this.emailBouncedReason = emailBouncedReason;
+    }
+
+
+    /**
+     * Gets the emailStatuses value for this Contact.
+     * 
+     * @return emailStatuses
+     */
+    public com.sforce.soap.enterprise.QueryResult getEmailStatuses() {
+        return emailStatuses;
+    }
+
+
+    /**
+     * Sets the emailStatuses value for this Contact.
+     * 
+     * @param emailStatuses
+     */
+    public void setEmailStatuses(com.sforce.soap.enterprise.QueryResult emailStatuses) {
+        this.emailStatuses = emailStatuses;
+    }
+
+
+    /**
+     * Gets the eventRelations value for this Contact.
+     * 
+     * @return eventRelations
+     */
+    public com.sforce.soap.enterprise.QueryResult getEventRelations() {
+        return eventRelations;
+    }
+
+
+    /**
+     * Sets the eventRelations value for this Contact.
+     * 
+     * @param eventRelations
+     */
+    public void setEventRelations(com.sforce.soap.enterprise.QueryResult eventRelations) {
+        this.eventRelations = eventRelations;
+    }
+
+
+    /**
+     * Gets the events value for this Contact.
+     * 
+     * @return events
+     */
+    public com.sforce.soap.enterprise.QueryResult getEvents() {
+        return events;
+    }
+
+
+    /**
+     * Sets the events value for this Contact.
+     * 
+     * @param events
+     */
+    public void setEvents(com.sforce.soap.enterprise.QueryResult events) {
+        this.events = events;
+    }
+
+
+    /**
+     * Gets the fax value for this Contact.
+     * 
+     * @return fax
+     */
+    public java.lang.String getFax() {
+        return fax;
+    }
+
+
+    /**
+     * Sets the fax value for this Contact.
+     * 
+     * @param fax
+     */
+    public void setFax(java.lang.String fax) {
+        this.fax = fax;
+    }
+
+
+    /**
+     * Gets the feedSubscriptionsForEntity value for this Contact.
+     * 
+     * @return feedSubscriptionsForEntity
+     */
+    public com.sforce.soap.enterprise.QueryResult getFeedSubscriptionsForEntity() {
+        return feedSubscriptionsForEntity;
+    }
+
+
+    /**
+     * Sets the feedSubscriptionsForEntity value for this Contact.
+     * 
+     * @param feedSubscriptionsForEntity
+     */
+    public void setFeedSubscriptionsForEntity(com.sforce.soap.enterprise.QueryResult feedSubscriptionsForEntity) {
+        this.feedSubscriptionsForEntity = feedSubscriptionsForEntity;
+    }
+
+
+    /**
+     * Gets the feeds value for this Contact.
+     * 
+     * @return feeds
+     */
+    public com.sforce.soap.enterprise.QueryResult getFeeds() {
+        return feeds;
+    }
+
+
+    /**
+     * Sets the feeds value for this Contact.
+     * 
+     * @param feeds
+     */
+    public void setFeeds(com.sforce.soap.enterprise.QueryResult feeds) {
+        this.feeds = feeds;
+    }
+
+
+    /**
+     * Gets the firstName value for this Contact.
+     * 
+     * @return firstName
+     */
+    public java.lang.String getFirstName() {
+        return firstName;
+    }
+
+
+    /**
+     * Sets the firstName value for this Contact.
+     * 
+     * @param firstName
+     */
+    public void setFirstName(java.lang.String firstName) {
+        this.firstName = firstName;
+    }
+
+
+    /**
+     * Gets the histories value for this Contact.
+     * 
+     * @return histories
+     */
+    public com.sforce.soap.enterprise.QueryResult getHistories() {
+        return histories;
+    }
+
+
+    /**
+     * Sets the histories value for this Contact.
+     * 
+     * @param histories
+     */
+    public void setHistories(com.sforce.soap.enterprise.QueryResult histories) {
+        this.histories = histories;
+    }
+
+
+    /**
+     * Gets the homePhone value for this Contact.
+     * 
+     * @return homePhone
+     */
+    public java.lang.String getHomePhone() {
+        return homePhone;
+    }
+
+
+    /**
+     * Sets the homePhone value for this Contact.
+     * 
+     * @param homePhone
+     */
+    public void setHomePhone(java.lang.String homePhone) {
+        this.homePhone = homePhone;
+    }
+
+
+    /**
+     * Gets the isDeleted value for this Contact.
+     * 
+     * @return isDeleted
+     */
+    public java.lang.Boolean getIsDeleted() {
+        return isDeleted;
+    }
+
+
+    /**
+     * Sets the isDeleted value for this Contact.
+     * 
+     * @param isDeleted
+     */
+    public void setIsDeleted(java.lang.Boolean isDeleted) {
+        this.isDeleted = isDeleted;
+    }
+
+
+    /**
+     * Gets the isEmailBounced value for this Contact.
+     * 
+     * @return isEmailBounced
+     */
+    public java.lang.Boolean getIsEmailBounced() {
+        return isEmailBounced;
+    }
+
+
+    /**
+     * Sets the isEmailBounced value for this Contact.
+     * 
+     * @param isEmailBounced
+     */
+    public void setIsEmailBounced(java.lang.Boolean isEmailBounced) {
+        this.isEmailBounced = isEmailBounced;
+    }
+
+
+    /**
+     * Gets the jigsaw value for this Contact.
+     * 
+     * @return jigsaw
+     */
+    public java.lang.String getJigsaw() {
+        return jigsaw;
+    }
+
+
+    /**
+     * Sets the jigsaw value for this Contact.
+     * 
+     * @param jigsaw
+     */
+    public void setJigsaw(java.lang.String jigsaw) {
+        this.jigsaw = jigsaw;
+    }
+
+
+    /**
+     * Gets the jigsawContactId value for this Contact.
+     * 
+     * @return jigsawContactId
+     */
+    public java.lang.String getJigsawContactId() {
+        return jigsawContactId;
+    }
+
+
+    /**
+     * Sets the jigsawContactId value for this Contact.
+     * 
+     * @param jigsawContactId
+     */
+    public void setJigsawContactId(java.lang.String jigsawContactId) {
+        this.jigsawContactId = jigsawContactId;
+    }
+
+
+    /**
+     * Gets the languages__c value for this Contact.
+     * 
+     * @return languages__c
+     */
+    public java.lang.String getLanguages__c() {
+        return languages__c;
+    }
+
+
+    /**
+     * Sets the languages__c value for this Contact.
+     * 
+     * @param languages__c
+     */
+    public void setLanguages__c(java.lang.String languages__c) {
+        this.languages__c = languages__c;
+    }
+
+
+    /**
+     * Gets the lastActivityDate value for this Contact.
+     * 
+     * @return lastActivityDate
+     */
+    public java.util.Date getLastActivityDate() {
+        return lastActivityDate;
+    }
+
+
+    /**
+     * Sets the lastActivityDate value for this Contact.
+     * 
+     * @param lastActivityDate
+     */
+    public void setLastActivityDate(java.util.Date lastActivityDate) {
+        this.lastActivityDate = lastActivityDate;
+    }
+
+
+    /**
+     * Gets the lastCURequestDate value for this Contact.
+     * 
+     * @return lastCURequestDate
+     */
+    public java.util.Calendar getLastCURequestDate() {
+        return lastCURequestDate;
+    }
+
+
+    /**
+     * Sets the lastCURequestDate value for this Contact.
+     * 
+     * @param lastCURequestDate
+     */
+    public void setLastCURequestDate(java.util.Calendar lastCURequestDate) {
+        this.lastCURequestDate = lastCURequestDate;
+    }
+
+
+    /**
+     * Gets the lastCUUpdateDate value for this Contact.
+     * 
+     * @return lastCUUpdateDate
+     */
+    public java.util.Calendar getLastCUUpdateDate() {
+        return lastCUUpdateDate;
+    }
+
+
+    /**
+     * Sets the lastCUUpdateDate value for this Contact.
+     * 
+     * @param lastCUUpdateDate
+     */
+    public void setLastCUUpdateDate(java.util.Calendar lastCUUpdateDate) {
+        this.lastCUUpdateDate = lastCUUpdateDate;
+    }
+
+
+    /**
+     * Gets the lastModifiedBy value for this Contact.
+     * 
+     * @return lastModifiedBy
+     */
+    public com.sforce.soap.enterprise.sobject.User getLastModifiedBy() {
+        return lastModifiedBy;
+    }
+
+
+    /**
+     * Sets the lastModifiedBy value for this Contact.
+     * 
+     * @param lastModifiedBy
+     */
+    public void setLastModifiedBy(com.sforce.soap.enterprise.sobject.User lastModifiedBy) {
+        this.lastModifiedBy = lastModifiedBy;
+    }
+
+
+    /**
+     * Gets the lastModifiedById value for this Contact.
+     * 
+     * @return lastModifiedById
+     */
+    public java.lang.String getLastModifiedById() {
+        return lastModifiedById;
+    }
+
+
+    /**
+     * Sets the lastModifiedById value for this Contact.
+     * 
+     * @param lastModifiedById
+     */
+    public void setLastModifiedById(java.lang.String lastModifiedById) {
+        this.lastModifiedById = lastModifiedById;
+    }
+
+
+    /**
+     * Gets the lastModifiedDate value for this Contact.
+     * 
+     * @return lastModifiedDate
+     */
+    public java.util.Calendar getLastModifiedDate() {
+        return lastModifiedDate;
+    }
+
+
+    /**
+     * Sets the lastModifiedDate value for this Contact.
+     * 
+     * @param lastModifiedDate
+     */
+    public void setLastModifiedDate(java.util.Calendar lastModifiedDate) {
+        this.lastModifiedDate = lastModifiedDate;
+    }
+
+
+    /**
+     * Gets the lastName value for this Contact.
+     * 
+     * @return lastName
+     */
+    public java.lang.String getLastName() {
+        return lastName;
+    }
+
+
+    /**
+     * Sets the lastName value for this Contact.
+     * 
+     * @param lastName
+     */
+    public void setLastName(java.lang.String lastName) {
+        this.lastName = lastName;
+    }
+
+
+    /**
+     * Gets the lastReferencedDate value for this Contact.
+     * 
+     * @return lastReferencedDate
+     */
+    public java.util.Calendar getLastReferencedDate() {
+        return lastReferencedDate;
+    }
+
+
+    /**
+     * Sets the lastReferencedDate value for this Contact.
+     * 
+     * @param lastReferencedDate
+     */
+    public void setLastReferencedDate(java.util.Calendar lastReferencedDate) {
+        this.lastReferencedDate = lastReferencedDate;
+    }
+
+
+    /**
+     * Gets the lastViewedDate value for this Contact.
+     * 
+     * @return lastViewedDate
+     */
+    public java.util.Calendar getLastViewedDate() {
+        return lastViewedDate;
+    }
+
+
+    /**
+     * Sets the lastViewedDate value for this Contact.
+     * 
+     * @param lastViewedDate
+     */
+    public void setLastViewedDate(java.util.Calendar lastViewedDate) {
+        this.lastViewedDate = lastViewedDate;
+    }
+
+
+    /**
+     * Gets the leadSource value for this Contact.
+     * 
+     * @return leadSource
+     */
+    public java.lang.String getLeadSource() {
+        return leadSource;
+    }
+
+
+    /**
+     * Sets the leadSource value for this Contact.
+     * 
+     * @param leadSource
+     */
+    public void setLeadSource(java.lang.String leadSource) {
+        this.leadSource = leadSource;
+    }
+
+
+    /**
+     * Gets the level__c value for this Contact.
+     * 
+     * @return level__c
+     */
+    public java.lang.String getLevel__c() {
+        return level__c;
+    }
+
+
+    /**
+     * Sets the level__c value for this Contact.
+     * 
+     * @param level__c
+     */
+    public void setLevel__c(java.lang.String level__c) {
+        this.level__c = level__c;
+    }
+
+
+    /**
+     * Gets the lookedUpFromActivities value for this Contact.
+     * 
+     * @return lookedUpFromActivities
+     */
+    public com.sforce.soap.enterprise.QueryResult getLookedUpFromActivities() {
+        return lookedUpFromActivities;
+    }
+
+
+    /**
+     * Sets the lookedUpFromActivities value for this Contact.
+     * 
+     * @param lookedUpFromActivities
+     */
+    public void setLookedUpFromActivities(com.sforce.soap.enterprise.QueryResult lookedUpFromActivities) {
+        this.lookedUpFromActivities = lookedUpFromActivities;
+    }
+
+
+    /**
+     * Gets the mailingAddress value for this Contact.
+     * 
+     * @return mailingAddress
+     */
+    public com.sforce.soap.enterprise.Address getMailingAddress() {
+        return mailingAddress;
+    }
+
+
+    /**
+     * Sets the mailingAddress value for this Contact.
+     * 
+     * @param mailingAddress
+     */
+    public void setMailingAddress(com.sforce.soap.enterprise.Address mailingAddress) {
+        this.mailingAddress = mailingAddress;
+    }
+
+
+    /**
+     * Gets the mailingCity value for this Contact.
+     * 
+     * @return mailingCity
+     */
+    public java.lang.String getMailingCity() {
+        return mailingCity;
+    }
+
+
+    /**
+     * Sets the mailingCity value for this Contact.
+     * 
+     * @param mailingCity
+     */
+    public void setMailingCity(java.lang.String mailingCity) {
+        this.mailingCity = mailingCity;
+    }
+
+
+    /**
+     * Gets the mailingCountry value for this Contact.
+     * 
+     * @return mailingCountry
+     */
+    public java.lang.String getMailingCountry() {
+        return mailingCountry;
+    }
+
+
+    /**
+     * Sets the mailingCountry value for this Contact.
+     * 
+     * @param mailingCountry
+     */
+    public void setMailingCountry(java.lang.String mailingCountry) {
+        this.mailingCountry = mailingCountry;
+    }
+
+
+    /**
+     * Gets the mailingLatitude value for this Contact.
+     * 
+     * @return mailingLatitude
+     */
+    public java.lang.Double getMailingLatitude() {
+        return mailingLatitude;
+    }
+
+
+    /**
+     * Sets the mailingLatitude value for this Contact.
+     * 
+     * @param mailingLatitude
+     */
+    public void setMailingLatitude(java.lang.Double mailingLatitude) {
+        this.mailingLatitude = mailingLatitude;
+    }
+
+
+    /**
+     * Gets the mailingLongitude value for this Contact.
+     * 
+     * @return mailingLongitude
+     */
+    public java.lang.Double getMailingLongitude() {
+        return mailingLongitude;
+    }
+
+
+    /**
+     * Sets the mailingLongitude value for this Contact.
+     * 
+     * @param mailingLongitude
+     */
+    public void setMailingLongitude(java.lang.Double mailingLongitude) {
+        this.mailingLongitude = mailingLongitude;
+    }
+
+
+    /**
+     * Gets the mailingPostalCode value for this Contact.
+     * 
+     * @return mailingPostalCode
+     */
+    public java.lang.String getMailingPostalCode() {
+        return mailingPostalCode;
+    }
+
+
+    /**
+     * Sets the mailingPostalCode value for this Contact.
+     * 
+     * @param mailingPostalCode
+     */
+    public void setMailingPostalCode(java.lang.String mailingPostalCode) {
+        this.mailingPostalCode = mailingPostalCode;
+    }
+
+
+    /**
+     * Gets the mailingState value for this Contact.
+     * 
+     * @return mailingState
+     */
+    public java.lang.String getMailingState() {
+        return mailingState;
+    }
+
+
+    /**
+     * Sets the mailingState value for this Contact.
+     * 
+     * @param mailingState
+     */
+    public void setMailingState(java.lang.String mailingState) {
+        this.mailingState = mailingState;
+    }
+
+
+    /**
+     * Gets the mailingStreet value for this Contact.
+     * 
+     * @return mailingStreet
+     */
+    public java.lang.String getMailingStreet() {
+        return mailingStreet;
+    }
+
+
+    /**
+     * Sets the mailingStreet value for this Contact.
+     * 
+     * @param mailingStreet
+     */
+    public void setMailingStreet(java.lang.String mailingStreet) {
+        this.mailingStreet = mailingStreet;
+    }
+
+
+    /**
+     * Gets the masterRecord value for this Contact.
+     * 
+     * @return masterRecord
+     */
+    public com.sforce.soap.enterprise.sobject.Contact getMasterRecord() {
+        return masterRecord;
+    }
+
+
+    /**
+     * Sets the masterRecord value for this Contact.
+     * 
+     * @param masterRecord
+     */
+    public void setMasterRecord(com.sforce.soap.enterprise.sobject.Contact masterRecord) {
+        this.masterRecord = masterRecord;
+    }
+
+
+    /**
+     * Gets the masterRecordId value for this Contact.
+     * 
+     * @return masterRecordId
+     */
+    public java.lang.String getMasterRecordId() {
+        return masterRecordId;
+    }
+
+
+    /**
+     * Sets the masterRecordId value for this Contact.
+     * 
+     * @param masterRecordId
+     */
+    public void setMasterRecordId(java.lang.String masterRecordId) {
+        this.masterRecordId = masterRecordId;
+    }
+
+
+    /**
+     * Gets the mobilePhone value for this Contact.
+     * 
+     * @return mobilePhone
+     */
+    public java.lang.String getMobilePhone() {
+        return mobilePhone;
+    }
+
+
+    /**
+     * Sets the mobilePhone value for this Contact.
+     * 
+     * @param mobilePhone
+     */
+    public void setMobilePhone(java.lang.String mobilePhone) {
+        this.mobilePhone = mobilePhone;
+    }
+
+
+    /**
+     * Gets the name value for this Contact.
+     * 
+     * @return name
+     */
+    public java.lang.String getName() {
+        return name;
+    }
+
+
+    /**
+     * Sets the name value for this Contact.
+     * 
+     * @param name
+     */
+    public void setName(java.lang.String name) {
+        this.name = name;
+    }
+
+
+    /**
+     * Gets the notes value for this Contact.
+     * 
+     * @return notes
+     */
+    public com.sforce.soap.enterprise.QueryResult getNotes() {
+        return notes;
+    }
+
+
+    /**
+     * Sets the notes value for this Contact.
+     * 
+     * @param notes
+     */
+    public void setNotes(com.sforce.soap.enterprise.QueryResult notes) {
+        this.notes = notes;
+    }
+
+
+    /**
+     * Gets the notesAndAttachments value for this Contact.
+     * 
+     * @return notesAndAttachments
+     */
+    public com.sforce.soap.enterprise.QueryResult getNotesAndAttachments() {
+        return notesAndAttachments;
+    }
+
+
+    /**
+     * Sets the notesAndAttachments value for this Contact.
+     * 
+     * @param notesAndAttachments
+     */
+    public void setNotesAndAttachments(com.sforce.soap.enterprise.QueryResult notesAndAttachments) {
+        this.notesAndAttachments = notesAndAttachments;
+    }
+
+
+    /**
+     * Gets the openActivities value for this Contact.
+     * 
+     * @return openActivities
+     */
+    public com.sforce.soap.enterprise.QueryResult getOpenActivities() {
+        return openActivities;
+    }
+
+
+    /**
+     * Sets the openActivities value for this Contact.
+     * 
+     * @param openActivities
+     */
+    public void setOpenActivities(com.sforce.soap.enterprise.QueryResult openActivities) {
+        this.openActivities = openActivities;
+    }
+
+
+    /**
+     * Gets the opportunities value for this Contact.
+     * 
+     * @return opportunities
+     */
+    public com.sforce.soap.enterprise.QueryResult getOpportunities() {
+        return opportunities;
+    }
+
+
+    /**
+     * Sets the opportunities value for this Contact.
+     * 
+     * @param opportunities
+     */
+    public void setOpportunities(com.sforce.soap.enterprise.QueryResult opportunities) {
+        this.opportunities = opportunities;
+    }
+
+
+    /**
+     * Gets the opportunityContactRoles value for this Contact.
+     * 
+     * @return opportunityContactRoles
+     */
+    public com.sforce.soap.enterprise.QueryResult getOpportunityContactRoles() {
+        return opportunityContactRoles;
+    }
+
+
+    /**
+     * Sets the opportunityContactRoles value for this Contact.
+     * 
+     * @param opportunityContactRoles
+     */
+    public void setOpportunityContactRoles(com.sforce.soap.enterprise.QueryResult opportunityContactRoles) {
+        this.opportunityContactRoles = opportunityContactRoles;
+    }
+
+
+    /**
+     * Gets the otherAddress value for this Contact.
+     * 
+     * @return otherAddress
+     */
+    public com.sforce.soap.enterprise.Address getOtherAddress() {
+        return otherAddress;
+    }
+
+
+    /**
+     * Sets the otherAddress value for this Contact.
+     * 
+     * @param otherAddress
+     */
+    public void setOtherAddress(com.sforce.soap.enterprise.Address otherAddress) {
+        this.otherAddress = otherAddress;
+    }
+
+
+    /**
+     * Gets the otherCity value for this Contact.
+     * 
+     * @return otherCity
+     */
+    public java.lang.String getOtherCity() {
+        return otherCity;
+    }
+
+
+    /**
+     * Sets the otherCity value for this Contact.
+     * 
+     * @param otherCity
+     */
+    public void setOtherCity(java.lang.String otherCity) {
+        this.otherCity = otherCity;
+    }
+
+
+    /**
+     * Gets the otherCountry value for this Contact.
+     * 
+     * @return otherCountry
+     */
+    public java.lang.String getOtherCountry() {
+        return otherCountry;
+    }
+
+
+    /**
+     * Sets the otherCountry value for this Contact.
+     * 
+     * @param otherCountry
+     */
+    public void setOtherCountry(java.lang.String otherCountry) {
+        this.otherCountry = otherCountry;
+    }
+
+
+    /**
+     * Gets the otherLatitude value for this Contact.
+     * 
+     * @return otherLatitude
+     */
+    public java.lang.Double getOtherLatitude() {
+        return otherLatitude;
+    }
+
+
+    /**
+     * Sets the otherLatitude value for this Contact.
+     * 
+     * @param otherLatitude
+     */
+    public void setOtherLatitude(java.lang.Double otherLatitude) {
+        this.otherLatitude = otherLatitude;
+    }
+
+
+    /**
+     * Gets the otherLongitude value for this Contact.
+     * 
+     * @return otherLongitude
+     */
+    public java.lang.Double getOtherLongitude() {
+        return otherLongitude;
+    }
+
+
+    /**
+     * Sets the otherLongitude value for this Contact.
+     * 
+     * @param otherLongitude
+     */
+    public void setOtherLongitude(java.lang.Double otherLongitude) {
+        this.otherLongitude = otherLongitude;
+    }
+
+
+    /**
+     * Gets the otherPhone value for this Contact.
+     * 
+     * @return otherPhone
+     */
+    public java.lang.String getOtherPhone() {
+        return otherPhone;
+    }
+
+
+    /**
+     * Sets the otherPhone value for this Contact.
+     * 
+     * @param otherPhone
+     */
+    public void setOtherPhone(java.lang.String otherPhone) {
+        this.otherPhone = otherPhone;
+    }
+
+
+    /**
+     * Gets the otherPostalCode value for this Contact.
+     * 
+     * @return otherPostalCode
+     */
+    public java.lang.String getOtherPostalCode() {
+        return otherPostalCode;
+    }
+
+
+    /**
+     * Sets the otherPostalCode value for this Contact.
+     * 
+     * @param otherPostalCode
+     */
+    public void setOtherPostalCode(java.lang.String otherPostalCode) {
+        this.otherPostalCode = otherPostalCode;
+    }
+
+
+    /**
+     * Gets the otherState value for this Contact.
+     * 
+     * @return otherState
+     */
+    public java.lang.String getOtherState() {
+        return otherState;
+    }
+
+
+    /**
+     * Sets the otherState value for this Contact.
+     * 
+     * @param otherState
+     */
+    public void setOtherState(java.lang.String otherState) {
+        this.otherState = otherState;
+    }
+
+
+    /**
+     * Gets the otherStreet value for this Contact.
+     * 
+     * @return otherStreet
+     */
+    public java.lang.String getOtherStreet() {
+        return otherStreet;
+    }
+
+
+    /**
+     * Sets the otherStreet value for this Contact.
+     * 
+     * @param otherStreet
+     */
+    public void setOtherStreet(java.lang.String otherStreet) {
+        this.otherStreet = otherStreet;
+    }
+
+
+    /**
+     * Gets the owner value for this Contact.
+     * 
+     * @return owner
+     */
+    public com.sforce.soap.enterprise.sobject.User getOwner() {
+        return owner;
+    }
+
+
+    /**
+     * Sets the owner value for this Contact.
+     * 
+     * @param owner
+     */
+    public void setOwner(com.sforce.soap.enterprise.sobject.User owner) {
+        this.owner = owner;
+    }
+
+
+    /**
+     * Gets the ownerId value for this Contact.
+     * 
+     * @return ownerId
+     */
+    public java.lang.String getOwnerId() {
+        return ownerId;
+    }
+
+
+    /**
+     * Sets the ownerId value for this Contact.
+     * 
+     * @param ownerId
+     */
+    public void setOwnerId(java.lang.String ownerId) {
+        this.ownerId = ownerId;
+    }
+
+
+    /**
+     * Gets the phone value for this Contact.
+     * 
+     * @return phone
+     */
+    public java.lang.String getPhone() {
+        return phone;
+    }
+
+
+    /**
+     * Sets the phone value for this Contact.
+     * 
+     * @param phone
+     */
+    public void setPhone(java.lang.String phone) {
+        this.phone = phone;
+    }
+
+
+    /**
+     * Gets the photoUrl value for this Contact.
+     * 
+     * @return photoUrl
+     */
+    public java.lang.String getPhotoUrl() {
+        return photoUrl;
+    }
+
+
+    /**
+     * Sets the photoUrl value for this Contact.
+     * 
+     * @param photoUrl
+     */
+    public void setPhotoUrl(java.lang.String photoUrl) {
+        this.photoUrl = photoUrl;
+    }
+
+
+    /**
+     * Gets the processInstances value for this Contact.
+     * 
+     * @return processInstances
+     */
+    public com.sforce.soap.enterprise.QueryResult getProcessInstances() {
+        return processInstances;
+    }
+
+
+    /**
+     * Sets the processInstances value for this Contact.
+     * 
+     * @param processInstances
+     */
+    public void setProcessInstances(com.sforce.soap.enterprise.QueryResult processInstances) {
+        this.processInstances = processInstances;
+    }
+
+
+    /**
+     * Gets the processSteps value for this Contact.
+     * 
+     * @return processSteps
+     */
+    public com.sforce.soap.enterprise.QueryResult getProcessSteps() {
+        return processSteps;
+    }
+
+
+    /**
+     * Sets the processSteps value for this Contact.
+     * 
+     * @param processSteps
+     */
+    public void setProcessSteps(com.sforce.soap.enterprise.QueryResult processSteps) {
+        this.processSteps = processSteps;
+    }
+
+
+    /**
+     * Gets the recordAssociatedGroups value for this Contact.
+     * 
+     * @return recordAssociatedGroups
+     */
+    public com.sforce.soap.enterprise.QueryResult getRecordAssociatedGroups() {
+        return recordAssociatedGroups;
+    }
+
+
+    /**
+     * Sets the recordAssociatedGroups value for this Contact.
+     * 
+     * @param recordAssociatedGroups
+     */
+    public void setRecordAssociatedGroups(com.sforce.soap.enterprise.QueryResult recordAssociatedGroups) {
+        this.recordAssociatedGroups = recordAssociatedGroups;
+    }
+
+
+    /**
+     * Gets the reportsTo value for this Contact.
+     * 
+     * @return reportsTo
+     */
+    public com.sforce.soap.enterprise.sobject.Contact getReportsTo() {
+        return reportsTo;
+    }
+
+
+    /**
+     * Sets the reportsTo value for this Contact.
+     * 
+     * @param reportsTo
+     */
+    public void setReportsTo(com.sforce.soap.enterprise.sobject.Contact reportsTo) {
+        this.reportsTo = reportsTo;
+    }
+
+
+    /**
+     * Gets the reportsToId value for this Contact.
+     * 
+     * @return reportsToId
+     */
+    public java.lang.String getReportsToId() {
+        return reportsToId;
+    }
+
+
+    /**
+     * Sets the reportsToId value for this Contact.
+     * 
+     * @param reportsToId
+     */
+    public void setReportsToId(java.lang.String reportsToId) {
+        this.reportsToId = reportsToId;
+    }
+
+
+    /**
+     * Gets the salutation value for this Contact.
+     * 
+     * @return salutation
+     */
+    public java.lang.String getSalutation() {
+        return salutation;
+    }
+
+
+    /**
+     * Sets the salutation value for this Contact.
+     * 
+     * @param salutation
+     */
+    public void setSalutation(java.lang.String salutation) {
+        this.salutation = salutation;
+    }
+
+
+    /**
+     * Gets the shares value for this Contact.
+     * 
+     * @return shares
+     */
+    public com.sforce.soap.enterprise.QueryResult getShares() {
+        return shares;
+    }
+
+
+    /**
+     * Sets the shares value for this Contact.
+     * 
+     * @param shares
+     */
+    public void setShares(com.sforce.soap.enterprise.QueryResult shares) {
+        this.shares = shares;
+    }
+
+
+    /**
+     * Gets the systemModstamp value for this Contact.
+     * 
+     * @return systemModstamp
+     */
+    public java.util.Calendar getSystemModstamp() {
+        return systemModstamp;
+    }
+
+
+    /**
+     * Sets the systemModstamp value for this Contact.
+     * 
+     * @param systemModstamp
+     */
+    public void setSystemModstamp(java.util.Calendar systemModstamp) {
+        this.systemModstamp = systemModstamp;
+    }
+
+
+    /**
+     * Gets the tasks value for this Contact.
+     * 
+     * @return tasks
+     */
+    public com.sforce.soap.enterprise.QueryResult getTasks() {
+        return tasks;
+    }
+
+
+    /**
+     * Sets the tasks value for this Contact.
+     * 
+     * @param tasks
+     */
+    public void setTasks(com.sforce.soap.enterprise.QueryResult tasks) {
+        this.tasks = tasks;
+    }
+
+
+    /**
+     * Gets the title value for this Contact.
+     * 
+     * @return title
+     */
+    public java.lang.String getTitle() {
+        return title;
+    }
+
+
+    /**
+     * Sets the title value for this Contact.
+     * 
+     * @param title
+     */
+    public void setTitle(java.lang.String title) {
+        this.title = title;
+    }
+
+
+    /**
+     * Gets the topicAssignments value for this Contact.
+     * 
+     * @return topicAssignments
+     */
+    public com.sforce.soap.enterprise.QueryResult getTopicAssignments() {
+        return topicAssignments;
+    }
+
+
+    /**
+     * Sets the topicAssignments value for this Contact.
+     * 
+     * @param topicAssignments
+     */
+    public void setTopicAssignments(com.sforce.soap.enterprise.QueryResult topicAssignments) {
+        this.topicAssignments = topicAssignments;
+    }
+
+
+    /**
+     * Gets the undecidedEventRelations value for this Contact.
+     * 
+     * @return undecidedEventRelations
+     */
+    public com.sforce.soap.enterprise.QueryResult getUndecidedEventRelations() {
+        return undecidedEventRelations;
+    }
+
+
+    /**
+     * Sets the undecidedEventRelations value for this Contact.
+     * 
+     * @param undecidedEventRelations
+     */
+    public void setUndecidedEventRelations(com.sforce.soap.enterprise.QueryResult undecidedEventRelations) {
+        this.undecidedEventRelations = undecidedEventRelations;
+    }
+
+
+    /**
+     * Gets the userRecordAccess value for this Contact.
+     * 
+     * @return userRecordAccess
+     */
+    public com.sforce.soap.enterprise.sobject.UserRecordAccess getUserRecordAccess() {
+        return userRecordAccess;
+    }
+
+
+    /**
+     * Sets the userRecordAccess value for this Contact.
+     * 
+     * @param userRecordAccess
+     */
+    public void setUserRecordAccess(com.sforce.soap.enterprise.sobject.UserRecordAccess userRecordAccess) {
+        this.userRecordAccess = userRecordAccess;
+    }
+
+
+    /**
+     * Gets the zqu__County__c value for this Contact.
+     * 
+     * @return zqu__County__c
+     */
+    public java.lang.String getZqu__County__c() {
+        return zqu__County__c;
+    }
+
+
+    /**
+     * Sets the zqu__County__c value for this Contact.
+     * 
+     * @param zqu__County__c
+     */
+    public void setZqu__County__c(java.lang.String zqu__County__c) {
+        this.zqu__County__c = zqu__County__c;
+    }
+
+
+    /**
+     * Gets the zqu__Quotes2__r value for this Contact.
+     * 
+     * @return zqu__Quotes2__r
+     */
+    public com.sforce.soap.enterprise.QueryResult getZqu__Quotes2__r() {
+        return zqu__Quotes2__r;
+    }
+
+
+    /**
+     * Sets the zqu__Quotes2__r value for this Contact.
+     * 
+     * @param zqu__Quotes2__r
+     */
+    public void setZqu__Quotes2__r(com.sforce.soap.enterprise.QueryResult zqu__Quotes2__r) {
+        this.zqu__Quotes2__r = zqu__Quotes2__r;
+    }
+
+
+    /**
+     * Gets the zqu__Quotes__r value for this Contact.
+     * 
+     * @return zqu__Quotes__r
+     */
+    public com.sforce.soap.enterprise.QueryResult getZqu__Quotes__r() {
+        return zqu__Quotes__r;
+    }
+
+
+    /**
+     * Sets the zqu__Quotes__r value for this Contact.
+     * 
+     * @param zqu__Quotes__r
+     */
+    public void setZqu__Quotes__r(com.sforce.soap.enterprise.QueryResult zqu__Quotes__r) {
+        this.zqu__Quotes__r = zqu__Quotes__r;
+    }
+
+    private java.lang.Object __equalsCalc = null;
+    public synchronized boolean equals(java.lang.Object obj) {
+        if (!(obj instanceof Contact)) return false;
+        Contact other = (Contact) obj;
+        if (obj == null) return false;
+        if (this == obj) return true;
+        if (__equalsCalc != null) {
+            return (__equalsCalc == obj);
+        }
+        __equalsCalc = obj;
+        boolean _equals;
+        _equals = super.equals(obj) && 
+            ((this.acceptedEventRelations==null && other.getAcceptedEventRelations()==null) || 
+             (this.acceptedEventRelations!=null &&
+              this.acceptedEventRelations.equals(other.getAcceptedEventRelations()))) &&
+            ((this.account==null && other.getAccount()==null) || 
+             (this.account!=null &&
+              this.account.equals(other.getAccount()))) &&
+            ((this.accountContactRoles==null && other.getAccountContactRoles()==null) || 
+             (this.accountContactRoles!=null &&
+              this.accountContactRoles.equals(other.getAccountContactRoles()))) &&
+            ((this.accountId==null && other.getAccountId()==null) || 
+             (this.accountId!=null &&
+              this.accountId.equals(other.getAccountId()))) &&
+            ((this.activityHistories==null && other.getActivityHistories()==null) || 
+             (this.activityHistories!=null &&
+              this.activityHistories.equals(other.getActivityHistories()))) &&
+            ((this.assets==null && other.getAssets()==null) || 
+             (this.assets!=null &&
+              this.assets.equals(other.getAssets()))) &&
+            ((this.assistantName==null && other.getAssistantName()==null) || 
+             (this.assistantName!=null &&
+              this.assistantName.equals(other.getAssistantName()))) &&
+            ((this.assistantPhone==null && other.getAssistantPhone()==null) || 
+             (this.assistantPhone!=null &&
+              this.assistantPhone.equals(other.getAssistantPhone()))) &&
+            ((this.attachedContentDocuments==null && other.getAttachedContentDocuments()==null) || 
+             (this.attachedContentDocuments!=null &&
+              this.attachedContentDocuments.equals(other.getAttachedContentDocuments()))) &&
+            ((this.attachments==null && other.getAttachments()==null) || 
+             (this.attachments!=null &&
+              this.attachments.equals(other.getAttachments()))) &&
+            ((this.birthdate==null && other.getBirthdate()==null) || 
+             (this.birthdate!=null &&
+              this.birthdate.equals(other.getBirthdate()))) &&
+            ((this.campaignMembers==null && other.getCampaignMembers()==null) || 
+             (this.campaignMembers!=null &&
+              this.campaignMembers.equals(other.getCampaignMembers()))) &&
+            ((this.caseContactRoles==null && other.getCaseContactRoles()==null) || 
+             (this.caseContactRoles!=null &&
+              this.caseContactRoles.equals(other.getCaseContactRoles()))) &&
+            ((this.cases==null && other.getCases()==null) || 
+             (this.cases!=null &&
+              this.cases.equals(other.getCases()))) &&
+            ((this.cleanStatus==null && other.getCleanStatus()==null) || 
+             (this.cleanStatus!=null &&
+              this.cleanStatus.equals(other.getCleanStatus()))) &&
+            ((this.combinedAttachments==null && other.getCombinedAttachments()==null) || 
+             (this.combinedAttachments!=null &&
+              this.combinedAttachments.equals(other.getCombinedAttachments()))) &&
+            ((this.contactCleanInfos==null && other.getContactCleanInfos()==null) || 
+             (this.contactCleanInfos!=null &&
+              this.contactCleanInfos.equals(other.getContactCleanInfos()))) &&
+            ((this.contractContactRoles==null && other.getContractContactRoles()==null) || 
+             (this.contractContactRoles!=null &&
+              this.contractContactRoles.equals(other.getContractContactRoles()))) &&
+            ((this.contractsSigned==null && other.getContractsSigned()==null) || 
+             (this.contractsSigned!=null &&
+              this.contractsSigned.equals(other.getContractsSigned()))) &&
+            ((this.createdBy==null && other.getCreatedBy()==null) || 
+             (this.createdBy!=null &&
+              this.createdBy.equals(other.getCreatedBy()))) &&
+            ((this.createdById==null && other.getCreatedById()==null) || 
+             (this.createdById!=null &&
+              this.createdById.equals(other.getCreatedById()))) &&
+            ((this.createdDate==null && other.getCreatedDate()==null) || 
+             (this.createdDate!=null &&
+              this.createdDate.equals(other.getCreatedDate()))) &&
+            ((this.declinedEventRelations==null && other.getDeclinedEventRelations()==null) || 
+             (this.declinedEventRelations!=null &&
+              this.declinedEventRelations.equals(other.getDeclinedEventRelations()))) &&
+            ((this.department==null && other.getDepartment()==null) || 
+             (this.department!=null &&
+              this.department.equals(other.getDepartment()))) &&
+            ((this.description==null && other.getDescription()==null) || 
+             (this.description!=null &&
+              this.description.equals(other.getDescription()))) &&
+            ((this.duplicateRecordItems==null && other.getDuplicateRecordItems()==null) || 
+             (this.duplicateRecordItems!=null &&
+              this.duplicateRecordItems.equals(other.getDuplicateRecordItems()))) &&
+            ((this.email==null && other.getEmail()==null) || 
+             (this.email!=null &&
+              this.email.equals(other.getEmail()))) &&
+            ((this.emailBouncedDate==null && other.getEmailBouncedDate()==null) || 
+             (this.emailBouncedDate!=null &&
+              this.emailBouncedDate.equals(other.getEmailBouncedDate()))) &&
+            ((this.emailBouncedReason==null && other.getEmailBouncedReason()==null) || 
+             (this.emailBouncedReason!=null &&
+              this.emailBouncedReason.equals(other.getEmailBouncedReason()))) &&
+            ((this.emailStatuses==null && other.getEmailStatuses()==null) || 
+             (this.emailStatuses!=null &&
+              this.emailStatuses.equals(other.getEmailStatuses()))) &&
+            ((this.eventRelations==null && other.getEventRelations()==null) || 
+             (this.eventRelations!=null &&
+              this.eventRelations.equals(other.getEventRelations()))) &&
+            ((this.events==null && other.getEvents()==null) || 
+             (this.events!=null &&
+              this.events.equals(other.getEvents()))) &&
+            ((this.fax==null && other.getFax()==null) || 
+             (this.fax!=null &&
+              this.fax.equals(other.getFax()))) &&
+            ((this.feedSubscriptionsForEntity==null && other.getFeedSubscriptionsForEntity()==null) || 
+             (this.feedSubscriptionsForEntity!=null &&
+              this.feedSubscriptionsForEntity.equals(other.getFeedSubscriptionsForEntity()))) &&
+            ((this.feeds==null && other.getFeeds()==null) || 
+             (this.feeds!=null &&
+              this.feeds.equals(other.getFeeds()))) &&
+            ((this.firstName==null && other.getFirstName()==null) || 
+             (this.firstName!=null &&
+              this.firstName.equals(other.getFirstName()))) &&
+            ((this.histories==null && other.getHistories()==null) || 
+             (this.histories!=null &&
+              this.histories.equals(other.getHistories()))) &&
+            ((this.homePhone==null && other.getHomePhone()==null) || 
+             (this.homePhone!=null &&
+              this.homePhone.equals(other.getHomePhone()))) &&
+            ((this.isDeleted==null && other.getIsDeleted()==null) || 
+             (this.isDeleted!=null &&
+              this.isDeleted.equals(other.getIsDeleted()))) &&
+            ((this.isEmailBounced==null && other.getIsEmailBounced()==null) || 
+             (this.isEmailBounced!=null &&
+              this.isEmailBounced.equals(other.getIsEmailBounced()))) &&
+            ((this.jigsaw==null && other.getJigsaw()==null) || 
+             (this.jigsaw!=null &&
+              this.jigsaw.equals(other.getJigsaw()))) &&
+            ((this.jigsawContactId==null && other.getJigsawContactId()==null) || 
+             (this.jigsawContactId!=null &&
+              this.jigsawContactId.equals(other.getJigsawContactId()))) &&
+            ((this.languages__c==null && other.getLanguages__c()==null) || 
+             (this.languages__c!=null &&
+              this.languages__c.equals(other.getLanguages__c()))) &&
+            ((this.lastActivityDate==null && other.getLastActivityDate()==null) || 
+             (this.lastActivityDate!=null &&
+              this.lastActivityDate.equals(other.getLastActivityDate()))) &&
+            ((this.lastCURequestDate==null && other.getLastCURequestDate()==null) || 
+             (this.lastCURequestDate!=null &&
+              this.lastCURequestDate.equals(other.getLastCURequestDate()))) &&
+            ((this.lastCUUpdateDate==null && other.getLastCUUpdateDate()==null) || 
+             (this.lastCUUpdateDate!=null &&
+              this.lastCUUpdateDate.equals(other.getLastCUUpdateDate()))) &&
+            ((this.lastModifiedBy==null && other.getLastModifiedBy()==null) || 
+             (this.lastModifiedBy!=null &&
+              this.lastModifiedBy.equals(other.getLastModifiedBy()))) &&
+            ((this.lastModifiedById==null && other.getLastModifiedById()==null) || 
+             (this.lastModifiedById!=null &&
+              this.lastModifiedById.equals(other.getLastModifiedById()))) &&
+            ((this.lastModifiedDate==null && other.getLastModifiedDate()==null) || 
+             (this.lastModifiedDate!=null &&
+              this.lastModifiedDate.equals(other.getLastModifiedDate()))) &&
+            ((this.lastName==null && other.getLastName()==null) || 
+             (this.lastName!=null &&
+              this.lastName.equals(other.getLastName()))) &&
+            ((this.lastReferencedDate==null && other.getLastReferencedDate()==null) || 
+             (this.lastReferencedDate!=null &&
+              this.lastReferencedDate.equals(other.getLastReferencedDate()))) &&
+            ((this.lastViewedDate==null && other.getLastViewedDate()==null) || 
+             (this.lastViewedDate!=null &&
+              this.lastViewedDate.equals(other.getLastViewedDate()))) &&
+            ((this.leadSource==null && other.getLeadSource()==null) || 
+             (this.leadSource!=null &&
+              this.leadSource.equals(other.getLeadSource()))) &&
+            ((this.level__c==null && other.getLevel__c()==null) || 
+             (this.level__c!=null &&
+              this.level__c.equals(other.getLevel__c()))) &&
+            ((this.lookedUpFromActivities==null && other.getLookedUpFromActivities()==null) || 
+             (this.lookedUpFromActivities!=null &&
+              this.lookedUpFromActivities.equals(other.getLookedUpFromActivities()))) &&
+            ((this.mailingAddress==null && other.getMailingAddress()==null) || 
+             (this.mailingAddress!=null &&
+              this.mailingAddress.equals(other.getMailingAddress()))) &&
+            ((this.mailingCity==null && other.getMailingCity()==null) || 
+             (this.mailingCity!=null &&
+              this.mailingCity.equals(other.getMailingCity()))) &&
+            ((this.mailingCountry==null && other.getMailingCountry()==null) || 
+             (this.mailingCountry!=null &&
+              this.mailingCountry.equals(other.getMailingCountry()))) &&
+            ((this.mailingLatitude==null && other.getMailingLatitude()==null) || 
+             (this.mailingLatitude!=null &&
+              this.mailingLatitude.equals(other.getMailingLatitude()))) &&
+            ((this.mailingLongitude==null && other.getMailingLongitude()==null) || 
+             (this.mailingLongitude!=null &&
+              this.mailingLongitude.equals(other.getMailingLongitude()))) &&
+            ((this.mailingPostalCode==null && other.getMailingPostalCode()==null) || 
+             (this.mailingPostalCode!=null &&
+              this.mailingPostalCode.equals(other.getMailingPostalCode()))) &&
+            ((this.mailingState==null && other.getMailingState()==null) || 
+             (this.mailingState!=null &&
+              this.mailingState.equals(other.getMailingState()))) &&
+            ((this.mailingStreet==null && other.getMailingStreet()==null) || 
+             (this.mailingStreet!=null &&
+              this.mailingStreet.equals(other.getMailingStreet()))) &&
+            ((this.masterRecord==null && other.getMasterRecord()==null) || 
+             (this.masterRecord!=null &&
+              this.masterRecord.equals(other.getMasterRecord()))) &&
+            ((this.masterRecordId==null && other.getMasterRecordId()==null) || 
+             (this.masterRecordId!=null &&
+              this.masterRecordId.equals(other.getMasterRecordId()))) &&
+            ((this.mobilePhone==null && other.getMobilePhone()==null) || 
+             (this.mobilePhone!=null &&
+              this.mobilePhone.equals(other.getMobilePhone()))) &&
+            ((this.name==null && other.getName()==null) || 
+             (this.name!=null &&
+              this.name.equals(other.getName()))) &&
+            ((this.notes==null && other.getNotes()==null) || 
+             (this.notes!=null &&
+              this.notes.equals(other.getNotes()))) &&
+            ((this.notesAndAttachments==null && other.getNotesAndAttachments()==null) || 
+             (this.notesAndAttachments!=null &&
+              this.notesAndAttachments.equals(other.getNotesAndAttachments()))) &&
+            ((this.openActivities==null && other.getOpenActivities()==null) || 
+             (this.openActivities!=null &&
+              this.openActivities.equals(other.getOpenActivities()))) &&
+            ((this.opportunities==null && other.getOpportunities()==null) || 
+             (this.opportunities!=null &&
+              this.opportunities.equals(other.getOpportunities()))) &&
+            ((this.opportunityContactRoles==null && other.getOpportunityContactRoles()==null) || 
+             (this.opportunityContactRoles!=null &&
+              this.opportunityContactRoles.equals(other.getOpportunityContactRoles()))) &&
+            ((this.otherAddress==null && other.getOtherAddress()==null) || 
+             (this.otherAddress!=null &&
+              this.otherAddress.equals(other.getOtherAddress()))) &&
+            ((this.otherCity==null && other.getOtherCity()==null) || 
+             (this.otherCity!=null &&
+              this.otherCity.equals(other.getOtherCity()))) &&
+            ((this.otherCountry==null && other.getOtherCountry()==null) || 
+             (this.otherCountry!=null &&
+              this.otherCountry.equals(other.getOtherCountry()))) &&
+            ((this.otherLatitude==null && other.getOtherLatitude()==null) || 
+             (this.otherLatitude!=null &&
+              this.otherLatitude.equals(other.getOtherLatitude()))) &&
+            ((this.otherLongitude==null && other.getOtherLongitude()==null) || 
+             (this.otherLongitude!=null &&
+              this.otherLongitude.equals(other.getOtherLongitude()))) &&
+            ((this.otherPhone==null && other.getOtherPhone()==null) || 
+             (this.otherPhone!=null &&
+              this.otherPhone.equals(other.getOtherPhone()))) &&
+            ((this.otherPostalCode==null && other.getOtherPostalCode()==null) || 
+             (this.otherPostalCode!=null &&
+              this.otherPostalCode.equals(other.getOtherPostalCode()))) &&
+            ((this.otherState==null && other.getOtherState()==null) || 
+             (this.otherState!=null &&
+              this.otherState.equals(other.getOtherState()))) &&
+            ((this.otherStreet==null && other.getOtherStreet()==null) || 
+             (this.otherStreet!=null &&
+              this.otherStreet.equals(other.getOtherStreet()))) &&
+            ((this.owner==null && other.getOwner()==null) || 
+             (this.owner!=null &&
+              this.owner.equals(other.getOwner()))) &&
+            ((this.ownerId==null && other.getOwnerId()==null) || 
+             (this.ownerId!=null &&
+              this.ownerId.equals(other.getOwnerId()))) &&
+            ((this.phone==null && other.getPhone()==null) || 
+             (this.phone!=null &&
+              this.phone.equals(other.getPhone()))) &&
+            ((this.photoUrl==null && other.getPhotoUrl()==null) || 
+             (this.photoUrl!=null &&
+              this.photoUrl.equals(other.getPhotoUrl()))) &&
+            ((this.processInstances==null && other.getProcessInstances()==null) || 
+             (this.processInstances!=null &&
+              this.processInstances.equals(other.getProcessInstances()))) &&
+            ((this.processSteps==null && other.getProcessSteps()==null) || 
+             (this.processSteps!=null &&
+              this.processSteps.equals(other.getProcessSteps()))) &&
+            ((this.recordAssociatedGroups==null && other.getRecordAssociatedGroups()==null) || 
+             (this.recordAssociatedGroups!=null &&
+              this.recordAssociatedGroups.equals(other.getRecordAssociatedGroups()))) &&
+            ((this.reportsTo==null && other.getReportsTo()==null) || 
+             (this.reportsTo!=null &&
+              this.reportsTo.equals(other.getReportsTo()))) &&
+            ((this.reportsToId==null && other.getReportsToId()==null) || 
+             (this.reportsToId!=null &&
+              this.reportsToId.equals(other.getReportsToId()))) &&
+            ((this.salutation==null && other.getSalutation()==null) || 
+             (this.salutation!=null &&
+              this.salutation.equals(other.getSalutation()))) &&
+            ((this.shares==null && other.getShares()==null) || 
+             (this.shares!=null &&
+              this.shares.equals(other.getShares()))) &&
+            ((this.systemModstamp==null && other.getSystemModstamp()==null) || 
+             (this.systemModstamp!=null &&
+              this.systemModstamp.equals(other.getSystemModstamp()))) &&
+            ((this.tasks==null && other.getTasks()==null) || 
+             (this.tasks!=null &&
+              this.tasks.equals(other.getTasks()))) &&
+            ((this.title==null && other.getTitle()==null) || 
+             (this.title!=null &&
+              this.title.equals(other.getTitle()))) &&
+            ((this.topicAssignments==null && other.getTopicAssignments()==null) || 
+             (this.topicAssignments!=null &&
+              this.topicAssignments.equals(other.getTopicAssignments()))) &&
+            ((this.undecidedEventRelations==null && other.getUndecidedEventRelations()==null) || 
+             (this.undecidedEventRelations!=null &&
+              this.undecidedEventRelations.equals(other.getUndecidedEventRelations()))) &&
+            ((this.userRecordAccess==null && other.getUserRecordAccess()==null) || 
+             (this.userRecordAccess!=null &&
+              this.userRecordAccess.equals(other.getUserRecordAccess()))) &&
+            ((this.zqu__County__c==null && other.getZqu__County__c()==null) || 
+             (this.zqu__County__c!=null &&
+              this.zqu__County__c.equals(other.getZqu__County__c()))) &&
+            ((this.zqu__Quotes2__r==null && other.getZqu__Quotes2__r()==null) || 
+             (this.zqu__Quotes2__r!=null &&
+              this.zqu__Quotes2__r.equals(other.getZqu__Quotes2__r()))) &&
+            ((this.zqu__Quotes__r==null && other.getZqu__Quotes__r()==null) || 
+             (this.zqu__Quotes__r!=null &&
+              this.zqu__Quotes__r.equals(other.getZqu__Quotes__r())));
+        __equalsCalc = null;
+        return _equals;
+    }
+
+    private boolean __hashCodeCalc = false;
+    public synchronized int hashCode() {
+        if (__hashCodeCalc) {
+            return 0;
+        }
+        __hashCodeCalc = true;
+        int _hashCode = super.hashCode();
+        if (getAcceptedEventRelations() != null) {
+            _hashCode += getAcceptedEventRelations().hashCode();
+        }
+        if (getAccount() != null) {
+            _hashCode += getAccount().hashCode();
+        }
+        if (getAccountContactRoles() != null) {
+            _hashCode += getAccountContactRoles().hashCode();
+        }
+        if (getAccountId() != null) {
+            _hashCode += getAccountId().hashCode();
+        }
+        if (getActivityHistories() != null) {
+            _hashCode += getActivityHistories().hashCode();
+        }
+        if (getAssets() != null) {
+            _hashCode += getAssets().hashCode();
+        }
+        if (getAssistantName() != null) {
+            _hashCode += getAssistantName().hashCode();
+        }
+        if (getAssistantPhone() != null) {
+            _hashCode += getAssistantPhone().hashCode();
+        }
+        if (getAttachedContentDocuments() != null) {
+            _hashCode += getAttachedContentDocuments().hashCode();
+        }
+        if (getAttachments() != null) {
+            _hashCode += getAttachments().hashCode();
+        }
+        if (getBirthdate() != null) {
+            _hashCode += getBirthdate().hashCode();
+        }
+        if (getCampaignMembers() != null) {
+            _hashCode += getCampaignMembers().hashCode();
+        }
+        if (getCaseContactRoles() != null) {
+            _hashCode += getCaseContactRoles().hashCode();
+        }
+        if (getCases() != null) {
+            _hashCode += getCases().hashCode();
+        }
+        if (getCleanStatus() != null) {
+            _hashCode += getCleanStatus().hashCode();
+        }
+        if (getCombinedAttachments() != null) {
+            _hashCode += getCombinedAttachments().hashCode();
+        }
+        if (getContactCleanInfos() != null) {
+            _hashCode += getContactCleanInfos().hashCode();
+        }
+        if (getContractContactRoles() != null) {
+            _hashCode += getContractContactRoles().hashCode();
+        }
+        if (getContractsSigned() != null) {
+            _hashCode += getContractsSigned().hashCode();
+        }
+        if (getCreatedBy() != null) {
+            _hashCode += getCreatedBy().hashCode();
+        }
+        if (getCreatedById() != null) {
+            _hashCode += getCreatedById().hashCode();
+        }
+        if (getCreatedDate() != null) {
+            _hashCode += getCreatedDate().hashCode();
+        }
+        if (getDeclinedEventRelations() != null) {
+            _hashCode += getDeclinedEventRelations().hashCode();
+        }
+        if (getDepartment() != null) {
+            _hashCode += getDepartment().hashCode();
+        }
+        if (getDescription() != null) {
+            _hashCode += getDescription().hashCode();
+        }
+        if (getDuplicateRecordItems() != null) {
+            _hashCode += getDuplicateRecordItems().hashCode();
+        }
+        if (getEmail() != null) {
+            _hashCode += getEmail().hashCode();
+        }
+        if (getEmailBouncedDate() != null) {
+            _hashCode += getEmailBouncedDate().hashCode();
+        }
+        if (getEmailBouncedReason() != null) {
+            _hashCode += getEmailBouncedReason().hashCode();
+        }
+        if (getEmailStatuses() != null) {
+            _hashCode += getEmailStatuses().hashCode();
+        }
+        if (getEventRelations() != null) {
+            _hashCode += getEventRelations().hashCode();
+        }
+        if (getEvents() != null) {
+            _hashCode += getEvents().hashCode();
+        }
+        if (getFax() != null) {
+            _hashCode += getFax().hashCode();
+        }
+        if (getFeedSubscriptionsForEntity() != null) {
+            _hashCode += getFeedSubscriptionsForEntity().hashCode();
+        }
+        if (getFeeds() != null) {
+            _hashCode += getFeeds().hashCode();
+        }
+        if (getFirstName() != null) {
+            _hashCode += getFirstName().hashCode();
+        }
+        if (getHistories() != null) {
+            _hashCode += getHistories().hashCode();
+        }
+        if (getHomePhone() != null) {
+            _hashCode += getHomePhone().hashCode();
+        }
+        if (getIsDeleted() != null) {
+            _hashCode += getIsDeleted().hashCode();
+        }
+        if (getIsEmailBounced() != null) {
+            _hashCode += getIsEmailBounced().hashCode();
+        }
+        if (getJigsaw() != null) {
+            _hashCode += getJigsaw().hashCode();
+        }
+        if (getJigsawContactId() != null) {
+            _hashCode += getJigsawContactId().hashCode();
+        }
+        if (getLanguages__c() != null) {
+            _hashCode += getLanguages__c().hashCode();
+        }
+        if (getLastActivityDate() != null) {
+            _hashCode += getLastActivityDate().hashCode();
+        }
+        if (getLastCURequestDate() != null) {
+            _hashCode += getLastCURequestDate().hashCode();
+        }
+        if (getLastCUUpdateDate() != null) {
+            _hashCode += getLastCUUpdateDate().hashCode();
+        }
+        if (getLastModifiedBy() != null) {
+            _hashCode += getLastModifiedBy().hashCode();
+        }
+        if (getLastModifiedById() != null) {
+            _hashCode += getLastModifiedById().hashCode();
+        }
+        if (getLastModifiedDate() != null) {
+            _hashCode += getLastModifiedDate().hashCode();
+        }
+        if (getLastName() != null) {
+            _hashCode += getLastName().hashCode();
+        }
+        if (getLastReferencedDate() != null) {
+            _hashCode += getLastReferencedDate().hashCode();
+        }
+        if (getLastViewedDate() != null) {
+            _hashCode += getLastViewedDate().hashCode();
+        }
+        if (getLeadSource() != null) {
+            _hashCode += getLeadSource().hashCode();
+        }
+        if (getLevel__c() != null) {
+            _hashCode += getLevel__c().hashCode();
+        }
+        if (getLookedUpFromActivities() != null) {
+            _hashCode += getLookedUpFromActivities().hashCode();
+        }
+        if (getMailingAddress() != null) {
+            _hashCode += getMailingAddress().hashCode();
+        }
+        if (getMailingCity() != null) {
+            _hashCode += getMailingCity().hashCode();
+        }
+        if (getMailingCountry() != null) {
+            _hashCode += getMailingCountry().hashCode();
+        }
+        if (getMailingLatitude() != null) {
+            _hashCode += getMailingLatitude().hashCode();
+        }
+        if (getMailingLongitude() != null) {
+            _hashCode += getMailingLongitude().hashCode();
+        }
+        if (getMailingPostalCode() != null) {
+            _hashCode += getMailingPostalCode().hashCode();
+        }
+        if (getMailingState() != null) {
+            _hashCode += getMailingState().hashCode();
+        }
+        if (getMailingStreet() != null) {
+            _hashCode += getMailingStreet().hashCode();
+        }
+        if (getMasterRecord() != null) {
+            _hashCode += getMasterRecord().hashCode();
+        }
+        if (getMasterRecordId() != null) {
+            _hashCode += getMasterRecordId().hashCode();
+        }
+        if (getMobilePhone() != null) {
+            _hashCode += getMobilePhone().hashCode();
+        }
+        if (getName() != null) {
+            _hashCode += getName().hashCode();
+        }
+        if (getNotes() != null) {
+            _hashCode += getNotes().hashCode();
+        }
+        if (getNotesAndAttachments() != null) {
+            _hashCode += getNotesAndAttachments().hashCode();
+        }
+        if (getOpenActivities() != null) {
+            _hashCode += getOpenActivities().hashCode();
+        }
+        if (getOpportunities() != null) {
+            _hashCode += getOpportunities().hashCode();
+        }
+        if (getOpportunityContactRoles() != null) {
+            _hashCode += getOpportunityContactRoles().hashCode();
+        }
+        if (getOtherAddress() != null) {
+            _hashCode += getOtherAddress().hashCode();
+        }
+        if (getOtherCity() != null) {
+            _hashCode += getOtherCity().hashCode();
+        }
+        if (getOtherCountry() != null) {
+            _hashCode += getOtherCountry().hashCode();
+        }
+        if (getOtherLatitude() != null) {
+            _hashCode += getOtherLatitude().hashCode();
+        }
+        if (getOtherLongitude() != null) {
+            _hashCode += getOtherLongitude().hashCode();
+        }
+        if (getOtherPhone() != null) {
+            _hashCode += getOtherPhone().hashCode();
+        }
+        if (getOtherPostalCode() != null) {
+            _hashCode += getOtherPostalCode().hashCode();
+        }
+        if (getOtherState() != null) {
+            _hashCode += getOtherState().hashCode();
+        }
+        if (getOtherStreet() != null) {
+            _hashCode += getOtherStreet().hashCode();
+        }
+        if (getOwner() != null) {
+            _hashCode += getOwner().hashCode();
+        }
+        if (getOwnerId() != null) {
+            _hashCode += getOwnerId().hashCode();
+        }
+        if (getPhone() != null) {
+            _hashCode += getPhone().hashCode();
+        }
+        if (getPhotoUrl() != null) {
+            _hashCode += getPhotoUrl().hashCode();
+        }
+        if (getProcessInstances() != null) {
+            _hashCode += getProcessInstances().hashCode();
+        }
+        if (getProcessSteps() != null) {
+            _hashCode += getProcessSteps().hashCode();
+        }
+        if (getRecordAssociatedGroups() != null) {
+            _hashCode += getRecordAssociatedGroups().hashCode();
+        }
+        if (getReportsTo() != null) {
+            _hashCode += getReportsTo().hashCode();
+        }
+        if (getReportsToId() != null) {
+            _hashCode += getReportsToId().hashCode();
+        }
+        if (getSalutation() != null) {
+            _hashCode += getSalutation().hashCode();
+        }
+        if (getShares() != null) {
+            _hashCode += getShares().hashCode();
+        }
+        if (getSystemModstamp() != null) {
+            _hashCode += getSystemModstamp().hashCode();
+        }
+        if (getTasks() != null) {
+            _hashCode += getTasks().hashCode();
+        }
+        if (getTitle() != null) {
+            _hashCode += getTitle().hashCode();
+        }
+        if (getTopicAssignments() != null) {
+            _hashCode += getTopicAssignments().hashCode();
+        }
+        if (getUndecidedEventRelations() != null) {
+            _hashCode += getUndecidedEventRelations().hashCode();
+        }
+        if (getUserRecordAccess() != null) {
+            _hashCode += getUserRecordAccess().hashCode();
+        }
+        if (getZqu__County__c() != null) {
+            _hashCode += getZqu__County__c().hashCode();
+        }
+        if (getZqu__Quotes2__r() != null) {
+            _hashCode += getZqu__Quotes2__r().hashCode();
+        }
+        if (getZqu__Quotes__r() != null) {
+            _hashCode += getZqu__Quotes__r().hashCode();
+        }
+        __hashCodeCalc = false;
+        return _hashCode;
+    }
+
+    // Type metadata
+    private static org.apache.axis.description.TypeDesc typeDesc =
+        new org.apache.axis.description.TypeDesc(Contact.class, true);
+
+    static {
+        typeDesc.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Contact"));
+        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("acceptedEventRelations");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "AcceptedEventRelations"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("account");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Account"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Account"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("accountContactRoles");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "AccountContactRoles"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("accountId");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "AccountId"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("activityHistories");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "ActivityHistories"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("assets");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Assets"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("assistantName");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "AssistantName"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("assistantPhone");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "AssistantPhone"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("attachedContentDocuments");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "AttachedContentDocuments"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("attachments");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Attachments"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("birthdate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Birthdate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "date"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("campaignMembers");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CampaignMembers"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("caseContactRoles");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CaseContactRoles"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("cases");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Cases"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("cleanStatus");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CleanStatus"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("combinedAttachments");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CombinedAttachments"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("contactCleanInfos");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "ContactCleanInfos"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("contractContactRoles");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "ContractContactRoles"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("contractsSigned");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "ContractsSigned"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("createdBy");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CreatedBy"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "User"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("createdById");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CreatedById"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("createdDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CreatedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("declinedEventRelations");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "DeclinedEventRelations"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("department");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Department"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("description");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Description"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("duplicateRecordItems");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "DuplicateRecordItems"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("email");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Email"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("emailBouncedDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "EmailBouncedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("emailBouncedReason");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "EmailBouncedReason"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("emailStatuses");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "EmailStatuses"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("eventRelations");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "EventRelations"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("events");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Events"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("fax");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Fax"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("feedSubscriptionsForEntity");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "FeedSubscriptionsForEntity"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("feeds");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Feeds"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("firstName");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "FirstName"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("histories");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Histories"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("homePhone");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "HomePhone"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("isDeleted");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "IsDeleted"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("isEmailBounced");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "IsEmailBounced"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("jigsaw");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Jigsaw"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("jigsawContactId");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "JigsawContactId"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("languages__c");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Languages__c"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastActivityDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastActivityDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "date"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastCURequestDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastCURequestDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastCUUpdateDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastCUUpdateDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastModifiedBy");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastModifiedBy"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "User"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastModifiedById");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastModifiedById"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastModifiedDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastModifiedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastName");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastName"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastReferencedDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastReferencedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastViewedDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastViewedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("leadSource");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LeadSource"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("level__c");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Level__c"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lookedUpFromActivities");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LookedUpFromActivities"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("mailingAddress");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MailingAddress"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "address"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("mailingCity");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MailingCity"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("mailingCountry");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MailingCountry"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("mailingLatitude");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MailingLatitude"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "double"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("mailingLongitude");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MailingLongitude"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "double"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("mailingPostalCode");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MailingPostalCode"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("mailingState");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MailingState"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("mailingStreet");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MailingStreet"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("masterRecord");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MasterRecord"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Contact"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("masterRecordId");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MasterRecordId"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("mobilePhone");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "MobilePhone"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("name");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Name"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("notes");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Notes"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("notesAndAttachments");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "NotesAndAttachments"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("openActivities");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OpenActivities"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("opportunities");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Opportunities"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("opportunityContactRoles");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OpportunityContactRoles"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("otherAddress");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OtherAddress"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "address"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("otherCity");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OtherCity"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("otherCountry");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OtherCountry"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("otherLatitude");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OtherLatitude"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "double"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("otherLongitude");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OtherLongitude"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "double"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("otherPhone");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OtherPhone"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("otherPostalCode");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OtherPostalCode"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("otherState");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OtherState"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("otherStreet");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OtherStreet"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("owner");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Owner"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "User"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("ownerId");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "OwnerId"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("phone");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Phone"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("photoUrl");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PhotoUrl"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("processInstances");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "ProcessInstances"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("processSteps");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "ProcessSteps"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("recordAssociatedGroups");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "RecordAssociatedGroups"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("reportsTo");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "ReportsTo"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Contact"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("reportsToId");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "ReportsToId"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("salutation");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Salutation"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("shares");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Shares"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("systemModstamp");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "SystemModstamp"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("tasks");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Tasks"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("title");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Title"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("topicAssignments");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "TopicAssignments"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("undecidedEventRelations");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "UndecidedEventRelations"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("userRecordAccess");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "UserRecordAccess"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "UserRecordAccess"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("zqu__County__c");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "zqu__County__c"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("zqu__Quotes2__r");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "zqu__Quotes2__r"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("zqu__Quotes__r");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "zqu__Quotes__r"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+    }
+
+    /**
+     * Return type metadata object
+     */
+    public static org.apache.axis.description.TypeDesc getTypeDesc() {
+        return typeDesc;
+    }
+
+    /**
+     * Get Custom Serializer
+     */
+    public static org.apache.axis.encoding.Serializer getSerializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanSerializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+    /**
+     * Get Custom Deserializer
+     */
+    public static org.apache.axis.encoding.Deserializer getDeserializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanDeserializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+}

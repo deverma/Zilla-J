@@ -1,1 +1,5823 @@
-package com.sforce.soap.enterprise.sobject;/** * Generated class, please do not edit. */public class Profile extends com.sforce.soap.enterprise.sobject.SObject {  /**   * Constructor   */  public Profile() {  }        /**   * element  : CreatedBy of type {urn:sobject.enterprise.soap.sforce.com}User   * java type: com.sforce.soap.enterprise.sobject.User   */  private static final com.sforce.ws.bind.TypeInfo CreatedBy__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","CreatedBy","urn:sobject.enterprise.soap.sforce.com","User",0,1,true);  private boolean CreatedBy__is_set = false;  private com.sforce.soap.enterprise.sobject.User CreatedBy;  public com.sforce.soap.enterprise.sobject.User getCreatedBy() {    return CreatedBy;  }    public void setCreatedBy(com.sforce.soap.enterprise.sobject.User CreatedBy) {    this.CreatedBy = CreatedBy;    CreatedBy__is_set = true;  }    /**   * element  : CreatedById of type {urn:enterprise.soap.sforce.com}ID   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo CreatedById__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","CreatedById","urn:enterprise.soap.sforce.com","ID",0,1,true);  private boolean CreatedById__is_set = false;  private java.lang.String CreatedById;  public java.lang.String getCreatedById() {    return CreatedById;  }    public void setCreatedById(java.lang.String CreatedById) {    this.CreatedById = CreatedById;    CreatedById__is_set = true;  }    /**   * element  : CreatedDate of type {http://www.w3.org/2001/XMLSchema}dateTime   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo CreatedDate__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","CreatedDate","http://www.w3.org/2001/XMLSchema","dateTime",0,1,true);  private boolean CreatedDate__is_set = false;  private java.util.Calendar CreatedDate;  public java.util.Calendar getCreatedDate() {    return CreatedDate;  }    public void setCreatedDate(java.util.Calendar CreatedDate) {    this.CreatedDate = CreatedDate;    CreatedDate__is_set = true;  }    /**   * element  : Description of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Description__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Description","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Description__is_set = false;  private java.lang.String Description;  public java.lang.String getDescription() {    return Description;  }    public void setDescription(java.lang.String Description) {    this.Description = Description;    Description__is_set = true;  }    /**   * element  : LastModifiedBy of type {urn:sobject.enterprise.soap.sforce.com}User   * java type: com.sforce.soap.enterprise.sobject.User   */  private static final com.sforce.ws.bind.TypeInfo LastModifiedBy__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastModifiedBy","urn:sobject.enterprise.soap.sforce.com","User",0,1,true);  private boolean LastModifiedBy__is_set = false;  private com.sforce.soap.enterprise.sobject.User LastModifiedBy;  public com.sforce.soap.enterprise.sobject.User getLastModifiedBy() {    return LastModifiedBy;  }    public void setLastModifiedBy(com.sforce.soap.enterprise.sobject.User LastModifiedBy) {    this.LastModifiedBy = LastModifiedBy;    LastModifiedBy__is_set = true;  }    /**   * element  : LastModifiedById of type {urn:enterprise.soap.sforce.com}ID   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo LastModifiedById__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastModifiedById","urn:enterprise.soap.sforce.com","ID",0,1,true);  private boolean LastModifiedById__is_set = false;  private java.lang.String LastModifiedById;  public java.lang.String getLastModifiedById() {    return LastModifiedById;  }    public void setLastModifiedById(java.lang.String LastModifiedById) {    this.LastModifiedById = LastModifiedById;    LastModifiedById__is_set = true;  }    /**   * element  : LastModifiedDate of type {http://www.w3.org/2001/XMLSchema}dateTime   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo LastModifiedDate__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","LastModifiedDate","http://www.w3.org/2001/XMLSchema","dateTime",0,1,true);  private boolean LastModifiedDate__is_set = false;  private java.util.Calendar LastModifiedDate;  public java.util.Calendar getLastModifiedDate() {    return LastModifiedDate;  }    public void setLastModifiedDate(java.util.Calendar LastModifiedDate) {    this.LastModifiedDate = LastModifiedDate;    LastModifiedDate__is_set = true;  }    /**   * element  : Name of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo Name__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Name","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean Name__is_set = false;  private java.lang.String Name;  public java.lang.String getName() {    return Name;  }    public void setName(java.lang.String Name) {    this.Name = Name;    Name__is_set = true;  }    /**   * element  : PermissionsApiEnabled of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsApiEnabled__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsApiEnabled","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsApiEnabled__is_set = false;  private java.lang.Boolean PermissionsApiEnabled;  public java.lang.Boolean getPermissionsApiEnabled() {    return PermissionsApiEnabled;  }    public void setPermissionsApiEnabled(java.lang.Boolean PermissionsApiEnabled) {    this.PermissionsApiEnabled = PermissionsApiEnabled;    PermissionsApiEnabled__is_set = true;  }    /**   * element  : PermissionsAuthorApex of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsAuthorApex__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsAuthorApex","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsAuthorApex__is_set = false;  private java.lang.Boolean PermissionsAuthorApex;  public java.lang.Boolean getPermissionsAuthorApex() {    return PermissionsAuthorApex;  }    public void setPermissionsAuthorApex(java.lang.Boolean PermissionsAuthorApex) {    this.PermissionsAuthorApex = PermissionsAuthorApex;    PermissionsAuthorApex__is_set = true;  }    /**   * element  : PermissionsBulkApiHardDelete of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsBulkApiHardDelete__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsBulkApiHardDelete","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsBulkApiHardDelete__is_set = false;  private java.lang.Boolean PermissionsBulkApiHardDelete;  public java.lang.Boolean getPermissionsBulkApiHardDelete() {    return PermissionsBulkApiHardDelete;  }    public void setPermissionsBulkApiHardDelete(java.lang.Boolean PermissionsBulkApiHardDelete) {    this.PermissionsBulkApiHardDelete = PermissionsBulkApiHardDelete;    PermissionsBulkApiHardDelete__is_set = true;  }    /**   * element  : PermissionsCanInsertFeedSystemFields of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsCanInsertFeedSystemFields__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsCanInsertFeedSystemFields","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsCanInsertFeedSystemFields__is_set = false;  private java.lang.Boolean PermissionsCanInsertFeedSystemFields;  public java.lang.Boolean getPermissionsCanInsertFeedSystemFields() {    return PermissionsCanInsertFeedSystemFields;  }    public void setPermissionsCanInsertFeedSystemFields(java.lang.Boolean PermissionsCanInsertFeedSystemFields) {    this.PermissionsCanInsertFeedSystemFields = PermissionsCanInsertFeedSystemFields;    PermissionsCanInsertFeedSystemFields__is_set = true;  }    /**   * element  : PermissionsCanUseNewDashboardBuilder of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsCanUseNewDashboardBuilder__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsCanUseNewDashboardBuilder","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsCanUseNewDashboardBuilder__is_set = false;  private java.lang.Boolean PermissionsCanUseNewDashboardBuilder;  public java.lang.Boolean getPermissionsCanUseNewDashboardBuilder() {    return PermissionsCanUseNewDashboardBuilder;  }    public void setPermissionsCanUseNewDashboardBuilder(java.lang.Boolean PermissionsCanUseNewDashboardBuilder) {    this.PermissionsCanUseNewDashboardBuilder = PermissionsCanUseNewDashboardBuilder;    PermissionsCanUseNewDashboardBuilder__is_set = true;  }    /**   * element  : PermissionsChatterFileLink of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsChatterFileLink__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsChatterFileLink","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsChatterFileLink__is_set = false;  private java.lang.Boolean PermissionsChatterFileLink;  public java.lang.Boolean getPermissionsChatterFileLink() {    return PermissionsChatterFileLink;  }    public void setPermissionsChatterFileLink(java.lang.Boolean PermissionsChatterFileLink) {    this.PermissionsChatterFileLink = PermissionsChatterFileLink;    PermissionsChatterFileLink__is_set = true;  }    /**   * element  : PermissionsConvertLeads of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsConvertLeads__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsConvertLeads","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsConvertLeads__is_set = false;  private java.lang.Boolean PermissionsConvertLeads;  public java.lang.Boolean getPermissionsConvertLeads() {    return PermissionsConvertLeads;  }    public void setPermissionsConvertLeads(java.lang.Boolean PermissionsConvertLeads) {    this.PermissionsConvertLeads = PermissionsConvertLeads;    PermissionsConvertLeads__is_set = true;  }    /**   * element  : PermissionsCreateMultiforce of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsCreateMultiforce__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsCreateMultiforce","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsCreateMultiforce__is_set = false;  private java.lang.Boolean PermissionsCreateMultiforce;  public java.lang.Boolean getPermissionsCreateMultiforce() {    return PermissionsCreateMultiforce;  }    public void setPermissionsCreateMultiforce(java.lang.Boolean PermissionsCreateMultiforce) {    this.PermissionsCreateMultiforce = PermissionsCreateMultiforce;    PermissionsCreateMultiforce__is_set = true;  }    /**   * element  : PermissionsCustomizeApplication of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsCustomizeApplication__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsCustomizeApplication","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsCustomizeApplication__is_set = false;  private java.lang.Boolean PermissionsCustomizeApplication;  public java.lang.Boolean getPermissionsCustomizeApplication() {    return PermissionsCustomizeApplication;  }    public void setPermissionsCustomizeApplication(java.lang.Boolean PermissionsCustomizeApplication) {    this.PermissionsCustomizeApplication = PermissionsCustomizeApplication;    PermissionsCustomizeApplication__is_set = true;  }    /**   * element  : PermissionsDistributeFromPersWksp of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsDistributeFromPersWksp__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsDistributeFromPersWksp","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsDistributeFromPersWksp__is_set = false;  private java.lang.Boolean PermissionsDistributeFromPersWksp;  public java.lang.Boolean getPermissionsDistributeFromPersWksp() {    return PermissionsDistributeFromPersWksp;  }    public void setPermissionsDistributeFromPersWksp(java.lang.Boolean PermissionsDistributeFromPersWksp) {    this.PermissionsDistributeFromPersWksp = PermissionsDistributeFromPersWksp;    PermissionsDistributeFromPersWksp__is_set = true;  }    /**   * element  : PermissionsEditCaseComments of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEditCaseComments__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEditCaseComments","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEditCaseComments__is_set = false;  private java.lang.Boolean PermissionsEditCaseComments;  public java.lang.Boolean getPermissionsEditCaseComments() {    return PermissionsEditCaseComments;  }    public void setPermissionsEditCaseComments(java.lang.Boolean PermissionsEditCaseComments) {    this.PermissionsEditCaseComments = PermissionsEditCaseComments;    PermissionsEditCaseComments__is_set = true;  }    /**   * element  : PermissionsEditEvent of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEditEvent__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEditEvent","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEditEvent__is_set = false;  private java.lang.Boolean PermissionsEditEvent;  public java.lang.Boolean getPermissionsEditEvent() {    return PermissionsEditEvent;  }    public void setPermissionsEditEvent(java.lang.Boolean PermissionsEditEvent) {    this.PermissionsEditEvent = PermissionsEditEvent;    PermissionsEditEvent__is_set = true;  }    /**   * element  : PermissionsEditKnowledge of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEditKnowledge__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEditKnowledge","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEditKnowledge__is_set = false;  private java.lang.Boolean PermissionsEditKnowledge;  public java.lang.Boolean getPermissionsEditKnowledge() {    return PermissionsEditKnowledge;  }    public void setPermissionsEditKnowledge(java.lang.Boolean PermissionsEditKnowledge) {    this.PermissionsEditKnowledge = PermissionsEditKnowledge;    PermissionsEditKnowledge__is_set = true;  }    /**   * element  : PermissionsEditOppLineItemUnitPrice of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEditOppLineItemUnitPrice__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEditOppLineItemUnitPrice","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEditOppLineItemUnitPrice__is_set = false;  private java.lang.Boolean PermissionsEditOppLineItemUnitPrice;  public java.lang.Boolean getPermissionsEditOppLineItemUnitPrice() {    return PermissionsEditOppLineItemUnitPrice;  }    public void setPermissionsEditOppLineItemUnitPrice(java.lang.Boolean PermissionsEditOppLineItemUnitPrice) {    this.PermissionsEditOppLineItemUnitPrice = PermissionsEditOppLineItemUnitPrice;    PermissionsEditOppLineItemUnitPrice__is_set = true;  }    /**   * element  : PermissionsEditPublicDocuments of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEditPublicDocuments__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEditPublicDocuments","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEditPublicDocuments__is_set = false;  private java.lang.Boolean PermissionsEditPublicDocuments;  public java.lang.Boolean getPermissionsEditPublicDocuments() {    return PermissionsEditPublicDocuments;  }    public void setPermissionsEditPublicDocuments(java.lang.Boolean PermissionsEditPublicDocuments) {    this.PermissionsEditPublicDocuments = PermissionsEditPublicDocuments;    PermissionsEditPublicDocuments__is_set = true;  }    /**   * element  : PermissionsEditReadonlyFields of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEditReadonlyFields__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEditReadonlyFields","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEditReadonlyFields__is_set = false;  private java.lang.Boolean PermissionsEditReadonlyFields;  public java.lang.Boolean getPermissionsEditReadonlyFields() {    return PermissionsEditReadonlyFields;  }    public void setPermissionsEditReadonlyFields(java.lang.Boolean PermissionsEditReadonlyFields) {    this.PermissionsEditReadonlyFields = PermissionsEditReadonlyFields;    PermissionsEditReadonlyFields__is_set = true;  }    /**   * element  : PermissionsEditReports of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEditReports__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEditReports","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEditReports__is_set = false;  private java.lang.Boolean PermissionsEditReports;  public java.lang.Boolean getPermissionsEditReports() {    return PermissionsEditReports;  }    public void setPermissionsEditReports(java.lang.Boolean PermissionsEditReports) {    this.PermissionsEditReports = PermissionsEditReports;    PermissionsEditReports__is_set = true;  }    /**   * element  : PermissionsEditTask of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEditTask__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEditTask","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEditTask__is_set = false;  private java.lang.Boolean PermissionsEditTask;  public java.lang.Boolean getPermissionsEditTask() {    return PermissionsEditTask;  }    public void setPermissionsEditTask(java.lang.Boolean PermissionsEditTask) {    this.PermissionsEditTask = PermissionsEditTask;    PermissionsEditTask__is_set = true;  }    /**   * element  : PermissionsEmailAdministration of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEmailAdministration__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEmailAdministration","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEmailAdministration__is_set = false;  private java.lang.Boolean PermissionsEmailAdministration;  public java.lang.Boolean getPermissionsEmailAdministration() {    return PermissionsEmailAdministration;  }    public void setPermissionsEmailAdministration(java.lang.Boolean PermissionsEmailAdministration) {    this.PermissionsEmailAdministration = PermissionsEmailAdministration;    PermissionsEmailAdministration__is_set = true;  }    /**   * element  : PermissionsEmailTemplateManagement of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEmailTemplateManagement__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEmailTemplateManagement","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEmailTemplateManagement__is_set = false;  private java.lang.Boolean PermissionsEmailTemplateManagement;  public java.lang.Boolean getPermissionsEmailTemplateManagement() {    return PermissionsEmailTemplateManagement;  }    public void setPermissionsEmailTemplateManagement(java.lang.Boolean PermissionsEmailTemplateManagement) {    this.PermissionsEmailTemplateManagement = PermissionsEmailTemplateManagement;    PermissionsEmailTemplateManagement__is_set = true;  }    /**   * element  : PermissionsEnableNotifications of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsEnableNotifications__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsEnableNotifications","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsEnableNotifications__is_set = false;  private java.lang.Boolean PermissionsEnableNotifications;  public java.lang.Boolean getPermissionsEnableNotifications() {    return PermissionsEnableNotifications;  }    public void setPermissionsEnableNotifications(java.lang.Boolean PermissionsEnableNotifications) {    this.PermissionsEnableNotifications = PermissionsEnableNotifications;    PermissionsEnableNotifications__is_set = true;  }    /**   * element  : PermissionsFlowUFLRequired of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsFlowUFLRequired__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsFlowUFLRequired","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsFlowUFLRequired__is_set = false;  private java.lang.Boolean PermissionsFlowUFLRequired;  public java.lang.Boolean getPermissionsFlowUFLRequired() {    return PermissionsFlowUFLRequired;  }    public void setPermissionsFlowUFLRequired(java.lang.Boolean PermissionsFlowUFLRequired) {    this.PermissionsFlowUFLRequired = PermissionsFlowUFLRequired;    PermissionsFlowUFLRequired__is_set = true;  }    /**   * element  : PermissionsImportLeads of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsImportLeads__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsImportLeads","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsImportLeads__is_set = false;  private java.lang.Boolean PermissionsImportLeads;  public java.lang.Boolean getPermissionsImportLeads() {    return PermissionsImportLeads;  }    public void setPermissionsImportLeads(java.lang.Boolean PermissionsImportLeads) {    this.PermissionsImportLeads = PermissionsImportLeads;    PermissionsImportLeads__is_set = true;  }    /**   * element  : PermissionsInstallMultiforce of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsInstallMultiforce__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsInstallMultiforce","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsInstallMultiforce__is_set = false;  private java.lang.Boolean PermissionsInstallMultiforce;  public java.lang.Boolean getPermissionsInstallMultiforce() {    return PermissionsInstallMultiforce;  }    public void setPermissionsInstallMultiforce(java.lang.Boolean PermissionsInstallMultiforce) {    this.PermissionsInstallMultiforce = PermissionsInstallMultiforce;    PermissionsInstallMultiforce__is_set = true;  }    /**   * element  : PermissionsManageAnalyticSnapshots of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageAnalyticSnapshots__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageAnalyticSnapshots","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageAnalyticSnapshots__is_set = false;  private java.lang.Boolean PermissionsManageAnalyticSnapshots;  public java.lang.Boolean getPermissionsManageAnalyticSnapshots() {    return PermissionsManageAnalyticSnapshots;  }    public void setPermissionsManageAnalyticSnapshots(java.lang.Boolean PermissionsManageAnalyticSnapshots) {    this.PermissionsManageAnalyticSnapshots = PermissionsManageAnalyticSnapshots;    PermissionsManageAnalyticSnapshots__is_set = true;  }    /**   * element  : PermissionsManageAuthProviders of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageAuthProviders__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageAuthProviders","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageAuthProviders__is_set = false;  private java.lang.Boolean PermissionsManageAuthProviders;  public java.lang.Boolean getPermissionsManageAuthProviders() {    return PermissionsManageAuthProviders;  }    public void setPermissionsManageAuthProviders(java.lang.Boolean PermissionsManageAuthProviders) {    this.PermissionsManageAuthProviders = PermissionsManageAuthProviders;    PermissionsManageAuthProviders__is_set = true;  }    /**   * element  : PermissionsManageBusinessHourHolidays of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageBusinessHourHolidays__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageBusinessHourHolidays","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageBusinessHourHolidays__is_set = false;  private java.lang.Boolean PermissionsManageBusinessHourHolidays;  public java.lang.Boolean getPermissionsManageBusinessHourHolidays() {    return PermissionsManageBusinessHourHolidays;  }    public void setPermissionsManageBusinessHourHolidays(java.lang.Boolean PermissionsManageBusinessHourHolidays) {    this.PermissionsManageBusinessHourHolidays = PermissionsManageBusinessHourHolidays;    PermissionsManageBusinessHourHolidays__is_set = true;  }    /**   * element  : PermissionsManageCallCenters of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageCallCenters__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageCallCenters","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageCallCenters__is_set = false;  private java.lang.Boolean PermissionsManageCallCenters;  public java.lang.Boolean getPermissionsManageCallCenters() {    return PermissionsManageCallCenters;  }    public void setPermissionsManageCallCenters(java.lang.Boolean PermissionsManageCallCenters) {    this.PermissionsManageCallCenters = PermissionsManageCallCenters;    PermissionsManageCallCenters__is_set = true;  }    /**   * element  : PermissionsManageCases of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageCases__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageCases","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageCases__is_set = false;  private java.lang.Boolean PermissionsManageCases;  public java.lang.Boolean getPermissionsManageCases() {    return PermissionsManageCases;  }    public void setPermissionsManageCases(java.lang.Boolean PermissionsManageCases) {    this.PermissionsManageCases = PermissionsManageCases;    PermissionsManageCases__is_set = true;  }    /**   * element  : PermissionsManageCategories of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageCategories__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageCategories","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageCategories__is_set = false;  private java.lang.Boolean PermissionsManageCategories;  public java.lang.Boolean getPermissionsManageCategories() {    return PermissionsManageCategories;  }    public void setPermissionsManageCategories(java.lang.Boolean PermissionsManageCategories) {    this.PermissionsManageCategories = PermissionsManageCategories;    PermissionsManageCategories__is_set = true;  }    /**   * element  : PermissionsManageChatterMessages of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageChatterMessages__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageChatterMessages","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageChatterMessages__is_set = false;  private java.lang.Boolean PermissionsManageChatterMessages;  public java.lang.Boolean getPermissionsManageChatterMessages() {    return PermissionsManageChatterMessages;  }    public void setPermissionsManageChatterMessages(java.lang.Boolean PermissionsManageChatterMessages) {    this.PermissionsManageChatterMessages = PermissionsManageChatterMessages;    PermissionsManageChatterMessages__is_set = true;  }    /**   * element  : PermissionsManageCssUsers of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageCssUsers__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageCssUsers","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageCssUsers__is_set = false;  private java.lang.Boolean PermissionsManageCssUsers;  public java.lang.Boolean getPermissionsManageCssUsers() {    return PermissionsManageCssUsers;  }    public void setPermissionsManageCssUsers(java.lang.Boolean PermissionsManageCssUsers) {    this.PermissionsManageCssUsers = PermissionsManageCssUsers;    PermissionsManageCssUsers__is_set = true;  }    /**   * element  : PermissionsManageCustomReportTypes of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageCustomReportTypes__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageCustomReportTypes","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageCustomReportTypes__is_set = false;  private java.lang.Boolean PermissionsManageCustomReportTypes;  public java.lang.Boolean getPermissionsManageCustomReportTypes() {    return PermissionsManageCustomReportTypes;  }    public void setPermissionsManageCustomReportTypes(java.lang.Boolean PermissionsManageCustomReportTypes) {    this.PermissionsManageCustomReportTypes = PermissionsManageCustomReportTypes;    PermissionsManageCustomReportTypes__is_set = true;  }    /**   * element  : PermissionsManageDashboards of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageDashboards__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageDashboards","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageDashboards__is_set = false;  private java.lang.Boolean PermissionsManageDashboards;  public java.lang.Boolean getPermissionsManageDashboards() {    return PermissionsManageDashboards;  }    public void setPermissionsManageDashboards(java.lang.Boolean PermissionsManageDashboards) {    this.PermissionsManageDashboards = PermissionsManageDashboards;    PermissionsManageDashboards__is_set = true;  }    /**   * element  : PermissionsManageDataCategories of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageDataCategories__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageDataCategories","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageDataCategories__is_set = false;  private java.lang.Boolean PermissionsManageDataCategories;  public java.lang.Boolean getPermissionsManageDataCategories() {    return PermissionsManageDataCategories;  }    public void setPermissionsManageDataCategories(java.lang.Boolean PermissionsManageDataCategories) {    this.PermissionsManageDataCategories = PermissionsManageDataCategories;    PermissionsManageDataCategories__is_set = true;  }    /**   * element  : PermissionsManageDataIntegrations of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageDataIntegrations__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageDataIntegrations","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageDataIntegrations__is_set = false;  private java.lang.Boolean PermissionsManageDataIntegrations;  public java.lang.Boolean getPermissionsManageDataIntegrations() {    return PermissionsManageDataIntegrations;  }    public void setPermissionsManageDataIntegrations(java.lang.Boolean PermissionsManageDataIntegrations) {    this.PermissionsManageDataIntegrations = PermissionsManageDataIntegrations;    PermissionsManageDataIntegrations__is_set = true;  }    /**   * element  : PermissionsManageDynamicDashboards of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageDynamicDashboards__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageDynamicDashboards","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageDynamicDashboards__is_set = false;  private java.lang.Boolean PermissionsManageDynamicDashboards;  public java.lang.Boolean getPermissionsManageDynamicDashboards() {    return PermissionsManageDynamicDashboards;  }    public void setPermissionsManageDynamicDashboards(java.lang.Boolean PermissionsManageDynamicDashboards) {    this.PermissionsManageDynamicDashboards = PermissionsManageDynamicDashboards;    PermissionsManageDynamicDashboards__is_set = true;  }    /**   * element  : PermissionsManageEmailClientConfig of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageEmailClientConfig__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageEmailClientConfig","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageEmailClientConfig__is_set = false;  private java.lang.Boolean PermissionsManageEmailClientConfig;  public java.lang.Boolean getPermissionsManageEmailClientConfig() {    return PermissionsManageEmailClientConfig;  }    public void setPermissionsManageEmailClientConfig(java.lang.Boolean PermissionsManageEmailClientConfig) {    this.PermissionsManageEmailClientConfig = PermissionsManageEmailClientConfig;    PermissionsManageEmailClientConfig__is_set = true;  }    /**   * element  : PermissionsManageInteraction of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageInteraction__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageInteraction","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageInteraction__is_set = false;  private java.lang.Boolean PermissionsManageInteraction;  public java.lang.Boolean getPermissionsManageInteraction() {    return PermissionsManageInteraction;  }    public void setPermissionsManageInteraction(java.lang.Boolean PermissionsManageInteraction) {    this.PermissionsManageInteraction = PermissionsManageInteraction;    PermissionsManageInteraction__is_set = true;  }    /**   * element  : PermissionsManageKnowledge of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageKnowledge__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageKnowledge","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageKnowledge__is_set = false;  private java.lang.Boolean PermissionsManageKnowledge;  public java.lang.Boolean getPermissionsManageKnowledge() {    return PermissionsManageKnowledge;  }    public void setPermissionsManageKnowledge(java.lang.Boolean PermissionsManageKnowledge) {    this.PermissionsManageKnowledge = PermissionsManageKnowledge;    PermissionsManageKnowledge__is_set = true;  }    /**   * element  : PermissionsManageKnowledgeImportExport of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageKnowledgeImportExport__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageKnowledgeImportExport","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageKnowledgeImportExport__is_set = false;  private java.lang.Boolean PermissionsManageKnowledgeImportExport;  public java.lang.Boolean getPermissionsManageKnowledgeImportExport() {    return PermissionsManageKnowledgeImportExport;  }    public void setPermissionsManageKnowledgeImportExport(java.lang.Boolean PermissionsManageKnowledgeImportExport) {    this.PermissionsManageKnowledgeImportExport = PermissionsManageKnowledgeImportExport;    PermissionsManageKnowledgeImportExport__is_set = true;  }    /**   * element  : PermissionsManageLeads of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageLeads__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageLeads","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageLeads__is_set = false;  private java.lang.Boolean PermissionsManageLeads;  public java.lang.Boolean getPermissionsManageLeads() {    return PermissionsManageLeads;  }    public void setPermissionsManageLeads(java.lang.Boolean PermissionsManageLeads) {    this.PermissionsManageLeads = PermissionsManageLeads;    PermissionsManageLeads__is_set = true;  }    /**   * element  : PermissionsManageMobile of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageMobile__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageMobile","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageMobile__is_set = false;  private java.lang.Boolean PermissionsManageMobile;  public java.lang.Boolean getPermissionsManageMobile() {    return PermissionsManageMobile;  }    public void setPermissionsManageMobile(java.lang.Boolean PermissionsManageMobile) {    this.PermissionsManageMobile = PermissionsManageMobile;    PermissionsManageMobile__is_set = true;  }    /**   * element  : PermissionsManageRemoteAccess of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageRemoteAccess__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageRemoteAccess","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageRemoteAccess__is_set = false;  private java.lang.Boolean PermissionsManageRemoteAccess;  public java.lang.Boolean getPermissionsManageRemoteAccess() {    return PermissionsManageRemoteAccess;  }    public void setPermissionsManageRemoteAccess(java.lang.Boolean PermissionsManageRemoteAccess) {    this.PermissionsManageRemoteAccess = PermissionsManageRemoteAccess;    PermissionsManageRemoteAccess__is_set = true;  }    /**   * element  : PermissionsManageSelfService of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageSelfService__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageSelfService","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageSelfService__is_set = false;  private java.lang.Boolean PermissionsManageSelfService;  public java.lang.Boolean getPermissionsManageSelfService() {    return PermissionsManageSelfService;  }    public void setPermissionsManageSelfService(java.lang.Boolean PermissionsManageSelfService) {    this.PermissionsManageSelfService = PermissionsManageSelfService;    PermissionsManageSelfService__is_set = true;  }    /**   * element  : PermissionsManageSolutions of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageSolutions__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageSolutions","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageSolutions__is_set = false;  private java.lang.Boolean PermissionsManageSolutions;  public java.lang.Boolean getPermissionsManageSolutions() {    return PermissionsManageSolutions;  }    public void setPermissionsManageSolutions(java.lang.Boolean PermissionsManageSolutions) {    this.PermissionsManageSolutions = PermissionsManageSolutions;    PermissionsManageSolutions__is_set = true;  }    /**   * element  : PermissionsManageSynonyms of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageSynonyms__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageSynonyms","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageSynonyms__is_set = false;  private java.lang.Boolean PermissionsManageSynonyms;  public java.lang.Boolean getPermissionsManageSynonyms() {    return PermissionsManageSynonyms;  }    public void setPermissionsManageSynonyms(java.lang.Boolean PermissionsManageSynonyms) {    this.PermissionsManageSynonyms = PermissionsManageSynonyms;    PermissionsManageSynonyms__is_set = true;  }    /**   * element  : PermissionsManageUsers of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsManageUsers__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsManageUsers","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsManageUsers__is_set = false;  private java.lang.Boolean PermissionsManageUsers;  public java.lang.Boolean getPermissionsManageUsers() {    return PermissionsManageUsers;  }    public void setPermissionsManageUsers(java.lang.Boolean PermissionsManageUsers) {    this.PermissionsManageUsers = PermissionsManageUsers;    PermissionsManageUsers__is_set = true;  }    /**   * element  : PermissionsMassInlineEdit of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsMassInlineEdit__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsMassInlineEdit","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsMassInlineEdit__is_set = false;  private java.lang.Boolean PermissionsMassInlineEdit;  public java.lang.Boolean getPermissionsMassInlineEdit() {    return PermissionsMassInlineEdit;  }    public void setPermissionsMassInlineEdit(java.lang.Boolean PermissionsMassInlineEdit) {    this.PermissionsMassInlineEdit = PermissionsMassInlineEdit;    PermissionsMassInlineEdit__is_set = true;  }    /**   * element  : PermissionsModifyAllData of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsModifyAllData__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsModifyAllData","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsModifyAllData__is_set = false;  private java.lang.Boolean PermissionsModifyAllData;  public java.lang.Boolean getPermissionsModifyAllData() {    return PermissionsModifyAllData;  }    public void setPermissionsModifyAllData(java.lang.Boolean PermissionsModifyAllData) {    this.PermissionsModifyAllData = PermissionsModifyAllData;    PermissionsModifyAllData__is_set = true;  }    /**   * element  : PermissionsNewReportBuilder of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsNewReportBuilder__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsNewReportBuilder","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsNewReportBuilder__is_set = false;  private java.lang.Boolean PermissionsNewReportBuilder;  public java.lang.Boolean getPermissionsNewReportBuilder() {    return PermissionsNewReportBuilder;  }    public void setPermissionsNewReportBuilder(java.lang.Boolean PermissionsNewReportBuilder) {    this.PermissionsNewReportBuilder = PermissionsNewReportBuilder;    PermissionsNewReportBuilder__is_set = true;  }    /**   * element  : PermissionsPasswordNeverExpires of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsPasswordNeverExpires__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsPasswordNeverExpires","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsPasswordNeverExpires__is_set = false;  private java.lang.Boolean PermissionsPasswordNeverExpires;  public java.lang.Boolean getPermissionsPasswordNeverExpires() {    return PermissionsPasswordNeverExpires;  }    public void setPermissionsPasswordNeverExpires(java.lang.Boolean PermissionsPasswordNeverExpires) {    this.PermissionsPasswordNeverExpires = PermissionsPasswordNeverExpires;    PermissionsPasswordNeverExpires__is_set = true;  }    /**   * element  : PermissionsPublishMultiforce of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsPublishMultiforce__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsPublishMultiforce","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsPublishMultiforce__is_set = false;  private java.lang.Boolean PermissionsPublishMultiforce;  public java.lang.Boolean getPermissionsPublishMultiforce() {    return PermissionsPublishMultiforce;  }    public void setPermissionsPublishMultiforce(java.lang.Boolean PermissionsPublishMultiforce) {    this.PermissionsPublishMultiforce = PermissionsPublishMultiforce;    PermissionsPublishMultiforce__is_set = true;  }    /**   * element  : PermissionsResetPasswords of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsResetPasswords__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsResetPasswords","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsResetPasswords__is_set = false;  private java.lang.Boolean PermissionsResetPasswords;  public java.lang.Boolean getPermissionsResetPasswords() {    return PermissionsResetPasswords;  }    public void setPermissionsResetPasswords(java.lang.Boolean PermissionsResetPasswords) {    this.PermissionsResetPasswords = PermissionsResetPasswords;    PermissionsResetPasswords__is_set = true;  }    /**   * element  : PermissionsRunReports of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsRunReports__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsRunReports","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsRunReports__is_set = false;  private java.lang.Boolean PermissionsRunReports;  public java.lang.Boolean getPermissionsRunReports() {    return PermissionsRunReports;  }    public void setPermissionsRunReports(java.lang.Boolean PermissionsRunReports) {    this.PermissionsRunReports = PermissionsRunReports;    PermissionsRunReports__is_set = true;  }    /**   * element  : PermissionsScheduleReports of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsScheduleReports__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsScheduleReports","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsScheduleReports__is_set = false;  private java.lang.Boolean PermissionsScheduleReports;  public java.lang.Boolean getPermissionsScheduleReports() {    return PermissionsScheduleReports;  }    public void setPermissionsScheduleReports(java.lang.Boolean PermissionsScheduleReports) {    this.PermissionsScheduleReports = PermissionsScheduleReports;    PermissionsScheduleReports__is_set = true;  }    /**   * element  : PermissionsSendSitRequests of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsSendSitRequests__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsSendSitRequests","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsSendSitRequests__is_set = false;  private java.lang.Boolean PermissionsSendSitRequests;  public java.lang.Boolean getPermissionsSendSitRequests() {    return PermissionsSendSitRequests;  }    public void setPermissionsSendSitRequests(java.lang.Boolean PermissionsSendSitRequests) {    this.PermissionsSendSitRequests = PermissionsSendSitRequests;    PermissionsSendSitRequests__is_set = true;  }    /**   * element  : PermissionsSolutionImport of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsSolutionImport__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsSolutionImport","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsSolutionImport__is_set = false;  private java.lang.Boolean PermissionsSolutionImport;  public java.lang.Boolean getPermissionsSolutionImport() {    return PermissionsSolutionImport;  }    public void setPermissionsSolutionImport(java.lang.Boolean PermissionsSolutionImport) {    this.PermissionsSolutionImport = PermissionsSolutionImport;    PermissionsSolutionImport__is_set = true;  }    /**   * element  : PermissionsTransferAnyCase of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsTransferAnyCase__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsTransferAnyCase","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsTransferAnyCase__is_set = false;  private java.lang.Boolean PermissionsTransferAnyCase;  public java.lang.Boolean getPermissionsTransferAnyCase() {    return PermissionsTransferAnyCase;  }    public void setPermissionsTransferAnyCase(java.lang.Boolean PermissionsTransferAnyCase) {    this.PermissionsTransferAnyCase = PermissionsTransferAnyCase;    PermissionsTransferAnyCase__is_set = true;  }    /**   * element  : PermissionsTransferAnyEntity of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsTransferAnyEntity__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsTransferAnyEntity","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsTransferAnyEntity__is_set = false;  private java.lang.Boolean PermissionsTransferAnyEntity;  public java.lang.Boolean getPermissionsTransferAnyEntity() {    return PermissionsTransferAnyEntity;  }    public void setPermissionsTransferAnyEntity(java.lang.Boolean PermissionsTransferAnyEntity) {    this.PermissionsTransferAnyEntity = PermissionsTransferAnyEntity;    PermissionsTransferAnyEntity__is_set = true;  }    /**   * element  : PermissionsTransferAnyLead of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsTransferAnyLead__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsTransferAnyLead","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsTransferAnyLead__is_set = false;  private java.lang.Boolean PermissionsTransferAnyLead;  public java.lang.Boolean getPermissionsTransferAnyLead() {    return PermissionsTransferAnyLead;  }    public void setPermissionsTransferAnyLead(java.lang.Boolean PermissionsTransferAnyLead) {    this.PermissionsTransferAnyLead = PermissionsTransferAnyLead;    PermissionsTransferAnyLead__is_set = true;  }    /**   * element  : PermissionsUseTeamReassignWizards of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsUseTeamReassignWizards__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsUseTeamReassignWizards","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsUseTeamReassignWizards__is_set = false;  private java.lang.Boolean PermissionsUseTeamReassignWizards;  public java.lang.Boolean getPermissionsUseTeamReassignWizards() {    return PermissionsUseTeamReassignWizards;  }    public void setPermissionsUseTeamReassignWizards(java.lang.Boolean PermissionsUseTeamReassignWizards) {    this.PermissionsUseTeamReassignWizards = PermissionsUseTeamReassignWizards;    PermissionsUseTeamReassignWizards__is_set = true;  }    /**   * element  : PermissionsViewAllData of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsViewAllData__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsViewAllData","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsViewAllData__is_set = false;  private java.lang.Boolean PermissionsViewAllData;  public java.lang.Boolean getPermissionsViewAllData() {    return PermissionsViewAllData;  }    public void setPermissionsViewAllData(java.lang.Boolean PermissionsViewAllData) {    this.PermissionsViewAllData = PermissionsViewAllData;    PermissionsViewAllData__is_set = true;  }    /**   * element  : PermissionsViewDataCategories of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsViewDataCategories__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsViewDataCategories","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsViewDataCategories__is_set = false;  private java.lang.Boolean PermissionsViewDataCategories;  public java.lang.Boolean getPermissionsViewDataCategories() {    return PermissionsViewDataCategories;  }    public void setPermissionsViewDataCategories(java.lang.Boolean PermissionsViewDataCategories) {    this.PermissionsViewDataCategories = PermissionsViewDataCategories;    PermissionsViewDataCategories__is_set = true;  }    /**   * element  : PermissionsViewMyTeamsDashboards of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsViewMyTeamsDashboards__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsViewMyTeamsDashboards","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsViewMyTeamsDashboards__is_set = false;  private java.lang.Boolean PermissionsViewMyTeamsDashboards;  public java.lang.Boolean getPermissionsViewMyTeamsDashboards() {    return PermissionsViewMyTeamsDashboards;  }    public void setPermissionsViewMyTeamsDashboards(java.lang.Boolean PermissionsViewMyTeamsDashboards) {    this.PermissionsViewMyTeamsDashboards = PermissionsViewMyTeamsDashboards;    PermissionsViewMyTeamsDashboards__is_set = true;  }    /**   * element  : PermissionsViewSetup of type {http://www.w3.org/2001/XMLSchema}boolean   * java type: java.lang.Boolean   */  private static final com.sforce.ws.bind.TypeInfo PermissionsViewSetup__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","PermissionsViewSetup","http://www.w3.org/2001/XMLSchema","boolean",0,1,true);  private boolean PermissionsViewSetup__is_set = false;  private java.lang.Boolean PermissionsViewSetup;  public java.lang.Boolean getPermissionsViewSetup() {    return PermissionsViewSetup;  }    public void setPermissionsViewSetup(java.lang.Boolean PermissionsViewSetup) {    this.PermissionsViewSetup = PermissionsViewSetup;    PermissionsViewSetup__is_set = true;  }    /**   * element  : SystemModstamp of type {http://www.w3.org/2001/XMLSchema}dateTime   * java type: java.util.Calendar   */  private static final com.sforce.ws.bind.TypeInfo SystemModstamp__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","SystemModstamp","http://www.w3.org/2001/XMLSchema","dateTime",0,1,true);  private boolean SystemModstamp__is_set = false;  private java.util.Calendar SystemModstamp;  public java.util.Calendar getSystemModstamp() {    return SystemModstamp;  }    public void setSystemModstamp(java.util.Calendar SystemModstamp) {    this.SystemModstamp = SystemModstamp;    SystemModstamp__is_set = true;  }    /**   * element  : UserLicense of type {urn:sobject.enterprise.soap.sforce.com}UserLicense   * java type: com.sforce.soap.enterprise.sobject.UserLicense   */  private static final com.sforce.ws.bind.TypeInfo UserLicense__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","UserLicense","urn:sobject.enterprise.soap.sforce.com","UserLicense",0,1,true);  private boolean UserLicense__is_set = false;  private com.sforce.soap.enterprise.sobject.UserLicense UserLicense;  public com.sforce.soap.enterprise.sobject.UserLicense getUserLicense() {    return UserLicense;  }    public void setUserLicense(com.sforce.soap.enterprise.sobject.UserLicense UserLicense) {    this.UserLicense = UserLicense;    UserLicense__is_set = true;  }    /**   * element  : UserLicenseId of type {urn:enterprise.soap.sforce.com}ID   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo UserLicenseId__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","UserLicenseId","urn:enterprise.soap.sforce.com","ID",0,1,true);  private boolean UserLicenseId__is_set = false;  private java.lang.String UserLicenseId;  public java.lang.String getUserLicenseId() {    return UserLicenseId;  }    public void setUserLicenseId(java.lang.String UserLicenseId) {    this.UserLicenseId = UserLicenseId;    UserLicenseId__is_set = true;  }    /**   * element  : UserType of type {http://www.w3.org/2001/XMLSchema}string   * java type: java.lang.String   */  private static final com.sforce.ws.bind.TypeInfo UserType__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","UserType","http://www.w3.org/2001/XMLSchema","string",0,1,true);  private boolean UserType__is_set = false;  private java.lang.String UserType;  public java.lang.String getUserType() {    return UserType;  }    public void setUserType(java.lang.String UserType) {    this.UserType = UserType;    UserType__is_set = true;  }    /**   * element  : Users of type {urn:enterprise.soap.sforce.com}QueryResult   * java type: com.sforce.soap.enterprise.QueryResult   */  private static final com.sforce.ws.bind.TypeInfo Users__typeInfo =    new com.sforce.ws.bind.TypeInfo("urn:sobject.enterprise.soap.sforce.com","Users","urn:enterprise.soap.sforce.com","QueryResult",0,1,true);  private boolean Users__is_set = false;  private com.sforce.soap.enterprise.QueryResult Users;  public com.sforce.soap.enterprise.QueryResult getUsers() {    return Users;  }    public void setUsers(com.sforce.soap.enterprise.QueryResult Users) {    this.Users = Users;    Users__is_set = true;  }    /**   */  public void write(javax.xml.namespace.QName __element,      com.sforce.ws.parser.XmlOutputStream __out, com.sforce.ws.bind.TypeMapper __typeMapper)      throws java.io.IOException {    __out.writeStartTag(__element.getNamespaceURI(), __element.getLocalPart());    __typeMapper.writeXsiType(__out, "urn:sobject.enterprise.soap.sforce.com", "Profile");    writeFields(__out, __typeMapper);    __out.writeEndTag(__element.getNamespaceURI(), __element.getLocalPart());  }  protected void writeFields(com.sforce.ws.parser.XmlOutputStream __out,      com.sforce.ws.bind.TypeMapper __typeMapper) throws java.io.IOException {   super.writeFields(__out, __typeMapper);    __typeMapper.writeObject(__out, CreatedBy__typeInfo, CreatedBy, CreatedBy__is_set);    __typeMapper.writeString(__out, CreatedById__typeInfo, CreatedById, CreatedById__is_set);    __typeMapper.writeObject(__out, CreatedDate__typeInfo, CreatedDate, CreatedDate__is_set);    __typeMapper.writeString(__out, Description__typeInfo, Description, Description__is_set);    __typeMapper.writeObject(__out, LastModifiedBy__typeInfo, LastModifiedBy, LastModifiedBy__is_set);    __typeMapper.writeString(__out, LastModifiedById__typeInfo, LastModifiedById, LastModifiedById__is_set);    __typeMapper.writeObject(__out, LastModifiedDate__typeInfo, LastModifiedDate, LastModifiedDate__is_set);    __typeMapper.writeString(__out, Name__typeInfo, Name, Name__is_set);    __typeMapper.writeObject(__out, PermissionsApiEnabled__typeInfo, PermissionsApiEnabled, PermissionsApiEnabled__is_set);    __typeMapper.writeObject(__out, PermissionsAuthorApex__typeInfo, PermissionsAuthorApex, PermissionsAuthorApex__is_set);    __typeMapper.writeObject(__out, PermissionsBulkApiHardDelete__typeInfo, PermissionsBulkApiHardDelete, PermissionsBulkApiHardDelete__is_set);    __typeMapper.writeObject(__out, PermissionsCanInsertFeedSystemFields__typeInfo, PermissionsCanInsertFeedSystemFields, PermissionsCanInsertFeedSystemFields__is_set);    __typeMapper.writeObject(__out, PermissionsCanUseNewDashboardBuilder__typeInfo, PermissionsCanUseNewDashboardBuilder, PermissionsCanUseNewDashboardBuilder__is_set);    __typeMapper.writeObject(__out, PermissionsChatterFileLink__typeInfo, PermissionsChatterFileLink, PermissionsChatterFileLink__is_set);    __typeMapper.writeObject(__out, PermissionsConvertLeads__typeInfo, PermissionsConvertLeads, PermissionsConvertLeads__is_set);    __typeMapper.writeObject(__out, PermissionsCreateMultiforce__typeInfo, PermissionsCreateMultiforce, PermissionsCreateMultiforce__is_set);    __typeMapper.writeObject(__out, PermissionsCustomizeApplication__typeInfo, PermissionsCustomizeApplication, PermissionsCustomizeApplication__is_set);    __typeMapper.writeObject(__out, PermissionsDistributeFromPersWksp__typeInfo, PermissionsDistributeFromPersWksp, PermissionsDistributeFromPersWksp__is_set);    __typeMapper.writeObject(__out, PermissionsEditCaseComments__typeInfo, PermissionsEditCaseComments, PermissionsEditCaseComments__is_set);    __typeMapper.writeObject(__out, PermissionsEditEvent__typeInfo, PermissionsEditEvent, PermissionsEditEvent__is_set);    __typeMapper.writeObject(__out, PermissionsEditKnowledge__typeInfo, PermissionsEditKnowledge, PermissionsEditKnowledge__is_set);    __typeMapper.writeObject(__out, PermissionsEditOppLineItemUnitPrice__typeInfo, PermissionsEditOppLineItemUnitPrice, PermissionsEditOppLineItemUnitPrice__is_set);    __typeMapper.writeObject(__out, PermissionsEditPublicDocuments__typeInfo, PermissionsEditPublicDocuments, PermissionsEditPublicDocuments__is_set);    __typeMapper.writeObject(__out, PermissionsEditReadonlyFields__typeInfo, PermissionsEditReadonlyFields, PermissionsEditReadonlyFields__is_set);    __typeMapper.writeObject(__out, PermissionsEditReports__typeInfo, PermissionsEditReports, PermissionsEditReports__is_set);    __typeMapper.writeObject(__out, PermissionsEditTask__typeInfo, PermissionsEditTask, PermissionsEditTask__is_set);    __typeMapper.writeObject(__out, PermissionsEmailAdministration__typeInfo, PermissionsEmailAdministration, PermissionsEmailAdministration__is_set);    __typeMapper.writeObject(__out, PermissionsEmailTemplateManagement__typeInfo, PermissionsEmailTemplateManagement, PermissionsEmailTemplateManagement__is_set);    __typeMapper.writeObject(__out, PermissionsEnableNotifications__typeInfo, PermissionsEnableNotifications, PermissionsEnableNotifications__is_set);    __typeMapper.writeObject(__out, PermissionsFlowUFLRequired__typeInfo, PermissionsFlowUFLRequired, PermissionsFlowUFLRequired__is_set);    __typeMapper.writeObject(__out, PermissionsImportLeads__typeInfo, PermissionsImportLeads, PermissionsImportLeads__is_set);    __typeMapper.writeObject(__out, PermissionsInstallMultiforce__typeInfo, PermissionsInstallMultiforce, PermissionsInstallMultiforce__is_set);    __typeMapper.writeObject(__out, PermissionsManageAnalyticSnapshots__typeInfo, PermissionsManageAnalyticSnapshots, PermissionsManageAnalyticSnapshots__is_set);    __typeMapper.writeObject(__out, PermissionsManageAuthProviders__typeInfo, PermissionsManageAuthProviders, PermissionsManageAuthProviders__is_set);    __typeMapper.writeObject(__out, PermissionsManageBusinessHourHolidays__typeInfo, PermissionsManageBusinessHourHolidays, PermissionsManageBusinessHourHolidays__is_set);    __typeMapper.writeObject(__out, PermissionsManageCallCenters__typeInfo, PermissionsManageCallCenters, PermissionsManageCallCenters__is_set);    __typeMapper.writeObject(__out, PermissionsManageCases__typeInfo, PermissionsManageCases, PermissionsManageCases__is_set);    __typeMapper.writeObject(__out, PermissionsManageCategories__typeInfo, PermissionsManageCategories, PermissionsManageCategories__is_set);    __typeMapper.writeObject(__out, PermissionsManageChatterMessages__typeInfo, PermissionsManageChatterMessages, PermissionsManageChatterMessages__is_set);    __typeMapper.writeObject(__out, PermissionsManageCssUsers__typeInfo, PermissionsManageCssUsers, PermissionsManageCssUsers__is_set);    __typeMapper.writeObject(__out, PermissionsManageCustomReportTypes__typeInfo, PermissionsManageCustomReportTypes, PermissionsManageCustomReportTypes__is_set);    __typeMapper.writeObject(__out, PermissionsManageDashboards__typeInfo, PermissionsManageDashboards, PermissionsManageDashboards__is_set);    __typeMapper.writeObject(__out, PermissionsManageDataCategories__typeInfo, PermissionsManageDataCategories, PermissionsManageDataCategories__is_set);    __typeMapper.writeObject(__out, PermissionsManageDataIntegrations__typeInfo, PermissionsManageDataIntegrations, PermissionsManageDataIntegrations__is_set);    __typeMapper.writeObject(__out, PermissionsManageDynamicDashboards__typeInfo, PermissionsManageDynamicDashboards, PermissionsManageDynamicDashboards__is_set);    __typeMapper.writeObject(__out, PermissionsManageEmailClientConfig__typeInfo, PermissionsManageEmailClientConfig, PermissionsManageEmailClientConfig__is_set);    __typeMapper.writeObject(__out, PermissionsManageInteraction__typeInfo, PermissionsManageInteraction, PermissionsManageInteraction__is_set);    __typeMapper.writeObject(__out, PermissionsManageKnowledge__typeInfo, PermissionsManageKnowledge, PermissionsManageKnowledge__is_set);    __typeMapper.writeObject(__out, PermissionsManageKnowledgeImportExport__typeInfo, PermissionsManageKnowledgeImportExport, PermissionsManageKnowledgeImportExport__is_set);    __typeMapper.writeObject(__out, PermissionsManageLeads__typeInfo, PermissionsManageLeads, PermissionsManageLeads__is_set);    __typeMapper.writeObject(__out, PermissionsManageMobile__typeInfo, PermissionsManageMobile, PermissionsManageMobile__is_set);    __typeMapper.writeObject(__out, PermissionsManageRemoteAccess__typeInfo, PermissionsManageRemoteAccess, PermissionsManageRemoteAccess__is_set);    __typeMapper.writeObject(__out, PermissionsManageSelfService__typeInfo, PermissionsManageSelfService, PermissionsManageSelfService__is_set);    __typeMapper.writeObject(__out, PermissionsManageSolutions__typeInfo, PermissionsManageSolutions, PermissionsManageSolutions__is_set);    __typeMapper.writeObject(__out, PermissionsManageSynonyms__typeInfo, PermissionsManageSynonyms, PermissionsManageSynonyms__is_set);    __typeMapper.writeObject(__out, PermissionsManageUsers__typeInfo, PermissionsManageUsers, PermissionsManageUsers__is_set);    __typeMapper.writeObject(__out, PermissionsMassInlineEdit__typeInfo, PermissionsMassInlineEdit, PermissionsMassInlineEdit__is_set);    __typeMapper.writeObject(__out, PermissionsModifyAllData__typeInfo, PermissionsModifyAllData, PermissionsModifyAllData__is_set);    __typeMapper.writeObject(__out, PermissionsNewReportBuilder__typeInfo, PermissionsNewReportBuilder, PermissionsNewReportBuilder__is_set);    __typeMapper.writeObject(__out, PermissionsPasswordNeverExpires__typeInfo, PermissionsPasswordNeverExpires, PermissionsPasswordNeverExpires__is_set);    __typeMapper.writeObject(__out, PermissionsPublishMultiforce__typeInfo, PermissionsPublishMultiforce, PermissionsPublishMultiforce__is_set);    __typeMapper.writeObject(__out, PermissionsResetPasswords__typeInfo, PermissionsResetPasswords, PermissionsResetPasswords__is_set);    __typeMapper.writeObject(__out, PermissionsRunReports__typeInfo, PermissionsRunReports, PermissionsRunReports__is_set);    __typeMapper.writeObject(__out, PermissionsScheduleReports__typeInfo, PermissionsScheduleReports, PermissionsScheduleReports__is_set);    __typeMapper.writeObject(__out, PermissionsSendSitRequests__typeInfo, PermissionsSendSitRequests, PermissionsSendSitRequests__is_set);    __typeMapper.writeObject(__out, PermissionsSolutionImport__typeInfo, PermissionsSolutionImport, PermissionsSolutionImport__is_set);    __typeMapper.writeObject(__out, PermissionsTransferAnyCase__typeInfo, PermissionsTransferAnyCase, PermissionsTransferAnyCase__is_set);    __typeMapper.writeObject(__out, PermissionsTransferAnyEntity__typeInfo, PermissionsTransferAnyEntity, PermissionsTransferAnyEntity__is_set);    __typeMapper.writeObject(__out, PermissionsTransferAnyLead__typeInfo, PermissionsTransferAnyLead, PermissionsTransferAnyLead__is_set);    __typeMapper.writeObject(__out, PermissionsUseTeamReassignWizards__typeInfo, PermissionsUseTeamReassignWizards, PermissionsUseTeamReassignWizards__is_set);    __typeMapper.writeObject(__out, PermissionsViewAllData__typeInfo, PermissionsViewAllData, PermissionsViewAllData__is_set);    __typeMapper.writeObject(__out, PermissionsViewDataCategories__typeInfo, PermissionsViewDataCategories, PermissionsViewDataCategories__is_set);    __typeMapper.writeObject(__out, PermissionsViewMyTeamsDashboards__typeInfo, PermissionsViewMyTeamsDashboards, PermissionsViewMyTeamsDashboards__is_set);    __typeMapper.writeObject(__out, PermissionsViewSetup__typeInfo, PermissionsViewSetup, PermissionsViewSetup__is_set);    __typeMapper.writeObject(__out, SystemModstamp__typeInfo, SystemModstamp, SystemModstamp__is_set);    __typeMapper.writeObject(__out, UserLicense__typeInfo, UserLicense, UserLicense__is_set);    __typeMapper.writeString(__out, UserLicenseId__typeInfo, UserLicenseId, UserLicenseId__is_set);    __typeMapper.writeString(__out, UserType__typeInfo, UserType, UserType__is_set);    __typeMapper.writeObject(__out, Users__typeInfo, Users, Users__is_set);  }  public void load(com.sforce.ws.parser.XmlInputStream __in,      com.sforce.ws.bind.TypeMapper __typeMapper) throws java.io.IOException, com.sforce.ws.ConnectionException {    __typeMapper.consumeStartTag(__in);    loadFields(__in, __typeMapper);    __typeMapper.consumeEndTag(__in);  }  protected void loadFields(com.sforce.ws.parser.XmlInputStream __in,      com.sforce.ws.bind.TypeMapper __typeMapper) throws java.io.IOException, com.sforce.ws.ConnectionException {   super.loadFields(__in, __typeMapper);    __in.peekTag();    if (__typeMapper.isElement(__in, CreatedBy__typeInfo)) {      setCreatedBy((com.sforce.soap.enterprise.sobject.User)__typeMapper.readObject(__in, CreatedBy__typeInfo, com.sforce.soap.enterprise.sobject.User.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, CreatedById__typeInfo)) {      setCreatedById((java.lang.String)__typeMapper.readString(__in, CreatedById__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, CreatedDate__typeInfo)) {      setCreatedDate((java.util.Calendar)__typeMapper.readObject(__in, CreatedDate__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Description__typeInfo)) {      setDescription((java.lang.String)__typeMapper.readString(__in, Description__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastModifiedBy__typeInfo)) {      setLastModifiedBy((com.sforce.soap.enterprise.sobject.User)__typeMapper.readObject(__in, LastModifiedBy__typeInfo, com.sforce.soap.enterprise.sobject.User.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastModifiedById__typeInfo)) {      setLastModifiedById((java.lang.String)__typeMapper.readString(__in, LastModifiedById__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, LastModifiedDate__typeInfo)) {      setLastModifiedDate((java.util.Calendar)__typeMapper.readObject(__in, LastModifiedDate__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Name__typeInfo)) {      setName((java.lang.String)__typeMapper.readString(__in, Name__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsApiEnabled__typeInfo)) {      setPermissionsApiEnabled((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsApiEnabled__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsAuthorApex__typeInfo)) {      setPermissionsAuthorApex((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsAuthorApex__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsBulkApiHardDelete__typeInfo)) {      setPermissionsBulkApiHardDelete((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsBulkApiHardDelete__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsCanInsertFeedSystemFields__typeInfo)) {      setPermissionsCanInsertFeedSystemFields((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsCanInsertFeedSystemFields__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsCanUseNewDashboardBuilder__typeInfo)) {      setPermissionsCanUseNewDashboardBuilder((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsCanUseNewDashboardBuilder__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsChatterFileLink__typeInfo)) {      setPermissionsChatterFileLink((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsChatterFileLink__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsConvertLeads__typeInfo)) {      setPermissionsConvertLeads((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsConvertLeads__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsCreateMultiforce__typeInfo)) {      setPermissionsCreateMultiforce((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsCreateMultiforce__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsCustomizeApplication__typeInfo)) {      setPermissionsCustomizeApplication((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsCustomizeApplication__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsDistributeFromPersWksp__typeInfo)) {      setPermissionsDistributeFromPersWksp((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsDistributeFromPersWksp__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEditCaseComments__typeInfo)) {      setPermissionsEditCaseComments((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEditCaseComments__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEditEvent__typeInfo)) {      setPermissionsEditEvent((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEditEvent__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEditKnowledge__typeInfo)) {      setPermissionsEditKnowledge((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEditKnowledge__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEditOppLineItemUnitPrice__typeInfo)) {      setPermissionsEditOppLineItemUnitPrice((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEditOppLineItemUnitPrice__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEditPublicDocuments__typeInfo)) {      setPermissionsEditPublicDocuments((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEditPublicDocuments__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEditReadonlyFields__typeInfo)) {      setPermissionsEditReadonlyFields((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEditReadonlyFields__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEditReports__typeInfo)) {      setPermissionsEditReports((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEditReports__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEditTask__typeInfo)) {      setPermissionsEditTask((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEditTask__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEmailAdministration__typeInfo)) {      setPermissionsEmailAdministration((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEmailAdministration__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEmailTemplateManagement__typeInfo)) {      setPermissionsEmailTemplateManagement((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEmailTemplateManagement__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsEnableNotifications__typeInfo)) {      setPermissionsEnableNotifications((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsEnableNotifications__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsFlowUFLRequired__typeInfo)) {      setPermissionsFlowUFLRequired((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsFlowUFLRequired__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsImportLeads__typeInfo)) {      setPermissionsImportLeads((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsImportLeads__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsInstallMultiforce__typeInfo)) {      setPermissionsInstallMultiforce((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsInstallMultiforce__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageAnalyticSnapshots__typeInfo)) {      setPermissionsManageAnalyticSnapshots((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageAnalyticSnapshots__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageAuthProviders__typeInfo)) {      setPermissionsManageAuthProviders((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageAuthProviders__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageBusinessHourHolidays__typeInfo)) {      setPermissionsManageBusinessHourHolidays((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageBusinessHourHolidays__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageCallCenters__typeInfo)) {      setPermissionsManageCallCenters((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageCallCenters__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageCases__typeInfo)) {      setPermissionsManageCases((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageCases__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageCategories__typeInfo)) {      setPermissionsManageCategories((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageCategories__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageChatterMessages__typeInfo)) {      setPermissionsManageChatterMessages((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageChatterMessages__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageCssUsers__typeInfo)) {      setPermissionsManageCssUsers((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageCssUsers__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageCustomReportTypes__typeInfo)) {      setPermissionsManageCustomReportTypes((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageCustomReportTypes__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageDashboards__typeInfo)) {      setPermissionsManageDashboards((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageDashboards__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageDataCategories__typeInfo)) {      setPermissionsManageDataCategories((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageDataCategories__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageDataIntegrations__typeInfo)) {      setPermissionsManageDataIntegrations((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageDataIntegrations__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageDynamicDashboards__typeInfo)) {      setPermissionsManageDynamicDashboards((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageDynamicDashboards__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageEmailClientConfig__typeInfo)) {      setPermissionsManageEmailClientConfig((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageEmailClientConfig__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageInteraction__typeInfo)) {      setPermissionsManageInteraction((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageInteraction__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageKnowledge__typeInfo)) {      setPermissionsManageKnowledge((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageKnowledge__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageKnowledgeImportExport__typeInfo)) {      setPermissionsManageKnowledgeImportExport((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageKnowledgeImportExport__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageLeads__typeInfo)) {      setPermissionsManageLeads((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageLeads__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageMobile__typeInfo)) {      setPermissionsManageMobile((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageMobile__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageRemoteAccess__typeInfo)) {      setPermissionsManageRemoteAccess((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageRemoteAccess__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageSelfService__typeInfo)) {      setPermissionsManageSelfService((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageSelfService__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageSolutions__typeInfo)) {      setPermissionsManageSolutions((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageSolutions__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageSynonyms__typeInfo)) {      setPermissionsManageSynonyms((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageSynonyms__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsManageUsers__typeInfo)) {      setPermissionsManageUsers((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsManageUsers__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsMassInlineEdit__typeInfo)) {      setPermissionsMassInlineEdit((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsMassInlineEdit__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsModifyAllData__typeInfo)) {      setPermissionsModifyAllData((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsModifyAllData__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsNewReportBuilder__typeInfo)) {      setPermissionsNewReportBuilder((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsNewReportBuilder__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsPasswordNeverExpires__typeInfo)) {      setPermissionsPasswordNeverExpires((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsPasswordNeverExpires__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsPublishMultiforce__typeInfo)) {      setPermissionsPublishMultiforce((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsPublishMultiforce__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsResetPasswords__typeInfo)) {      setPermissionsResetPasswords((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsResetPasswords__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsRunReports__typeInfo)) {      setPermissionsRunReports((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsRunReports__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsScheduleReports__typeInfo)) {      setPermissionsScheduleReports((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsScheduleReports__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsSendSitRequests__typeInfo)) {      setPermissionsSendSitRequests((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsSendSitRequests__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsSolutionImport__typeInfo)) {      setPermissionsSolutionImport((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsSolutionImport__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsTransferAnyCase__typeInfo)) {      setPermissionsTransferAnyCase((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsTransferAnyCase__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsTransferAnyEntity__typeInfo)) {      setPermissionsTransferAnyEntity((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsTransferAnyEntity__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsTransferAnyLead__typeInfo)) {      setPermissionsTransferAnyLead((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsTransferAnyLead__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsUseTeamReassignWizards__typeInfo)) {      setPermissionsUseTeamReassignWizards((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsUseTeamReassignWizards__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsViewAllData__typeInfo)) {      setPermissionsViewAllData((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsViewAllData__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsViewDataCategories__typeInfo)) {      setPermissionsViewDataCategories((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsViewDataCategories__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsViewMyTeamsDashboards__typeInfo)) {      setPermissionsViewMyTeamsDashboards((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsViewMyTeamsDashboards__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, PermissionsViewSetup__typeInfo)) {      setPermissionsViewSetup((java.lang.Boolean)__typeMapper.readObject(__in, PermissionsViewSetup__typeInfo, java.lang.Boolean.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, SystemModstamp__typeInfo)) {      setSystemModstamp((java.util.Calendar)__typeMapper.readObject(__in, SystemModstamp__typeInfo, java.util.Calendar.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, UserLicense__typeInfo)) {      setUserLicense((com.sforce.soap.enterprise.sobject.UserLicense)__typeMapper.readObject(__in, UserLicense__typeInfo, com.sforce.soap.enterprise.sobject.UserLicense.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, UserLicenseId__typeInfo)) {      setUserLicenseId((java.lang.String)__typeMapper.readString(__in, UserLicenseId__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, UserType__typeInfo)) {      setUserType((java.lang.String)__typeMapper.readString(__in, UserType__typeInfo, java.lang.String.class));    }    __in.peekTag();    if (__typeMapper.isElement(__in, Users__typeInfo)) {      setUsers((com.sforce.soap.enterprise.QueryResult)__typeMapper.readObject(__in, Users__typeInfo, com.sforce.soap.enterprise.QueryResult.class));    }  }  public String toString() {    java.lang.StringBuilder sb = new java.lang.StringBuilder();    sb.append("[Profile ");    sb.append(super.toString());    sb.append(" CreatedBy=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(CreatedBy)+"'\n");    sb.append(" CreatedById=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(CreatedById)+"'\n");    sb.append(" CreatedDate=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(CreatedDate)+"'\n");    sb.append(" Description=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Description)+"'\n");    sb.append(" LastModifiedBy=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastModifiedBy)+"'\n");    sb.append(" LastModifiedById=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastModifiedById)+"'\n");    sb.append(" LastModifiedDate=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(LastModifiedDate)+"'\n");    sb.append(" Name=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Name)+"'\n");    sb.append(" PermissionsApiEnabled=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsApiEnabled)+"'\n");    sb.append(" PermissionsAuthorApex=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsAuthorApex)+"'\n");    sb.append(" PermissionsBulkApiHardDelete=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsBulkApiHardDelete)+"'\n");    sb.append(" PermissionsCanInsertFeedSystemFields=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsCanInsertFeedSystemFields)+"'\n");    sb.append(" PermissionsCanUseNewDashboardBuilder=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsCanUseNewDashboardBuilder)+"'\n");    sb.append(" PermissionsChatterFileLink=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsChatterFileLink)+"'\n");    sb.append(" PermissionsConvertLeads=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsConvertLeads)+"'\n");    sb.append(" PermissionsCreateMultiforce=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsCreateMultiforce)+"'\n");    sb.append(" PermissionsCustomizeApplication=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsCustomizeApplication)+"'\n");    sb.append(" PermissionsDistributeFromPersWksp=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsDistributeFromPersWksp)+"'\n");    sb.append(" PermissionsEditCaseComments=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEditCaseComments)+"'\n");    sb.append(" PermissionsEditEvent=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEditEvent)+"'\n");    sb.append(" PermissionsEditKnowledge=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEditKnowledge)+"'\n");    sb.append(" PermissionsEditOppLineItemUnitPrice=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEditOppLineItemUnitPrice)+"'\n");    sb.append(" PermissionsEditPublicDocuments=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEditPublicDocuments)+"'\n");    sb.append(" PermissionsEditReadonlyFields=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEditReadonlyFields)+"'\n");    sb.append(" PermissionsEditReports=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEditReports)+"'\n");    sb.append(" PermissionsEditTask=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEditTask)+"'\n");    sb.append(" PermissionsEmailAdministration=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEmailAdministration)+"'\n");    sb.append(" PermissionsEmailTemplateManagement=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEmailTemplateManagement)+"'\n");    sb.append(" PermissionsEnableNotifications=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsEnableNotifications)+"'\n");    sb.append(" PermissionsFlowUFLRequired=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsFlowUFLRequired)+"'\n");    sb.append(" PermissionsImportLeads=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsImportLeads)+"'\n");    sb.append(" PermissionsInstallMultiforce=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsInstallMultiforce)+"'\n");    sb.append(" PermissionsManageAnalyticSnapshots=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageAnalyticSnapshots)+"'\n");    sb.append(" PermissionsManageAuthProviders=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageAuthProviders)+"'\n");    sb.append(" PermissionsManageBusinessHourHolidays=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageBusinessHourHolidays)+"'\n");    sb.append(" PermissionsManageCallCenters=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageCallCenters)+"'\n");    sb.append(" PermissionsManageCases=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageCases)+"'\n");    sb.append(" PermissionsManageCategories=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageCategories)+"'\n");    sb.append(" PermissionsManageChatterMessages=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageChatterMessages)+"'\n");    sb.append(" PermissionsManageCssUsers=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageCssUsers)+"'\n");    sb.append(" PermissionsManageCustomReportTypes=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageCustomReportTypes)+"'\n");    sb.append(" PermissionsManageDashboards=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageDashboards)+"'\n");    sb.append(" PermissionsManageDataCategories=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageDataCategories)+"'\n");    sb.append(" PermissionsManageDataIntegrations=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageDataIntegrations)+"'\n");    sb.append(" PermissionsManageDynamicDashboards=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageDynamicDashboards)+"'\n");    sb.append(" PermissionsManageEmailClientConfig=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageEmailClientConfig)+"'\n");    sb.append(" PermissionsManageInteraction=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageInteraction)+"'\n");    sb.append(" PermissionsManageKnowledge=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageKnowledge)+"'\n");    sb.append(" PermissionsManageKnowledgeImportExport=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageKnowledgeImportExport)+"'\n");    sb.append(" PermissionsManageLeads=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageLeads)+"'\n");    sb.append(" PermissionsManageMobile=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageMobile)+"'\n");    sb.append(" PermissionsManageRemoteAccess=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageRemoteAccess)+"'\n");    sb.append(" PermissionsManageSelfService=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageSelfService)+"'\n");    sb.append(" PermissionsManageSolutions=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageSolutions)+"'\n");    sb.append(" PermissionsManageSynonyms=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageSynonyms)+"'\n");    sb.append(" PermissionsManageUsers=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsManageUsers)+"'\n");    sb.append(" PermissionsMassInlineEdit=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsMassInlineEdit)+"'\n");    sb.append(" PermissionsModifyAllData=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsModifyAllData)+"'\n");    sb.append(" PermissionsNewReportBuilder=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsNewReportBuilder)+"'\n");    sb.append(" PermissionsPasswordNeverExpires=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsPasswordNeverExpires)+"'\n");    sb.append(" PermissionsPublishMultiforce=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsPublishMultiforce)+"'\n");    sb.append(" PermissionsResetPasswords=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsResetPasswords)+"'\n");    sb.append(" PermissionsRunReports=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsRunReports)+"'\n");    sb.append(" PermissionsScheduleReports=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsScheduleReports)+"'\n");    sb.append(" PermissionsSendSitRequests=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsSendSitRequests)+"'\n");    sb.append(" PermissionsSolutionImport=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsSolutionImport)+"'\n");    sb.append(" PermissionsTransferAnyCase=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsTransferAnyCase)+"'\n");    sb.append(" PermissionsTransferAnyEntity=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsTransferAnyEntity)+"'\n");    sb.append(" PermissionsTransferAnyLead=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsTransferAnyLead)+"'\n");    sb.append(" PermissionsUseTeamReassignWizards=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsUseTeamReassignWizards)+"'\n");    sb.append(" PermissionsViewAllData=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsViewAllData)+"'\n");    sb.append(" PermissionsViewDataCategories=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsViewDataCategories)+"'\n");    sb.append(" PermissionsViewMyTeamsDashboards=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsViewMyTeamsDashboards)+"'\n");    sb.append(" PermissionsViewSetup=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(PermissionsViewSetup)+"'\n");    sb.append(" SystemModstamp=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(SystemModstamp)+"'\n");    sb.append(" UserLicense=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(UserLicense)+"'\n");    sb.append(" UserLicenseId=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(UserLicenseId)+"'\n");    sb.append(" UserType=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(UserType)+"'\n");    sb.append(" Users=");    sb.append("'"+com.sforce.ws.util.Verbose.toString(Users)+"'\n");    sb.append("]\n");    return sb.toString();  }}
+/**
+ * Profile.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package com.sforce.soap.enterprise.sobject;
+
+public class Profile  extends com.sforce.soap.enterprise.sobject.SObject  implements java.io.Serializable {
+    private com.sforce.soap.enterprise.sobject.User createdBy;
+
+    private java.lang.String createdById;
+
+    private java.util.Calendar createdDate;
+
+    private java.lang.String description;
+
+    private com.sforce.soap.enterprise.sobject.User lastModifiedBy;
+
+    private java.lang.String lastModifiedById;
+
+    private java.util.Calendar lastModifiedDate;
+
+    private java.util.Calendar lastReferencedDate;
+
+    private java.util.Calendar lastViewedDate;
+
+    private java.lang.String name;
+
+    private java.lang.Boolean permissionsActivateContract;
+
+    private java.lang.Boolean permissionsActivateOrder;
+
+    private java.lang.Boolean permissionsAllowEmailIC;
+
+    private java.lang.Boolean permissionsAllowUniversalSearch;
+
+    private java.lang.Boolean permissionsAllowViewKnowledge;
+
+    private java.lang.Boolean permissionsApiEnabled;
+
+    private java.lang.Boolean permissionsAssignPermissionSets;
+
+    private java.lang.Boolean permissionsAssignTopics;
+
+    private java.lang.Boolean permissionsAuthorApex;
+
+    private java.lang.Boolean permissionsBulkApiHardDelete;
+
+    private java.lang.Boolean permissionsBulkMacrosAllowed;
+
+    private java.lang.Boolean permissionsCanInsertFeedSystemFields;
+
+    private java.lang.Boolean permissionsCanUseNewDashboardBuilder;
+
+    private java.lang.Boolean permissionsChatterEditOwnPost;
+
+    private java.lang.Boolean permissionsChatterEditOwnRecordPost;
+
+    private java.lang.Boolean permissionsChatterFileLink;
+
+    private java.lang.Boolean permissionsChatterForSharePoint;
+
+    private java.lang.Boolean permissionsChatterInternalUser;
+
+    private java.lang.Boolean permissionsChatterInviteExternalUsers;
+
+    private java.lang.Boolean permissionsChatterOwnGroups;
+
+    private java.lang.Boolean permissionsConfigCustomRecs;
+
+    private java.lang.Boolean permissionsConnectOrgToEnvironmentHub;
+
+    private java.lang.Boolean permissionsContentAdministrator;
+
+    private java.lang.Boolean permissionsConvertLeads;
+
+    private java.lang.Boolean permissionsCreateCustomizeDashboards;
+
+    private java.lang.Boolean permissionsCreateCustomizeFilters;
+
+    private java.lang.Boolean permissionsCreateCustomizeReports;
+
+    private java.lang.Boolean permissionsCreateDashboardFolders;
+
+    private java.lang.Boolean permissionsCreateMultiforce;
+
+    private java.lang.Boolean permissionsCreateReportFolders;
+
+    private java.lang.Boolean permissionsCreateTopics;
+
+    private java.lang.Boolean permissionsCreateWorkspaces;
+
+    private java.lang.Boolean permissionsCustomMobileAppsAccess;
+
+    private java.lang.Boolean permissionsCustomSidebarOnAllPages;
+
+    private java.lang.Boolean permissionsCustomizeApplication;
+
+    private java.lang.Boolean permissionsDeleteActivatedContract;
+
+    private java.lang.Boolean permissionsDeleteTopics;
+
+    private java.lang.Boolean permissionsDistributeFromPersWksp;
+
+    private java.lang.Boolean permissionsEditActivatedOrders;
+
+    private java.lang.Boolean permissionsEditBrandTemplates;
+
+    private java.lang.Boolean permissionsEditCaseComments;
+
+    private java.lang.Boolean permissionsEditEvent;
+
+    private java.lang.Boolean permissionsEditHtmlTemplates;
+
+    private java.lang.Boolean permissionsEditKnowledge;
+
+    private java.lang.Boolean permissionsEditMyDashboards;
+
+    private java.lang.Boolean permissionsEditMyReports;
+
+    private java.lang.Boolean permissionsEditOppLineItemUnitPrice;
+
+    private java.lang.Boolean permissionsEditPublicDocuments;
+
+    private java.lang.Boolean permissionsEditPublicTemplates;
+
+    private java.lang.Boolean permissionsEditReadonlyFields;
+
+    private java.lang.Boolean permissionsEditTask;
+
+    private java.lang.Boolean permissionsEditTopics;
+
+    private java.lang.Boolean permissionsEmailAdministration;
+
+    private java.lang.Boolean permissionsEmailMass;
+
+    private java.lang.Boolean permissionsEmailSingle;
+
+    private java.lang.Boolean permissionsEmailTemplateManagement;
+
+    private java.lang.Boolean permissionsEnableNotifications;
+
+    private java.lang.Boolean permissionsExportReport;
+
+    private java.lang.Boolean permissionsFlowUFLRequired;
+
+    private java.lang.Boolean permissionsForceTwoFactor;
+
+    private java.lang.Boolean permissionsGovernNetworks;
+
+    private java.lang.Boolean permissionsIdentityConnect;
+
+    private java.lang.Boolean permissionsIdentityEnabled;
+
+    private java.lang.Boolean permissionsImportLeads;
+
+    private java.lang.Boolean permissionsImportPersonal;
+
+    private java.lang.Boolean permissionsInstallMultiforce;
+
+    private java.lang.Boolean permissionsManageAnalyticSnapshots;
+
+    private java.lang.Boolean permissionsManageAuthProviders;
+
+    private java.lang.Boolean permissionsManageBusinessHourHolidays;
+
+    private java.lang.Boolean permissionsManageCallCenters;
+
+    private java.lang.Boolean permissionsManageCases;
+
+    private java.lang.Boolean permissionsManageCategories;
+
+    private java.lang.Boolean permissionsManageChatterMessages;
+
+    private java.lang.Boolean permissionsManageContentPermissions;
+
+    private java.lang.Boolean permissionsManageContentProperties;
+
+    private java.lang.Boolean permissionsManageContentTypes;
+
+    private java.lang.Boolean permissionsManageCustomPermissions;
+
+    private java.lang.Boolean permissionsManageCustomReportTypes;
+
+    private java.lang.Boolean permissionsManageDashbdsInPubFolders;
+
+    private java.lang.Boolean permissionsManageDataCategories;
+
+    private java.lang.Boolean permissionsManageDataIntegrations;
+
+    private java.lang.Boolean permissionsManageDynamicDashboards;
+
+    private java.lang.Boolean permissionsManageEmailClientConfig;
+
+    private java.lang.Boolean permissionsManageExchangeConfig;
+
+    private java.lang.Boolean permissionsManageInteraction;
+
+    private java.lang.Boolean permissionsManageInternalUsers;
+
+    private java.lang.Boolean permissionsManageIpAddresses;
+
+    private java.lang.Boolean permissionsManageKnowledge;
+
+    private java.lang.Boolean permissionsManageKnowledgeImportExport;
+
+    private java.lang.Boolean permissionsManageLeads;
+
+    private java.lang.Boolean permissionsManageLoginAccessPolicies;
+
+    private java.lang.Boolean permissionsManageMobile;
+
+    private java.lang.Boolean permissionsManageNetworks;
+
+    private java.lang.Boolean permissionsManagePasswordPolicies;
+
+    private java.lang.Boolean permissionsManageProfilesPermissionsets;
+
+    private java.lang.Boolean permissionsManageRemoteAccess;
+
+    private java.lang.Boolean permissionsManageReportsInPubFolders;
+
+    private java.lang.Boolean permissionsManageRoles;
+
+    private java.lang.Boolean permissionsManageSearchPromotionRules;
+
+    private java.lang.Boolean permissionsManageSharing;
+
+    private java.lang.Boolean permissionsManageSolutions;
+
+    private java.lang.Boolean permissionsManageSynonyms;
+
+    private java.lang.Boolean permissionsManageTwoFactor;
+
+    private java.lang.Boolean permissionsManageUnlistedGroups;
+
+    private java.lang.Boolean permissionsManageUsers;
+
+    private java.lang.Boolean permissionsMassInlineEdit;
+
+    private java.lang.Boolean permissionsMergeTopics;
+
+    private java.lang.Boolean permissionsModerateChatter;
+
+    private java.lang.Boolean permissionsModifyAllData;
+
+    private java.lang.Boolean permissionsModifySecureAgents;
+
+    private java.lang.Boolean permissionsNewReportBuilder;
+
+    private java.lang.Boolean permissionsPasswordNeverExpires;
+
+    private java.lang.Boolean permissionsPublishMultiforce;
+
+    private java.lang.Boolean permissionsResetPasswords;
+
+    private java.lang.Boolean permissionsRunFlow;
+
+    private java.lang.Boolean permissionsRunReports;
+
+    private java.lang.Boolean permissionsSalesConsole;
+
+    private java.lang.Boolean permissionsScheduleReports;
+
+    private java.lang.Boolean permissionsSendSitRequests;
+
+    private java.lang.Boolean permissionsShareInternalArticles;
+
+    private java.lang.Boolean permissionsSolutionImport;
+
+    private java.lang.Boolean permissionsSubmitMacrosAllowed;
+
+    private java.lang.Boolean permissionsTransferAnyCase;
+
+    private java.lang.Boolean permissionsTransferAnyEntity;
+
+    private java.lang.Boolean permissionsTransferAnyLead;
+
+    private java.lang.Boolean permissionsTwoFactorApi;
+
+    private java.lang.Boolean permissionsUseTeamReassignWizards;
+
+    private java.lang.Boolean permissionsViewAllData;
+
+    private java.lang.Boolean permissionsViewAllUsers;
+
+    private java.lang.Boolean permissionsViewContent;
+
+    private java.lang.Boolean permissionsViewDataCategories;
+
+    private java.lang.Boolean permissionsViewEncryptedData;
+
+    private java.lang.Boolean permissionsViewEventLogFiles;
+
+    private java.lang.Boolean permissionsViewHelpLink;
+
+    private java.lang.Boolean permissionsViewMyTeamsDashboards;
+
+    private java.lang.Boolean permissionsViewPublicDashboards;
+
+    private java.lang.Boolean permissionsViewPublicReports;
+
+    private java.lang.Boolean permissionsViewSetup;
+
+    private java.lang.Boolean permissionsWorkCalibrationUser;
+
+    private java.lang.Boolean permissionsWorkDotComUserPerm;
+
+    private java.util.Calendar systemModstamp;
+
+    private com.sforce.soap.enterprise.sobject.UserLicense userLicense;
+
+    private java.lang.String userLicenseId;
+
+    private java.lang.String userType;
+
+    private com.sforce.soap.enterprise.QueryResult users;
+
+    public Profile() {
+    }
+
+    public Profile(
+           java.lang.String[] fieldsToNull,
+           java.lang.String id,
+           com.sforce.soap.enterprise.sobject.User createdBy,
+           java.lang.String createdById,
+           java.util.Calendar createdDate,
+           java.lang.String description,
+           com.sforce.soap.enterprise.sobject.User lastModifiedBy,
+           java.lang.String lastModifiedById,
+           java.util.Calendar lastModifiedDate,
+           java.util.Calendar lastReferencedDate,
+           java.util.Calendar lastViewedDate,
+           java.lang.String name,
+           java.lang.Boolean permissionsActivateContract,
+           java.lang.Boolean permissionsActivateOrder,
+           java.lang.Boolean permissionsAllowEmailIC,
+           java.lang.Boolean permissionsAllowUniversalSearch,
+           java.lang.Boolean permissionsAllowViewKnowledge,
+           java.lang.Boolean permissionsApiEnabled,
+           java.lang.Boolean permissionsAssignPermissionSets,
+           java.lang.Boolean permissionsAssignTopics,
+           java.lang.Boolean permissionsAuthorApex,
+           java.lang.Boolean permissionsBulkApiHardDelete,
+           java.lang.Boolean permissionsBulkMacrosAllowed,
+           java.lang.Boolean permissionsCanInsertFeedSystemFields,
+           java.lang.Boolean permissionsCanUseNewDashboardBuilder,
+           java.lang.Boolean permissionsChatterEditOwnPost,
+           java.lang.Boolean permissionsChatterEditOwnRecordPost,
+           java.lang.Boolean permissionsChatterFileLink,
+           java.lang.Boolean permissionsChatterForSharePoint,
+           java.lang.Boolean permissionsChatterInternalUser,
+           java.lang.Boolean permissionsChatterInviteExternalUsers,
+           java.lang.Boolean permissionsChatterOwnGroups,
+           java.lang.Boolean permissionsConfigCustomRecs,
+           java.lang.Boolean permissionsConnectOrgToEnvironmentHub,
+           java.lang.Boolean permissionsContentAdministrator,
+           java.lang.Boolean permissionsConvertLeads,
+           java.lang.Boolean permissionsCreateCustomizeDashboards,
+           java.lang.Boolean permissionsCreateCustomizeFilters,
+           java.lang.Boolean permissionsCreateCustomizeReports,
+           java.lang.Boolean permissionsCreateDashboardFolders,
+           java.lang.Boolean permissionsCreateMultiforce,
+           java.lang.Boolean permissionsCreateReportFolders,
+           java.lang.Boolean permissionsCreateTopics,
+           java.lang.Boolean permissionsCreateWorkspaces,
+           java.lang.Boolean permissionsCustomMobileAppsAccess,
+           java.lang.Boolean permissionsCustomSidebarOnAllPages,
+           java.lang.Boolean permissionsCustomizeApplication,
+           java.lang.Boolean permissionsDeleteActivatedContract,
+           java.lang.Boolean permissionsDeleteTopics,
+           java.lang.Boolean permissionsDistributeFromPersWksp,
+           java.lang.Boolean permissionsEditActivatedOrders,
+           java.lang.Boolean permissionsEditBrandTemplates,
+           java.lang.Boolean permissionsEditCaseComments,
+           java.lang.Boolean permissionsEditEvent,
+           java.lang.Boolean permissionsEditHtmlTemplates,
+           java.lang.Boolean permissionsEditKnowledge,
+           java.lang.Boolean permissionsEditMyDashboards,
+           java.lang.Boolean permissionsEditMyReports,
+           java.lang.Boolean permissionsEditOppLineItemUnitPrice,
+           java.lang.Boolean permissionsEditPublicDocuments,
+           java.lang.Boolean permissionsEditPublicTemplates,
+           java.lang.Boolean permissionsEditReadonlyFields,
+           java.lang.Boolean permissionsEditTask,
+           java.lang.Boolean permissionsEditTopics,
+           java.lang.Boolean permissionsEmailAdministration,
+           java.lang.Boolean permissionsEmailMass,
+           java.lang.Boolean permissionsEmailSingle,
+           java.lang.Boolean permissionsEmailTemplateManagement,
+           java.lang.Boolean permissionsEnableNotifications,
+           java.lang.Boolean permissionsExportReport,
+           java.lang.Boolean permissionsFlowUFLRequired,
+           java.lang.Boolean permissionsForceTwoFactor,
+           java.lang.Boolean permissionsGovernNetworks,
+           java.lang.Boolean permissionsIdentityConnect,
+           java.lang.Boolean permissionsIdentityEnabled,
+           java.lang.Boolean permissionsImportLeads,
+           java.lang.Boolean permissionsImportPersonal,
+           java.lang.Boolean permissionsInstallMultiforce,
+           java.lang.Boolean permissionsManageAnalyticSnapshots,
+           java.lang.Boolean permissionsManageAuthProviders,
+           java.lang.Boolean permissionsManageBusinessHourHolidays,
+           java.lang.Boolean permissionsManageCallCenters,
+           java.lang.Boolean permissionsManageCases,
+           java.lang.Boolean permissionsManageCategories,
+           java.lang.Boolean permissionsManageChatterMessages,
+           java.lang.Boolean permissionsManageContentPermissions,
+           java.lang.Boolean permissionsManageContentProperties,
+           java.lang.Boolean permissionsManageContentTypes,
+           java.lang.Boolean permissionsManageCustomPermissions,
+           java.lang.Boolean permissionsManageCustomReportTypes,
+           java.lang.Boolean permissionsManageDashbdsInPubFolders,
+           java.lang.Boolean permissionsManageDataCategories,
+           java.lang.Boolean permissionsManageDataIntegrations,
+           java.lang.Boolean permissionsManageDynamicDashboards,
+           java.lang.Boolean permissionsManageEmailClientConfig,
+           java.lang.Boolean permissionsManageExchangeConfig,
+           java.lang.Boolean permissionsManageInteraction,
+           java.lang.Boolean permissionsManageInternalUsers,
+           java.lang.Boolean permissionsManageIpAddresses,
+           java.lang.Boolean permissionsManageKnowledge,
+           java.lang.Boolean permissionsManageKnowledgeImportExport,
+           java.lang.Boolean permissionsManageLeads,
+           java.lang.Boolean permissionsManageLoginAccessPolicies,
+           java.lang.Boolean permissionsManageMobile,
+           java.lang.Boolean permissionsManageNetworks,
+           java.lang.Boolean permissionsManagePasswordPolicies,
+           java.lang.Boolean permissionsManageProfilesPermissionsets,
+           java.lang.Boolean permissionsManageRemoteAccess,
+           java.lang.Boolean permissionsManageReportsInPubFolders,
+           java.lang.Boolean permissionsManageRoles,
+           java.lang.Boolean permissionsManageSearchPromotionRules,
+           java.lang.Boolean permissionsManageSharing,
+           java.lang.Boolean permissionsManageSolutions,
+           java.lang.Boolean permissionsManageSynonyms,
+           java.lang.Boolean permissionsManageTwoFactor,
+           java.lang.Boolean permissionsManageUnlistedGroups,
+           java.lang.Boolean permissionsManageUsers,
+           java.lang.Boolean permissionsMassInlineEdit,
+           java.lang.Boolean permissionsMergeTopics,
+           java.lang.Boolean permissionsModerateChatter,
+           java.lang.Boolean permissionsModifyAllData,
+           java.lang.Boolean permissionsModifySecureAgents,
+           java.lang.Boolean permissionsNewReportBuilder,
+           java.lang.Boolean permissionsPasswordNeverExpires,
+           java.lang.Boolean permissionsPublishMultiforce,
+           java.lang.Boolean permissionsResetPasswords,
+           java.lang.Boolean permissionsRunFlow,
+           java.lang.Boolean permissionsRunReports,
+           java.lang.Boolean permissionsSalesConsole,
+           java.lang.Boolean permissionsScheduleReports,
+           java.lang.Boolean permissionsSendSitRequests,
+           java.lang.Boolean permissionsShareInternalArticles,
+           java.lang.Boolean permissionsSolutionImport,
+           java.lang.Boolean permissionsSubmitMacrosAllowed,
+           java.lang.Boolean permissionsTransferAnyCase,
+           java.lang.Boolean permissionsTransferAnyEntity,
+           java.lang.Boolean permissionsTransferAnyLead,
+           java.lang.Boolean permissionsTwoFactorApi,
+           java.lang.Boolean permissionsUseTeamReassignWizards,
+           java.lang.Boolean permissionsViewAllData,
+           java.lang.Boolean permissionsViewAllUsers,
+           java.lang.Boolean permissionsViewContent,
+           java.lang.Boolean permissionsViewDataCategories,
+           java.lang.Boolean permissionsViewEncryptedData,
+           java.lang.Boolean permissionsViewEventLogFiles,
+           java.lang.Boolean permissionsViewHelpLink,
+           java.lang.Boolean permissionsViewMyTeamsDashboards,
+           java.lang.Boolean permissionsViewPublicDashboards,
+           java.lang.Boolean permissionsViewPublicReports,
+           java.lang.Boolean permissionsViewSetup,
+           java.lang.Boolean permissionsWorkCalibrationUser,
+           java.lang.Boolean permissionsWorkDotComUserPerm,
+           java.util.Calendar systemModstamp,
+           com.sforce.soap.enterprise.sobject.UserLicense userLicense,
+           java.lang.String userLicenseId,
+           java.lang.String userType,
+           com.sforce.soap.enterprise.QueryResult users) {
+        super(
+            fieldsToNull,
+            id);
+        this.createdBy = createdBy;
+        this.createdById = createdById;
+        this.createdDate = createdDate;
+        this.description = description;
+        this.lastModifiedBy = lastModifiedBy;
+        this.lastModifiedById = lastModifiedById;
+        this.lastModifiedDate = lastModifiedDate;
+        this.lastReferencedDate = lastReferencedDate;
+        this.lastViewedDate = lastViewedDate;
+        this.name = name;
+        this.permissionsActivateContract = permissionsActivateContract;
+        this.permissionsActivateOrder = permissionsActivateOrder;
+        this.permissionsAllowEmailIC = permissionsAllowEmailIC;
+        this.permissionsAllowUniversalSearch = permissionsAllowUniversalSearch;
+        this.permissionsAllowViewKnowledge = permissionsAllowViewKnowledge;
+        this.permissionsApiEnabled = permissionsApiEnabled;
+        this.permissionsAssignPermissionSets = permissionsAssignPermissionSets;
+        this.permissionsAssignTopics = permissionsAssignTopics;
+        this.permissionsAuthorApex = permissionsAuthorApex;
+        this.permissionsBulkApiHardDelete = permissionsBulkApiHardDelete;
+        this.permissionsBulkMacrosAllowed = permissionsBulkMacrosAllowed;
+        this.permissionsCanInsertFeedSystemFields = permissionsCanInsertFeedSystemFields;
+        this.permissionsCanUseNewDashboardBuilder = permissionsCanUseNewDashboardBuilder;
+        this.permissionsChatterEditOwnPost = permissionsChatterEditOwnPost;
+        this.permissionsChatterEditOwnRecordPost = permissionsChatterEditOwnRecordPost;
+        this.permissionsChatterFileLink = permissionsChatterFileLink;
+        this.permissionsChatterForSharePoint = permissionsChatterForSharePoint;
+        this.permissionsChatterInternalUser = permissionsChatterInternalUser;
+        this.permissionsChatterInviteExternalUsers = permissionsChatterInviteExternalUsers;
+        this.permissionsChatterOwnGroups = permissionsChatterOwnGroups;
+        this.permissionsConfigCustomRecs = permissionsConfigCustomRecs;
+        this.permissionsConnectOrgToEnvironmentHub = permissionsConnectOrgToEnvironmentHub;
+        this.permissionsContentAdministrator = permissionsContentAdministrator;
+        this.permissionsConvertLeads = permissionsConvertLeads;
+        this.permissionsCreateCustomizeDashboards = permissionsCreateCustomizeDashboards;
+        this.permissionsCreateCustomizeFilters = permissionsCreateCustomizeFilters;
+        this.permissionsCreateCustomizeReports = permissionsCreateCustomizeReports;
+        this.permissionsCreateDashboardFolders = permissionsCreateDashboardFolders;
+        this.permissionsCreateMultiforce = permissionsCreateMultiforce;
+        this.permissionsCreateReportFolders = permissionsCreateReportFolders;
+        this.permissionsCreateTopics = permissionsCreateTopics;
+        this.permissionsCreateWorkspaces = permissionsCreateWorkspaces;
+        this.permissionsCustomMobileAppsAccess = permissionsCustomMobileAppsAccess;
+        this.permissionsCustomSidebarOnAllPages = permissionsCustomSidebarOnAllPages;
+        this.permissionsCustomizeApplication = permissionsCustomizeApplication;
+        this.permissionsDeleteActivatedContract = permissionsDeleteActivatedContract;
+        this.permissionsDeleteTopics = permissionsDeleteTopics;
+        this.permissionsDistributeFromPersWksp = permissionsDistributeFromPersWksp;
+        this.permissionsEditActivatedOrders = permissionsEditActivatedOrders;
+        this.permissionsEditBrandTemplates = permissionsEditBrandTemplates;
+        this.permissionsEditCaseComments = permissionsEditCaseComments;
+        this.permissionsEditEvent = permissionsEditEvent;
+        this.permissionsEditHtmlTemplates = permissionsEditHtmlTemplates;
+        this.permissionsEditKnowledge = permissionsEditKnowledge;
+        this.permissionsEditMyDashboards = permissionsEditMyDashboards;
+        this.permissionsEditMyReports = permissionsEditMyReports;
+        this.permissionsEditOppLineItemUnitPrice = permissionsEditOppLineItemUnitPrice;
+        this.permissionsEditPublicDocuments = permissionsEditPublicDocuments;
+        this.permissionsEditPublicTemplates = permissionsEditPublicTemplates;
+        this.permissionsEditReadonlyFields = permissionsEditReadonlyFields;
+        this.permissionsEditTask = permissionsEditTask;
+        this.permissionsEditTopics = permissionsEditTopics;
+        this.permissionsEmailAdministration = permissionsEmailAdministration;
+        this.permissionsEmailMass = permissionsEmailMass;
+        this.permissionsEmailSingle = permissionsEmailSingle;
+        this.permissionsEmailTemplateManagement = permissionsEmailTemplateManagement;
+        this.permissionsEnableNotifications = permissionsEnableNotifications;
+        this.permissionsExportReport = permissionsExportReport;
+        this.permissionsFlowUFLRequired = permissionsFlowUFLRequired;
+        this.permissionsForceTwoFactor = permissionsForceTwoFactor;
+        this.permissionsGovernNetworks = permissionsGovernNetworks;
+        this.permissionsIdentityConnect = permissionsIdentityConnect;
+        this.permissionsIdentityEnabled = permissionsIdentityEnabled;
+        this.permissionsImportLeads = permissionsImportLeads;
+        this.permissionsImportPersonal = permissionsImportPersonal;
+        this.permissionsInstallMultiforce = permissionsInstallMultiforce;
+        this.permissionsManageAnalyticSnapshots = permissionsManageAnalyticSnapshots;
+        this.permissionsManageAuthProviders = permissionsManageAuthProviders;
+        this.permissionsManageBusinessHourHolidays = permissionsManageBusinessHourHolidays;
+        this.permissionsManageCallCenters = permissionsManageCallCenters;
+        this.permissionsManageCases = permissionsManageCases;
+        this.permissionsManageCategories = permissionsManageCategories;
+        this.permissionsManageChatterMessages = permissionsManageChatterMessages;
+        this.permissionsManageContentPermissions = permissionsManageContentPermissions;
+        this.permissionsManageContentProperties = permissionsManageContentProperties;
+        this.permissionsManageContentTypes = permissionsManageContentTypes;
+        this.permissionsManageCustomPermissions = permissionsManageCustomPermissions;
+        this.permissionsManageCustomReportTypes = permissionsManageCustomReportTypes;
+        this.permissionsManageDashbdsInPubFolders = permissionsManageDashbdsInPubFolders;
+        this.permissionsManageDataCategories = permissionsManageDataCategories;
+        this.permissionsManageDataIntegrations = permissionsManageDataIntegrations;
+        this.permissionsManageDynamicDashboards = permissionsManageDynamicDashboards;
+        this.permissionsManageEmailClientConfig = permissionsManageEmailClientConfig;
+        this.permissionsManageExchangeConfig = permissionsManageExchangeConfig;
+        this.permissionsManageInteraction = permissionsManageInteraction;
+        this.permissionsManageInternalUsers = permissionsManageInternalUsers;
+        this.permissionsManageIpAddresses = permissionsManageIpAddresses;
+        this.permissionsManageKnowledge = permissionsManageKnowledge;
+        this.permissionsManageKnowledgeImportExport = permissionsManageKnowledgeImportExport;
+        this.permissionsManageLeads = permissionsManageLeads;
+        this.permissionsManageLoginAccessPolicies = permissionsManageLoginAccessPolicies;
+        this.permissionsManageMobile = permissionsManageMobile;
+        this.permissionsManageNetworks = permissionsManageNetworks;
+        this.permissionsManagePasswordPolicies = permissionsManagePasswordPolicies;
+        this.permissionsManageProfilesPermissionsets = permissionsManageProfilesPermissionsets;
+        this.permissionsManageRemoteAccess = permissionsManageRemoteAccess;
+        this.permissionsManageReportsInPubFolders = permissionsManageReportsInPubFolders;
+        this.permissionsManageRoles = permissionsManageRoles;
+        this.permissionsManageSearchPromotionRules = permissionsManageSearchPromotionRules;
+        this.permissionsManageSharing = permissionsManageSharing;
+        this.permissionsManageSolutions = permissionsManageSolutions;
+        this.permissionsManageSynonyms = permissionsManageSynonyms;
+        this.permissionsManageTwoFactor = permissionsManageTwoFactor;
+        this.permissionsManageUnlistedGroups = permissionsManageUnlistedGroups;
+        this.permissionsManageUsers = permissionsManageUsers;
+        this.permissionsMassInlineEdit = permissionsMassInlineEdit;
+        this.permissionsMergeTopics = permissionsMergeTopics;
+        this.permissionsModerateChatter = permissionsModerateChatter;
+        this.permissionsModifyAllData = permissionsModifyAllData;
+        this.permissionsModifySecureAgents = permissionsModifySecureAgents;
+        this.permissionsNewReportBuilder = permissionsNewReportBuilder;
+        this.permissionsPasswordNeverExpires = permissionsPasswordNeverExpires;
+        this.permissionsPublishMultiforce = permissionsPublishMultiforce;
+        this.permissionsResetPasswords = permissionsResetPasswords;
+        this.permissionsRunFlow = permissionsRunFlow;
+        this.permissionsRunReports = permissionsRunReports;
+        this.permissionsSalesConsole = permissionsSalesConsole;
+        this.permissionsScheduleReports = permissionsScheduleReports;
+        this.permissionsSendSitRequests = permissionsSendSitRequests;
+        this.permissionsShareInternalArticles = permissionsShareInternalArticles;
+        this.permissionsSolutionImport = permissionsSolutionImport;
+        this.permissionsSubmitMacrosAllowed = permissionsSubmitMacrosAllowed;
+        this.permissionsTransferAnyCase = permissionsTransferAnyCase;
+        this.permissionsTransferAnyEntity = permissionsTransferAnyEntity;
+        this.permissionsTransferAnyLead = permissionsTransferAnyLead;
+        this.permissionsTwoFactorApi = permissionsTwoFactorApi;
+        this.permissionsUseTeamReassignWizards = permissionsUseTeamReassignWizards;
+        this.permissionsViewAllData = permissionsViewAllData;
+        this.permissionsViewAllUsers = permissionsViewAllUsers;
+        this.permissionsViewContent = permissionsViewContent;
+        this.permissionsViewDataCategories = permissionsViewDataCategories;
+        this.permissionsViewEncryptedData = permissionsViewEncryptedData;
+        this.permissionsViewEventLogFiles = permissionsViewEventLogFiles;
+        this.permissionsViewHelpLink = permissionsViewHelpLink;
+        this.permissionsViewMyTeamsDashboards = permissionsViewMyTeamsDashboards;
+        this.permissionsViewPublicDashboards = permissionsViewPublicDashboards;
+        this.permissionsViewPublicReports = permissionsViewPublicReports;
+        this.permissionsViewSetup = permissionsViewSetup;
+        this.permissionsWorkCalibrationUser = permissionsWorkCalibrationUser;
+        this.permissionsWorkDotComUserPerm = permissionsWorkDotComUserPerm;
+        this.systemModstamp = systemModstamp;
+        this.userLicense = userLicense;
+        this.userLicenseId = userLicenseId;
+        this.userType = userType;
+        this.users = users;
+    }
+
+
+    /**
+     * Gets the createdBy value for this Profile.
+     * 
+     * @return createdBy
+     */
+    public com.sforce.soap.enterprise.sobject.User getCreatedBy() {
+        return createdBy;
+    }
+
+
+    /**
+     * Sets the createdBy value for this Profile.
+     * 
+     * @param createdBy
+     */
+    public void setCreatedBy(com.sforce.soap.enterprise.sobject.User createdBy) {
+        this.createdBy = createdBy;
+    }
+
+
+    /**
+     * Gets the createdById value for this Profile.
+     * 
+     * @return createdById
+     */
+    public java.lang.String getCreatedById() {
+        return createdById;
+    }
+
+
+    /**
+     * Sets the createdById value for this Profile.
+     * 
+     * @param createdById
+     */
+    public void setCreatedById(java.lang.String createdById) {
+        this.createdById = createdById;
+    }
+
+
+    /**
+     * Gets the createdDate value for this Profile.
+     * 
+     * @return createdDate
+     */
+    public java.util.Calendar getCreatedDate() {
+        return createdDate;
+    }
+
+
+    /**
+     * Sets the createdDate value for this Profile.
+     * 
+     * @param createdDate
+     */
+    public void setCreatedDate(java.util.Calendar createdDate) {
+        this.createdDate = createdDate;
+    }
+
+
+    /**
+     * Gets the description value for this Profile.
+     * 
+     * @return description
+     */
+    public java.lang.String getDescription() {
+        return description;
+    }
+
+
+    /**
+     * Sets the description value for this Profile.
+     * 
+     * @param description
+     */
+    public void setDescription(java.lang.String description) {
+        this.description = description;
+    }
+
+
+    /**
+     * Gets the lastModifiedBy value for this Profile.
+     * 
+     * @return lastModifiedBy
+     */
+    public com.sforce.soap.enterprise.sobject.User getLastModifiedBy() {
+        return lastModifiedBy;
+    }
+
+
+    /**
+     * Sets the lastModifiedBy value for this Profile.
+     * 
+     * @param lastModifiedBy
+     */
+    public void setLastModifiedBy(com.sforce.soap.enterprise.sobject.User lastModifiedBy) {
+        this.lastModifiedBy = lastModifiedBy;
+    }
+
+
+    /**
+     * Gets the lastModifiedById value for this Profile.
+     * 
+     * @return lastModifiedById
+     */
+    public java.lang.String getLastModifiedById() {
+        return lastModifiedById;
+    }
+
+
+    /**
+     * Sets the lastModifiedById value for this Profile.
+     * 
+     * @param lastModifiedById
+     */
+    public void setLastModifiedById(java.lang.String lastModifiedById) {
+        this.lastModifiedById = lastModifiedById;
+    }
+
+
+    /**
+     * Gets the lastModifiedDate value for this Profile.
+     * 
+     * @return lastModifiedDate
+     */
+    public java.util.Calendar getLastModifiedDate() {
+        return lastModifiedDate;
+    }
+
+
+    /**
+     * Sets the lastModifiedDate value for this Profile.
+     * 
+     * @param lastModifiedDate
+     */
+    public void setLastModifiedDate(java.util.Calendar lastModifiedDate) {
+        this.lastModifiedDate = lastModifiedDate;
+    }
+
+
+    /**
+     * Gets the lastReferencedDate value for this Profile.
+     * 
+     * @return lastReferencedDate
+     */
+    public java.util.Calendar getLastReferencedDate() {
+        return lastReferencedDate;
+    }
+
+
+    /**
+     * Sets the lastReferencedDate value for this Profile.
+     * 
+     * @param lastReferencedDate
+     */
+    public void setLastReferencedDate(java.util.Calendar lastReferencedDate) {
+        this.lastReferencedDate = lastReferencedDate;
+    }
+
+
+    /**
+     * Gets the lastViewedDate value for this Profile.
+     * 
+     * @return lastViewedDate
+     */
+    public java.util.Calendar getLastViewedDate() {
+        return lastViewedDate;
+    }
+
+
+    /**
+     * Sets the lastViewedDate value for this Profile.
+     * 
+     * @param lastViewedDate
+     */
+    public void setLastViewedDate(java.util.Calendar lastViewedDate) {
+        this.lastViewedDate = lastViewedDate;
+    }
+
+
+    /**
+     * Gets the name value for this Profile.
+     * 
+     * @return name
+     */
+    public java.lang.String getName() {
+        return name;
+    }
+
+
+    /**
+     * Sets the name value for this Profile.
+     * 
+     * @param name
+     */
+    public void setName(java.lang.String name) {
+        this.name = name;
+    }
+
+
+    /**
+     * Gets the permissionsActivateContract value for this Profile.
+     * 
+     * @return permissionsActivateContract
+     */
+    public java.lang.Boolean getPermissionsActivateContract() {
+        return permissionsActivateContract;
+    }
+
+
+    /**
+     * Sets the permissionsActivateContract value for this Profile.
+     * 
+     * @param permissionsActivateContract
+     */
+    public void setPermissionsActivateContract(java.lang.Boolean permissionsActivateContract) {
+        this.permissionsActivateContract = permissionsActivateContract;
+    }
+
+
+    /**
+     * Gets the permissionsActivateOrder value for this Profile.
+     * 
+     * @return permissionsActivateOrder
+     */
+    public java.lang.Boolean getPermissionsActivateOrder() {
+        return permissionsActivateOrder;
+    }
+
+
+    /**
+     * Sets the permissionsActivateOrder value for this Profile.
+     * 
+     * @param permissionsActivateOrder
+     */
+    public void setPermissionsActivateOrder(java.lang.Boolean permissionsActivateOrder) {
+        this.permissionsActivateOrder = permissionsActivateOrder;
+    }
+
+
+    /**
+     * Gets the permissionsAllowEmailIC value for this Profile.
+     * 
+     * @return permissionsAllowEmailIC
+     */
+    public java.lang.Boolean getPermissionsAllowEmailIC() {
+        return permissionsAllowEmailIC;
+    }
+
+
+    /**
+     * Sets the permissionsAllowEmailIC value for this Profile.
+     * 
+     * @param permissionsAllowEmailIC
+     */
+    public void setPermissionsAllowEmailIC(java.lang.Boolean permissionsAllowEmailIC) {
+        this.permissionsAllowEmailIC = permissionsAllowEmailIC;
+    }
+
+
+    /**
+     * Gets the permissionsAllowUniversalSearch value for this Profile.
+     * 
+     * @return permissionsAllowUniversalSearch
+     */
+    public java.lang.Boolean getPermissionsAllowUniversalSearch() {
+        return permissionsAllowUniversalSearch;
+    }
+
+
+    /**
+     * Sets the permissionsAllowUniversalSearch value for this Profile.
+     * 
+     * @param permissionsAllowUniversalSearch
+     */
+    public void setPermissionsAllowUniversalSearch(java.lang.Boolean permissionsAllowUniversalSearch) {
+        this.permissionsAllowUniversalSearch = permissionsAllowUniversalSearch;
+    }
+
+
+    /**
+     * Gets the permissionsAllowViewKnowledge value for this Profile.
+     * 
+     * @return permissionsAllowViewKnowledge
+     */
+    public java.lang.Boolean getPermissionsAllowViewKnowledge() {
+        return permissionsAllowViewKnowledge;
+    }
+
+
+    /**
+     * Sets the permissionsAllowViewKnowledge value for this Profile.
+     * 
+     * @param permissionsAllowViewKnowledge
+     */
+    public void setPermissionsAllowViewKnowledge(java.lang.Boolean permissionsAllowViewKnowledge) {
+        this.permissionsAllowViewKnowledge = permissionsAllowViewKnowledge;
+    }
+
+
+    /**
+     * Gets the permissionsApiEnabled value for this Profile.
+     * 
+     * @return permissionsApiEnabled
+     */
+    public java.lang.Boolean getPermissionsApiEnabled() {
+        return permissionsApiEnabled;
+    }
+
+
+    /**
+     * Sets the permissionsApiEnabled value for this Profile.
+     * 
+     * @param permissionsApiEnabled
+     */
+    public void setPermissionsApiEnabled(java.lang.Boolean permissionsApiEnabled) {
+        this.permissionsApiEnabled = permissionsApiEnabled;
+    }
+
+
+    /**
+     * Gets the permissionsAssignPermissionSets value for this Profile.
+     * 
+     * @return permissionsAssignPermissionSets
+     */
+    public java.lang.Boolean getPermissionsAssignPermissionSets() {
+        return permissionsAssignPermissionSets;
+    }
+
+
+    /**
+     * Sets the permissionsAssignPermissionSets value for this Profile.
+     * 
+     * @param permissionsAssignPermissionSets
+     */
+    public void setPermissionsAssignPermissionSets(java.lang.Boolean permissionsAssignPermissionSets) {
+        this.permissionsAssignPermissionSets = permissionsAssignPermissionSets;
+    }
+
+
+    /**
+     * Gets the permissionsAssignTopics value for this Profile.
+     * 
+     * @return permissionsAssignTopics
+     */
+    public java.lang.Boolean getPermissionsAssignTopics() {
+        return permissionsAssignTopics;
+    }
+
+
+    /**
+     * Sets the permissionsAssignTopics value for this Profile.
+     * 
+     * @param permissionsAssignTopics
+     */
+    public void setPermissionsAssignTopics(java.lang.Boolean permissionsAssignTopics) {
+        this.permissionsAssignTopics = permissionsAssignTopics;
+    }
+
+
+    /**
+     * Gets the permissionsAuthorApex value for this Profile.
+     * 
+     * @return permissionsAuthorApex
+     */
+    public java.lang.Boolean getPermissionsAuthorApex() {
+        return permissionsAuthorApex;
+    }
+
+
+    /**
+     * Sets the permissionsAuthorApex value for this Profile.
+     * 
+     * @param permissionsAuthorApex
+     */
+    public void setPermissionsAuthorApex(java.lang.Boolean permissionsAuthorApex) {
+        this.permissionsAuthorApex = permissionsAuthorApex;
+    }
+
+
+    /**
+     * Gets the permissionsBulkApiHardDelete value for this Profile.
+     * 
+     * @return permissionsBulkApiHardDelete
+     */
+    public java.lang.Boolean getPermissionsBulkApiHardDelete() {
+        return permissionsBulkApiHardDelete;
+    }
+
+
+    /**
+     * Sets the permissionsBulkApiHardDelete value for this Profile.
+     * 
+     * @param permissionsBulkApiHardDelete
+     */
+    public void setPermissionsBulkApiHardDelete(java.lang.Boolean permissionsBulkApiHardDelete) {
+        this.permissionsBulkApiHardDelete = permissionsBulkApiHardDelete;
+    }
+
+
+    /**
+     * Gets the permissionsBulkMacrosAllowed value for this Profile.
+     * 
+     * @return permissionsBulkMacrosAllowed
+     */
+    public java.lang.Boolean getPermissionsBulkMacrosAllowed() {
+        return permissionsBulkMacrosAllowed;
+    }
+
+
+    /**
+     * Sets the permissionsBulkMacrosAllowed value for this Profile.
+     * 
+     * @param permissionsBulkMacrosAllowed
+     */
+    public void setPermissionsBulkMacrosAllowed(java.lang.Boolean permissionsBulkMacrosAllowed) {
+        this.permissionsBulkMacrosAllowed = permissionsBulkMacrosAllowed;
+    }
+
+
+    /**
+     * Gets the permissionsCanInsertFeedSystemFields value for this Profile.
+     * 
+     * @return permissionsCanInsertFeedSystemFields
+     */
+    public java.lang.Boolean getPermissionsCanInsertFeedSystemFields() {
+        return permissionsCanInsertFeedSystemFields;
+    }
+
+
+    /**
+     * Sets the permissionsCanInsertFeedSystemFields value for this Profile.
+     * 
+     * @param permissionsCanInsertFeedSystemFields
+     */
+    public void setPermissionsCanInsertFeedSystemFields(java.lang.Boolean permissionsCanInsertFeedSystemFields) {
+        this.permissionsCanInsertFeedSystemFields = permissionsCanInsertFeedSystemFields;
+    }
+
+
+    /**
+     * Gets the permissionsCanUseNewDashboardBuilder value for this Profile.
+     * 
+     * @return permissionsCanUseNewDashboardBuilder
+     */
+    public java.lang.Boolean getPermissionsCanUseNewDashboardBuilder() {
+        return permissionsCanUseNewDashboardBuilder;
+    }
+
+
+    /**
+     * Sets the permissionsCanUseNewDashboardBuilder value for this Profile.
+     * 
+     * @param permissionsCanUseNewDashboardBuilder
+     */
+    public void setPermissionsCanUseNewDashboardBuilder(java.lang.Boolean permissionsCanUseNewDashboardBuilder) {
+        this.permissionsCanUseNewDashboardBuilder = permissionsCanUseNewDashboardBuilder;
+    }
+
+
+    /**
+     * Gets the permissionsChatterEditOwnPost value for this Profile.
+     * 
+     * @return permissionsChatterEditOwnPost
+     */
+    public java.lang.Boolean getPermissionsChatterEditOwnPost() {
+        return permissionsChatterEditOwnPost;
+    }
+
+
+    /**
+     * Sets the permissionsChatterEditOwnPost value for this Profile.
+     * 
+     * @param permissionsChatterEditOwnPost
+     */
+    public void setPermissionsChatterEditOwnPost(java.lang.Boolean permissionsChatterEditOwnPost) {
+        this.permissionsChatterEditOwnPost = permissionsChatterEditOwnPost;
+    }
+
+
+    /**
+     * Gets the permissionsChatterEditOwnRecordPost value for this Profile.
+     * 
+     * @return permissionsChatterEditOwnRecordPost
+     */
+    public java.lang.Boolean getPermissionsChatterEditOwnRecordPost() {
+        return permissionsChatterEditOwnRecordPost;
+    }
+
+
+    /**
+     * Sets the permissionsChatterEditOwnRecordPost value for this Profile.
+     * 
+     * @param permissionsChatterEditOwnRecordPost
+     */
+    public void setPermissionsChatterEditOwnRecordPost(java.lang.Boolean permissionsChatterEditOwnRecordPost) {
+        this.permissionsChatterEditOwnRecordPost = permissionsChatterEditOwnRecordPost;
+    }
+
+
+    /**
+     * Gets the permissionsChatterFileLink value for this Profile.
+     * 
+     * @return permissionsChatterFileLink
+     */
+    public java.lang.Boolean getPermissionsChatterFileLink() {
+        return permissionsChatterFileLink;
+    }
+
+
+    /**
+     * Sets the permissionsChatterFileLink value for this Profile.
+     * 
+     * @param permissionsChatterFileLink
+     */
+    public void setPermissionsChatterFileLink(java.lang.Boolean permissionsChatterFileLink) {
+        this.permissionsChatterFileLink = permissionsChatterFileLink;
+    }
+
+
+    /**
+     * Gets the permissionsChatterForSharePoint value for this Profile.
+     * 
+     * @return permissionsChatterForSharePoint
+     */
+    public java.lang.Boolean getPermissionsChatterForSharePoint() {
+        return permissionsChatterForSharePoint;
+    }
+
+
+    /**
+     * Sets the permissionsChatterForSharePoint value for this Profile.
+     * 
+     * @param permissionsChatterForSharePoint
+     */
+    public void setPermissionsChatterForSharePoint(java.lang.Boolean permissionsChatterForSharePoint) {
+        this.permissionsChatterForSharePoint = permissionsChatterForSharePoint;
+    }
+
+
+    /**
+     * Gets the permissionsChatterInternalUser value for this Profile.
+     * 
+     * @return permissionsChatterInternalUser
+     */
+    public java.lang.Boolean getPermissionsChatterInternalUser() {
+        return permissionsChatterInternalUser;
+    }
+
+
+    /**
+     * Sets the permissionsChatterInternalUser value for this Profile.
+     * 
+     * @param permissionsChatterInternalUser
+     */
+    public void setPermissionsChatterInternalUser(java.lang.Boolean permissionsChatterInternalUser) {
+        this.permissionsChatterInternalUser = permissionsChatterInternalUser;
+    }
+
+
+    /**
+     * Gets the permissionsChatterInviteExternalUsers value for this Profile.
+     * 
+     * @return permissionsChatterInviteExternalUsers
+     */
+    public java.lang.Boolean getPermissionsChatterInviteExternalUsers() {
+        return permissionsChatterInviteExternalUsers;
+    }
+
+
+    /**
+     * Sets the permissionsChatterInviteExternalUsers value for this Profile.
+     * 
+     * @param permissionsChatterInviteExternalUsers
+     */
+    public void setPermissionsChatterInviteExternalUsers(java.lang.Boolean permissionsChatterInviteExternalUsers) {
+        this.permissionsChatterInviteExternalUsers = permissionsChatterInviteExternalUsers;
+    }
+
+
+    /**
+     * Gets the permissionsChatterOwnGroups value for this Profile.
+     * 
+     * @return permissionsChatterOwnGroups
+     */
+    public java.lang.Boolean getPermissionsChatterOwnGroups() {
+        return permissionsChatterOwnGroups;
+    }
+
+
+    /**
+     * Sets the permissionsChatterOwnGroups value for this Profile.
+     * 
+     * @param permissionsChatterOwnGroups
+     */
+    public void setPermissionsChatterOwnGroups(java.lang.Boolean permissionsChatterOwnGroups) {
+        this.permissionsChatterOwnGroups = permissionsChatterOwnGroups;
+    }
+
+
+    /**
+     * Gets the permissionsConfigCustomRecs value for this Profile.
+     * 
+     * @return permissionsConfigCustomRecs
+     */
+    public java.lang.Boolean getPermissionsConfigCustomRecs() {
+        return permissionsConfigCustomRecs;
+    }
+
+
+    /**
+     * Sets the permissionsConfigCustomRecs value for this Profile.
+     * 
+     * @param permissionsConfigCustomRecs
+     */
+    public void setPermissionsConfigCustomRecs(java.lang.Boolean permissionsConfigCustomRecs) {
+        this.permissionsConfigCustomRecs = permissionsConfigCustomRecs;
+    }
+
+
+    /**
+     * Gets the permissionsConnectOrgToEnvironmentHub value for this Profile.
+     * 
+     * @return permissionsConnectOrgToEnvironmentHub
+     */
+    public java.lang.Boolean getPermissionsConnectOrgToEnvironmentHub() {
+        return permissionsConnectOrgToEnvironmentHub;
+    }
+
+
+    /**
+     * Sets the permissionsConnectOrgToEnvironmentHub value for this Profile.
+     * 
+     * @param permissionsConnectOrgToEnvironmentHub
+     */
+    public void setPermissionsConnectOrgToEnvironmentHub(java.lang.Boolean permissionsConnectOrgToEnvironmentHub) {
+        this.permissionsConnectOrgToEnvironmentHub = permissionsConnectOrgToEnvironmentHub;
+    }
+
+
+    /**
+     * Gets the permissionsContentAdministrator value for this Profile.
+     * 
+     * @return permissionsContentAdministrator
+     */
+    public java.lang.Boolean getPermissionsContentAdministrator() {
+        return permissionsContentAdministrator;
+    }
+
+
+    /**
+     * Sets the permissionsContentAdministrator value for this Profile.
+     * 
+     * @param permissionsContentAdministrator
+     */
+    public void setPermissionsContentAdministrator(java.lang.Boolean permissionsContentAdministrator) {
+        this.permissionsContentAdministrator = permissionsContentAdministrator;
+    }
+
+
+    /**
+     * Gets the permissionsConvertLeads value for this Profile.
+     * 
+     * @return permissionsConvertLeads
+     */
+    public java.lang.Boolean getPermissionsConvertLeads() {
+        return permissionsConvertLeads;
+    }
+
+
+    /**
+     * Sets the permissionsConvertLeads value for this Profile.
+     * 
+     * @param permissionsConvertLeads
+     */
+    public void setPermissionsConvertLeads(java.lang.Boolean permissionsConvertLeads) {
+        this.permissionsConvertLeads = permissionsConvertLeads;
+    }
+
+
+    /**
+     * Gets the permissionsCreateCustomizeDashboards value for this Profile.
+     * 
+     * @return permissionsCreateCustomizeDashboards
+     */
+    public java.lang.Boolean getPermissionsCreateCustomizeDashboards() {
+        return permissionsCreateCustomizeDashboards;
+    }
+
+
+    /**
+     * Sets the permissionsCreateCustomizeDashboards value for this Profile.
+     * 
+     * @param permissionsCreateCustomizeDashboards
+     */
+    public void setPermissionsCreateCustomizeDashboards(java.lang.Boolean permissionsCreateCustomizeDashboards) {
+        this.permissionsCreateCustomizeDashboards = permissionsCreateCustomizeDashboards;
+    }
+
+
+    /**
+     * Gets the permissionsCreateCustomizeFilters value for this Profile.
+     * 
+     * @return permissionsCreateCustomizeFilters
+     */
+    public java.lang.Boolean getPermissionsCreateCustomizeFilters() {
+        return permissionsCreateCustomizeFilters;
+    }
+
+
+    /**
+     * Sets the permissionsCreateCustomizeFilters value for this Profile.
+     * 
+     * @param permissionsCreateCustomizeFilters
+     */
+    public void setPermissionsCreateCustomizeFilters(java.lang.Boolean permissionsCreateCustomizeFilters) {
+        this.permissionsCreateCustomizeFilters = permissionsCreateCustomizeFilters;
+    }
+
+
+    /**
+     * Gets the permissionsCreateCustomizeReports value for this Profile.
+     * 
+     * @return permissionsCreateCustomizeReports
+     */
+    public java.lang.Boolean getPermissionsCreateCustomizeReports() {
+        return permissionsCreateCustomizeReports;
+    }
+
+
+    /**
+     * Sets the permissionsCreateCustomizeReports value for this Profile.
+     * 
+     * @param permissionsCreateCustomizeReports
+     */
+    public void setPermissionsCreateCustomizeReports(java.lang.Boolean permissionsCreateCustomizeReports) {
+        this.permissionsCreateCustomizeReports = permissionsCreateCustomizeReports;
+    }
+
+
+    /**
+     * Gets the permissionsCreateDashboardFolders value for this Profile.
+     * 
+     * @return permissionsCreateDashboardFolders
+     */
+    public java.lang.Boolean getPermissionsCreateDashboardFolders() {
+        return permissionsCreateDashboardFolders;
+    }
+
+
+    /**
+     * Sets the permissionsCreateDashboardFolders value for this Profile.
+     * 
+     * @param permissionsCreateDashboardFolders
+     */
+    public void setPermissionsCreateDashboardFolders(java.lang.Boolean permissionsCreateDashboardFolders) {
+        this.permissionsCreateDashboardFolders = permissionsCreateDashboardFolders;
+    }
+
+
+    /**
+     * Gets the permissionsCreateMultiforce value for this Profile.
+     * 
+     * @return permissionsCreateMultiforce
+     */
+    public java.lang.Boolean getPermissionsCreateMultiforce() {
+        return permissionsCreateMultiforce;
+    }
+
+
+    /**
+     * Sets the permissionsCreateMultiforce value for this Profile.
+     * 
+     * @param permissionsCreateMultiforce
+     */
+    public void setPermissionsCreateMultiforce(java.lang.Boolean permissionsCreateMultiforce) {
+        this.permissionsCreateMultiforce = permissionsCreateMultiforce;
+    }
+
+
+    /**
+     * Gets the permissionsCreateReportFolders value for this Profile.
+     * 
+     * @return permissionsCreateReportFolders
+     */
+    public java.lang.Boolean getPermissionsCreateReportFolders() {
+        return permissionsCreateReportFolders;
+    }
+
+
+    /**
+     * Sets the permissionsCreateReportFolders value for this Profile.
+     * 
+     * @param permissionsCreateReportFolders
+     */
+    public void setPermissionsCreateReportFolders(java.lang.Boolean permissionsCreateReportFolders) {
+        this.permissionsCreateReportFolders = permissionsCreateReportFolders;
+    }
+
+
+    /**
+     * Gets the permissionsCreateTopics value for this Profile.
+     * 
+     * @return permissionsCreateTopics
+     */
+    public java.lang.Boolean getPermissionsCreateTopics() {
+        return permissionsCreateTopics;
+    }
+
+
+    /**
+     * Sets the permissionsCreateTopics value for this Profile.
+     * 
+     * @param permissionsCreateTopics
+     */
+    public void setPermissionsCreateTopics(java.lang.Boolean permissionsCreateTopics) {
+        this.permissionsCreateTopics = permissionsCreateTopics;
+    }
+
+
+    /**
+     * Gets the permissionsCreateWorkspaces value for this Profile.
+     * 
+     * @return permissionsCreateWorkspaces
+     */
+    public java.lang.Boolean getPermissionsCreateWorkspaces() {
+        return permissionsCreateWorkspaces;
+    }
+
+
+    /**
+     * Sets the permissionsCreateWorkspaces value for this Profile.
+     * 
+     * @param permissionsCreateWorkspaces
+     */
+    public void setPermissionsCreateWorkspaces(java.lang.Boolean permissionsCreateWorkspaces) {
+        this.permissionsCreateWorkspaces = permissionsCreateWorkspaces;
+    }
+
+
+    /**
+     * Gets the permissionsCustomMobileAppsAccess value for this Profile.
+     * 
+     * @return permissionsCustomMobileAppsAccess
+     */
+    public java.lang.Boolean getPermissionsCustomMobileAppsAccess() {
+        return permissionsCustomMobileAppsAccess;
+    }
+
+
+    /**
+     * Sets the permissionsCustomMobileAppsAccess value for this Profile.
+     * 
+     * @param permissionsCustomMobileAppsAccess
+     */
+    public void setPermissionsCustomMobileAppsAccess(java.lang.Boolean permissionsCustomMobileAppsAccess) {
+        this.permissionsCustomMobileAppsAccess = permissionsCustomMobileAppsAccess;
+    }
+
+
+    /**
+     * Gets the permissionsCustomSidebarOnAllPages value for this Profile.
+     * 
+     * @return permissionsCustomSidebarOnAllPages
+     */
+    public java.lang.Boolean getPermissionsCustomSidebarOnAllPages() {
+        return permissionsCustomSidebarOnAllPages;
+    }
+
+
+    /**
+     * Sets the permissionsCustomSidebarOnAllPages value for this Profile.
+     * 
+     * @param permissionsCustomSidebarOnAllPages
+     */
+    public void setPermissionsCustomSidebarOnAllPages(java.lang.Boolean permissionsCustomSidebarOnAllPages) {
+        this.permissionsCustomSidebarOnAllPages = permissionsCustomSidebarOnAllPages;
+    }
+
+
+    /**
+     * Gets the permissionsCustomizeApplication value for this Profile.
+     * 
+     * @return permissionsCustomizeApplication
+     */
+    public java.lang.Boolean getPermissionsCustomizeApplication() {
+        return permissionsCustomizeApplication;
+    }
+
+
+    /**
+     * Sets the permissionsCustomizeApplication value for this Profile.
+     * 
+     * @param permissionsCustomizeApplication
+     */
+    public void setPermissionsCustomizeApplication(java.lang.Boolean permissionsCustomizeApplication) {
+        this.permissionsCustomizeApplication = permissionsCustomizeApplication;
+    }
+
+
+    /**
+     * Gets the permissionsDeleteActivatedContract value for this Profile.
+     * 
+     * @return permissionsDeleteActivatedContract
+     */
+    public java.lang.Boolean getPermissionsDeleteActivatedContract() {
+        return permissionsDeleteActivatedContract;
+    }
+
+
+    /**
+     * Sets the permissionsDeleteActivatedContract value for this Profile.
+     * 
+     * @param permissionsDeleteActivatedContract
+     */
+    public void setPermissionsDeleteActivatedContract(java.lang.Boolean permissionsDeleteActivatedContract) {
+        this.permissionsDeleteActivatedContract = permissionsDeleteActivatedContract;
+    }
+
+
+    /**
+     * Gets the permissionsDeleteTopics value for this Profile.
+     * 
+     * @return permissionsDeleteTopics
+     */
+    public java.lang.Boolean getPermissionsDeleteTopics() {
+        return permissionsDeleteTopics;
+    }
+
+
+    /**
+     * Sets the permissionsDeleteTopics value for this Profile.
+     * 
+     * @param permissionsDeleteTopics
+     */
+    public void setPermissionsDeleteTopics(java.lang.Boolean permissionsDeleteTopics) {
+        this.permissionsDeleteTopics = permissionsDeleteTopics;
+    }
+
+
+    /**
+     * Gets the permissionsDistributeFromPersWksp value for this Profile.
+     * 
+     * @return permissionsDistributeFromPersWksp
+     */
+    public java.lang.Boolean getPermissionsDistributeFromPersWksp() {
+        return permissionsDistributeFromPersWksp;
+    }
+
+
+    /**
+     * Sets the permissionsDistributeFromPersWksp value for this Profile.
+     * 
+     * @param permissionsDistributeFromPersWksp
+     */
+    public void setPermissionsDistributeFromPersWksp(java.lang.Boolean permissionsDistributeFromPersWksp) {
+        this.permissionsDistributeFromPersWksp = permissionsDistributeFromPersWksp;
+    }
+
+
+    /**
+     * Gets the permissionsEditActivatedOrders value for this Profile.
+     * 
+     * @return permissionsEditActivatedOrders
+     */
+    public java.lang.Boolean getPermissionsEditActivatedOrders() {
+        return permissionsEditActivatedOrders;
+    }
+
+
+    /**
+     * Sets the permissionsEditActivatedOrders value for this Profile.
+     * 
+     * @param permissionsEditActivatedOrders
+     */
+    public void setPermissionsEditActivatedOrders(java.lang.Boolean permissionsEditActivatedOrders) {
+        this.permissionsEditActivatedOrders = permissionsEditActivatedOrders;
+    }
+
+
+    /**
+     * Gets the permissionsEditBrandTemplates value for this Profile.
+     * 
+     * @return permissionsEditBrandTemplates
+     */
+    public java.lang.Boolean getPermissionsEditBrandTemplates() {
+        return permissionsEditBrandTemplates;
+    }
+
+
+    /**
+     * Sets the permissionsEditBrandTemplates value for this Profile.
+     * 
+     * @param permissionsEditBrandTemplates
+     */
+    public void setPermissionsEditBrandTemplates(java.lang.Boolean permissionsEditBrandTemplates) {
+        this.permissionsEditBrandTemplates = permissionsEditBrandTemplates;
+    }
+
+
+    /**
+     * Gets the permissionsEditCaseComments value for this Profile.
+     * 
+     * @return permissionsEditCaseComments
+     */
+    public java.lang.Boolean getPermissionsEditCaseComments() {
+        return permissionsEditCaseComments;
+    }
+
+
+    /**
+     * Sets the permissionsEditCaseComments value for this Profile.
+     * 
+     * @param permissionsEditCaseComments
+     */
+    public void setPermissionsEditCaseComments(java.lang.Boolean permissionsEditCaseComments) {
+        this.permissionsEditCaseComments = permissionsEditCaseComments;
+    }
+
+
+    /**
+     * Gets the permissionsEditEvent value for this Profile.
+     * 
+     * @return permissionsEditEvent
+     */
+    public java.lang.Boolean getPermissionsEditEvent() {
+        return permissionsEditEvent;
+    }
+
+
+    /**
+     * Sets the permissionsEditEvent value for this Profile.
+     * 
+     * @param permissionsEditEvent
+     */
+    public void setPermissionsEditEvent(java.lang.Boolean permissionsEditEvent) {
+        this.permissionsEditEvent = permissionsEditEvent;
+    }
+
+
+    /**
+     * Gets the permissionsEditHtmlTemplates value for this Profile.
+     * 
+     * @return permissionsEditHtmlTemplates
+     */
+    public java.lang.Boolean getPermissionsEditHtmlTemplates() {
+        return permissionsEditHtmlTemplates;
+    }
+
+
+    /**
+     * Sets the permissionsEditHtmlTemplates value for this Profile.
+     * 
+     * @param permissionsEditHtmlTemplates
+     */
+    public void setPermissionsEditHtmlTemplates(java.lang.Boolean permissionsEditHtmlTemplates) {
+        this.permissionsEditHtmlTemplates = permissionsEditHtmlTemplates;
+    }
+
+
+    /**
+     * Gets the permissionsEditKnowledge value for this Profile.
+     * 
+     * @return permissionsEditKnowledge
+     */
+    public java.lang.Boolean getPermissionsEditKnowledge() {
+        return permissionsEditKnowledge;
+    }
+
+
+    /**
+     * Sets the permissionsEditKnowledge value for this Profile.
+     * 
+     * @param permissionsEditKnowledge
+     */
+    public void setPermissionsEditKnowledge(java.lang.Boolean permissionsEditKnowledge) {
+        this.permissionsEditKnowledge = permissionsEditKnowledge;
+    }
+
+
+    /**
+     * Gets the permissionsEditMyDashboards value for this Profile.
+     * 
+     * @return permissionsEditMyDashboards
+     */
+    public java.lang.Boolean getPermissionsEditMyDashboards() {
+        return permissionsEditMyDashboards;
+    }
+
+
+    /**
+     * Sets the permissionsEditMyDashboards value for this Profile.
+     * 
+     * @param permissionsEditMyDashboards
+     */
+    public void setPermissionsEditMyDashboards(java.lang.Boolean permissionsEditMyDashboards) {
+        this.permissionsEditMyDashboards = permissionsEditMyDashboards;
+    }
+
+
+    /**
+     * Gets the permissionsEditMyReports value for this Profile.
+     * 
+     * @return permissionsEditMyReports
+     */
+    public java.lang.Boolean getPermissionsEditMyReports() {
+        return permissionsEditMyReports;
+    }
+
+
+    /**
+     * Sets the permissionsEditMyReports value for this Profile.
+     * 
+     * @param permissionsEditMyReports
+     */
+    public void setPermissionsEditMyReports(java.lang.Boolean permissionsEditMyReports) {
+        this.permissionsEditMyReports = permissionsEditMyReports;
+    }
+
+
+    /**
+     * Gets the permissionsEditOppLineItemUnitPrice value for this Profile.
+     * 
+     * @return permissionsEditOppLineItemUnitPrice
+     */
+    public java.lang.Boolean getPermissionsEditOppLineItemUnitPrice() {
+        return permissionsEditOppLineItemUnitPrice;
+    }
+
+
+    /**
+     * Sets the permissionsEditOppLineItemUnitPrice value for this Profile.
+     * 
+     * @param permissionsEditOppLineItemUnitPrice
+     */
+    public void setPermissionsEditOppLineItemUnitPrice(java.lang.Boolean permissionsEditOppLineItemUnitPrice) {
+        this.permissionsEditOppLineItemUnitPrice = permissionsEditOppLineItemUnitPrice;
+    }
+
+
+    /**
+     * Gets the permissionsEditPublicDocuments value for this Profile.
+     * 
+     * @return permissionsEditPublicDocuments
+     */
+    public java.lang.Boolean getPermissionsEditPublicDocuments() {
+        return permissionsEditPublicDocuments;
+    }
+
+
+    /**
+     * Sets the permissionsEditPublicDocuments value for this Profile.
+     * 
+     * @param permissionsEditPublicDocuments
+     */
+    public void setPermissionsEditPublicDocuments(java.lang.Boolean permissionsEditPublicDocuments) {
+        this.permissionsEditPublicDocuments = permissionsEditPublicDocuments;
+    }
+
+
+    /**
+     * Gets the permissionsEditPublicTemplates value for this Profile.
+     * 
+     * @return permissionsEditPublicTemplates
+     */
+    public java.lang.Boolean getPermissionsEditPublicTemplates() {
+        return permissionsEditPublicTemplates;
+    }
+
+
+    /**
+     * Sets the permissionsEditPublicTemplates value for this Profile.
+     * 
+     * @param permissionsEditPublicTemplates
+     */
+    public void setPermissionsEditPublicTemplates(java.lang.Boolean permissionsEditPublicTemplates) {
+        this.permissionsEditPublicTemplates = permissionsEditPublicTemplates;
+    }
+
+
+    /**
+     * Gets the permissionsEditReadonlyFields value for this Profile.
+     * 
+     * @return permissionsEditReadonlyFields
+     */
+    public java.lang.Boolean getPermissionsEditReadonlyFields() {
+        return permissionsEditReadonlyFields;
+    }
+
+
+    /**
+     * Sets the permissionsEditReadonlyFields value for this Profile.
+     * 
+     * @param permissionsEditReadonlyFields
+     */
+    public void setPermissionsEditReadonlyFields(java.lang.Boolean permissionsEditReadonlyFields) {
+        this.permissionsEditReadonlyFields = permissionsEditReadonlyFields;
+    }
+
+
+    /**
+     * Gets the permissionsEditTask value for this Profile.
+     * 
+     * @return permissionsEditTask
+     */
+    public java.lang.Boolean getPermissionsEditTask() {
+        return permissionsEditTask;
+    }
+
+
+    /**
+     * Sets the permissionsEditTask value for this Profile.
+     * 
+     * @param permissionsEditTask
+     */
+    public void setPermissionsEditTask(java.lang.Boolean permissionsEditTask) {
+        this.permissionsEditTask = permissionsEditTask;
+    }
+
+
+    /**
+     * Gets the permissionsEditTopics value for this Profile.
+     * 
+     * @return permissionsEditTopics
+     */
+    public java.lang.Boolean getPermissionsEditTopics() {
+        return permissionsEditTopics;
+    }
+
+
+    /**
+     * Sets the permissionsEditTopics value for this Profile.
+     * 
+     * @param permissionsEditTopics
+     */
+    public void setPermissionsEditTopics(java.lang.Boolean permissionsEditTopics) {
+        this.permissionsEditTopics = permissionsEditTopics;
+    }
+
+
+    /**
+     * Gets the permissionsEmailAdministration value for this Profile.
+     * 
+     * @return permissionsEmailAdministration
+     */
+    public java.lang.Boolean getPermissionsEmailAdministration() {
+        return permissionsEmailAdministration;
+    }
+
+
+    /**
+     * Sets the permissionsEmailAdministration value for this Profile.
+     * 
+     * @param permissionsEmailAdministration
+     */
+    public void setPermissionsEmailAdministration(java.lang.Boolean permissionsEmailAdministration) {
+        this.permissionsEmailAdministration = permissionsEmailAdministration;
+    }
+
+
+    /**
+     * Gets the permissionsEmailMass value for this Profile.
+     * 
+     * @return permissionsEmailMass
+     */
+    public java.lang.Boolean getPermissionsEmailMass() {
+        return permissionsEmailMass;
+    }
+
+
+    /**
+     * Sets the permissionsEmailMass value for this Profile.
+     * 
+     * @param permissionsEmailMass
+     */
+    public void setPermissionsEmailMass(java.lang.Boolean permissionsEmailMass) {
+        this.permissionsEmailMass = permissionsEmailMass;
+    }
+
+
+    /**
+     * Gets the permissionsEmailSingle value for this Profile.
+     * 
+     * @return permissionsEmailSingle
+     */
+    public java.lang.Boolean getPermissionsEmailSingle() {
+        return permissionsEmailSingle;
+    }
+
+
+    /**
+     * Sets the permissionsEmailSingle value for this Profile.
+     * 
+     * @param permissionsEmailSingle
+     */
+    public void setPermissionsEmailSingle(java.lang.Boolean permissionsEmailSingle) {
+        this.permissionsEmailSingle = permissionsEmailSingle;
+    }
+
+
+    /**
+     * Gets the permissionsEmailTemplateManagement value for this Profile.
+     * 
+     * @return permissionsEmailTemplateManagement
+     */
+    public java.lang.Boolean getPermissionsEmailTemplateManagement() {
+        return permissionsEmailTemplateManagement;
+    }
+
+
+    /**
+     * Sets the permissionsEmailTemplateManagement value for this Profile.
+     * 
+     * @param permissionsEmailTemplateManagement
+     */
+    public void setPermissionsEmailTemplateManagement(java.lang.Boolean permissionsEmailTemplateManagement) {
+        this.permissionsEmailTemplateManagement = permissionsEmailTemplateManagement;
+    }
+
+
+    /**
+     * Gets the permissionsEnableNotifications value for this Profile.
+     * 
+     * @return permissionsEnableNotifications
+     */
+    public java.lang.Boolean getPermissionsEnableNotifications() {
+        return permissionsEnableNotifications;
+    }
+
+
+    /**
+     * Sets the permissionsEnableNotifications value for this Profile.
+     * 
+     * @param permissionsEnableNotifications
+     */
+    public void setPermissionsEnableNotifications(java.lang.Boolean permissionsEnableNotifications) {
+        this.permissionsEnableNotifications = permissionsEnableNotifications;
+    }
+
+
+    /**
+     * Gets the permissionsExportReport value for this Profile.
+     * 
+     * @return permissionsExportReport
+     */
+    public java.lang.Boolean getPermissionsExportReport() {
+        return permissionsExportReport;
+    }
+
+
+    /**
+     * Sets the permissionsExportReport value for this Profile.
+     * 
+     * @param permissionsExportReport
+     */
+    public void setPermissionsExportReport(java.lang.Boolean permissionsExportReport) {
+        this.permissionsExportReport = permissionsExportReport;
+    }
+
+
+    /**
+     * Gets the permissionsFlowUFLRequired value for this Profile.
+     * 
+     * @return permissionsFlowUFLRequired
+     */
+    public java.lang.Boolean getPermissionsFlowUFLRequired() {
+        return permissionsFlowUFLRequired;
+    }
+
+
+    /**
+     * Sets the permissionsFlowUFLRequired value for this Profile.
+     * 
+     * @param permissionsFlowUFLRequired
+     */
+    public void setPermissionsFlowUFLRequired(java.lang.Boolean permissionsFlowUFLRequired) {
+        this.permissionsFlowUFLRequired = permissionsFlowUFLRequired;
+    }
+
+
+    /**
+     * Gets the permissionsForceTwoFactor value for this Profile.
+     * 
+     * @return permissionsForceTwoFactor
+     */
+    public java.lang.Boolean getPermissionsForceTwoFactor() {
+        return permissionsForceTwoFactor;
+    }
+
+
+    /**
+     * Sets the permissionsForceTwoFactor value for this Profile.
+     * 
+     * @param permissionsForceTwoFactor
+     */
+    public void setPermissionsForceTwoFactor(java.lang.Boolean permissionsForceTwoFactor) {
+        this.permissionsForceTwoFactor = permissionsForceTwoFactor;
+    }
+
+
+    /**
+     * Gets the permissionsGovernNetworks value for this Profile.
+     * 
+     * @return permissionsGovernNetworks
+     */
+    public java.lang.Boolean getPermissionsGovernNetworks() {
+        return permissionsGovernNetworks;
+    }
+
+
+    /**
+     * Sets the permissionsGovernNetworks value for this Profile.
+     * 
+     * @param permissionsGovernNetworks
+     */
+    public void setPermissionsGovernNetworks(java.lang.Boolean permissionsGovernNetworks) {
+        this.permissionsGovernNetworks = permissionsGovernNetworks;
+    }
+
+
+    /**
+     * Gets the permissionsIdentityConnect value for this Profile.
+     * 
+     * @return permissionsIdentityConnect
+     */
+    public java.lang.Boolean getPermissionsIdentityConnect() {
+        return permissionsIdentityConnect;
+    }
+
+
+    /**
+     * Sets the permissionsIdentityConnect value for this Profile.
+     * 
+     * @param permissionsIdentityConnect
+     */
+    public void setPermissionsIdentityConnect(java.lang.Boolean permissionsIdentityConnect) {
+        this.permissionsIdentityConnect = permissionsIdentityConnect;
+    }
+
+
+    /**
+     * Gets the permissionsIdentityEnabled value for this Profile.
+     * 
+     * @return permissionsIdentityEnabled
+     */
+    public java.lang.Boolean getPermissionsIdentityEnabled() {
+        return permissionsIdentityEnabled;
+    }
+
+
+    /**
+     * Sets the permissionsIdentityEnabled value for this Profile.
+     * 
+     * @param permissionsIdentityEnabled
+     */
+    public void setPermissionsIdentityEnabled(java.lang.Boolean permissionsIdentityEnabled) {
+        this.permissionsIdentityEnabled = permissionsIdentityEnabled;
+    }
+
+
+    /**
+     * Gets the permissionsImportLeads value for this Profile.
+     * 
+     * @return permissionsImportLeads
+     */
+    public java.lang.Boolean getPermissionsImportLeads() {
+        return permissionsImportLeads;
+    }
+
+
+    /**
+     * Sets the permissionsImportLeads value for this Profile.
+     * 
+     * @param permissionsImportLeads
+     */
+    public void setPermissionsImportLeads(java.lang.Boolean permissionsImportLeads) {
+        this.permissionsImportLeads = permissionsImportLeads;
+    }
+
+
+    /**
+     * Gets the permissionsImportPersonal value for this Profile.
+     * 
+     * @return permissionsImportPersonal
+     */
+    public java.lang.Boolean getPermissionsImportPersonal() {
+        return permissionsImportPersonal;
+    }
+
+
+    /**
+     * Sets the permissionsImportPersonal value for this Profile.
+     * 
+     * @param permissionsImportPersonal
+     */
+    public void setPermissionsImportPersonal(java.lang.Boolean permissionsImportPersonal) {
+        this.permissionsImportPersonal = permissionsImportPersonal;
+    }
+
+
+    /**
+     * Gets the permissionsInstallMultiforce value for this Profile.
+     * 
+     * @return permissionsInstallMultiforce
+     */
+    public java.lang.Boolean getPermissionsInstallMultiforce() {
+        return permissionsInstallMultiforce;
+    }
+
+
+    /**
+     * Sets the permissionsInstallMultiforce value for this Profile.
+     * 
+     * @param permissionsInstallMultiforce
+     */
+    public void setPermissionsInstallMultiforce(java.lang.Boolean permissionsInstallMultiforce) {
+        this.permissionsInstallMultiforce = permissionsInstallMultiforce;
+    }
+
+
+    /**
+     * Gets the permissionsManageAnalyticSnapshots value for this Profile.
+     * 
+     * @return permissionsManageAnalyticSnapshots
+     */
+    public java.lang.Boolean getPermissionsManageAnalyticSnapshots() {
+        return permissionsManageAnalyticSnapshots;
+    }
+
+
+    /**
+     * Sets the permissionsManageAnalyticSnapshots value for this Profile.
+     * 
+     * @param permissionsManageAnalyticSnapshots
+     */
+    public void setPermissionsManageAnalyticSnapshots(java.lang.Boolean permissionsManageAnalyticSnapshots) {
+        this.permissionsManageAnalyticSnapshots = permissionsManageAnalyticSnapshots;
+    }
+
+
+    /**
+     * Gets the permissionsManageAuthProviders value for this Profile.
+     * 
+     * @return permissionsManageAuthProviders
+     */
+    public java.lang.Boolean getPermissionsManageAuthProviders() {
+        return permissionsManageAuthProviders;
+    }
+
+
+    /**
+     * Sets the permissionsManageAuthProviders value for this Profile.
+     * 
+     * @param permissionsManageAuthProviders
+     */
+    public void setPermissionsManageAuthProviders(java.lang.Boolean permissionsManageAuthProviders) {
+        this.permissionsManageAuthProviders = permissionsManageAuthProviders;
+    }
+
+
+    /**
+     * Gets the permissionsManageBusinessHourHolidays value for this Profile.
+     * 
+     * @return permissionsManageBusinessHourHolidays
+     */
+    public java.lang.Boolean getPermissionsManageBusinessHourHolidays() {
+        return permissionsManageBusinessHourHolidays;
+    }
+
+
+    /**
+     * Sets the permissionsManageBusinessHourHolidays value for this Profile.
+     * 
+     * @param permissionsManageBusinessHourHolidays
+     */
+    public void setPermissionsManageBusinessHourHolidays(java.lang.Boolean permissionsManageBusinessHourHolidays) {
+        this.permissionsManageBusinessHourHolidays = permissionsManageBusinessHourHolidays;
+    }
+
+
+    /**
+     * Gets the permissionsManageCallCenters value for this Profile.
+     * 
+     * @return permissionsManageCallCenters
+     */
+    public java.lang.Boolean getPermissionsManageCallCenters() {
+        return permissionsManageCallCenters;
+    }
+
+
+    /**
+     * Sets the permissionsManageCallCenters value for this Profile.
+     * 
+     * @param permissionsManageCallCenters
+     */
+    public void setPermissionsManageCallCenters(java.lang.Boolean permissionsManageCallCenters) {
+        this.permissionsManageCallCenters = permissionsManageCallCenters;
+    }
+
+
+    /**
+     * Gets the permissionsManageCases value for this Profile.
+     * 
+     * @return permissionsManageCases
+     */
+    public java.lang.Boolean getPermissionsManageCases() {
+        return permissionsManageCases;
+    }
+
+
+    /**
+     * Sets the permissionsManageCases value for this Profile.
+     * 
+     * @param permissionsManageCases
+     */
+    public void setPermissionsManageCases(java.lang.Boolean permissionsManageCases) {
+        this.permissionsManageCases = permissionsManageCases;
+    }
+
+
+    /**
+     * Gets the permissionsManageCategories value for this Profile.
+     * 
+     * @return permissionsManageCategories
+     */
+    public java.lang.Boolean getPermissionsManageCategories() {
+        return permissionsManageCategories;
+    }
+
+
+    /**
+     * Sets the permissionsManageCategories value for this Profile.
+     * 
+     * @param permissionsManageCategories
+     */
+    public void setPermissionsManageCategories(java.lang.Boolean permissionsManageCategories) {
+        this.permissionsManageCategories = permissionsManageCategories;
+    }
+
+
+    /**
+     * Gets the permissionsManageChatterMessages value for this Profile.
+     * 
+     * @return permissionsManageChatterMessages
+     */
+    public java.lang.Boolean getPermissionsManageChatterMessages() {
+        return permissionsManageChatterMessages;
+    }
+
+
+    /**
+     * Sets the permissionsManageChatterMessages value for this Profile.
+     * 
+     * @param permissionsManageChatterMessages
+     */
+    public void setPermissionsManageChatterMessages(java.lang.Boolean permissionsManageChatterMessages) {
+        this.permissionsManageChatterMessages = permissionsManageChatterMessages;
+    }
+
+
+    /**
+     * Gets the permissionsManageContentPermissions value for this Profile.
+     * 
+     * @return permissionsManageContentPermissions
+     */
+    public java.lang.Boolean getPermissionsManageContentPermissions() {
+        return permissionsManageContentPermissions;
+    }
+
+
+    /**
+     * Sets the permissionsManageContentPermissions value for this Profile.
+     * 
+     * @param permissionsManageContentPermissions
+     */
+    public void setPermissionsManageContentPermissions(java.lang.Boolean permissionsManageContentPermissions) {
+        this.permissionsManageContentPermissions = permissionsManageContentPermissions;
+    }
+
+
+    /**
+     * Gets the permissionsManageContentProperties value for this Profile.
+     * 
+     * @return permissionsManageContentProperties
+     */
+    public java.lang.Boolean getPermissionsManageContentProperties() {
+        return permissionsManageContentProperties;
+    }
+
+
+    /**
+     * Sets the permissionsManageContentProperties value for this Profile.
+     * 
+     * @param permissionsManageContentProperties
+     */
+    public void setPermissionsManageContentProperties(java.lang.Boolean permissionsManageContentProperties) {
+        this.permissionsManageContentProperties = permissionsManageContentProperties;
+    }
+
+
+    /**
+     * Gets the permissionsManageContentTypes value for this Profile.
+     * 
+     * @return permissionsManageContentTypes
+     */
+    public java.lang.Boolean getPermissionsManageContentTypes() {
+        return permissionsManageContentTypes;
+    }
+
+
+    /**
+     * Sets the permissionsManageContentTypes value for this Profile.
+     * 
+     * @param permissionsManageContentTypes
+     */
+    public void setPermissionsManageContentTypes(java.lang.Boolean permissionsManageContentTypes) {
+        this.permissionsManageContentTypes = permissionsManageContentTypes;
+    }
+
+
+    /**
+     * Gets the permissionsManageCustomPermissions value for this Profile.
+     * 
+     * @return permissionsManageCustomPermissions
+     */
+    public java.lang.Boolean getPermissionsManageCustomPermissions() {
+        return permissionsManageCustomPermissions;
+    }
+
+
+    /**
+     * Sets the permissionsManageCustomPermissions value for this Profile.
+     * 
+     * @param permissionsManageCustomPermissions
+     */
+    public void setPermissionsManageCustomPermissions(java.lang.Boolean permissionsManageCustomPermissions) {
+        this.permissionsManageCustomPermissions = permissionsManageCustomPermissions;
+    }
+
+
+    /**
+     * Gets the permissionsManageCustomReportTypes value for this Profile.
+     * 
+     * @return permissionsManageCustomReportTypes
+     */
+    public java.lang.Boolean getPermissionsManageCustomReportTypes() {
+        return permissionsManageCustomReportTypes;
+    }
+
+
+    /**
+     * Sets the permissionsManageCustomReportTypes value for this Profile.
+     * 
+     * @param permissionsManageCustomReportTypes
+     */
+    public void setPermissionsManageCustomReportTypes(java.lang.Boolean permissionsManageCustomReportTypes) {
+        this.permissionsManageCustomReportTypes = permissionsManageCustomReportTypes;
+    }
+
+
+    /**
+     * Gets the permissionsManageDashbdsInPubFolders value for this Profile.
+     * 
+     * @return permissionsManageDashbdsInPubFolders
+     */
+    public java.lang.Boolean getPermissionsManageDashbdsInPubFolders() {
+        return permissionsManageDashbdsInPubFolders;
+    }
+
+
+    /**
+     * Sets the permissionsManageDashbdsInPubFolders value for this Profile.
+     * 
+     * @param permissionsManageDashbdsInPubFolders
+     */
+    public void setPermissionsManageDashbdsInPubFolders(java.lang.Boolean permissionsManageDashbdsInPubFolders) {
+        this.permissionsManageDashbdsInPubFolders = permissionsManageDashbdsInPubFolders;
+    }
+
+
+    /**
+     * Gets the permissionsManageDataCategories value for this Profile.
+     * 
+     * @return permissionsManageDataCategories
+     */
+    public java.lang.Boolean getPermissionsManageDataCategories() {
+        return permissionsManageDataCategories;
+    }
+
+
+    /**
+     * Sets the permissionsManageDataCategories value for this Profile.
+     * 
+     * @param permissionsManageDataCategories
+     */
+    public void setPermissionsManageDataCategories(java.lang.Boolean permissionsManageDataCategories) {
+        this.permissionsManageDataCategories = permissionsManageDataCategories;
+    }
+
+
+    /**
+     * Gets the permissionsManageDataIntegrations value for this Profile.
+     * 
+     * @return permissionsManageDataIntegrations
+     */
+    public java.lang.Boolean getPermissionsManageDataIntegrations() {
+        return permissionsManageDataIntegrations;
+    }
+
+
+    /**
+     * Sets the permissionsManageDataIntegrations value for this Profile.
+     * 
+     * @param permissionsManageDataIntegrations
+     */
+    public void setPermissionsManageDataIntegrations(java.lang.Boolean permissionsManageDataIntegrations) {
+        this.permissionsManageDataIntegrations = permissionsManageDataIntegrations;
+    }
+
+
+    /**
+     * Gets the permissionsManageDynamicDashboards value for this Profile.
+     * 
+     * @return permissionsManageDynamicDashboards
+     */
+    public java.lang.Boolean getPermissionsManageDynamicDashboards() {
+        return permissionsManageDynamicDashboards;
+    }
+
+
+    /**
+     * Sets the permissionsManageDynamicDashboards value for this Profile.
+     * 
+     * @param permissionsManageDynamicDashboards
+     */
+    public void setPermissionsManageDynamicDashboards(java.lang.Boolean permissionsManageDynamicDashboards) {
+        this.permissionsManageDynamicDashboards = permissionsManageDynamicDashboards;
+    }
+
+
+    /**
+     * Gets the permissionsManageEmailClientConfig value for this Profile.
+     * 
+     * @return permissionsManageEmailClientConfig
+     */
+    public java.lang.Boolean getPermissionsManageEmailClientConfig() {
+        return permissionsManageEmailClientConfig;
+    }
+
+
+    /**
+     * Sets the permissionsManageEmailClientConfig value for this Profile.
+     * 
+     * @param permissionsManageEmailClientConfig
+     */
+    public void setPermissionsManageEmailClientConfig(java.lang.Boolean permissionsManageEmailClientConfig) {
+        this.permissionsManageEmailClientConfig = permissionsManageEmailClientConfig;
+    }
+
+
+    /**
+     * Gets the permissionsManageExchangeConfig value for this Profile.
+     * 
+     * @return permissionsManageExchangeConfig
+     */
+    public java.lang.Boolean getPermissionsManageExchangeConfig() {
+        return permissionsManageExchangeConfig;
+    }
+
+
+    /**
+     * Sets the permissionsManageExchangeConfig value for this Profile.
+     * 
+     * @param permissionsManageExchangeConfig
+     */
+    public void setPermissionsManageExchangeConfig(java.lang.Boolean permissionsManageExchangeConfig) {
+        this.permissionsManageExchangeConfig = permissionsManageExchangeConfig;
+    }
+
+
+    /**
+     * Gets the permissionsManageInteraction value for this Profile.
+     * 
+     * @return permissionsManageInteraction
+     */
+    public java.lang.Boolean getPermissionsManageInteraction() {
+        return permissionsManageInteraction;
+    }
+
+
+    /**
+     * Sets the permissionsManageInteraction value for this Profile.
+     * 
+     * @param permissionsManageInteraction
+     */
+    public void setPermissionsManageInteraction(java.lang.Boolean permissionsManageInteraction) {
+        this.permissionsManageInteraction = permissionsManageInteraction;
+    }
+
+
+    /**
+     * Gets the permissionsManageInternalUsers value for this Profile.
+     * 
+     * @return permissionsManageInternalUsers
+     */
+    public java.lang.Boolean getPermissionsManageInternalUsers() {
+        return permissionsManageInternalUsers;
+    }
+
+
+    /**
+     * Sets the permissionsManageInternalUsers value for this Profile.
+     * 
+     * @param permissionsManageInternalUsers
+     */
+    public void setPermissionsManageInternalUsers(java.lang.Boolean permissionsManageInternalUsers) {
+        this.permissionsManageInternalUsers = permissionsManageInternalUsers;
+    }
+
+
+    /**
+     * Gets the permissionsManageIpAddresses value for this Profile.
+     * 
+     * @return permissionsManageIpAddresses
+     */
+    public java.lang.Boolean getPermissionsManageIpAddresses() {
+        return permissionsManageIpAddresses;
+    }
+
+
+    /**
+     * Sets the permissionsManageIpAddresses value for this Profile.
+     * 
+     * @param permissionsManageIpAddresses
+     */
+    public void setPermissionsManageIpAddresses(java.lang.Boolean permissionsManageIpAddresses) {
+        this.permissionsManageIpAddresses = permissionsManageIpAddresses;
+    }
+
+
+    /**
+     * Gets the permissionsManageKnowledge value for this Profile.
+     * 
+     * @return permissionsManageKnowledge
+     */
+    public java.lang.Boolean getPermissionsManageKnowledge() {
+        return permissionsManageKnowledge;
+    }
+
+
+    /**
+     * Sets the permissionsManageKnowledge value for this Profile.
+     * 
+     * @param permissionsManageKnowledge
+     */
+    public void setPermissionsManageKnowledge(java.lang.Boolean permissionsManageKnowledge) {
+        this.permissionsManageKnowledge = permissionsManageKnowledge;
+    }
+
+
+    /**
+     * Gets the permissionsManageKnowledgeImportExport value for this Profile.
+     * 
+     * @return permissionsManageKnowledgeImportExport
+     */
+    public java.lang.Boolean getPermissionsManageKnowledgeImportExport() {
+        return permissionsManageKnowledgeImportExport;
+    }
+
+
+    /**
+     * Sets the permissionsManageKnowledgeImportExport value for this Profile.
+     * 
+     * @param permissionsManageKnowledgeImportExport
+     */
+    public void setPermissionsManageKnowledgeImportExport(java.lang.Boolean permissionsManageKnowledgeImportExport) {
+        this.permissionsManageKnowledgeImportExport = permissionsManageKnowledgeImportExport;
+    }
+
+
+    /**
+     * Gets the permissionsManageLeads value for this Profile.
+     * 
+     * @return permissionsManageLeads
+     */
+    public java.lang.Boolean getPermissionsManageLeads() {
+        return permissionsManageLeads;
+    }
+
+
+    /**
+     * Sets the permissionsManageLeads value for this Profile.
+     * 
+     * @param permissionsManageLeads
+     */
+    public void setPermissionsManageLeads(java.lang.Boolean permissionsManageLeads) {
+        this.permissionsManageLeads = permissionsManageLeads;
+    }
+
+
+    /**
+     * Gets the permissionsManageLoginAccessPolicies value for this Profile.
+     * 
+     * @return permissionsManageLoginAccessPolicies
+     */
+    public java.lang.Boolean getPermissionsManageLoginAccessPolicies() {
+        return permissionsManageLoginAccessPolicies;
+    }
+
+
+    /**
+     * Sets the permissionsManageLoginAccessPolicies value for this Profile.
+     * 
+     * @param permissionsManageLoginAccessPolicies
+     */
+    public void setPermissionsManageLoginAccessPolicies(java.lang.Boolean permissionsManageLoginAccessPolicies) {
+        this.permissionsManageLoginAccessPolicies = permissionsManageLoginAccessPolicies;
+    }
+
+
+    /**
+     * Gets the permissionsManageMobile value for this Profile.
+     * 
+     * @return permissionsManageMobile
+     */
+    public java.lang.Boolean getPermissionsManageMobile() {
+        return permissionsManageMobile;
+    }
+
+
+    /**
+     * Sets the permissionsManageMobile value for this Profile.
+     * 
+     * @param permissionsManageMobile
+     */
+    public void setPermissionsManageMobile(java.lang.Boolean permissionsManageMobile) {
+        this.permissionsManageMobile = permissionsManageMobile;
+    }
+
+
+    /**
+     * Gets the permissionsManageNetworks value for this Profile.
+     * 
+     * @return permissionsManageNetworks
+     */
+    public java.lang.Boolean getPermissionsManageNetworks() {
+        return permissionsManageNetworks;
+    }
+
+
+    /**
+     * Sets the permissionsManageNetworks value for this Profile.
+     * 
+     * @param permissionsManageNetworks
+     */
+    public void setPermissionsManageNetworks(java.lang.Boolean permissionsManageNetworks) {
+        this.permissionsManageNetworks = permissionsManageNetworks;
+    }
+
+
+    /**
+     * Gets the permissionsManagePasswordPolicies value for this Profile.
+     * 
+     * @return permissionsManagePasswordPolicies
+     */
+    public java.lang.Boolean getPermissionsManagePasswordPolicies() {
+        return permissionsManagePasswordPolicies;
+    }
+
+
+    /**
+     * Sets the permissionsManagePasswordPolicies value for this Profile.
+     * 
+     * @param permissionsManagePasswordPolicies
+     */
+    public void setPermissionsManagePasswordPolicies(java.lang.Boolean permissionsManagePasswordPolicies) {
+        this.permissionsManagePasswordPolicies = permissionsManagePasswordPolicies;
+    }
+
+
+    /**
+     * Gets the permissionsManageProfilesPermissionsets value for this Profile.
+     * 
+     * @return permissionsManageProfilesPermissionsets
+     */
+    public java.lang.Boolean getPermissionsManageProfilesPermissionsets() {
+        return permissionsManageProfilesPermissionsets;
+    }
+
+
+    /**
+     * Sets the permissionsManageProfilesPermissionsets value for this Profile.
+     * 
+     * @param permissionsManageProfilesPermissionsets
+     */
+    public void setPermissionsManageProfilesPermissionsets(java.lang.Boolean permissionsManageProfilesPermissionsets) {
+        this.permissionsManageProfilesPermissionsets = permissionsManageProfilesPermissionsets;
+    }
+
+
+    /**
+     * Gets the permissionsManageRemoteAccess value for this Profile.
+     * 
+     * @return permissionsManageRemoteAccess
+     */
+    public java.lang.Boolean getPermissionsManageRemoteAccess() {
+        return permissionsManageRemoteAccess;
+    }
+
+
+    /**
+     * Sets the permissionsManageRemoteAccess value for this Profile.
+     * 
+     * @param permissionsManageRemoteAccess
+     */
+    public void setPermissionsManageRemoteAccess(java.lang.Boolean permissionsManageRemoteAccess) {
+        this.permissionsManageRemoteAccess = permissionsManageRemoteAccess;
+    }
+
+
+    /**
+     * Gets the permissionsManageReportsInPubFolders value for this Profile.
+     * 
+     * @return permissionsManageReportsInPubFolders
+     */
+    public java.lang.Boolean getPermissionsManageReportsInPubFolders() {
+        return permissionsManageReportsInPubFolders;
+    }
+
+
+    /**
+     * Sets the permissionsManageReportsInPubFolders value for this Profile.
+     * 
+     * @param permissionsManageReportsInPubFolders
+     */
+    public void setPermissionsManageReportsInPubFolders(java.lang.Boolean permissionsManageReportsInPubFolders) {
+        this.permissionsManageReportsInPubFolders = permissionsManageReportsInPubFolders;
+    }
+
+
+    /**
+     * Gets the permissionsManageRoles value for this Profile.
+     * 
+     * @return permissionsManageRoles
+     */
+    public java.lang.Boolean getPermissionsManageRoles() {
+        return permissionsManageRoles;
+    }
+
+
+    /**
+     * Sets the permissionsManageRoles value for this Profile.
+     * 
+     * @param permissionsManageRoles
+     */
+    public void setPermissionsManageRoles(java.lang.Boolean permissionsManageRoles) {
+        this.permissionsManageRoles = permissionsManageRoles;
+    }
+
+
+    /**
+     * Gets the permissionsManageSearchPromotionRules value for this Profile.
+     * 
+     * @return permissionsManageSearchPromotionRules
+     */
+    public java.lang.Boolean getPermissionsManageSearchPromotionRules() {
+        return permissionsManageSearchPromotionRules;
+    }
+
+
+    /**
+     * Sets the permissionsManageSearchPromotionRules value for this Profile.
+     * 
+     * @param permissionsManageSearchPromotionRules
+     */
+    public void setPermissionsManageSearchPromotionRules(java.lang.Boolean permissionsManageSearchPromotionRules) {
+        this.permissionsManageSearchPromotionRules = permissionsManageSearchPromotionRules;
+    }
+
+
+    /**
+     * Gets the permissionsManageSharing value for this Profile.
+     * 
+     * @return permissionsManageSharing
+     */
+    public java.lang.Boolean getPermissionsManageSharing() {
+        return permissionsManageSharing;
+    }
+
+
+    /**
+     * Sets the permissionsManageSharing value for this Profile.
+     * 
+     * @param permissionsManageSharing
+     */
+    public void setPermissionsManageSharing(java.lang.Boolean permissionsManageSharing) {
+        this.permissionsManageSharing = permissionsManageSharing;
+    }
+
+
+    /**
+     * Gets the permissionsManageSolutions value for this Profile.
+     * 
+     * @return permissionsManageSolutions
+     */
+    public java.lang.Boolean getPermissionsManageSolutions() {
+        return permissionsManageSolutions;
+    }
+
+
+    /**
+     * Sets the permissionsManageSolutions value for this Profile.
+     * 
+     * @param permissionsManageSolutions
+     */
+    public void setPermissionsManageSolutions(java.lang.Boolean permissionsManageSolutions) {
+        this.permissionsManageSolutions = permissionsManageSolutions;
+    }
+
+
+    /**
+     * Gets the permissionsManageSynonyms value for this Profile.
+     * 
+     * @return permissionsManageSynonyms
+     */
+    public java.lang.Boolean getPermissionsManageSynonyms() {
+        return permissionsManageSynonyms;
+    }
+
+
+    /**
+     * Sets the permissionsManageSynonyms value for this Profile.
+     * 
+     * @param permissionsManageSynonyms
+     */
+    public void setPermissionsManageSynonyms(java.lang.Boolean permissionsManageSynonyms) {
+        this.permissionsManageSynonyms = permissionsManageSynonyms;
+    }
+
+
+    /**
+     * Gets the permissionsManageTwoFactor value for this Profile.
+     * 
+     * @return permissionsManageTwoFactor
+     */
+    public java.lang.Boolean getPermissionsManageTwoFactor() {
+        return permissionsManageTwoFactor;
+    }
+
+
+    /**
+     * Sets the permissionsManageTwoFactor value for this Profile.
+     * 
+     * @param permissionsManageTwoFactor
+     */
+    public void setPermissionsManageTwoFactor(java.lang.Boolean permissionsManageTwoFactor) {
+        this.permissionsManageTwoFactor = permissionsManageTwoFactor;
+    }
+
+
+    /**
+     * Gets the permissionsManageUnlistedGroups value for this Profile.
+     * 
+     * @return permissionsManageUnlistedGroups
+     */
+    public java.lang.Boolean getPermissionsManageUnlistedGroups() {
+        return permissionsManageUnlistedGroups;
+    }
+
+
+    /**
+     * Sets the permissionsManageUnlistedGroups value for this Profile.
+     * 
+     * @param permissionsManageUnlistedGroups
+     */
+    public void setPermissionsManageUnlistedGroups(java.lang.Boolean permissionsManageUnlistedGroups) {
+        this.permissionsManageUnlistedGroups = permissionsManageUnlistedGroups;
+    }
+
+
+    /**
+     * Gets the permissionsManageUsers value for this Profile.
+     * 
+     * @return permissionsManageUsers
+     */
+    public java.lang.Boolean getPermissionsManageUsers() {
+        return permissionsManageUsers;
+    }
+
+
+    /**
+     * Sets the permissionsManageUsers value for this Profile.
+     * 
+     * @param permissionsManageUsers
+     */
+    public void setPermissionsManageUsers(java.lang.Boolean permissionsManageUsers) {
+        this.permissionsManageUsers = permissionsManageUsers;
+    }
+
+
+    /**
+     * Gets the permissionsMassInlineEdit value for this Profile.
+     * 
+     * @return permissionsMassInlineEdit
+     */
+    public java.lang.Boolean getPermissionsMassInlineEdit() {
+        return permissionsMassInlineEdit;
+    }
+
+
+    /**
+     * Sets the permissionsMassInlineEdit value for this Profile.
+     * 
+     * @param permissionsMassInlineEdit
+     */
+    public void setPermissionsMassInlineEdit(java.lang.Boolean permissionsMassInlineEdit) {
+        this.permissionsMassInlineEdit = permissionsMassInlineEdit;
+    }
+
+
+    /**
+     * Gets the permissionsMergeTopics value for this Profile.
+     * 
+     * @return permissionsMergeTopics
+     */
+    public java.lang.Boolean getPermissionsMergeTopics() {
+        return permissionsMergeTopics;
+    }
+
+
+    /**
+     * Sets the permissionsMergeTopics value for this Profile.
+     * 
+     * @param permissionsMergeTopics
+     */
+    public void setPermissionsMergeTopics(java.lang.Boolean permissionsMergeTopics) {
+        this.permissionsMergeTopics = permissionsMergeTopics;
+    }
+
+
+    /**
+     * Gets the permissionsModerateChatter value for this Profile.
+     * 
+     * @return permissionsModerateChatter
+     */
+    public java.lang.Boolean getPermissionsModerateChatter() {
+        return permissionsModerateChatter;
+    }
+
+
+    /**
+     * Sets the permissionsModerateChatter value for this Profile.
+     * 
+     * @param permissionsModerateChatter
+     */
+    public void setPermissionsModerateChatter(java.lang.Boolean permissionsModerateChatter) {
+        this.permissionsModerateChatter = permissionsModerateChatter;
+    }
+
+
+    /**
+     * Gets the permissionsModifyAllData value for this Profile.
+     * 
+     * @return permissionsModifyAllData
+     */
+    public java.lang.Boolean getPermissionsModifyAllData() {
+        return permissionsModifyAllData;
+    }
+
+
+    /**
+     * Sets the permissionsModifyAllData value for this Profile.
+     * 
+     * @param permissionsModifyAllData
+     */
+    public void setPermissionsModifyAllData(java.lang.Boolean permissionsModifyAllData) {
+        this.permissionsModifyAllData = permissionsModifyAllData;
+    }
+
+
+    /**
+     * Gets the permissionsModifySecureAgents value for this Profile.
+     * 
+     * @return permissionsModifySecureAgents
+     */
+    public java.lang.Boolean getPermissionsModifySecureAgents() {
+        return permissionsModifySecureAgents;
+    }
+
+
+    /**
+     * Sets the permissionsModifySecureAgents value for this Profile.
+     * 
+     * @param permissionsModifySecureAgents
+     */
+    public void setPermissionsModifySecureAgents(java.lang.Boolean permissionsModifySecureAgents) {
+        this.permissionsModifySecureAgents = permissionsModifySecureAgents;
+    }
+
+
+    /**
+     * Gets the permissionsNewReportBuilder value for this Profile.
+     * 
+     * @return permissionsNewReportBuilder
+     */
+    public java.lang.Boolean getPermissionsNewReportBuilder() {
+        return permissionsNewReportBuilder;
+    }
+
+
+    /**
+     * Sets the permissionsNewReportBuilder value for this Profile.
+     * 
+     * @param permissionsNewReportBuilder
+     */
+    public void setPermissionsNewReportBuilder(java.lang.Boolean permissionsNewReportBuilder) {
+        this.permissionsNewReportBuilder = permissionsNewReportBuilder;
+    }
+
+
+    /**
+     * Gets the permissionsPasswordNeverExpires value for this Profile.
+     * 
+     * @return permissionsPasswordNeverExpires
+     */
+    public java.lang.Boolean getPermissionsPasswordNeverExpires() {
+        return permissionsPasswordNeverExpires;
+    }
+
+
+    /**
+     * Sets the permissionsPasswordNeverExpires value for this Profile.
+     * 
+     * @param permissionsPasswordNeverExpires
+     */
+    public void setPermissionsPasswordNeverExpires(java.lang.Boolean permissionsPasswordNeverExpires) {
+        this.permissionsPasswordNeverExpires = permissionsPasswordNeverExpires;
+    }
+
+
+    /**
+     * Gets the permissionsPublishMultiforce value for this Profile.
+     * 
+     * @return permissionsPublishMultiforce
+     */
+    public java.lang.Boolean getPermissionsPublishMultiforce() {
+        return permissionsPublishMultiforce;
+    }
+
+
+    /**
+     * Sets the permissionsPublishMultiforce value for this Profile.
+     * 
+     * @param permissionsPublishMultiforce
+     */
+    public void setPermissionsPublishMultiforce(java.lang.Boolean permissionsPublishMultiforce) {
+        this.permissionsPublishMultiforce = permissionsPublishMultiforce;
+    }
+
+
+    /**
+     * Gets the permissionsResetPasswords value for this Profile.
+     * 
+     * @return permissionsResetPasswords
+     */
+    public java.lang.Boolean getPermissionsResetPasswords() {
+        return permissionsResetPasswords;
+    }
+
+
+    /**
+     * Sets the permissionsResetPasswords value for this Profile.
+     * 
+     * @param permissionsResetPasswords
+     */
+    public void setPermissionsResetPasswords(java.lang.Boolean permissionsResetPasswords) {
+        this.permissionsResetPasswords = permissionsResetPasswords;
+    }
+
+
+    /**
+     * Gets the permissionsRunFlow value for this Profile.
+     * 
+     * @return permissionsRunFlow
+     */
+    public java.lang.Boolean getPermissionsRunFlow() {
+        return permissionsRunFlow;
+    }
+
+
+    /**
+     * Sets the permissionsRunFlow value for this Profile.
+     * 
+     * @param permissionsRunFlow
+     */
+    public void setPermissionsRunFlow(java.lang.Boolean permissionsRunFlow) {
+        this.permissionsRunFlow = permissionsRunFlow;
+    }
+
+
+    /**
+     * Gets the permissionsRunReports value for this Profile.
+     * 
+     * @return permissionsRunReports
+     */
+    public java.lang.Boolean getPermissionsRunReports() {
+        return permissionsRunReports;
+    }
+
+
+    /**
+     * Sets the permissionsRunReports value for this Profile.
+     * 
+     * @param permissionsRunReports
+     */
+    public void setPermissionsRunReports(java.lang.Boolean permissionsRunReports) {
+        this.permissionsRunReports = permissionsRunReports;
+    }
+
+
+    /**
+     * Gets the permissionsSalesConsole value for this Profile.
+     * 
+     * @return permissionsSalesConsole
+     */
+    public java.lang.Boolean getPermissionsSalesConsole() {
+        return permissionsSalesConsole;
+    }
+
+
+    /**
+     * Sets the permissionsSalesConsole value for this Profile.
+     * 
+     * @param permissionsSalesConsole
+     */
+    public void setPermissionsSalesConsole(java.lang.Boolean permissionsSalesConsole) {
+        this.permissionsSalesConsole = permissionsSalesConsole;
+    }
+
+
+    /**
+     * Gets the permissionsScheduleReports value for this Profile.
+     * 
+     * @return permissionsScheduleReports
+     */
+    public java.lang.Boolean getPermissionsScheduleReports() {
+        return permissionsScheduleReports;
+    }
+
+
+    /**
+     * Sets the permissionsScheduleReports value for this Profile.
+     * 
+     * @param permissionsScheduleReports
+     */
+    public void setPermissionsScheduleReports(java.lang.Boolean permissionsScheduleReports) {
+        this.permissionsScheduleReports = permissionsScheduleReports;
+    }
+
+
+    /**
+     * Gets the permissionsSendSitRequests value for this Profile.
+     * 
+     * @return permissionsSendSitRequests
+     */
+    public java.lang.Boolean getPermissionsSendSitRequests() {
+        return permissionsSendSitRequests;
+    }
+
+
+    /**
+     * Sets the permissionsSendSitRequests value for this Profile.
+     * 
+     * @param permissionsSendSitRequests
+     */
+    public void setPermissionsSendSitRequests(java.lang.Boolean permissionsSendSitRequests) {
+        this.permissionsSendSitRequests = permissionsSendSitRequests;
+    }
+
+
+    /**
+     * Gets the permissionsShareInternalArticles value for this Profile.
+     * 
+     * @return permissionsShareInternalArticles
+     */
+    public java.lang.Boolean getPermissionsShareInternalArticles() {
+        return permissionsShareInternalArticles;
+    }
+
+
+    /**
+     * Sets the permissionsShareInternalArticles value for this Profile.
+     * 
+     * @param permissionsShareInternalArticles
+     */
+    public void setPermissionsShareInternalArticles(java.lang.Boolean permissionsShareInternalArticles) {
+        this.permissionsShareInternalArticles = permissionsShareInternalArticles;
+    }
+
+
+    /**
+     * Gets the permissionsSolutionImport value for this Profile.
+     * 
+     * @return permissionsSolutionImport
+     */
+    public java.lang.Boolean getPermissionsSolutionImport() {
+        return permissionsSolutionImport;
+    }
+
+
+    /**
+     * Sets the permissionsSolutionImport value for this Profile.
+     * 
+     * @param permissionsSolutionImport
+     */
+    public void setPermissionsSolutionImport(java.lang.Boolean permissionsSolutionImport) {
+        this.permissionsSolutionImport = permissionsSolutionImport;
+    }
+
+
+    /**
+     * Gets the permissionsSubmitMacrosAllowed value for this Profile.
+     * 
+     * @return permissionsSubmitMacrosAllowed
+     */
+    public java.lang.Boolean getPermissionsSubmitMacrosAllowed() {
+        return permissionsSubmitMacrosAllowed;
+    }
+
+
+    /**
+     * Sets the permissionsSubmitMacrosAllowed value for this Profile.
+     * 
+     * @param permissionsSubmitMacrosAllowed
+     */
+    public void setPermissionsSubmitMacrosAllowed(java.lang.Boolean permissionsSubmitMacrosAllowed) {
+        this.permissionsSubmitMacrosAllowed = permissionsSubmitMacrosAllowed;
+    }
+
+
+    /**
+     * Gets the permissionsTransferAnyCase value for this Profile.
+     * 
+     * @return permissionsTransferAnyCase
+     */
+    public java.lang.Boolean getPermissionsTransferAnyCase() {
+        return permissionsTransferAnyCase;
+    }
+
+
+    /**
+     * Sets the permissionsTransferAnyCase value for this Profile.
+     * 
+     * @param permissionsTransferAnyCase
+     */
+    public void setPermissionsTransferAnyCase(java.lang.Boolean permissionsTransferAnyCase) {
+        this.permissionsTransferAnyCase = permissionsTransferAnyCase;
+    }
+
+
+    /**
+     * Gets the permissionsTransferAnyEntity value for this Profile.
+     * 
+     * @return permissionsTransferAnyEntity
+     */
+    public java.lang.Boolean getPermissionsTransferAnyEntity() {
+        return permissionsTransferAnyEntity;
+    }
+
+
+    /**
+     * Sets the permissionsTransferAnyEntity value for this Profile.
+     * 
+     * @param permissionsTransferAnyEntity
+     */
+    public void setPermissionsTransferAnyEntity(java.lang.Boolean permissionsTransferAnyEntity) {
+        this.permissionsTransferAnyEntity = permissionsTransferAnyEntity;
+    }
+
+
+    /**
+     * Gets the permissionsTransferAnyLead value for this Profile.
+     * 
+     * @return permissionsTransferAnyLead
+     */
+    public java.lang.Boolean getPermissionsTransferAnyLead() {
+        return permissionsTransferAnyLead;
+    }
+
+
+    /**
+     * Sets the permissionsTransferAnyLead value for this Profile.
+     * 
+     * @param permissionsTransferAnyLead
+     */
+    public void setPermissionsTransferAnyLead(java.lang.Boolean permissionsTransferAnyLead) {
+        this.permissionsTransferAnyLead = permissionsTransferAnyLead;
+    }
+
+
+    /**
+     * Gets the permissionsTwoFactorApi value for this Profile.
+     * 
+     * @return permissionsTwoFactorApi
+     */
+    public java.lang.Boolean getPermissionsTwoFactorApi() {
+        return permissionsTwoFactorApi;
+    }
+
+
+    /**
+     * Sets the permissionsTwoFactorApi value for this Profile.
+     * 
+     * @param permissionsTwoFactorApi
+     */
+    public void setPermissionsTwoFactorApi(java.lang.Boolean permissionsTwoFactorApi) {
+        this.permissionsTwoFactorApi = permissionsTwoFactorApi;
+    }
+
+
+    /**
+     * Gets the permissionsUseTeamReassignWizards value for this Profile.
+     * 
+     * @return permissionsUseTeamReassignWizards
+     */
+    public java.lang.Boolean getPermissionsUseTeamReassignWizards() {
+        return permissionsUseTeamReassignWizards;
+    }
+
+
+    /**
+     * Sets the permissionsUseTeamReassignWizards value for this Profile.
+     * 
+     * @param permissionsUseTeamReassignWizards
+     */
+    public void setPermissionsUseTeamReassignWizards(java.lang.Boolean permissionsUseTeamReassignWizards) {
+        this.permissionsUseTeamReassignWizards = permissionsUseTeamReassignWizards;
+    }
+
+
+    /**
+     * Gets the permissionsViewAllData value for this Profile.
+     * 
+     * @return permissionsViewAllData
+     */
+    public java.lang.Boolean getPermissionsViewAllData() {
+        return permissionsViewAllData;
+    }
+
+
+    /**
+     * Sets the permissionsViewAllData value for this Profile.
+     * 
+     * @param permissionsViewAllData
+     */
+    public void setPermissionsViewAllData(java.lang.Boolean permissionsViewAllData) {
+        this.permissionsViewAllData = permissionsViewAllData;
+    }
+
+
+    /**
+     * Gets the permissionsViewAllUsers value for this Profile.
+     * 
+     * @return permissionsViewAllUsers
+     */
+    public java.lang.Boolean getPermissionsViewAllUsers() {
+        return permissionsViewAllUsers;
+    }
+
+
+    /**
+     * Sets the permissionsViewAllUsers value for this Profile.
+     * 
+     * @param permissionsViewAllUsers
+     */
+    public void setPermissionsViewAllUsers(java.lang.Boolean permissionsViewAllUsers) {
+        this.permissionsViewAllUsers = permissionsViewAllUsers;
+    }
+
+
+    /**
+     * Gets the permissionsViewContent value for this Profile.
+     * 
+     * @return permissionsViewContent
+     */
+    public java.lang.Boolean getPermissionsViewContent() {
+        return permissionsViewContent;
+    }
+
+
+    /**
+     * Sets the permissionsViewContent value for this Profile.
+     * 
+     * @param permissionsViewContent
+     */
+    public void setPermissionsViewContent(java.lang.Boolean permissionsViewContent) {
+        this.permissionsViewContent = permissionsViewContent;
+    }
+
+
+    /**
+     * Gets the permissionsViewDataCategories value for this Profile.
+     * 
+     * @return permissionsViewDataCategories
+     */
+    public java.lang.Boolean getPermissionsViewDataCategories() {
+        return permissionsViewDataCategories;
+    }
+
+
+    /**
+     * Sets the permissionsViewDataCategories value for this Profile.
+     * 
+     * @param permissionsViewDataCategories
+     */
+    public void setPermissionsViewDataCategories(java.lang.Boolean permissionsViewDataCategories) {
+        this.permissionsViewDataCategories = permissionsViewDataCategories;
+    }
+
+
+    /**
+     * Gets the permissionsViewEncryptedData value for this Profile.
+     * 
+     * @return permissionsViewEncryptedData
+     */
+    public java.lang.Boolean getPermissionsViewEncryptedData() {
+        return permissionsViewEncryptedData;
+    }
+
+
+    /**
+     * Sets the permissionsViewEncryptedData value for this Profile.
+     * 
+     * @param permissionsViewEncryptedData
+     */
+    public void setPermissionsViewEncryptedData(java.lang.Boolean permissionsViewEncryptedData) {
+        this.permissionsViewEncryptedData = permissionsViewEncryptedData;
+    }
+
+
+    /**
+     * Gets the permissionsViewEventLogFiles value for this Profile.
+     * 
+     * @return permissionsViewEventLogFiles
+     */
+    public java.lang.Boolean getPermissionsViewEventLogFiles() {
+        return permissionsViewEventLogFiles;
+    }
+
+
+    /**
+     * Sets the permissionsViewEventLogFiles value for this Profile.
+     * 
+     * @param permissionsViewEventLogFiles
+     */
+    public void setPermissionsViewEventLogFiles(java.lang.Boolean permissionsViewEventLogFiles) {
+        this.permissionsViewEventLogFiles = permissionsViewEventLogFiles;
+    }
+
+
+    /**
+     * Gets the permissionsViewHelpLink value for this Profile.
+     * 
+     * @return permissionsViewHelpLink
+     */
+    public java.lang.Boolean getPermissionsViewHelpLink() {
+        return permissionsViewHelpLink;
+    }
+
+
+    /**
+     * Sets the permissionsViewHelpLink value for this Profile.
+     * 
+     * @param permissionsViewHelpLink
+     */
+    public void setPermissionsViewHelpLink(java.lang.Boolean permissionsViewHelpLink) {
+        this.permissionsViewHelpLink = permissionsViewHelpLink;
+    }
+
+
+    /**
+     * Gets the permissionsViewMyTeamsDashboards value for this Profile.
+     * 
+     * @return permissionsViewMyTeamsDashboards
+     */
+    public java.lang.Boolean getPermissionsViewMyTeamsDashboards() {
+        return permissionsViewMyTeamsDashboards;
+    }
+
+
+    /**
+     * Sets the permissionsViewMyTeamsDashboards value for this Profile.
+     * 
+     * @param permissionsViewMyTeamsDashboards
+     */
+    public void setPermissionsViewMyTeamsDashboards(java.lang.Boolean permissionsViewMyTeamsDashboards) {
+        this.permissionsViewMyTeamsDashboards = permissionsViewMyTeamsDashboards;
+    }
+
+
+    /**
+     * Gets the permissionsViewPublicDashboards value for this Profile.
+     * 
+     * @return permissionsViewPublicDashboards
+     */
+    public java.lang.Boolean getPermissionsViewPublicDashboards() {
+        return permissionsViewPublicDashboards;
+    }
+
+
+    /**
+     * Sets the permissionsViewPublicDashboards value for this Profile.
+     * 
+     * @param permissionsViewPublicDashboards
+     */
+    public void setPermissionsViewPublicDashboards(java.lang.Boolean permissionsViewPublicDashboards) {
+        this.permissionsViewPublicDashboards = permissionsViewPublicDashboards;
+    }
+
+
+    /**
+     * Gets the permissionsViewPublicReports value for this Profile.
+     * 
+     * @return permissionsViewPublicReports
+     */
+    public java.lang.Boolean getPermissionsViewPublicReports() {
+        return permissionsViewPublicReports;
+    }
+
+
+    /**
+     * Sets the permissionsViewPublicReports value for this Profile.
+     * 
+     * @param permissionsViewPublicReports
+     */
+    public void setPermissionsViewPublicReports(java.lang.Boolean permissionsViewPublicReports) {
+        this.permissionsViewPublicReports = permissionsViewPublicReports;
+    }
+
+
+    /**
+     * Gets the permissionsViewSetup value for this Profile.
+     * 
+     * @return permissionsViewSetup
+     */
+    public java.lang.Boolean getPermissionsViewSetup() {
+        return permissionsViewSetup;
+    }
+
+
+    /**
+     * Sets the permissionsViewSetup value for this Profile.
+     * 
+     * @param permissionsViewSetup
+     */
+    public void setPermissionsViewSetup(java.lang.Boolean permissionsViewSetup) {
+        this.permissionsViewSetup = permissionsViewSetup;
+    }
+
+
+    /**
+     * Gets the permissionsWorkCalibrationUser value for this Profile.
+     * 
+     * @return permissionsWorkCalibrationUser
+     */
+    public java.lang.Boolean getPermissionsWorkCalibrationUser() {
+        return permissionsWorkCalibrationUser;
+    }
+
+
+    /**
+     * Sets the permissionsWorkCalibrationUser value for this Profile.
+     * 
+     * @param permissionsWorkCalibrationUser
+     */
+    public void setPermissionsWorkCalibrationUser(java.lang.Boolean permissionsWorkCalibrationUser) {
+        this.permissionsWorkCalibrationUser = permissionsWorkCalibrationUser;
+    }
+
+
+    /**
+     * Gets the permissionsWorkDotComUserPerm value for this Profile.
+     * 
+     * @return permissionsWorkDotComUserPerm
+     */
+    public java.lang.Boolean getPermissionsWorkDotComUserPerm() {
+        return permissionsWorkDotComUserPerm;
+    }
+
+
+    /**
+     * Sets the permissionsWorkDotComUserPerm value for this Profile.
+     * 
+     * @param permissionsWorkDotComUserPerm
+     */
+    public void setPermissionsWorkDotComUserPerm(java.lang.Boolean permissionsWorkDotComUserPerm) {
+        this.permissionsWorkDotComUserPerm = permissionsWorkDotComUserPerm;
+    }
+
+
+    /**
+     * Gets the systemModstamp value for this Profile.
+     * 
+     * @return systemModstamp
+     */
+    public java.util.Calendar getSystemModstamp() {
+        return systemModstamp;
+    }
+
+
+    /**
+     * Sets the systemModstamp value for this Profile.
+     * 
+     * @param systemModstamp
+     */
+    public void setSystemModstamp(java.util.Calendar systemModstamp) {
+        this.systemModstamp = systemModstamp;
+    }
+
+
+    /**
+     * Gets the userLicense value for this Profile.
+     * 
+     * @return userLicense
+     */
+    public com.sforce.soap.enterprise.sobject.UserLicense getUserLicense() {
+        return userLicense;
+    }
+
+
+    /**
+     * Sets the userLicense value for this Profile.
+     * 
+     * @param userLicense
+     */
+    public void setUserLicense(com.sforce.soap.enterprise.sobject.UserLicense userLicense) {
+        this.userLicense = userLicense;
+    }
+
+
+    /**
+     * Gets the userLicenseId value for this Profile.
+     * 
+     * @return userLicenseId
+     */
+    public java.lang.String getUserLicenseId() {
+        return userLicenseId;
+    }
+
+
+    /**
+     * Sets the userLicenseId value for this Profile.
+     * 
+     * @param userLicenseId
+     */
+    public void setUserLicenseId(java.lang.String userLicenseId) {
+        this.userLicenseId = userLicenseId;
+    }
+
+
+    /**
+     * Gets the userType value for this Profile.
+     * 
+     * @return userType
+     */
+    public java.lang.String getUserType() {
+        return userType;
+    }
+
+
+    /**
+     * Sets the userType value for this Profile.
+     * 
+     * @param userType
+     */
+    public void setUserType(java.lang.String userType) {
+        this.userType = userType;
+    }
+
+
+    /**
+     * Gets the users value for this Profile.
+     * 
+     * @return users
+     */
+    public com.sforce.soap.enterprise.QueryResult getUsers() {
+        return users;
+    }
+
+
+    /**
+     * Sets the users value for this Profile.
+     * 
+     * @param users
+     */
+    public void setUsers(com.sforce.soap.enterprise.QueryResult users) {
+        this.users = users;
+    }
+
+    private java.lang.Object __equalsCalc = null;
+    public synchronized boolean equals(java.lang.Object obj) {
+        if (!(obj instanceof Profile)) return false;
+        Profile other = (Profile) obj;
+        if (obj == null) return false;
+        if (this == obj) return true;
+        if (__equalsCalc != null) {
+            return (__equalsCalc == obj);
+        }
+        __equalsCalc = obj;
+        boolean _equals;
+        _equals = super.equals(obj) && 
+            ((this.createdBy==null && other.getCreatedBy()==null) || 
+             (this.createdBy!=null &&
+              this.createdBy.equals(other.getCreatedBy()))) &&
+            ((this.createdById==null && other.getCreatedById()==null) || 
+             (this.createdById!=null &&
+              this.createdById.equals(other.getCreatedById()))) &&
+            ((this.createdDate==null && other.getCreatedDate()==null) || 
+             (this.createdDate!=null &&
+              this.createdDate.equals(other.getCreatedDate()))) &&
+            ((this.description==null && other.getDescription()==null) || 
+             (this.description!=null &&
+              this.description.equals(other.getDescription()))) &&
+            ((this.lastModifiedBy==null && other.getLastModifiedBy()==null) || 
+             (this.lastModifiedBy!=null &&
+              this.lastModifiedBy.equals(other.getLastModifiedBy()))) &&
+            ((this.lastModifiedById==null && other.getLastModifiedById()==null) || 
+             (this.lastModifiedById!=null &&
+              this.lastModifiedById.equals(other.getLastModifiedById()))) &&
+            ((this.lastModifiedDate==null && other.getLastModifiedDate()==null) || 
+             (this.lastModifiedDate!=null &&
+              this.lastModifiedDate.equals(other.getLastModifiedDate()))) &&
+            ((this.lastReferencedDate==null && other.getLastReferencedDate()==null) || 
+             (this.lastReferencedDate!=null &&
+              this.lastReferencedDate.equals(other.getLastReferencedDate()))) &&
+            ((this.lastViewedDate==null && other.getLastViewedDate()==null) || 
+             (this.lastViewedDate!=null &&
+              this.lastViewedDate.equals(other.getLastViewedDate()))) &&
+            ((this.name==null && other.getName()==null) || 
+             (this.name!=null &&
+              this.name.equals(other.getName()))) &&
+            ((this.permissionsActivateContract==null && other.getPermissionsActivateContract()==null) || 
+             (this.permissionsActivateContract!=null &&
+              this.permissionsActivateContract.equals(other.getPermissionsActivateContract()))) &&
+            ((this.permissionsActivateOrder==null && other.getPermissionsActivateOrder()==null) || 
+             (this.permissionsActivateOrder!=null &&
+              this.permissionsActivateOrder.equals(other.getPermissionsActivateOrder()))) &&
+            ((this.permissionsAllowEmailIC==null && other.getPermissionsAllowEmailIC()==null) || 
+             (this.permissionsAllowEmailIC!=null &&
+              this.permissionsAllowEmailIC.equals(other.getPermissionsAllowEmailIC()))) &&
+            ((this.permissionsAllowUniversalSearch==null && other.getPermissionsAllowUniversalSearch()==null) || 
+             (this.permissionsAllowUniversalSearch!=null &&
+              this.permissionsAllowUniversalSearch.equals(other.getPermissionsAllowUniversalSearch()))) &&
+            ((this.permissionsAllowViewKnowledge==null && other.getPermissionsAllowViewKnowledge()==null) || 
+             (this.permissionsAllowViewKnowledge!=null &&
+              this.permissionsAllowViewKnowledge.equals(other.getPermissionsAllowViewKnowledge()))) &&
+            ((this.permissionsApiEnabled==null && other.getPermissionsApiEnabled()==null) || 
+             (this.permissionsApiEnabled!=null &&
+              this.permissionsApiEnabled.equals(other.getPermissionsApiEnabled()))) &&
+            ((this.permissionsAssignPermissionSets==null && other.getPermissionsAssignPermissionSets()==null) || 
+             (this.permissionsAssignPermissionSets!=null &&
+              this.permissionsAssignPermissionSets.equals(other.getPermissionsAssignPermissionSets()))) &&
+            ((this.permissionsAssignTopics==null && other.getPermissionsAssignTopics()==null) || 
+             (this.permissionsAssignTopics!=null &&
+              this.permissionsAssignTopics.equals(other.getPermissionsAssignTopics()))) &&
+            ((this.permissionsAuthorApex==null && other.getPermissionsAuthorApex()==null) || 
+             (this.permissionsAuthorApex!=null &&
+              this.permissionsAuthorApex.equals(other.getPermissionsAuthorApex()))) &&
+            ((this.permissionsBulkApiHardDelete==null && other.getPermissionsBulkApiHardDelete()==null) || 
+             (this.permissionsBulkApiHardDelete!=null &&
+              this.permissionsBulkApiHardDelete.equals(other.getPermissionsBulkApiHardDelete()))) &&
+            ((this.permissionsBulkMacrosAllowed==null && other.getPermissionsBulkMacrosAllowed()==null) || 
+             (this.permissionsBulkMacrosAllowed!=null &&
+              this.permissionsBulkMacrosAllowed.equals(other.getPermissionsBulkMacrosAllowed()))) &&
+            ((this.permissionsCanInsertFeedSystemFields==null && other.getPermissionsCanInsertFeedSystemFields()==null) || 
+             (this.permissionsCanInsertFeedSystemFields!=null &&
+              this.permissionsCanInsertFeedSystemFields.equals(other.getPermissionsCanInsertFeedSystemFields()))) &&
+            ((this.permissionsCanUseNewDashboardBuilder==null && other.getPermissionsCanUseNewDashboardBuilder()==null) || 
+             (this.permissionsCanUseNewDashboardBuilder!=null &&
+              this.permissionsCanUseNewDashboardBuilder.equals(other.getPermissionsCanUseNewDashboardBuilder()))) &&
+            ((this.permissionsChatterEditOwnPost==null && other.getPermissionsChatterEditOwnPost()==null) || 
+             (this.permissionsChatterEditOwnPost!=null &&
+              this.permissionsChatterEditOwnPost.equals(other.getPermissionsChatterEditOwnPost()))) &&
+            ((this.permissionsChatterEditOwnRecordPost==null && other.getPermissionsChatterEditOwnRecordPost()==null) || 
+             (this.permissionsChatterEditOwnRecordPost!=null &&
+              this.permissionsChatterEditOwnRecordPost.equals(other.getPermissionsChatterEditOwnRecordPost()))) &&
+            ((this.permissionsChatterFileLink==null && other.getPermissionsChatterFileLink()==null) || 
+             (this.permissionsChatterFileLink!=null &&
+              this.permissionsChatterFileLink.equals(other.getPermissionsChatterFileLink()))) &&
+            ((this.permissionsChatterForSharePoint==null && other.getPermissionsChatterForSharePoint()==null) || 
+             (this.permissionsChatterForSharePoint!=null &&
+              this.permissionsChatterForSharePoint.equals(other.getPermissionsChatterForSharePoint()))) &&
+            ((this.permissionsChatterInternalUser==null && other.getPermissionsChatterInternalUser()==null) || 
+             (this.permissionsChatterInternalUser!=null &&
+              this.permissionsChatterInternalUser.equals(other.getPermissionsChatterInternalUser()))) &&
+            ((this.permissionsChatterInviteExternalUsers==null && other.getPermissionsChatterInviteExternalUsers()==null) || 
+             (this.permissionsChatterInviteExternalUsers!=null &&
+              this.permissionsChatterInviteExternalUsers.equals(other.getPermissionsChatterInviteExternalUsers()))) &&
+            ((this.permissionsChatterOwnGroups==null && other.getPermissionsChatterOwnGroups()==null) || 
+             (this.permissionsChatterOwnGroups!=null &&
+              this.permissionsChatterOwnGroups.equals(other.getPermissionsChatterOwnGroups()))) &&
+            ((this.permissionsConfigCustomRecs==null && other.getPermissionsConfigCustomRecs()==null) || 
+             (this.permissionsConfigCustomRecs!=null &&
+              this.permissionsConfigCustomRecs.equals(other.getPermissionsConfigCustomRecs()))) &&
+            ((this.permissionsConnectOrgToEnvironmentHub==null && other.getPermissionsConnectOrgToEnvironmentHub()==null) || 
+             (this.permissionsConnectOrgToEnvironmentHub!=null &&
+              this.permissionsConnectOrgToEnvironmentHub.equals(other.getPermissionsConnectOrgToEnvironmentHub()))) &&
+            ((this.permissionsContentAdministrator==null && other.getPermissionsContentAdministrator()==null) || 
+             (this.permissionsContentAdministrator!=null &&
+              this.permissionsContentAdministrator.equals(other.getPermissionsContentAdministrator()))) &&
+            ((this.permissionsConvertLeads==null && other.getPermissionsConvertLeads()==null) || 
+             (this.permissionsConvertLeads!=null &&
+              this.permissionsConvertLeads.equals(other.getPermissionsConvertLeads()))) &&
+            ((this.permissionsCreateCustomizeDashboards==null && other.getPermissionsCreateCustomizeDashboards()==null) || 
+             (this.permissionsCreateCustomizeDashboards!=null &&
+              this.permissionsCreateCustomizeDashboards.equals(other.getPermissionsCreateCustomizeDashboards()))) &&
+            ((this.permissionsCreateCustomizeFilters==null && other.getPermissionsCreateCustomizeFilters()==null) || 
+             (this.permissionsCreateCustomizeFilters!=null &&
+              this.permissionsCreateCustomizeFilters.equals(other.getPermissionsCreateCustomizeFilters()))) &&
+            ((this.permissionsCreateCustomizeReports==null && other.getPermissionsCreateCustomizeReports()==null) || 
+             (this.permissionsCreateCustomizeReports!=null &&
+              this.permissionsCreateCustomizeReports.equals(other.getPermissionsCreateCustomizeReports()))) &&
+            ((this.permissionsCreateDashboardFolders==null && other.getPermissionsCreateDashboardFolders()==null) || 
+             (this.permissionsCreateDashboardFolders!=null &&
+              this.permissionsCreateDashboardFolders.equals(other.getPermissionsCreateDashboardFolders()))) &&
+            ((this.permissionsCreateMultiforce==null && other.getPermissionsCreateMultiforce()==null) || 
+             (this.permissionsCreateMultiforce!=null &&
+              this.permissionsCreateMultiforce.equals(other.getPermissionsCreateMultiforce()))) &&
+            ((this.permissionsCreateReportFolders==null && other.getPermissionsCreateReportFolders()==null) || 
+             (this.permissionsCreateReportFolders!=null &&
+              this.permissionsCreateReportFolders.equals(other.getPermissionsCreateReportFolders()))) &&
+            ((this.permissionsCreateTopics==null && other.getPermissionsCreateTopics()==null) || 
+             (this.permissionsCreateTopics!=null &&
+              this.permissionsCreateTopics.equals(other.getPermissionsCreateTopics()))) &&
+            ((this.permissionsCreateWorkspaces==null && other.getPermissionsCreateWorkspaces()==null) || 
+             (this.permissionsCreateWorkspaces!=null &&
+              this.permissionsCreateWorkspaces.equals(other.getPermissionsCreateWorkspaces()))) &&
+            ((this.permissionsCustomMobileAppsAccess==null && other.getPermissionsCustomMobileAppsAccess()==null) || 
+             (this.permissionsCustomMobileAppsAccess!=null &&
+              this.permissionsCustomMobileAppsAccess.equals(other.getPermissionsCustomMobileAppsAccess()))) &&
+            ((this.permissionsCustomSidebarOnAllPages==null && other.getPermissionsCustomSidebarOnAllPages()==null) || 
+             (this.permissionsCustomSidebarOnAllPages!=null &&
+              this.permissionsCustomSidebarOnAllPages.equals(other.getPermissionsCustomSidebarOnAllPages()))) &&
+            ((this.permissionsCustomizeApplication==null && other.getPermissionsCustomizeApplication()==null) || 
+             (this.permissionsCustomizeApplication!=null &&
+              this.permissionsCustomizeApplication.equals(other.getPermissionsCustomizeApplication()))) &&
+            ((this.permissionsDeleteActivatedContract==null && other.getPermissionsDeleteActivatedContract()==null) || 
+             (this.permissionsDeleteActivatedContract!=null &&
+              this.permissionsDeleteActivatedContract.equals(other.getPermissionsDeleteActivatedContract()))) &&
+            ((this.permissionsDeleteTopics==null && other.getPermissionsDeleteTopics()==null) || 
+             (this.permissionsDeleteTopics!=null &&
+              this.permissionsDeleteTopics.equals(other.getPermissionsDeleteTopics()))) &&
+            ((this.permissionsDistributeFromPersWksp==null && other.getPermissionsDistributeFromPersWksp()==null) || 
+             (this.permissionsDistributeFromPersWksp!=null &&
+              this.permissionsDistributeFromPersWksp.equals(other.getPermissionsDistributeFromPersWksp()))) &&
+            ((this.permissionsEditActivatedOrders==null && other.getPermissionsEditActivatedOrders()==null) || 
+             (this.permissionsEditActivatedOrders!=null &&
+              this.permissionsEditActivatedOrders.equals(other.getPermissionsEditActivatedOrders()))) &&
+            ((this.permissionsEditBrandTemplates==null && other.getPermissionsEditBrandTemplates()==null) || 
+             (this.permissionsEditBrandTemplates!=null &&
+              this.permissionsEditBrandTemplates.equals(other.getPermissionsEditBrandTemplates()))) &&
+            ((this.permissionsEditCaseComments==null && other.getPermissionsEditCaseComments()==null) || 
+             (this.permissionsEditCaseComments!=null &&
+              this.permissionsEditCaseComments.equals(other.getPermissionsEditCaseComments()))) &&
+            ((this.permissionsEditEvent==null && other.getPermissionsEditEvent()==null) || 
+             (this.permissionsEditEvent!=null &&
+              this.permissionsEditEvent.equals(other.getPermissionsEditEvent()))) &&
+            ((this.permissionsEditHtmlTemplates==null && other.getPermissionsEditHtmlTemplates()==null) || 
+             (this.permissionsEditHtmlTemplates!=null &&
+              this.permissionsEditHtmlTemplates.equals(other.getPermissionsEditHtmlTemplates()))) &&
+            ((this.permissionsEditKnowledge==null && other.getPermissionsEditKnowledge()==null) || 
+             (this.permissionsEditKnowledge!=null &&
+              this.permissionsEditKnowledge.equals(other.getPermissionsEditKnowledge()))) &&
+            ((this.permissionsEditMyDashboards==null && other.getPermissionsEditMyDashboards()==null) || 
+             (this.permissionsEditMyDashboards!=null &&
+              this.permissionsEditMyDashboards.equals(other.getPermissionsEditMyDashboards()))) &&
+            ((this.permissionsEditMyReports==null && other.getPermissionsEditMyReports()==null) || 
+             (this.permissionsEditMyReports!=null &&
+              this.permissionsEditMyReports.equals(other.getPermissionsEditMyReports()))) &&
+            ((this.permissionsEditOppLineItemUnitPrice==null && other.getPermissionsEditOppLineItemUnitPrice()==null) || 
+             (this.permissionsEditOppLineItemUnitPrice!=null &&
+              this.permissionsEditOppLineItemUnitPrice.equals(other.getPermissionsEditOppLineItemUnitPrice()))) &&
+            ((this.permissionsEditPublicDocuments==null && other.getPermissionsEditPublicDocuments()==null) || 
+             (this.permissionsEditPublicDocuments!=null &&
+              this.permissionsEditPublicDocuments.equals(other.getPermissionsEditPublicDocuments()))) &&
+            ((this.permissionsEditPublicTemplates==null && other.getPermissionsEditPublicTemplates()==null) || 
+             (this.permissionsEditPublicTemplates!=null &&
+              this.permissionsEditPublicTemplates.equals(other.getPermissionsEditPublicTemplates()))) &&
+            ((this.permissionsEditReadonlyFields==null && other.getPermissionsEditReadonlyFields()==null) || 
+             (this.permissionsEditReadonlyFields!=null &&
+              this.permissionsEditReadonlyFields.equals(other.getPermissionsEditReadonlyFields()))) &&
+            ((this.permissionsEditTask==null && other.getPermissionsEditTask()==null) || 
+             (this.permissionsEditTask!=null &&
+              this.permissionsEditTask.equals(other.getPermissionsEditTask()))) &&
+            ((this.permissionsEditTopics==null && other.getPermissionsEditTopics()==null) || 
+             (this.permissionsEditTopics!=null &&
+              this.permissionsEditTopics.equals(other.getPermissionsEditTopics()))) &&
+            ((this.permissionsEmailAdministration==null && other.getPermissionsEmailAdministration()==null) || 
+             (this.permissionsEmailAdministration!=null &&
+              this.permissionsEmailAdministration.equals(other.getPermissionsEmailAdministration()))) &&
+            ((this.permissionsEmailMass==null && other.getPermissionsEmailMass()==null) || 
+             (this.permissionsEmailMass!=null &&
+              this.permissionsEmailMass.equals(other.getPermissionsEmailMass()))) &&
+            ((this.permissionsEmailSingle==null && other.getPermissionsEmailSingle()==null) || 
+             (this.permissionsEmailSingle!=null &&
+              this.permissionsEmailSingle.equals(other.getPermissionsEmailSingle()))) &&
+            ((this.permissionsEmailTemplateManagement==null && other.getPermissionsEmailTemplateManagement()==null) || 
+             (this.permissionsEmailTemplateManagement!=null &&
+              this.permissionsEmailTemplateManagement.equals(other.getPermissionsEmailTemplateManagement()))) &&
+            ((this.permissionsEnableNotifications==null && other.getPermissionsEnableNotifications()==null) || 
+             (this.permissionsEnableNotifications!=null &&
+              this.permissionsEnableNotifications.equals(other.getPermissionsEnableNotifications()))) &&
+            ((this.permissionsExportReport==null && other.getPermissionsExportReport()==null) || 
+             (this.permissionsExportReport!=null &&
+              this.permissionsExportReport.equals(other.getPermissionsExportReport()))) &&
+            ((this.permissionsFlowUFLRequired==null && other.getPermissionsFlowUFLRequired()==null) || 
+             (this.permissionsFlowUFLRequired!=null &&
+              this.permissionsFlowUFLRequired.equals(other.getPermissionsFlowUFLRequired()))) &&
+            ((this.permissionsForceTwoFactor==null && other.getPermissionsForceTwoFactor()==null) || 
+             (this.permissionsForceTwoFactor!=null &&
+              this.permissionsForceTwoFactor.equals(other.getPermissionsForceTwoFactor()))) &&
+            ((this.permissionsGovernNetworks==null && other.getPermissionsGovernNetworks()==null) || 
+             (this.permissionsGovernNetworks!=null &&
+              this.permissionsGovernNetworks.equals(other.getPermissionsGovernNetworks()))) &&
+            ((this.permissionsIdentityConnect==null && other.getPermissionsIdentityConnect()==null) || 
+             (this.permissionsIdentityConnect!=null &&
+              this.permissionsIdentityConnect.equals(other.getPermissionsIdentityConnect()))) &&
+            ((this.permissionsIdentityEnabled==null && other.getPermissionsIdentityEnabled()==null) || 
+             (this.permissionsIdentityEnabled!=null &&
+              this.permissionsIdentityEnabled.equals(other.getPermissionsIdentityEnabled()))) &&
+            ((this.permissionsImportLeads==null && other.getPermissionsImportLeads()==null) || 
+             (this.permissionsImportLeads!=null &&
+              this.permissionsImportLeads.equals(other.getPermissionsImportLeads()))) &&
+            ((this.permissionsImportPersonal==null && other.getPermissionsImportPersonal()==null) || 
+             (this.permissionsImportPersonal!=null &&
+              this.permissionsImportPersonal.equals(other.getPermissionsImportPersonal()))) &&
+            ((this.permissionsInstallMultiforce==null && other.getPermissionsInstallMultiforce()==null) || 
+             (this.permissionsInstallMultiforce!=null &&
+              this.permissionsInstallMultiforce.equals(other.getPermissionsInstallMultiforce()))) &&
+            ((this.permissionsManageAnalyticSnapshots==null && other.getPermissionsManageAnalyticSnapshots()==null) || 
+             (this.permissionsManageAnalyticSnapshots!=null &&
+              this.permissionsManageAnalyticSnapshots.equals(other.getPermissionsManageAnalyticSnapshots()))) &&
+            ((this.permissionsManageAuthProviders==null && other.getPermissionsManageAuthProviders()==null) || 
+             (this.permissionsManageAuthProviders!=null &&
+              this.permissionsManageAuthProviders.equals(other.getPermissionsManageAuthProviders()))) &&
+            ((this.permissionsManageBusinessHourHolidays==null && other.getPermissionsManageBusinessHourHolidays()==null) || 
+             (this.permissionsManageBusinessHourHolidays!=null &&
+              this.permissionsManageBusinessHourHolidays.equals(other.getPermissionsManageBusinessHourHolidays()))) &&
+            ((this.permissionsManageCallCenters==null && other.getPermissionsManageCallCenters()==null) || 
+             (this.permissionsManageCallCenters!=null &&
+              this.permissionsManageCallCenters.equals(other.getPermissionsManageCallCenters()))) &&
+            ((this.permissionsManageCases==null && other.getPermissionsManageCases()==null) || 
+             (this.permissionsManageCases!=null &&
+              this.permissionsManageCases.equals(other.getPermissionsManageCases()))) &&
+            ((this.permissionsManageCategories==null && other.getPermissionsManageCategories()==null) || 
+             (this.permissionsManageCategories!=null &&
+              this.permissionsManageCategories.equals(other.getPermissionsManageCategories()))) &&
+            ((this.permissionsManageChatterMessages==null && other.getPermissionsManageChatterMessages()==null) || 
+             (this.permissionsManageChatterMessages!=null &&
+              this.permissionsManageChatterMessages.equals(other.getPermissionsManageChatterMessages()))) &&
+            ((this.permissionsManageContentPermissions==null && other.getPermissionsManageContentPermissions()==null) || 
+             (this.permissionsManageContentPermissions!=null &&
+              this.permissionsManageContentPermissions.equals(other.getPermissionsManageContentPermissions()))) &&
+            ((this.permissionsManageContentProperties==null && other.getPermissionsManageContentProperties()==null) || 
+             (this.permissionsManageContentProperties!=null &&
+              this.permissionsManageContentProperties.equals(other.getPermissionsManageContentProperties()))) &&
+            ((this.permissionsManageContentTypes==null && other.getPermissionsManageContentTypes()==null) || 
+             (this.permissionsManageContentTypes!=null &&
+              this.permissionsManageContentTypes.equals(other.getPermissionsManageContentTypes()))) &&
+            ((this.permissionsManageCustomPermissions==null && other.getPermissionsManageCustomPermissions()==null) || 
+             (this.permissionsManageCustomPermissions!=null &&
+              this.permissionsManageCustomPermissions.equals(other.getPermissionsManageCustomPermissions()))) &&
+            ((this.permissionsManageCustomReportTypes==null && other.getPermissionsManageCustomReportTypes()==null) || 
+             (this.permissionsManageCustomReportTypes!=null &&
+              this.permissionsManageCustomReportTypes.equals(other.getPermissionsManageCustomReportTypes()))) &&
+            ((this.permissionsManageDashbdsInPubFolders==null && other.getPermissionsManageDashbdsInPubFolders()==null) || 
+             (this.permissionsManageDashbdsInPubFolders!=null &&
+              this.permissionsManageDashbdsInPubFolders.equals(other.getPermissionsManageDashbdsInPubFolders()))) &&
+            ((this.permissionsManageDataCategories==null && other.getPermissionsManageDataCategories()==null) || 
+             (this.permissionsManageDataCategories!=null &&
+              this.permissionsManageDataCategories.equals(other.getPermissionsManageDataCategories()))) &&
+            ((this.permissionsManageDataIntegrations==null && other.getPermissionsManageDataIntegrations()==null) || 
+             (this.permissionsManageDataIntegrations!=null &&
+              this.permissionsManageDataIntegrations.equals(other.getPermissionsManageDataIntegrations()))) &&
+            ((this.permissionsManageDynamicDashboards==null && other.getPermissionsManageDynamicDashboards()==null) || 
+             (this.permissionsManageDynamicDashboards!=null &&
+              this.permissionsManageDynamicDashboards.equals(other.getPermissionsManageDynamicDashboards()))) &&
+            ((this.permissionsManageEmailClientConfig==null && other.getPermissionsManageEmailClientConfig()==null) || 
+             (this.permissionsManageEmailClientConfig!=null &&
+              this.permissionsManageEmailClientConfig.equals(other.getPermissionsManageEmailClientConfig()))) &&
+            ((this.permissionsManageExchangeConfig==null && other.getPermissionsManageExchangeConfig()==null) || 
+             (this.permissionsManageExchangeConfig!=null &&
+              this.permissionsManageExchangeConfig.equals(other.getPermissionsManageExchangeConfig()))) &&
+            ((this.permissionsManageInteraction==null && other.getPermissionsManageInteraction()==null) || 
+             (this.permissionsManageInteraction!=null &&
+              this.permissionsManageInteraction.equals(other.getPermissionsManageInteraction()))) &&
+            ((this.permissionsManageInternalUsers==null && other.getPermissionsManageInternalUsers()==null) || 
+             (this.permissionsManageInternalUsers!=null &&
+              this.permissionsManageInternalUsers.equals(other.getPermissionsManageInternalUsers()))) &&
+            ((this.permissionsManageIpAddresses==null && other.getPermissionsManageIpAddresses()==null) || 
+             (this.permissionsManageIpAddresses!=null &&
+              this.permissionsManageIpAddresses.equals(other.getPermissionsManageIpAddresses()))) &&
+            ((this.permissionsManageKnowledge==null && other.getPermissionsManageKnowledge()==null) || 
+             (this.permissionsManageKnowledge!=null &&
+              this.permissionsManageKnowledge.equals(other.getPermissionsManageKnowledge()))) &&
+            ((this.permissionsManageKnowledgeImportExport==null && other.getPermissionsManageKnowledgeImportExport()==null) || 
+             (this.permissionsManageKnowledgeImportExport!=null &&
+              this.permissionsManageKnowledgeImportExport.equals(other.getPermissionsManageKnowledgeImportExport()))) &&
+            ((this.permissionsManageLeads==null && other.getPermissionsManageLeads()==null) || 
+             (this.permissionsManageLeads!=null &&
+              this.permissionsManageLeads.equals(other.getPermissionsManageLeads()))) &&
+            ((this.permissionsManageLoginAccessPolicies==null && other.getPermissionsManageLoginAccessPolicies()==null) || 
+             (this.permissionsManageLoginAccessPolicies!=null &&
+              this.permissionsManageLoginAccessPolicies.equals(other.getPermissionsManageLoginAccessPolicies()))) &&
+            ((this.permissionsManageMobile==null && other.getPermissionsManageMobile()==null) || 
+             (this.permissionsManageMobile!=null &&
+              this.permissionsManageMobile.equals(other.getPermissionsManageMobile()))) &&
+            ((this.permissionsManageNetworks==null && other.getPermissionsManageNetworks()==null) || 
+             (this.permissionsManageNetworks!=null &&
+              this.permissionsManageNetworks.equals(other.getPermissionsManageNetworks()))) &&
+            ((this.permissionsManagePasswordPolicies==null && other.getPermissionsManagePasswordPolicies()==null) || 
+             (this.permissionsManagePasswordPolicies!=null &&
+              this.permissionsManagePasswordPolicies.equals(other.getPermissionsManagePasswordPolicies()))) &&
+            ((this.permissionsManageProfilesPermissionsets==null && other.getPermissionsManageProfilesPermissionsets()==null) || 
+             (this.permissionsManageProfilesPermissionsets!=null &&
+              this.permissionsManageProfilesPermissionsets.equals(other.getPermissionsManageProfilesPermissionsets()))) &&
+            ((this.permissionsManageRemoteAccess==null && other.getPermissionsManageRemoteAccess()==null) || 
+             (this.permissionsManageRemoteAccess!=null &&
+              this.permissionsManageRemoteAccess.equals(other.getPermissionsManageRemoteAccess()))) &&
+            ((this.permissionsManageReportsInPubFolders==null && other.getPermissionsManageReportsInPubFolders()==null) || 
+             (this.permissionsManageReportsInPubFolders!=null &&
+              this.permissionsManageReportsInPubFolders.equals(other.getPermissionsManageReportsInPubFolders()))) &&
+            ((this.permissionsManageRoles==null && other.getPermissionsManageRoles()==null) || 
+             (this.permissionsManageRoles!=null &&
+              this.permissionsManageRoles.equals(other.getPermissionsManageRoles()))) &&
+            ((this.permissionsManageSearchPromotionRules==null && other.getPermissionsManageSearchPromotionRules()==null) || 
+             (this.permissionsManageSearchPromotionRules!=null &&
+              this.permissionsManageSearchPromotionRules.equals(other.getPermissionsManageSearchPromotionRules()))) &&
+            ((this.permissionsManageSharing==null && other.getPermissionsManageSharing()==null) || 
+             (this.permissionsManageSharing!=null &&
+              this.permissionsManageSharing.equals(other.getPermissionsManageSharing()))) &&
+            ((this.permissionsManageSolutions==null && other.getPermissionsManageSolutions()==null) || 
+             (this.permissionsManageSolutions!=null &&
+              this.permissionsManageSolutions.equals(other.getPermissionsManageSolutions()))) &&
+            ((this.permissionsManageSynonyms==null && other.getPermissionsManageSynonyms()==null) || 
+             (this.permissionsManageSynonyms!=null &&
+              this.permissionsManageSynonyms.equals(other.getPermissionsManageSynonyms()))) &&
+            ((this.permissionsManageTwoFactor==null && other.getPermissionsManageTwoFactor()==null) || 
+             (this.permissionsManageTwoFactor!=null &&
+              this.permissionsManageTwoFactor.equals(other.getPermissionsManageTwoFactor()))) &&
+            ((this.permissionsManageUnlistedGroups==null && other.getPermissionsManageUnlistedGroups()==null) || 
+             (this.permissionsManageUnlistedGroups!=null &&
+              this.permissionsManageUnlistedGroups.equals(other.getPermissionsManageUnlistedGroups()))) &&
+            ((this.permissionsManageUsers==null && other.getPermissionsManageUsers()==null) || 
+             (this.permissionsManageUsers!=null &&
+              this.permissionsManageUsers.equals(other.getPermissionsManageUsers()))) &&
+            ((this.permissionsMassInlineEdit==null && other.getPermissionsMassInlineEdit()==null) || 
+             (this.permissionsMassInlineEdit!=null &&
+              this.permissionsMassInlineEdit.equals(other.getPermissionsMassInlineEdit()))) &&
+            ((this.permissionsMergeTopics==null && other.getPermissionsMergeTopics()==null) || 
+             (this.permissionsMergeTopics!=null &&
+              this.permissionsMergeTopics.equals(other.getPermissionsMergeTopics()))) &&
+            ((this.permissionsModerateChatter==null && other.getPermissionsModerateChatter()==null) || 
+             (this.permissionsModerateChatter!=null &&
+              this.permissionsModerateChatter.equals(other.getPermissionsModerateChatter()))) &&
+            ((this.permissionsModifyAllData==null && other.getPermissionsModifyAllData()==null) || 
+             (this.permissionsModifyAllData!=null &&
+              this.permissionsModifyAllData.equals(other.getPermissionsModifyAllData()))) &&
+            ((this.permissionsModifySecureAgents==null && other.getPermissionsModifySecureAgents()==null) || 
+             (this.permissionsModifySecureAgents!=null &&
+              this.permissionsModifySecureAgents.equals(other.getPermissionsModifySecureAgents()))) &&
+            ((this.permissionsNewReportBuilder==null && other.getPermissionsNewReportBuilder()==null) || 
+             (this.permissionsNewReportBuilder!=null &&
+              this.permissionsNewReportBuilder.equals(other.getPermissionsNewReportBuilder()))) &&
+            ((this.permissionsPasswordNeverExpires==null && other.getPermissionsPasswordNeverExpires()==null) || 
+             (this.permissionsPasswordNeverExpires!=null &&
+              this.permissionsPasswordNeverExpires.equals(other.getPermissionsPasswordNeverExpires()))) &&
+            ((this.permissionsPublishMultiforce==null && other.getPermissionsPublishMultiforce()==null) || 
+             (this.permissionsPublishMultiforce!=null &&
+              this.permissionsPublishMultiforce.equals(other.getPermissionsPublishMultiforce()))) &&
+            ((this.permissionsResetPasswords==null && other.getPermissionsResetPasswords()==null) || 
+             (this.permissionsResetPasswords!=null &&
+              this.permissionsResetPasswords.equals(other.getPermissionsResetPasswords()))) &&
+            ((this.permissionsRunFlow==null && other.getPermissionsRunFlow()==null) || 
+             (this.permissionsRunFlow!=null &&
+              this.permissionsRunFlow.equals(other.getPermissionsRunFlow()))) &&
+            ((this.permissionsRunReports==null && other.getPermissionsRunReports()==null) || 
+             (this.permissionsRunReports!=null &&
+              this.permissionsRunReports.equals(other.getPermissionsRunReports()))) &&
+            ((this.permissionsSalesConsole==null && other.getPermissionsSalesConsole()==null) || 
+             (this.permissionsSalesConsole!=null &&
+              this.permissionsSalesConsole.equals(other.getPermissionsSalesConsole()))) &&
+            ((this.permissionsScheduleReports==null && other.getPermissionsScheduleReports()==null) || 
+             (this.permissionsScheduleReports!=null &&
+              this.permissionsScheduleReports.equals(other.getPermissionsScheduleReports()))) &&
+            ((this.permissionsSendSitRequests==null && other.getPermissionsSendSitRequests()==null) || 
+             (this.permissionsSendSitRequests!=null &&
+              this.permissionsSendSitRequests.equals(other.getPermissionsSendSitRequests()))) &&
+            ((this.permissionsShareInternalArticles==null && other.getPermissionsShareInternalArticles()==null) || 
+             (this.permissionsShareInternalArticles!=null &&
+              this.permissionsShareInternalArticles.equals(other.getPermissionsShareInternalArticles()))) &&
+            ((this.permissionsSolutionImport==null && other.getPermissionsSolutionImport()==null) || 
+             (this.permissionsSolutionImport!=null &&
+              this.permissionsSolutionImport.equals(other.getPermissionsSolutionImport()))) &&
+            ((this.permissionsSubmitMacrosAllowed==null && other.getPermissionsSubmitMacrosAllowed()==null) || 
+             (this.permissionsSubmitMacrosAllowed!=null &&
+              this.permissionsSubmitMacrosAllowed.equals(other.getPermissionsSubmitMacrosAllowed()))) &&
+            ((this.permissionsTransferAnyCase==null && other.getPermissionsTransferAnyCase()==null) || 
+             (this.permissionsTransferAnyCase!=null &&
+              this.permissionsTransferAnyCase.equals(other.getPermissionsTransferAnyCase()))) &&
+            ((this.permissionsTransferAnyEntity==null && other.getPermissionsTransferAnyEntity()==null) || 
+             (this.permissionsTransferAnyEntity!=null &&
+              this.permissionsTransferAnyEntity.equals(other.getPermissionsTransferAnyEntity()))) &&
+            ((this.permissionsTransferAnyLead==null && other.getPermissionsTransferAnyLead()==null) || 
+             (this.permissionsTransferAnyLead!=null &&
+              this.permissionsTransferAnyLead.equals(other.getPermissionsTransferAnyLead()))) &&
+            ((this.permissionsTwoFactorApi==null && other.getPermissionsTwoFactorApi()==null) || 
+             (this.permissionsTwoFactorApi!=null &&
+              this.permissionsTwoFactorApi.equals(other.getPermissionsTwoFactorApi()))) &&
+            ((this.permissionsUseTeamReassignWizards==null && other.getPermissionsUseTeamReassignWizards()==null) || 
+             (this.permissionsUseTeamReassignWizards!=null &&
+              this.permissionsUseTeamReassignWizards.equals(other.getPermissionsUseTeamReassignWizards()))) &&
+            ((this.permissionsViewAllData==null && other.getPermissionsViewAllData()==null) || 
+             (this.permissionsViewAllData!=null &&
+              this.permissionsViewAllData.equals(other.getPermissionsViewAllData()))) &&
+            ((this.permissionsViewAllUsers==null && other.getPermissionsViewAllUsers()==null) || 
+             (this.permissionsViewAllUsers!=null &&
+              this.permissionsViewAllUsers.equals(other.getPermissionsViewAllUsers()))) &&
+            ((this.permissionsViewContent==null && other.getPermissionsViewContent()==null) || 
+             (this.permissionsViewContent!=null &&
+              this.permissionsViewContent.equals(other.getPermissionsViewContent()))) &&
+            ((this.permissionsViewDataCategories==null && other.getPermissionsViewDataCategories()==null) || 
+             (this.permissionsViewDataCategories!=null &&
+              this.permissionsViewDataCategories.equals(other.getPermissionsViewDataCategories()))) &&
+            ((this.permissionsViewEncryptedData==null && other.getPermissionsViewEncryptedData()==null) || 
+             (this.permissionsViewEncryptedData!=null &&
+              this.permissionsViewEncryptedData.equals(other.getPermissionsViewEncryptedData()))) &&
+            ((this.permissionsViewEventLogFiles==null && other.getPermissionsViewEventLogFiles()==null) || 
+             (this.permissionsViewEventLogFiles!=null &&
+              this.permissionsViewEventLogFiles.equals(other.getPermissionsViewEventLogFiles()))) &&
+            ((this.permissionsViewHelpLink==null && other.getPermissionsViewHelpLink()==null) || 
+             (this.permissionsViewHelpLink!=null &&
+              this.permissionsViewHelpLink.equals(other.getPermissionsViewHelpLink()))) &&
+            ((this.permissionsViewMyTeamsDashboards==null && other.getPermissionsViewMyTeamsDashboards()==null) || 
+             (this.permissionsViewMyTeamsDashboards!=null &&
+              this.permissionsViewMyTeamsDashboards.equals(other.getPermissionsViewMyTeamsDashboards()))) &&
+            ((this.permissionsViewPublicDashboards==null && other.getPermissionsViewPublicDashboards()==null) || 
+             (this.permissionsViewPublicDashboards!=null &&
+              this.permissionsViewPublicDashboards.equals(other.getPermissionsViewPublicDashboards()))) &&
+            ((this.permissionsViewPublicReports==null && other.getPermissionsViewPublicReports()==null) || 
+             (this.permissionsViewPublicReports!=null &&
+              this.permissionsViewPublicReports.equals(other.getPermissionsViewPublicReports()))) &&
+            ((this.permissionsViewSetup==null && other.getPermissionsViewSetup()==null) || 
+             (this.permissionsViewSetup!=null &&
+              this.permissionsViewSetup.equals(other.getPermissionsViewSetup()))) &&
+            ((this.permissionsWorkCalibrationUser==null && other.getPermissionsWorkCalibrationUser()==null) || 
+             (this.permissionsWorkCalibrationUser!=null &&
+              this.permissionsWorkCalibrationUser.equals(other.getPermissionsWorkCalibrationUser()))) &&
+            ((this.permissionsWorkDotComUserPerm==null && other.getPermissionsWorkDotComUserPerm()==null) || 
+             (this.permissionsWorkDotComUserPerm!=null &&
+              this.permissionsWorkDotComUserPerm.equals(other.getPermissionsWorkDotComUserPerm()))) &&
+            ((this.systemModstamp==null && other.getSystemModstamp()==null) || 
+             (this.systemModstamp!=null &&
+              this.systemModstamp.equals(other.getSystemModstamp()))) &&
+            ((this.userLicense==null && other.getUserLicense()==null) || 
+             (this.userLicense!=null &&
+              this.userLicense.equals(other.getUserLicense()))) &&
+            ((this.userLicenseId==null && other.getUserLicenseId()==null) || 
+             (this.userLicenseId!=null &&
+              this.userLicenseId.equals(other.getUserLicenseId()))) &&
+            ((this.userType==null && other.getUserType()==null) || 
+             (this.userType!=null &&
+              this.userType.equals(other.getUserType()))) &&
+            ((this.users==null && other.getUsers()==null) || 
+             (this.users!=null &&
+              this.users.equals(other.getUsers())));
+        __equalsCalc = null;
+        return _equals;
+    }
+
+    private boolean __hashCodeCalc = false;
+    public synchronized int hashCode() {
+        if (__hashCodeCalc) {
+            return 0;
+        }
+        __hashCodeCalc = true;
+        int _hashCode = super.hashCode();
+        if (getCreatedBy() != null) {
+            _hashCode += getCreatedBy().hashCode();
+        }
+        if (getCreatedById() != null) {
+            _hashCode += getCreatedById().hashCode();
+        }
+        if (getCreatedDate() != null) {
+            _hashCode += getCreatedDate().hashCode();
+        }
+        if (getDescription() != null) {
+            _hashCode += getDescription().hashCode();
+        }
+        if (getLastModifiedBy() != null) {
+            _hashCode += getLastModifiedBy().hashCode();
+        }
+        if (getLastModifiedById() != null) {
+            _hashCode += getLastModifiedById().hashCode();
+        }
+        if (getLastModifiedDate() != null) {
+            _hashCode += getLastModifiedDate().hashCode();
+        }
+        if (getLastReferencedDate() != null) {
+            _hashCode += getLastReferencedDate().hashCode();
+        }
+        if (getLastViewedDate() != null) {
+            _hashCode += getLastViewedDate().hashCode();
+        }
+        if (getName() != null) {
+            _hashCode += getName().hashCode();
+        }
+        if (getPermissionsActivateContract() != null) {
+            _hashCode += getPermissionsActivateContract().hashCode();
+        }
+        if (getPermissionsActivateOrder() != null) {
+            _hashCode += getPermissionsActivateOrder().hashCode();
+        }
+        if (getPermissionsAllowEmailIC() != null) {
+            _hashCode += getPermissionsAllowEmailIC().hashCode();
+        }
+        if (getPermissionsAllowUniversalSearch() != null) {
+            _hashCode += getPermissionsAllowUniversalSearch().hashCode();
+        }
+        if (getPermissionsAllowViewKnowledge() != null) {
+            _hashCode += getPermissionsAllowViewKnowledge().hashCode();
+        }
+        if (getPermissionsApiEnabled() != null) {
+            _hashCode += getPermissionsApiEnabled().hashCode();
+        }
+        if (getPermissionsAssignPermissionSets() != null) {
+            _hashCode += getPermissionsAssignPermissionSets().hashCode();
+        }
+        if (getPermissionsAssignTopics() != null) {
+            _hashCode += getPermissionsAssignTopics().hashCode();
+        }
+        if (getPermissionsAuthorApex() != null) {
+            _hashCode += getPermissionsAuthorApex().hashCode();
+        }
+        if (getPermissionsBulkApiHardDelete() != null) {
+            _hashCode += getPermissionsBulkApiHardDelete().hashCode();
+        }
+        if (getPermissionsBulkMacrosAllowed() != null) {
+            _hashCode += getPermissionsBulkMacrosAllowed().hashCode();
+        }
+        if (getPermissionsCanInsertFeedSystemFields() != null) {
+            _hashCode += getPermissionsCanInsertFeedSystemFields().hashCode();
+        }
+        if (getPermissionsCanUseNewDashboardBuilder() != null) {
+            _hashCode += getPermissionsCanUseNewDashboardBuilder().hashCode();
+        }
+        if (getPermissionsChatterEditOwnPost() != null) {
+            _hashCode += getPermissionsChatterEditOwnPost().hashCode();
+        }
+        if (getPermissionsChatterEditOwnRecordPost() != null) {
+            _hashCode += getPermissionsChatterEditOwnRecordPost().hashCode();
+        }
+        if (getPermissionsChatterFileLink() != null) {
+            _hashCode += getPermissionsChatterFileLink().hashCode();
+        }
+        if (getPermissionsChatterForSharePoint() != null) {
+            _hashCode += getPermissionsChatterForSharePoint().hashCode();
+        }
+        if (getPermissionsChatterInternalUser() != null) {
+            _hashCode += getPermissionsChatterInternalUser().hashCode();
+        }
+        if (getPermissionsChatterInviteExternalUsers() != null) {
+            _hashCode += getPermissionsChatterInviteExternalUsers().hashCode();
+        }
+        if (getPermissionsChatterOwnGroups() != null) {
+            _hashCode += getPermissionsChatterOwnGroups().hashCode();
+        }
+        if (getPermissionsConfigCustomRecs() != null) {
+            _hashCode += getPermissionsConfigCustomRecs().hashCode();
+        }
+        if (getPermissionsConnectOrgToEnvironmentHub() != null) {
+            _hashCode += getPermissionsConnectOrgToEnvironmentHub().hashCode();
+        }
+        if (getPermissionsContentAdministrator() != null) {
+            _hashCode += getPermissionsContentAdministrator().hashCode();
+        }
+        if (getPermissionsConvertLeads() != null) {
+            _hashCode += getPermissionsConvertLeads().hashCode();
+        }
+        if (getPermissionsCreateCustomizeDashboards() != null) {
+            _hashCode += getPermissionsCreateCustomizeDashboards().hashCode();
+        }
+        if (getPermissionsCreateCustomizeFilters() != null) {
+            _hashCode += getPermissionsCreateCustomizeFilters().hashCode();
+        }
+        if (getPermissionsCreateCustomizeReports() != null) {
+            _hashCode += getPermissionsCreateCustomizeReports().hashCode();
+        }
+        if (getPermissionsCreateDashboardFolders() != null) {
+            _hashCode += getPermissionsCreateDashboardFolders().hashCode();
+        }
+        if (getPermissionsCreateMultiforce() != null) {
+            _hashCode += getPermissionsCreateMultiforce().hashCode();
+        }
+        if (getPermissionsCreateReportFolders() != null) {
+            _hashCode += getPermissionsCreateReportFolders().hashCode();
+        }
+        if (getPermissionsCreateTopics() != null) {
+            _hashCode += getPermissionsCreateTopics().hashCode();
+        }
+        if (getPermissionsCreateWorkspaces() != null) {
+            _hashCode += getPermissionsCreateWorkspaces().hashCode();
+        }
+        if (getPermissionsCustomMobileAppsAccess() != null) {
+            _hashCode += getPermissionsCustomMobileAppsAccess().hashCode();
+        }
+        if (getPermissionsCustomSidebarOnAllPages() != null) {
+            _hashCode += getPermissionsCustomSidebarOnAllPages().hashCode();
+        }
+        if (getPermissionsCustomizeApplication() != null) {
+            _hashCode += getPermissionsCustomizeApplication().hashCode();
+        }
+        if (getPermissionsDeleteActivatedContract() != null) {
+            _hashCode += getPermissionsDeleteActivatedContract().hashCode();
+        }
+        if (getPermissionsDeleteTopics() != null) {
+            _hashCode += getPermissionsDeleteTopics().hashCode();
+        }
+        if (getPermissionsDistributeFromPersWksp() != null) {
+            _hashCode += getPermissionsDistributeFromPersWksp().hashCode();
+        }
+        if (getPermissionsEditActivatedOrders() != null) {
+            _hashCode += getPermissionsEditActivatedOrders().hashCode();
+        }
+        if (getPermissionsEditBrandTemplates() != null) {
+            _hashCode += getPermissionsEditBrandTemplates().hashCode();
+        }
+        if (getPermissionsEditCaseComments() != null) {
+            _hashCode += getPermissionsEditCaseComments().hashCode();
+        }
+        if (getPermissionsEditEvent() != null) {
+            _hashCode += getPermissionsEditEvent().hashCode();
+        }
+        if (getPermissionsEditHtmlTemplates() != null) {
+            _hashCode += getPermissionsEditHtmlTemplates().hashCode();
+        }
+        if (getPermissionsEditKnowledge() != null) {
+            _hashCode += getPermissionsEditKnowledge().hashCode();
+        }
+        if (getPermissionsEditMyDashboards() != null) {
+            _hashCode += getPermissionsEditMyDashboards().hashCode();
+        }
+        if (getPermissionsEditMyReports() != null) {
+            _hashCode += getPermissionsEditMyReports().hashCode();
+        }
+        if (getPermissionsEditOppLineItemUnitPrice() != null) {
+            _hashCode += getPermissionsEditOppLineItemUnitPrice().hashCode();
+        }
+        if (getPermissionsEditPublicDocuments() != null) {
+            _hashCode += getPermissionsEditPublicDocuments().hashCode();
+        }
+        if (getPermissionsEditPublicTemplates() != null) {
+            _hashCode += getPermissionsEditPublicTemplates().hashCode();
+        }
+        if (getPermissionsEditReadonlyFields() != null) {
+            _hashCode += getPermissionsEditReadonlyFields().hashCode();
+        }
+        if (getPermissionsEditTask() != null) {
+            _hashCode += getPermissionsEditTask().hashCode();
+        }
+        if (getPermissionsEditTopics() != null) {
+            _hashCode += getPermissionsEditTopics().hashCode();
+        }
+        if (getPermissionsEmailAdministration() != null) {
+            _hashCode += getPermissionsEmailAdministration().hashCode();
+        }
+        if (getPermissionsEmailMass() != null) {
+            _hashCode += getPermissionsEmailMass().hashCode();
+        }
+        if (getPermissionsEmailSingle() != null) {
+            _hashCode += getPermissionsEmailSingle().hashCode();
+        }
+        if (getPermissionsEmailTemplateManagement() != null) {
+            _hashCode += getPermissionsEmailTemplateManagement().hashCode();
+        }
+        if (getPermissionsEnableNotifications() != null) {
+            _hashCode += getPermissionsEnableNotifications().hashCode();
+        }
+        if (getPermissionsExportReport() != null) {
+            _hashCode += getPermissionsExportReport().hashCode();
+        }
+        if (getPermissionsFlowUFLRequired() != null) {
+            _hashCode += getPermissionsFlowUFLRequired().hashCode();
+        }
+        if (getPermissionsForceTwoFactor() != null) {
+            _hashCode += getPermissionsForceTwoFactor().hashCode();
+        }
+        if (getPermissionsGovernNetworks() != null) {
+            _hashCode += getPermissionsGovernNetworks().hashCode();
+        }
+        if (getPermissionsIdentityConnect() != null) {
+            _hashCode += getPermissionsIdentityConnect().hashCode();
+        }
+        if (getPermissionsIdentityEnabled() != null) {
+            _hashCode += getPermissionsIdentityEnabled().hashCode();
+        }
+        if (getPermissionsImportLeads() != null) {
+            _hashCode += getPermissionsImportLeads().hashCode();
+        }
+        if (getPermissionsImportPersonal() != null) {
+            _hashCode += getPermissionsImportPersonal().hashCode();
+        }
+        if (getPermissionsInstallMultiforce() != null) {
+            _hashCode += getPermissionsInstallMultiforce().hashCode();
+        }
+        if (getPermissionsManageAnalyticSnapshots() != null) {
+            _hashCode += getPermissionsManageAnalyticSnapshots().hashCode();
+        }
+        if (getPermissionsManageAuthProviders() != null) {
+            _hashCode += getPermissionsManageAuthProviders().hashCode();
+        }
+        if (getPermissionsManageBusinessHourHolidays() != null) {
+            _hashCode += getPermissionsManageBusinessHourHolidays().hashCode();
+        }
+        if (getPermissionsManageCallCenters() != null) {
+            _hashCode += getPermissionsManageCallCenters().hashCode();
+        }
+        if (getPermissionsManageCases() != null) {
+            _hashCode += getPermissionsManageCases().hashCode();
+        }
+        if (getPermissionsManageCategories() != null) {
+            _hashCode += getPermissionsManageCategories().hashCode();
+        }
+        if (getPermissionsManageChatterMessages() != null) {
+            _hashCode += getPermissionsManageChatterMessages().hashCode();
+        }
+        if (getPermissionsManageContentPermissions() != null) {
+            _hashCode += getPermissionsManageContentPermissions().hashCode();
+        }
+        if (getPermissionsManageContentProperties() != null) {
+            _hashCode += getPermissionsManageContentProperties().hashCode();
+        }
+        if (getPermissionsManageContentTypes() != null) {
+            _hashCode += getPermissionsManageContentTypes().hashCode();
+        }
+        if (getPermissionsManageCustomPermissions() != null) {
+            _hashCode += getPermissionsManageCustomPermissions().hashCode();
+        }
+        if (getPermissionsManageCustomReportTypes() != null) {
+            _hashCode += getPermissionsManageCustomReportTypes().hashCode();
+        }
+        if (getPermissionsManageDashbdsInPubFolders() != null) {
+            _hashCode += getPermissionsManageDashbdsInPubFolders().hashCode();
+        }
+        if (getPermissionsManageDataCategories() != null) {
+            _hashCode += getPermissionsManageDataCategories().hashCode();
+        }
+        if (getPermissionsManageDataIntegrations() != null) {
+            _hashCode += getPermissionsManageDataIntegrations().hashCode();
+        }
+        if (getPermissionsManageDynamicDashboards() != null) {
+            _hashCode += getPermissionsManageDynamicDashboards().hashCode();
+        }
+        if (getPermissionsManageEmailClientConfig() != null) {
+            _hashCode += getPermissionsManageEmailClientConfig().hashCode();
+        }
+        if (getPermissionsManageExchangeConfig() != null) {
+            _hashCode += getPermissionsManageExchangeConfig().hashCode();
+        }
+        if (getPermissionsManageInteraction() != null) {
+            _hashCode += getPermissionsManageInteraction().hashCode();
+        }
+        if (getPermissionsManageInternalUsers() != null) {
+            _hashCode += getPermissionsManageInternalUsers().hashCode();
+        }
+        if (getPermissionsManageIpAddresses() != null) {
+            _hashCode += getPermissionsManageIpAddresses().hashCode();
+        }
+        if (getPermissionsManageKnowledge() != null) {
+            _hashCode += getPermissionsManageKnowledge().hashCode();
+        }
+        if (getPermissionsManageKnowledgeImportExport() != null) {
+            _hashCode += getPermissionsManageKnowledgeImportExport().hashCode();
+        }
+        if (getPermissionsManageLeads() != null) {
+            _hashCode += getPermissionsManageLeads().hashCode();
+        }
+        if (getPermissionsManageLoginAccessPolicies() != null) {
+            _hashCode += getPermissionsManageLoginAccessPolicies().hashCode();
+        }
+        if (getPermissionsManageMobile() != null) {
+            _hashCode += getPermissionsManageMobile().hashCode();
+        }
+        if (getPermissionsManageNetworks() != null) {
+            _hashCode += getPermissionsManageNetworks().hashCode();
+        }
+        if (getPermissionsManagePasswordPolicies() != null) {
+            _hashCode += getPermissionsManagePasswordPolicies().hashCode();
+        }
+        if (getPermissionsManageProfilesPermissionsets() != null) {
+            _hashCode += getPermissionsManageProfilesPermissionsets().hashCode();
+        }
+        if (getPermissionsManageRemoteAccess() != null) {
+            _hashCode += getPermissionsManageRemoteAccess().hashCode();
+        }
+        if (getPermissionsManageReportsInPubFolders() != null) {
+            _hashCode += getPermissionsManageReportsInPubFolders().hashCode();
+        }
+        if (getPermissionsManageRoles() != null) {
+            _hashCode += getPermissionsManageRoles().hashCode();
+        }
+        if (getPermissionsManageSearchPromotionRules() != null) {
+            _hashCode += getPermissionsManageSearchPromotionRules().hashCode();
+        }
+        if (getPermissionsManageSharing() != null) {
+            _hashCode += getPermissionsManageSharing().hashCode();
+        }
+        if (getPermissionsManageSolutions() != null) {
+            _hashCode += getPermissionsManageSolutions().hashCode();
+        }
+        if (getPermissionsManageSynonyms() != null) {
+            _hashCode += getPermissionsManageSynonyms().hashCode();
+        }
+        if (getPermissionsManageTwoFactor() != null) {
+            _hashCode += getPermissionsManageTwoFactor().hashCode();
+        }
+        if (getPermissionsManageUnlistedGroups() != null) {
+            _hashCode += getPermissionsManageUnlistedGroups().hashCode();
+        }
+        if (getPermissionsManageUsers() != null) {
+            _hashCode += getPermissionsManageUsers().hashCode();
+        }
+        if (getPermissionsMassInlineEdit() != null) {
+            _hashCode += getPermissionsMassInlineEdit().hashCode();
+        }
+        if (getPermissionsMergeTopics() != null) {
+            _hashCode += getPermissionsMergeTopics().hashCode();
+        }
+        if (getPermissionsModerateChatter() != null) {
+            _hashCode += getPermissionsModerateChatter().hashCode();
+        }
+        if (getPermissionsModifyAllData() != null) {
+            _hashCode += getPermissionsModifyAllData().hashCode();
+        }
+        if (getPermissionsModifySecureAgents() != null) {
+            _hashCode += getPermissionsModifySecureAgents().hashCode();
+        }
+        if (getPermissionsNewReportBuilder() != null) {
+            _hashCode += getPermissionsNewReportBuilder().hashCode();
+        }
+        if (getPermissionsPasswordNeverExpires() != null) {
+            _hashCode += getPermissionsPasswordNeverExpires().hashCode();
+        }
+        if (getPermissionsPublishMultiforce() != null) {
+            _hashCode += getPermissionsPublishMultiforce().hashCode();
+        }
+        if (getPermissionsResetPasswords() != null) {
+            _hashCode += getPermissionsResetPasswords().hashCode();
+        }
+        if (getPermissionsRunFlow() != null) {
+            _hashCode += getPermissionsRunFlow().hashCode();
+        }
+        if (getPermissionsRunReports() != null) {
+            _hashCode += getPermissionsRunReports().hashCode();
+        }
+        if (getPermissionsSalesConsole() != null) {
+            _hashCode += getPermissionsSalesConsole().hashCode();
+        }
+        if (getPermissionsScheduleReports() != null) {
+            _hashCode += getPermissionsScheduleReports().hashCode();
+        }
+        if (getPermissionsSendSitRequests() != null) {
+            _hashCode += getPermissionsSendSitRequests().hashCode();
+        }
+        if (getPermissionsShareInternalArticles() != null) {
+            _hashCode += getPermissionsShareInternalArticles().hashCode();
+        }
+        if (getPermissionsSolutionImport() != null) {
+            _hashCode += getPermissionsSolutionImport().hashCode();
+        }
+        if (getPermissionsSubmitMacrosAllowed() != null) {
+            _hashCode += getPermissionsSubmitMacrosAllowed().hashCode();
+        }
+        if (getPermissionsTransferAnyCase() != null) {
+            _hashCode += getPermissionsTransferAnyCase().hashCode();
+        }
+        if (getPermissionsTransferAnyEntity() != null) {
+            _hashCode += getPermissionsTransferAnyEntity().hashCode();
+        }
+        if (getPermissionsTransferAnyLead() != null) {
+            _hashCode += getPermissionsTransferAnyLead().hashCode();
+        }
+        if (getPermissionsTwoFactorApi() != null) {
+            _hashCode += getPermissionsTwoFactorApi().hashCode();
+        }
+        if (getPermissionsUseTeamReassignWizards() != null) {
+            _hashCode += getPermissionsUseTeamReassignWizards().hashCode();
+        }
+        if (getPermissionsViewAllData() != null) {
+            _hashCode += getPermissionsViewAllData().hashCode();
+        }
+        if (getPermissionsViewAllUsers() != null) {
+            _hashCode += getPermissionsViewAllUsers().hashCode();
+        }
+        if (getPermissionsViewContent() != null) {
+            _hashCode += getPermissionsViewContent().hashCode();
+        }
+        if (getPermissionsViewDataCategories() != null) {
+            _hashCode += getPermissionsViewDataCategories().hashCode();
+        }
+        if (getPermissionsViewEncryptedData() != null) {
+            _hashCode += getPermissionsViewEncryptedData().hashCode();
+        }
+        if (getPermissionsViewEventLogFiles() != null) {
+            _hashCode += getPermissionsViewEventLogFiles().hashCode();
+        }
+        if (getPermissionsViewHelpLink() != null) {
+            _hashCode += getPermissionsViewHelpLink().hashCode();
+        }
+        if (getPermissionsViewMyTeamsDashboards() != null) {
+            _hashCode += getPermissionsViewMyTeamsDashboards().hashCode();
+        }
+        if (getPermissionsViewPublicDashboards() != null) {
+            _hashCode += getPermissionsViewPublicDashboards().hashCode();
+        }
+        if (getPermissionsViewPublicReports() != null) {
+            _hashCode += getPermissionsViewPublicReports().hashCode();
+        }
+        if (getPermissionsViewSetup() != null) {
+            _hashCode += getPermissionsViewSetup().hashCode();
+        }
+        if (getPermissionsWorkCalibrationUser() != null) {
+            _hashCode += getPermissionsWorkCalibrationUser().hashCode();
+        }
+        if (getPermissionsWorkDotComUserPerm() != null) {
+            _hashCode += getPermissionsWorkDotComUserPerm().hashCode();
+        }
+        if (getSystemModstamp() != null) {
+            _hashCode += getSystemModstamp().hashCode();
+        }
+        if (getUserLicense() != null) {
+            _hashCode += getUserLicense().hashCode();
+        }
+        if (getUserLicenseId() != null) {
+            _hashCode += getUserLicenseId().hashCode();
+        }
+        if (getUserType() != null) {
+            _hashCode += getUserType().hashCode();
+        }
+        if (getUsers() != null) {
+            _hashCode += getUsers().hashCode();
+        }
+        __hashCodeCalc = false;
+        return _hashCode;
+    }
+
+    // Type metadata
+    private static org.apache.axis.description.TypeDesc typeDesc =
+        new org.apache.axis.description.TypeDesc(Profile.class, true);
+
+    static {
+        typeDesc.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Profile"));
+        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("createdBy");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CreatedBy"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "User"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("createdById");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CreatedById"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("createdDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "CreatedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("description");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Description"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastModifiedBy");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastModifiedBy"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "User"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastModifiedById");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastModifiedById"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastModifiedDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastModifiedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastReferencedDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastReferencedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("lastViewedDate");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "LastViewedDate"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("name");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Name"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsActivateContract");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsActivateContract"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsActivateOrder");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsActivateOrder"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsAllowEmailIC");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsAllowEmailIC"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsAllowUniversalSearch");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsAllowUniversalSearch"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsAllowViewKnowledge");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsAllowViewKnowledge"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsApiEnabled");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsApiEnabled"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsAssignPermissionSets");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsAssignPermissionSets"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsAssignTopics");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsAssignTopics"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsAuthorApex");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsAuthorApex"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsBulkApiHardDelete");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsBulkApiHardDelete"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsBulkMacrosAllowed");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsBulkMacrosAllowed"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCanInsertFeedSystemFields");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCanInsertFeedSystemFields"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCanUseNewDashboardBuilder");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCanUseNewDashboardBuilder"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsChatterEditOwnPost");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsChatterEditOwnPost"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsChatterEditOwnRecordPost");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsChatterEditOwnRecordPost"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsChatterFileLink");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsChatterFileLink"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsChatterForSharePoint");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsChatterForSharePoint"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsChatterInternalUser");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsChatterInternalUser"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsChatterInviteExternalUsers");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsChatterInviteExternalUsers"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsChatterOwnGroups");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsChatterOwnGroups"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsConfigCustomRecs");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsConfigCustomRecs"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsConnectOrgToEnvironmentHub");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsConnectOrgToEnvironmentHub"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsContentAdministrator");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsContentAdministrator"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsConvertLeads");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsConvertLeads"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCreateCustomizeDashboards");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCreateCustomizeDashboards"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCreateCustomizeFilters");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCreateCustomizeFilters"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCreateCustomizeReports");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCreateCustomizeReports"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCreateDashboardFolders");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCreateDashboardFolders"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCreateMultiforce");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCreateMultiforce"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCreateReportFolders");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCreateReportFolders"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCreateTopics");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCreateTopics"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCreateWorkspaces");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCreateWorkspaces"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCustomMobileAppsAccess");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCustomMobileAppsAccess"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCustomSidebarOnAllPages");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCustomSidebarOnAllPages"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsCustomizeApplication");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsCustomizeApplication"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsDeleteActivatedContract");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsDeleteActivatedContract"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsDeleteTopics");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsDeleteTopics"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsDistributeFromPersWksp");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsDistributeFromPersWksp"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditActivatedOrders");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditActivatedOrders"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditBrandTemplates");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditBrandTemplates"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditCaseComments");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditCaseComments"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditEvent");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditEvent"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditHtmlTemplates");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditHtmlTemplates"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditKnowledge");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditKnowledge"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditMyDashboards");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditMyDashboards"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditMyReports");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditMyReports"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditOppLineItemUnitPrice");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditOppLineItemUnitPrice"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditPublicDocuments");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditPublicDocuments"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditPublicTemplates");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditPublicTemplates"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditReadonlyFields");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditReadonlyFields"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditTask");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditTask"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEditTopics");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEditTopics"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEmailAdministration");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEmailAdministration"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEmailMass");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEmailMass"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEmailSingle");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEmailSingle"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEmailTemplateManagement");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEmailTemplateManagement"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsEnableNotifications");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsEnableNotifications"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsExportReport");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsExportReport"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsFlowUFLRequired");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsFlowUFLRequired"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsForceTwoFactor");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsForceTwoFactor"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsGovernNetworks");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsGovernNetworks"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsIdentityConnect");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsIdentityConnect"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsIdentityEnabled");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsIdentityEnabled"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsImportLeads");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsImportLeads"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsImportPersonal");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsImportPersonal"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsInstallMultiforce");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsInstallMultiforce"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageAnalyticSnapshots");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageAnalyticSnapshots"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageAuthProviders");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageAuthProviders"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageBusinessHourHolidays");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageBusinessHourHolidays"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageCallCenters");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageCallCenters"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageCases");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageCases"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageCategories");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageCategories"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageChatterMessages");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageChatterMessages"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageContentPermissions");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageContentPermissions"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageContentProperties");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageContentProperties"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageContentTypes");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageContentTypes"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageCustomPermissions");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageCustomPermissions"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageCustomReportTypes");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageCustomReportTypes"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageDashbdsInPubFolders");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageDashbdsInPubFolders"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageDataCategories");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageDataCategories"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageDataIntegrations");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageDataIntegrations"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageDynamicDashboards");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageDynamicDashboards"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageEmailClientConfig");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageEmailClientConfig"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageExchangeConfig");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageExchangeConfig"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageInteraction");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageInteraction"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageInternalUsers");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageInternalUsers"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageIpAddresses");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageIpAddresses"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageKnowledge");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageKnowledge"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageKnowledgeImportExport");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageKnowledgeImportExport"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageLeads");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageLeads"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageLoginAccessPolicies");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageLoginAccessPolicies"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageMobile");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageMobile"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageNetworks");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageNetworks"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManagePasswordPolicies");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManagePasswordPolicies"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageProfilesPermissionsets");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageProfilesPermissionsets"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageRemoteAccess");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageRemoteAccess"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageReportsInPubFolders");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageReportsInPubFolders"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageRoles");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageRoles"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageSearchPromotionRules");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageSearchPromotionRules"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageSharing");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageSharing"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageSolutions");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageSolutions"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageSynonyms");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageSynonyms"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageTwoFactor");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageTwoFactor"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageUnlistedGroups");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageUnlistedGroups"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsManageUsers");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsManageUsers"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsMassInlineEdit");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsMassInlineEdit"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsMergeTopics");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsMergeTopics"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsModerateChatter");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsModerateChatter"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsModifyAllData");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsModifyAllData"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsModifySecureAgents");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsModifySecureAgents"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsNewReportBuilder");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsNewReportBuilder"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsPasswordNeverExpires");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsPasswordNeverExpires"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsPublishMultiforce");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsPublishMultiforce"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsResetPasswords");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsResetPasswords"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsRunFlow");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsRunFlow"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsRunReports");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsRunReports"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsSalesConsole");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsSalesConsole"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsScheduleReports");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsScheduleReports"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsSendSitRequests");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsSendSitRequests"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsShareInternalArticles");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsShareInternalArticles"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsSolutionImport");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsSolutionImport"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsSubmitMacrosAllowed");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsSubmitMacrosAllowed"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsTransferAnyCase");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsTransferAnyCase"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsTransferAnyEntity");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsTransferAnyEntity"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsTransferAnyLead");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsTransferAnyLead"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsTwoFactorApi");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsTwoFactorApi"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsUseTeamReassignWizards");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsUseTeamReassignWizards"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewAllData");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewAllData"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewAllUsers");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewAllUsers"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewContent");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewContent"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewDataCategories");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewDataCategories"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewEncryptedData");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewEncryptedData"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewEventLogFiles");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewEventLogFiles"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewHelpLink");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewHelpLink"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewMyTeamsDashboards");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewMyTeamsDashboards"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewPublicDashboards");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewPublicDashboards"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewPublicReports");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewPublicReports"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsViewSetup");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsViewSetup"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsWorkCalibrationUser");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsWorkCalibrationUser"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("permissionsWorkDotComUserPerm");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "PermissionsWorkDotComUserPerm"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "boolean"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("systemModstamp");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "SystemModstamp"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "dateTime"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("userLicense");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "UserLicense"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "UserLicense"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("userLicenseId");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "UserLicenseId"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("userType");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "UserType"));
+        elemField.setXmlType(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+        elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("users");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:sobject.enterprise.soap.sforce.com", "Users"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:enterprise.soap.sforce.com", "QueryResult"));
+        elemField.setMinOccurs(0);
+        elemField.setNillable(true);
+        typeDesc.addFieldDesc(elemField);
+    }
+
+    /**
+     * Return type metadata object
+     */
+    public static org.apache.axis.description.TypeDesc getTypeDesc() {
+        return typeDesc;
+    }
+
+    /**
+     * Get Custom Serializer
+     */
+    public static org.apache.axis.encoding.Serializer getSerializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanSerializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+    /**
+     * Get Custom Deserializer
+     */
+    public static org.apache.axis.encoding.Deserializer getDeserializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanDeserializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+}
