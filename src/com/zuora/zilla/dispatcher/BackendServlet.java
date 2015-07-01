@@ -49,10 +49,14 @@ public class BackendServlet extends HttpServlet {
 				output = backend.emptyCart(request);
 			} else if (type.equalsIgnoreCase("GetExistingIframeSrc")) {
 				output = backend.getExistingIframeSrc(request);
+			} else if (type.equalsIgnoreCase("GetExistingIframeSrcByAccNumber")) {
+				output = backend.getExistingIframeSrcByAccNumber(request);
 			} else if (type.equalsIgnoreCase("GetInitialCart")) {
 				output = backend.getInitialCart(request);
 			} else if (type.equalsIgnoreCase("GetLatestSubscription")) {
 				output = backend.getLatestSubscription(request);
+			} else if (type.equalsIgnoreCase("GetLatestSubscriptionByAccNumber")) {
+				output = backend.getLatestSubscriptionByAccNumber(request);
 			} else if (type.equalsIgnoreCase("GetNewIframeSrc")) {
 				output = backend.getNewIframeSrc();
 			} else if (type.equalsIgnoreCase("IsUserLoggedIn")) {
@@ -77,20 +81,47 @@ public class BackendServlet extends HttpServlet {
 				output = backend.removePaymentMethod(request);				
 			} else if (type.equalsIgnoreCase("SubscribeWithCurrentCart")) {
 				output = backend.subscribeWithCurrentCart(request);
+			} else if (type.equalsIgnoreCase("SaveAccNumber")) {
+				output = backend.saveAccountNumberInSession(request);
 			} else if (type.equalsIgnoreCase("UpdateContact")) {
 				output = backend.updateContact(request);
 			} else if (type.equalsIgnoreCase("ChangeDefaultPaymentMethod")) {
 				output = backend.changeDefaultPaymentMethod(request);				
 			} else if (type.equalsIgnoreCase("GetCompleteSummary")) {
 				output = backend.getCompleteSummary(request);
+			} else if (type.equalsIgnoreCase("GetCompleteSummaryByAccNumber")) {
+				output = backend.getCompleteSummaryByAccNumber(request);
 			} else if (type.equalsIgnoreCase("GetPaymentMethodSummary")) {
 				output = backend.getPaymentMethodSummary(request);
+			} else if (type.equalsIgnoreCase("GetPaymentMethodSummaryByAccNumber")) {
+				output = backend.getPaymentMethodSummaryByAccNumber(request);
 			} else if (type.equalsIgnoreCase("GetLastPdf")) {
 				HttpSession session = request.getSession();
 				String email = (String) session.getAttribute("username");
 				String body=null;
 				try {
 					body = new InvoiceManager().getLastInvoicePdf(email);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				response.setContentType("application/pdf");
+				response.setHeader("Content-disposition",
+						"attachment; filename=latest.pdf");
+				ServletOutputStream pdfOutput = response.getOutputStream();
+				if(body!=null){
+					pdfOutput.write(ZuoraUtility.decodeBase64(body));
+				} else {
+					// TODO Handle errors when PDF is not found due to logged out user, no generated invoice, etc.
+				}
+//				out.print(ZuoraUtility.decodeBase64(body));
+				return;
+			} else if (type.equalsIgnoreCase("GetLastPdfByAccNumber")) {
+				HttpSession session = request.getSession();
+				String account_number = (String) session.getAttribute("account_number");
+				String body=null;
+				try {
+					body = new InvoiceManager().getLastInvoicePdfByAccNumber(account_number);
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

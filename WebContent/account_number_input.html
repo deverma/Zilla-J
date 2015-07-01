@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Account Number Input</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="css/karma-teal-grey.css" />
+	<link href="css/structure.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript" src="js/postmessage.js"></script>
+	<script type="application/javascript" >
+				
+		function storeAccNumberinSession(){
+			var accNum = $('#account_number').val();
+			$.getJSON("backend?type=SaveAccNumber", {account_number: accNum},
+				function(data){
+
+					var msg = data.msg[0];
+					if(msg.success){
+						//If successful, redirect to Account view page
+						window.location.replace('account_detail.html');
+					} else {
+						//If unsuccessful, display error and re-render iframe
+						var html = '';
+						html = 'Your request was not submitted for the following reasons:<br /><ul>' + html;
+						var error = msg.error;
+						html += '<li>' + error + '</li>';
+						html += '</ul>';
+						$('#infor').html(html);
+						$("#infor").show();
+						displayNewIframe();
+					}
+	        	}
+			);
+		}
+	</script>
+</head>
+
+<body>
+   <div id="wrapper">
+<div id="header">
+<div class="header-holder">
+<div class="rays">
+<div class="header-area">
+<a class="logo" href="index.html"><img alt="Zuora Home Page" src="images/logo.png" /></a>
+<a class="btn_submit item_button floatRight" href="login.html">Login</a>
+</div><!-- header-area -->
+</div><!-- end rays -->
+</div><!-- end header-holder -->
+</div>
+</div>
+	<div class="panel-section">
+         <div class="title"><h3>Provide Account Number</h3></div>
+         <span></span>
+         <label>Account Number:</label>
+         <input type='text' id='account_number' name='account_number' />
+         <br />
+         <a class="btn_submit" onclick="storeAccNumberinSession()">View Account</a>
+    </div>
+</body>
+</html>

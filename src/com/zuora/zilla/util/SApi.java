@@ -86,6 +86,10 @@ public class SApi {
 		return resp;
 	}
 	
+	public SApi(){
+		super();
+	}
+	
 	public static void main(String[] args){
 		SApi sapi = new SApi();
 		String name = "test acct";

@@ -115,6 +115,76 @@ public class PaymentManager {
 		}
 		return resp;
 	}
+	
+	public ResponseAction getExistingIframeSrcByAccNumber(String accountNumber) {
+		ResponseAction resp = new ResponseAction();
+		String iframeUrl = null;
+
+		ZApi zapi = null;
+		try {
+			zapi = new ZApi();
+		} catch (Exception e){
+			resp.setSuccess(false);
+			resp.setError(e.getMessage());
+			return resp;
+		}
+		
+		Contact contact = null;
+		String accountId = null;
+
+		// Get the contact and account Id for the given account
+		try {
+			QueryResult qresAcc = zapi.zQuery("SELECT Id FROM Account WHERE AccountNumber='" + accountNumber + "'");
+			if(qresAcc.getSize()==0){
+				return null; // ACCOUNT_DOES_NOT_EXIST
+			}
+			accountId = qresAcc.getRecords()[0].getId();
+
+			QueryResult qresCon = zapi.zQuery("SELECT AccountId, Country, Address1, Address2,"
+					+ "City, State, PostalCode, WorkPhone FROM Contact "
+					+ "WHERE AccountId = '" + accountId + "'");
+			contact = (Contact) qresCon.getRecords()[0];
+		} catch (Exception e) {
+			resp.setSuccess(false);
+			resp.setError(e.getMessage());
+			return resp;
+		}
+
+		try {
+			// Get the base url
+			ResponseAction baseResp = generateUrl();
+			if(!baseResp.isSuccess())
+				return baseResp;
+			iframeUrl = baseResp.getData();
+			
+			// Append information from existing customer
+			iframeUrl += "&field_accountId=" + contact.getAccountId();
+
+			if (contact.getCountry() != null) {
+				if (contact.getCountry().equalsIgnoreCase("united states")) {
+					iframeUrl += "&field_creditCardCountry=USA";
+				} else if (contact.getCountry().equalsIgnoreCase("canada")) {
+					iframeUrl += "&field_creditCardCountry=CAN";
+				}
+			}
+
+			iframeUrl += (contact.getState() != null) ? "&field_creditCardState=" + contact.getState() : "";
+			iframeUrl += (contact.getCity() != null) ? "&field_creditCardCity=" + contact.getCity() : "";
+			iframeUrl += (contact.getPostalCode() != null) ? "&field_creditCardPostalCode=" + contact.getPostalCode() : "";
+			iframeUrl += (contact.getAddress1() != null) ? "&field_creditCardAddress1=" + contact.getAddress1() : "";
+			iframeUrl += (contact.getAddress2() != null) ? "&field_creditCardAddress2=" + contact.getAddress2() : "";
+			iframeUrl += (contact.getWorkPhone() != null) ? "&field_phone=" + contact.getWorkPhone() : "";
+			iframeUrl += (contact.getWorkEmail() != null) ? "&field_email=" + contact.getWorkEmail() : "";
+
+			resp.setSuccess(true);
+			resp.setData(iframeUrl);
+		} catch (Exception e) {
+			resp.setSuccess(false);
+			resp.setError(e.getMessage());
+			return resp;
+		}
+		return resp;
+	}
 
 	/**
 	 * Used to generate the Base URL for both Existing and New accounts, using
@@ -139,7 +209,8 @@ public class PaymentManager {
 		StringBuffer sb = new StringBuffer();
 		Random r = new Random();
 		int len = tokenBound.length();
-		for (int i = 0; i < 32; i++) {
+		sb.append(System.nanoTime());
+		for (int i = sb.length(); i < 32; i++) {
 			sb.append(tokenBound.charAt(r.nextInt(len)));
 		}
 		// end generate random token
@@ -180,7 +251,7 @@ public class PaymentManager {
 					+ "method=requestPage&" + queryString + "&" + "signature="
 					+ hashedQueryStringBase64ed;
 			resp.setSuccess(true);
-			resp.setData(iframeUrl);
+			resp.setData(iframeUrl);			
 		} catch (Exception e) {
 			resp.setSuccess(false);
 			resp.setError(e.getMessage());

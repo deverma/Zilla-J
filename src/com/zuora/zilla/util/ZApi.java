@@ -54,6 +54,7 @@ public class ZApi {
 			isLoggedIn=true;
 		} catch (Exception e) {
 			isLoggedIn=false;
+			e.printStackTrace();
 			System.out.println("Error on login.");
 		}
 	}

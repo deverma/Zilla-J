@@ -1,0 +1,429 @@
+2015-06-26 03:51:07.627 1 ***** SDK loggers initialized *****
+2015-06-26 03:51:07.629 1 configFilePath=com/zuora/sdk/resource/ZConfig.properties opened successfully
+2015-06-26 03:51:07.629 1 Loading configuration file com/zuora/sdk/resource/ZConfig.properties ...
+2015-06-26 03:51:07.630 1 api.trace set to true
+2015-06-26 03:51:07.630 1 default.tenant.password set to ********
+2015-06-26 03:51:07.630 1 default.tenant.user.id set to harish.k@synthesis-systems.com
+2015-06-26 03:51:07.631 1 http.connect.timeout set to 30000
+2015-06-26 03:51:07.631 1 http.max.connection.pool.size set to 30
+2015-06-26 03:51:07.631 1 http.receive.timeout set to 30000
+2015-06-26 03:51:07.631 1 http.user.agent set to z_sdk_v1.0
+2015-06-26 03:51:07.631 1 proxy.auth set to false
+2015-06-26 03:51:07.631 1 proxy.password set to ********
+2015-06-26 03:51:07.631 1 proxy.url set to http://www.mycompany.com:8000
+2015-06-26 03:51:07.631 1 proxy.used set to false
+2015-06-26 03:51:07.631 1 proxy.user set to bigbrother
+2015-06-26 03:51:07.631 1 rest.api.endpoint set to https://apisandbox-api.zuora.com/rest
+2015-06-26 03:51:07.631 1 rest.api.version set to v1
+2015-06-26 03:51:07.631 1 ssl.verify.peer set to false
+2015-06-26 03:51:07.631 1 Configuration file com/zuora/sdk/resource/ZConfig.properties successfully loaded.
+2015-06-26 03:53:42.963 1 ***** SDK loggers initialized *****
+2015-06-26 03:53:42.964 1 configFilePath=com/zuora/sdk/resource/ZConfig.properties opened successfully
+2015-06-26 03:53:42.964 1 Loading configuration file com/zuora/sdk/resource/ZConfig.properties ...
+2015-06-26 03:53:42.965 1 api.trace set to true
+2015-06-26 03:53:42.966 1 default.tenant.password set to ********
+2015-06-26 03:53:42.966 1 default.tenant.user.id set to harish.k@synthesis-systems.com
+2015-06-26 03:53:42.966 1 http.connect.timeout set to 30000
+2015-06-26 03:53:42.966 1 http.max.connection.pool.size set to 30
+2015-06-26 03:53:42.966 1 http.receive.timeout set to 30000
+2015-06-26 03:53:42.966 1 http.user.agent set to z_sdk_v1.0
+2015-06-26 03:53:42.966 1 proxy.auth set to false
+2015-06-26 03:53:42.966 1 proxy.password set to ********
+2015-06-26 03:53:42.966 1 proxy.url set to http://www.mycompany.com:8000
+2015-06-26 03:53:42.966 1 proxy.used set to false
+2015-06-26 03:53:42.966 1 proxy.user set to bigbrother
+2015-06-26 03:53:42.966 1 rest.api.endpoint set to https://apisandbox-api.zuora.com/rest
+2015-06-26 03:53:42.967 1 rest.api.version set to v1
+2015-06-26 03:53:42.967 1 ssl.verify.peer set to false
+2015-06-26 03:53:42.967 1 Configuration file com/zuora/sdk/resource/ZConfig.properties successfully loaded.
+2015-07-01 01:36:33.795 1 ***** SDK loggers initialized *****
+2015-07-01 01:36:33.816 1 configFilePath=com/zuora/sdk/resource/ZConfig.properties opened successfully
+2015-07-01 01:36:33.816 1 Loading configuration file com/zuora/sdk/resource/ZConfig.properties ...
+2015-07-01 01:36:33.819 1 api.trace set to true
+2015-07-01 01:36:33.820 1 default.tenant.password set to ********
+2015-07-01 01:36:33.820 1 default.tenant.user.id set to harish.k@synthesis-systems.com
+2015-07-01 01:36:33.820 1 http.connect.timeout set to 30000
+2015-07-01 01:36:33.820 1 http.max.connection.pool.size set to 30
+2015-07-01 01:36:33.820 1 http.receive.timeout set to 30000
+2015-07-01 01:36:33.820 1 http.user.agent set to z_sdk_v1.0
+2015-07-01 01:36:33.821 1 proxy.auth set to false
+2015-07-01 01:36:33.821 1 proxy.password set to ********
+2015-07-01 01:36:33.821 1 proxy.url set to http://www.mycompany.com:8000
+2015-07-01 01:36:33.821 1 proxy.used set to false
+2015-07-01 01:36:33.821 1 proxy.user set to bigbrother
+2015-07-01 01:36:33.821 1 rest.api.endpoint set to https://apisandbox-api.zuora.com/rest
+2015-07-01 01:36:33.821 1 rest.api.version set to v1
+2015-07-01 01:36:33.821 1 ssl.verify.peer set to false
+2015-07-01 01:36:33.822 1 Configuration file com/zuora/sdk/resource/ZConfig.properties successfully loaded.
+2015-07-01 02:22:51.094 1 ***** SDK loggers initialized *****
+2015-07-01 02:22:51.096 1 configFilePath=com/zuora/sdk/resource/ZConfig.properties opened successfully
+2015-07-01 02:22:51.097 1 Loading configuration file com/zuora/sdk/resource/ZConfig.properties ...
+2015-07-01 02:22:51.098 1 api.trace set to true
+2015-07-01 02:22:51.098 1 default.tenant.password set to ********
+2015-07-01 02:22:51.098 1 default.tenant.user.id set to harish.k@synthesis-systems.com
+2015-07-01 02:22:51.098 1 http.connect.timeout set to 30000
+2015-07-01 02:22:51.098 1 http.max.connection.pool.size set to 30
+2015-07-01 02:22:51.098 1 http.receive.timeout set to 30000
+2015-07-01 02:22:51.098 1 http.user.agent set to z_sdk_v1.0
+2015-07-01 02:22:51.098 1 proxy.auth set to false
+2015-07-01 02:22:51.098 1 proxy.password set to ********
+2015-07-01 02:22:51.099 1 proxy.url set to http://www.mycompany.com:8000
+2015-07-01 02:22:51.099 1 proxy.used set to false
+2015-07-01 02:22:51.099 1 proxy.user set to bigbrother
+2015-07-01 02:22:51.099 1 rest.api.endpoint set to https://apisandbox-api.zuora.com/rest
+2015-07-01 02:22:51.099 1 rest.api.version set to v1
+2015-07-01 02:22:51.099 1 ssl.verify.peer set to false
+2015-07-01 02:22:51.099 1 Configuration file com/zuora/sdk/resource/ZConfig.properties successfully loaded.
+2015-07-01 02:22:51.472 1 This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server
+2015-07-01 02:22:51.504 1 java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+java.net.InetAddress.getAllByName0(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:645)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:480)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:204)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:22:51.505 1 Fatal Error in executing HTTP POST https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 02:22:51.506 1 com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:211)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:22:51.507 1 com.zuora.sdk.lib.ZClient.post(ZClient.java:147)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:23:05.899 1 ***** SDK loggers initialized *****
+2015-07-01 02:23:05.902 1 configFilePath=com/zuora/sdk/resource/ZConfig.properties opened successfully
+2015-07-01 02:23:05.902 1 Loading configuration file com/zuora/sdk/resource/ZConfig.properties ...
+2015-07-01 02:23:05.903 1 api.trace set to true
+2015-07-01 02:23:05.903 1 default.tenant.password set to ********
+2015-07-01 02:23:05.903 1 default.tenant.user.id set to harish.k@synthesis-systems.com
+2015-07-01 02:23:05.903 1 http.connect.timeout set to 30000
+2015-07-01 02:23:05.903 1 http.max.connection.pool.size set to 30
+2015-07-01 02:23:05.903 1 http.receive.timeout set to 30000
+2015-07-01 02:23:05.904 1 http.user.agent set to z_sdk_v1.0
+2015-07-01 02:23:05.904 1 proxy.auth set to false
+2015-07-01 02:23:05.904 1 proxy.password set to ********
+2015-07-01 02:23:05.904 1 proxy.url set to http://www.mycompany.com:8000
+2015-07-01 02:23:05.904 1 proxy.used set to false
+2015-07-01 02:23:05.904 1 proxy.user set to bigbrother
+2015-07-01 02:23:05.904 1 rest.api.endpoint set to https://apisandbox-api.zuora.com/rest
+2015-07-01 02:23:05.904 1 rest.api.version set to v1
+2015-07-01 02:23:05.904 1 ssl.verify.peer set to false
+2015-07-01 02:23:05.904 1 Configuration file com/zuora/sdk/resource/ZConfig.properties successfully loaded.
+2015-07-01 02:23:06.280 1 This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server
+2015-07-01 02:23:06.281 1 java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+java.net.InetAddress.getAllByName0(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:645)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:480)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:204)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:23:06.282 1 Fatal Error in executing HTTP POST https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 02:23:06.282 1 com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:211)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:23:06.282 1 com.zuora.sdk.lib.ZClient.post(ZClient.java:147)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:25:05.407 1 ***** SDK loggers initialized *****
+2015-07-01 02:25:05.409 1 configFilePath=com/zuora/sdk/resource/ZConfig.properties opened successfully
+2015-07-01 02:25:05.410 1 Loading configuration file com/zuora/sdk/resource/ZConfig.properties ...
+2015-07-01 02:25:05.410 1 api.trace set to true
+2015-07-01 02:25:05.410 1 default.tenant.password set to ********
+2015-07-01 02:25:05.411 1 default.tenant.user.id set to harish.k@synthesis-systems.com
+2015-07-01 02:25:05.411 1 http.connect.timeout set to 30000
+2015-07-01 02:25:05.411 1 http.max.connection.pool.size set to 30
+2015-07-01 02:25:05.411 1 http.receive.timeout set to 30000
+2015-07-01 02:25:05.411 1 http.user.agent set to z_sdk_v1.0
+2015-07-01 02:25:05.411 1 proxy.auth set to false
+2015-07-01 02:25:05.411 1 proxy.password set to ********
+2015-07-01 02:25:05.411 1 proxy.url set to http://www.mycompany.com:8000
+2015-07-01 02:25:05.411 1 proxy.used set to false
+2015-07-01 02:25:05.411 1 proxy.user set to bigbrother
+2015-07-01 02:25:05.411 1 rest.api.endpoint set to https://apisandbox-api.zuora.com/rest
+2015-07-01 02:25:05.411 1 rest.api.version set to v1
+2015-07-01 02:25:05.411 1 ssl.verify.peer set to false
+2015-07-01 02:25:05.411 1 Configuration file com/zuora/sdk/resource/ZConfig.properties successfully loaded.
+2015-07-01 02:25:05.866 1 This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server
+2015-07-01 02:25:05.867 1 java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+java.net.InetAddress.getAllByName0(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:645)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:480)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:204)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:25:05.867 1 Fatal Error in executing HTTP POST https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 02:25:05.868 1 com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:211)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:25:05.868 1 com.zuora.sdk.lib.ZClient.post(ZClient.java:147)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+

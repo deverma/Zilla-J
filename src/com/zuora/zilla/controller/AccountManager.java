@@ -122,6 +122,7 @@ public class AccountManager {
 		}
 
 		for (ZObject z : qresPms.getRecords()) {
+			if (z == null) continue;
 			PaymentMethod pm = (PaymentMethod) z;
 			PaymentDetail d = new PaymentDetail();
 			d.setId(pm.getId());
@@ -207,6 +208,182 @@ public class AccountManager {
 		accountSummary.setSuccess(true);
 		return accountSummary;
 	}
+	
+	public SummaryAccount getCompleteDetailByAccNumber(String accountNumber) {
+		// Create the object and get the basic information
+		SummaryAccount accountSummary = new SummaryAccount();
+
+		Account acc = null;
+		QueryResult qresAcc = null;
+		try {
+			qresAcc = zapi.zQuery("SELECT Id,Name,Balance,LastInvoiceDate,DefaultPaymentMethodId FROM Account WHERE AccountNumber='" + accountNumber + "'");
+			if(qresAcc.getSize() == 0){
+				accountSummary.setSuccess(false);
+				accountSummary.setError("USER_DOESNT_EXIST");
+				return accountSummary;
+			}
+			acc = (Account) qresAcc.getRecords()[0];
+		} catch (Exception e) {
+			accountSummary.setSuccess(false);
+			accountSummary.setError("USER_DOESNT_EXIST");
+			return accountSummary;
+		}
+
+		//Get Account Information
+		accountSummary.setName(acc.getName());
+		accountSummary.setBalance(acc.getBalance());
+		accountSummary.setLastInvoiceDate(acc.getLastInvoiceDate());
+		String defaultPmId = acc.getDefaultPaymentMethodId();
+
+		QueryResult paymentResult = null;
+		try {
+			paymentResult = zapi.zQuery("SELECT Amount,EffectiveDate,CreatedDate FROM Payment WHERE AccountId='" + acc.getId() + "'");
+		} catch (Exception e) {
+			accountSummary.setSuccess(false);
+			accountSummary.setError("PAYMENT_METHOD_DOESNT_EXIST");
+			return accountSummary;
+		}
+
+		if(paymentResult.getSize()==0){
+			accountSummary.setLastPaymentDate(null);
+			accountSummary.setLastInvoiceDate(null);
+		} else {
+			//Sort payments by date
+			ArrayList<ZObject> listPayments = new ArrayList<ZObject>(Arrays.asList(paymentResult.getRecords()));
+			Collections.sort(listPayments, new CmpPayments());
+			Payment lastPayment = (Payment) listPayments.toArray()[0];
+			accountSummary.setLastPaymentDate(lastPayment.getEffectiveDate());
+			accountSummary.setLastPaymentAmount(lastPayment.getAmount());
+		}
+		//Get Contact with this email
+		SummaryContact contactSummary = new SummaryContact();
+		QueryResult qresCons = null;
+		try {
+			qresCons = zapi.zQuery("SELECT FirstName,LastName,Address1,Address2,City,State,PostalCode,Country FROM Contact WHERE AccountId='"+ acc.getId() +"'");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		Contact cont = null;
+		if(qresCons.getSize()==0){
+			accountSummary.setSuccess(false);
+			accountSummary.setError("CONTACT_DOESNT_EXIST");
+			return accountSummary;
+		} else {
+			cont = (Contact) qresCons.getRecords()[0];
+		}
+
+		contactSummary.setFirstName(cont.getFirstName());
+		contactSummary.setLastName(cont.getLastName());
+		contactSummary.setCountry(cont.getCountry());
+		contactSummary.setState(cont.getState());
+		contactSummary.setAddress1(cont.getAddress1());
+		contactSummary.setAddress2(cont.getAddress2());
+		contactSummary.setCity(cont.getCity());
+		contactSummary.setPostalCode(cont.getPostalCode());
+
+		contactSummary.setSuccess(true);
+
+		accountSummary.setContactSummary(contactSummary);
+		
+		// Get payment methods with this account id
+		ArrayList<PaymentDetail> paymentSummaries = new ArrayList<PaymentDetail>();
+		
+		QueryResult qresPms = null;
+		try {
+			qresPms = zapi.zQuery("SELECT Id,CreditCardHolderName,CreditCardMaskNumber,"
+					+ "CreditCardExpirationYear,CreditCardExpirationMonth,CreditCardType "
+					+ "from PaymentMethod WHERE AccountId='" + acc.getId() + "'");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		for (ZObject z : qresPms.getRecords()) {
+			PaymentMethod pm = (PaymentMethod) z;
+			PaymentDetail d = new PaymentDetail();
+			d.setId(pm.getId());
+			d.setCardHolderName(pm.getCreditCardHolderName());
+			d.setMaskedNumber(pm.getCreditCardMaskNumber());
+			d.setExpirationYear(pm.getCreditCardExpirationYear());
+			d.setExpirationMonth(pm.getCreditCardExpirationMonth());
+			d.setCardType(pm.getCreditCardType());
+			d.setDefaultCard((pm.getId().equals(defaultPmId)));
+			paymentSummaries.add(d);
+		}
+		accountSummary.setPaymentMethodSummaries(paymentSummaries);
+		
+		accountSummary.setSuccess(true);
+		return accountSummary;
+	}
+	
+	public SummaryAccount getPaymentMethodDetailByAccNumber(String accountNumber) {
+		// Create the object and get the basic information
+		SummaryAccount accountSummary = new SummaryAccount();
+
+		Account acc = null;
+		QueryResult qresAcc = null;
+		try {
+			qresAcc = zapi.zQuery("SELECT Id,DefaultPaymentMethodId FROM Account WHERE AccountNumber='" + accountNumber + "'");
+			if(qresAcc.getSize() == 0){
+				accountSummary.setSuccess(false);
+				accountSummary.setError("USER_DOESNT_EXIST");
+				return accountSummary;
+			}
+			acc = (Account) qresAcc.getRecords()[0];
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		String defaultPmId = acc.getDefaultPaymentMethodId();
+
+		QueryResult paymentResult = null;
+		try {
+			paymentResult = zapi.zQuery("SELECT Amount,EffectiveDate,CreatedDate FROM Payment WHERE AccountId='" + acc.getId() + "'");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		if(paymentResult.getSize()==0){
+			accountSummary.setLastPaymentDate(null);
+			accountSummary.setLastInvoiceDate(null);
+		} else {
+			//Sort payments by date
+			ArrayList<ZObject> listPayments = new ArrayList<ZObject>(Arrays.asList(paymentResult.getRecords()));
+			Collections.sort(listPayments, new CmpPayments());
+			Payment lastPayment = (Payment) listPayments.toArray()[0];
+			accountSummary.setLastPaymentDate(lastPayment.getEffectiveDate());
+			accountSummary.setLastPaymentAmount(lastPayment.getAmount());
+		}
+		
+		// Get payment methods with this account id
+		ArrayList<PaymentDetail> paymentSummaries = new ArrayList<PaymentDetail>();
+		
+		QueryResult qresPms = null;
+		try {
+			qresPms = zapi.zQuery("SELECT Id,CreditCardHolderName,CreditCardMaskNumber,"
+					+ "CreditCardExpirationYear,CreditCardExpirationMonth,CreditCardType "
+					+ "from PaymentMethod WHERE AccountId='" + acc.getId() + "'");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		for (ZObject z : qresPms.getRecords()) {
+			PaymentMethod pm = (PaymentMethod) z;
+			PaymentDetail d = new PaymentDetail();
+			d.setId(pm.getId());
+			d.setCardHolderName(pm.getCreditCardHolderName());
+			d.setMaskedNumber(pm.getCreditCardMaskNumber());
+			d.setExpirationYear(pm.getCreditCardExpirationYear());
+			d.setExpirationMonth(pm.getCreditCardExpirationMonth());
+			d.setCardType(pm.getCreditCardType());
+			d.setDefaultCard((pm.getId().equals(defaultPmId)));
+			paymentSummaries.add(d);
+		}
+		accountSummary.setPaymentMethodSummaries(paymentSummaries);
+		
+		accountSummary.setSuccess(true);
+		return accountSummary;
+	}
+	
 	
 	
 	/**

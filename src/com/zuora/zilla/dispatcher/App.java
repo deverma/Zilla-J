@@ -547,6 +547,21 @@ public class App extends HttpServlet {
 		data.setSuccess(true);
 		return output(data);
 	}
+	
+	/**
+	 * This function allows the user to subscribe with the current cart, checking out
+	 * using an iFrame informations from Zuora (Hosted Payment).
+	 */
+	public String saveAccountNumberInSession(HttpServletRequest request) {
+		// Get information from the POST request
+		ResponseSubscribe data = new ResponseSubscribe();
+		String accNum = request.getParameter("account_number");		
+		HttpSession session = request.getSession();		
+		session.setAttribute("account_number", accNum);
+
+		data.setSuccess(true);
+		return output(data);
+	}
 
 	/**
 	 * This function returns the final JSON output annotated with some security
@@ -623,4 +638,76 @@ public class App extends HttpServlet {
 			}
 		}
 	}
+
+	/**
+	 * Return complete summary for the given user's email
+	 */
+	public String getCompleteSummaryByAccNumber(HttpServletRequest request) {
+		HttpSession session = request.getSession();
+		String account_number = (String) session.getAttribute("account_number");
+		SummaryAccount summary=null;
+		try {
+			summary = new AccountManager().getCompleteDetailByAccNumber(account_number);
+		} catch (Exception e) {
+			summary.setSuccess(false);
+			summary.setError(e.getMessage());
+		}
+		return output(summary);
+	}
+
+	/**
+	 * Return payment method summary for the user with the given account number
+	 */
+	public String getPaymentMethodSummaryByAccNumber(HttpServletRequest request) {
+		HttpSession session = request.getSession();
+		String account_number = (String) session.getAttribute("account_number");
+		SummaryAccount summary=null;
+		try {
+			summary = new AccountManager().getPaymentMethodDetailByAccNumber(account_number);
+		} catch (Exception e) {
+			summary.setSuccess(false);
+			summary.setError(e.getMessage());
+		}
+		return output(summary);
+	}
+	
+	/**
+	 * Return the latest subscription for the account number.
+	 */
+	public String getLatestSubscriptionByAccNumber(HttpServletRequest request) {
+		HttpSession session = request.getSession();
+		String account_number = (String) session.getAttribute("account_number");
+		AmenderSubscription subscription=null;
+		try {
+			subscription = new SubscriptionManager().getCurrentSubscriptionByAccNumber(account_number);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		if (subscription == null) {
+			//TODO This should have a response code that tells you why it failed
+			return output(null);
+		}
+		
+		return output(subscription);
+	}
+	
+	/**
+	 * Return a new iframe URL containing the hosted page (for card information) URL.
+	 */
+	public String getExistingIframeSrcByAccNumber(HttpServletRequest request) {
+		HttpSession session = request.getSession();
+		String account_Number = (String) session.getAttribute("account_Number");
+		ResponseAction iframeResp=null;
+		try {
+			iframeResp = new PaymentManager().getExistingIframeSrcByAccNumber(account_Number);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		this.array = false;
+		
+		return output(iframeResp);
+	}
+	
 }

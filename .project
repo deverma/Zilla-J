@@ -3,6 +3,7 @@
 	<name>Zilla-java</name>
 	<comment></comment>
 	<projects>
+		<project>rest-java-client</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

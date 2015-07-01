@@ -43,7 +43,7 @@ var ZXD = function() {
     
             target = target || parent;  // default to parent
     
-            if (window['postMessage']) {
+            if (target['postMessage']) {
                 // the browser supports window.postMessage, so call it with a targetOrigin
                 // set appropriately, based on the target_url parameter.
                 target['postMessage'](message, target_url.replace( /([^:]+:\/\/[^\/]+).*/, '$1'));

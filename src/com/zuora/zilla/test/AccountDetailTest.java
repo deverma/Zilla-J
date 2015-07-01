@@ -22,7 +22,7 @@ public class AccountDetailTest extends TestCase {
 			System.out.println("====== Get Account Detail ======");
 
 			/*TEST*/
-			SummaryAccount summary = am.getCompleteDetail("JTest Account");
+			SummaryAccount summary = am.getCompleteDetail("KPNUC14");
 			/*TEST*/
 			
 			//Print results
@@ -34,6 +34,31 @@ public class AccountDetailTest extends TestCase {
 			}
 			assertTrue("Summary retrieved", summary.getSuccess());
 		} catch (Exception e){
+			e.printStackTrace();
+			fail(e.getMessage());
+		}
+	}
+	
+	public void testGetCompleteDetailByAccNumber() throws Exception {
+		try{
+			AccountManager am = new AccountManager();
+
+			System.out.println("====== Get Account Detail ======");
+
+			/*TEST*/
+			SummaryAccount summary = am.getCompleteDetailByAccNumber("A00000222");
+			/*TEST*/
+			
+			//Print results
+			for (Field field : summary.getClass().getDeclaredFields()) {
+			    field.setAccessible(true);
+			    String name = field.getName();
+			    Object value = field.get(summary);
+			    System.out.printf("%s: %s%n", name, value);
+			}
+			assertTrue("Summary retrieved", summary.getSuccess());
+		} catch (Exception e){
+			e.printStackTrace();
 			fail(e.getMessage());
 		}
 	}

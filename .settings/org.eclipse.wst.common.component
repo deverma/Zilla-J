@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project-modules id="moduleCoreId" project-version="1.5.0">
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="Zilla-java">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/restClient/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/restClient/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/restClient/src/test/java"/>
         <property name="context-root" value="Zilla-java"/>
         <property name="java-output-path" value="/Zilla-java/build/classes"/>
     </wb-module>

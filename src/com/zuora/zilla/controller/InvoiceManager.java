@@ -89,4 +89,59 @@ public class InvoiceManager {
 		}
 		
 	}
+
+	/**
+	 * Retrieves the latest invoice on the given user's account as a PDF body to
+	 * be rendered by the user's browser.
+	 * 
+	 * @param accountName
+	 *            Name of the target account
+	 * @return PDF Body of invoice
+	 */
+	public String getLastInvoicePdfByAccNumber(String accountNumber) {
+		
+		// Step #1: get the associated account Id
+		String accountId = null;
+
+		try {
+			QueryResult qresAcc = zapi.zQuery("SELECT Id FROM Account WHERE AccountNumber='" + accountNumber + "'");
+			accountId = qresAcc.getRecords()[0].getId();
+		} catch (Exception e) {
+			return null;
+		}
+
+		if (accountId == null)
+			return null; // ACCOUNT_DOES_NOT_EXIST
+
+		// Get all invoices with this Account ID
+		QueryResult qresInvs = null;
+		try {
+			qresInvs = zapi.zQuery("SELECT Id,CreatedDate FROM Invoice WHERE AccountId='" + accountId + "'");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		List<Invoice> listInvoices = new ArrayList<Invoice>();
+		
+		for (ZObject z1 : qresInvs.getRecords()) {
+			Invoice invoice = (Invoice) z1;
+			listInvoices.add(invoice);
+		}
+		
+		if (listInvoices.size() > 0) {
+			// Sort invoices by invoice date
+			Collections.sort(listInvoices, new CmpInvoices());
+
+			Invoice[] invoices = listInvoices.toArray(new Invoice[listInvoices.size()]);
+
+			// Use the first invoice and return the body
+			try {
+				QueryResult qresLastInv = zapi.zQuery("SELECT Body FROM Invoice WHERE Id='" + invoices[0].getId() + "'");
+				Invoice i = (Invoice) qresLastInv.getRecords()[0];
+				return i.getBody();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		return null;
+	}
 }

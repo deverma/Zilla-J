@@ -1,0 +1,1021 @@
+2015-06-26 03:51:07.628 1 ***** SDK loggers initialized *****
+2015-06-26 03:51:07.654 1 ***** PRE-API TRACE *****
+2015-06-26 03:51:07.654 1 HTTP method = POST
+2015-06-26 03:51:07.655 1 URL = https://apisandbox-api.zuora.com/rest/connections
+2015-06-26 03:51:07.655 1 Request Body = {}
+2015-06-26 03:51:07.655 1 Header = Accept: application/json
+2015-06-26 03:51:07.655 1 Header = Content-Type: application/json
+2015-06-26 03:51:07.655 1 Header = apiAccessKeyId: harish.k@synthesis-systems.com
+2015-06-26 03:51:07.655 1 Header = apiSecretAccessKey: Techno123
+2015-06-26 03:51:10.432 1 ***** POST-API RESPONSE TRACE *****
+2015-06-26 03:51:10.432 1 HTTP method = POST
+2015-06-26 03:51:10.433 1 Proxy = null
+2015-06-26 03:51:10.433 1 URL = https://apisandbox-api.zuora.com/rest/connections
+2015-06-26 03:51:10.433 1 Header = Server: Zuora App
+2015-06-26 03:51:10.433 1 Header = Content-Type: application/json;charset=utf-8
+2015-06-26 03:51:10.433 1 Header = Content-Length: 22
+2015-06-26 03:51:10.433 1 Header = Expires: Fri, 26 Jun 2015 10:21:18 GMT
+2015-06-26 03:51:10.433 1 Header = Cache-Control: max-age=0, no-cache, no-store
+2015-06-26 03:51:10.433 1 Header = Pragma: no-cache
+2015-06-26 03:51:10.433 1 Header = Date: Fri, 26 Jun 2015 10:21:18 GMT
+2015-06-26 03:51:10.433 1 Header = Connection: keep-alive
+2015-06-26 03:51:10.433 1 Header = Set-Cookie: ZSession=ogFRw15PrxH6iIBLCUYTBx-Q4ElkqL2zYjn741TLqxPY5khZgWFDoL49v5WMR-Nsn0v6QdJsVUsPdteeDWXPeNNwugbVNWOUcbKJCjGnsf7T4Pc6kUhFJlZGiux-ZlosvOzE3jd61lXxDgHdqndzjZ8SBHXSW1UFC_CgC2OBSPjiBAMLuvVpqNdzNqYhEtT2; Path=/; Secure; HttpOnly
+2015-06-26 03:51:10.433 1 HTTP status = 200
+2015-06-26 03:51:10.433 1 HTTP reason = OK
+2015-06-26 03:51:10.433 1 HTTP version = HTTP/1.1
+2015-06-26 03:51:10.433 1 API Response = {
+  "httpReasonbPhrase": "OK",
+  "httpStatusCode": 200,
+  "success": true
+}
+2015-06-26 03:51:10.435 1 ***** PRE-API TRACE *****
+2015-06-26 03:51:10.435 1 HTTP method = GET
+2015-06-26 03:51:10.435 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts/A00000222/summary
+2015-06-26 03:51:10.435 1 Query String = {}
+2015-06-26 03:51:10.435 1 Header = Accept: application/json
+2015-06-26 03:51:10.436 1 Header = follow_redirect: true
+2015-06-26 03:51:10.966 1 ***** POST-API RESPONSE TRACE *****
+2015-06-26 03:51:10.966 1 HTTP method = GET
+2015-06-26 03:51:10.966 1 Proxy = null
+2015-06-26 03:51:10.966 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts/A00000222/summary
+2015-06-26 03:51:10.966 1 Header = Server: Zuora App
+2015-06-26 03:51:10.966 1 Header = Content-Type: application/json;charset=utf-8
+2015-06-26 03:51:10.966 1 Header = Content-Length: 3372
+2015-06-26 03:51:10.967 1 Header = Expires: Fri, 26 Jun 2015 10:21:19 GMT
+2015-06-26 03:51:10.967 1 Header = Cache-Control: max-age=0, no-cache, no-store
+2015-06-26 03:51:10.967 1 Header = Pragma: no-cache
+2015-06-26 03:51:10.967 1 Header = Date: Fri, 26 Jun 2015 10:21:19 GMT
+2015-06-26 03:51:10.967 1 Header = Connection: keep-alive
+2015-06-26 03:51:10.967 1 Header = Set-Cookie: ZSession=PXOJfH2T9PCA0cgDW3JISYV9GnhimxCJdLaq52dsAM34Eps7-lGI89wtBKbn6c42U0ryyETtQJnldaEljl9krWiOSlNBVICSe20LdqY0f68CvCOBTULASm9vnwsNkKUN2JPYymrSKY09ZptoYSQQ7Sw8mMPC4gDt7yZFQgfhgtEIFQA3CpuNxqHx20he4ajy; Path=/; Secure; HttpOnly
+2015-06-26 03:51:10.967 1 HTTP status = 200
+2015-06-26 03:51:10.967 1 HTTP reason = OK
+2015-06-26 03:51:10.967 1 HTTP version = HTTP/1.1
+2015-06-26 03:51:10.967 1 API Response = {
+  "basicInfo": {
+    "AllowInvoiceEditing__c": null,
+    "BU1__c": "BU1",
+    "Entity__c": null,
+    "HaveCreditCard__c": null,
+    "IntacctCustomerID__c": null,
+    "NetSuiteInternalID__c": null,
+    "Region1__c": "FO",
+    "accountNumber": "A00000222",
+    "balance": 0,
+    "batch": "Batch1",
+    "billCycleDay": 24,
+    "currency": "USD",
+    "defaultPaymentMethod": {
+      "creditCardExpirationMonth": 4,
+      "creditCardExpirationYear": 2019,
+      "creditCardNumber": "************8855",
+      "creditCardType": "Visa",
+      "id": "2c92c0f94e2401bb014e273435a46730",
+      "paymentMethodType": "CreditCard"
+    },
+    "id": "2c92c0f94e2401b5014e273441506542",
+    "lastInvoiceDate": "2015-06-24",
+    "lastPaymentAmount": 600,
+    "lastPaymentDate": "2015-06-24",
+    "name": "deepakkumar@rediffmail.com",
+    "status": "Active"
+  },
+  "billToContact": {
+    "address1": "hhhhhhhh",
+    "address2": "jjjjjjjjjjj",
+    "city": "chicago",
+    "country": "United States",
+    "county": null,
+    "fax": null,
+    "firstName": "verma",
+    "id": "2c92c0f94e2401b5014e273441596543",
+    "lastName": "-",
+    "state": "Illinois",
+    "taxRegion": null,
+    "workEmail": "deepakkumar@rediffmail.com",
+    "workPhone": "+13124550000",
+    "zipCode": "60604"
+  },
+  "httpReasonbPhrase": "OK",
+  "httpStatusCode": 200,
+  "invoices": [{
+    "amount": 600,
+    "balance": 0,
+    "dueDate": "2015-06-24",
+    "id": "2c92c0f94e2401b5014e273442486561",
+    "invoiceDate": "2015-06-24",
+    "invoiceNumber": "INV00000082",
+    "status": "Posted"
+  }],
+  "payments": [{
+    "effectiveDate": "2015-06-24",
+    "id": "2c92c0f94e2401b5014e273442cb6573",
+    "paidInvoices": [{
+      "appliedPaymentAmount": 600,
+      "invoiceId": "2c92c0f94e2401b5014e273442486561",
+      "invoiceNumber": "INV00000082"
+    }],
+    "paymentNumber": "P-00000011",
+    "paymentType": "Electronic",
+    "status": "Processed"
+  }],
+  "soldToContact": {
+    "address1": "hhhhhhhh",
+    "address2": "jjjjjjjjjjj",
+    "city": "chicago",
+    "country": "United States",
+    "county": null,
+    "fax": null,
+    "firstName": "verma",
+    "id": "2c92c0f94e2401b5014e273441596543",
+    "lastName": "-",
+    "state": "Illinois",
+    "taxRegion": null,
+    "workEmail": "deepakkumar@rediffmail.com",
+    "workPhone": "+13124550000",
+    "zipCode": "60604"
+  },
+  "subscriptions": [{
+    "BU2__c": "BU",
+    "Opportunity_Type__c": null,
+    "Project_ID__c": null,
+    "Text_Testing__c": null,
+    "autoRenew": false,
+    "id": "2c92c0f94e2401b5014e273441836546",
+    "initialTerm": null,
+    "query_123__c": null,
+    "ratePlans": [
+      {
+        "productId": "2c92c0f84da5c6c1014db56f82795757",
+        "productName": "Monthly Rental",
+        "productRatePlanId": "2c92c0f94da5c6bc014db56ffae5088e",
+        "ratePlanName": "Monthly Rental"
+      },
+      {
+        "productId": "2c92c0f84da5c6c1014db56f82795757",
+        "productName": "Monthly Rental",
+        "productRatePlanId": "2c92c0f94da5c6bc014db56ffae5088e",
+        "ratePlanName": "Monthly Rental"
+      }
+    ],
+    "renewalTerm": null,
+    "status": "PendingActivation",
+    "subscriptionNumber": "A-S00000096",
+    "subscriptionStartDate": "2015-06-24",
+    "termEndDate": null,
+    "termStartDate": "2015-06-24",
+    "termType": "EVERGREEN"
+  }],
+  "success": true,
+  "usage": []
+}
+2015-06-26 03:51:10.968 1 ***** PRE-API TRACE *****
+2015-06-26 03:51:10.968 1 HTTP method = GET
+2015-06-26 03:51:10.968 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts/A00000222
+2015-06-26 03:51:10.969 1 Query String = {}
+2015-06-26 03:51:10.969 1 Header = Accept: application/json
+2015-06-26 03:51:10.969 1 Header = follow_redirect: true
+2015-06-26 03:51:11.455 1 ***** POST-API RESPONSE TRACE *****
+2015-06-26 03:51:11.455 1 HTTP method = GET
+2015-06-26 03:51:11.455 1 Proxy = null
+2015-06-26 03:51:11.455 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts/A00000222
+2015-06-26 03:51:11.456 1 Header = Server: Zuora App
+2015-06-26 03:51:11.456 1 Header = Content-Type: application/json;charset=utf-8
+2015-06-26 03:51:11.456 1 Header = Content-Length: 1945
+2015-06-26 03:51:11.456 1 Header = Expires: Fri, 26 Jun 2015 10:21:19 GMT
+2015-06-26 03:51:11.456 1 Header = Cache-Control: max-age=0, no-cache, no-store
+2015-06-26 03:51:11.457 1 Header = Pragma: no-cache
+2015-06-26 03:51:11.457 1 Header = Date: Fri, 26 Jun 2015 10:21:19 GMT
+2015-06-26 03:51:11.457 1 Header = Connection: keep-alive
+2015-06-26 03:51:11.457 1 Header = Set-Cookie: ZSession=6fuL-y_xO374rLwhvRYHfH6N7jNNcYVzpHpmnzY1z5nONwgwPo3SmNdcLIHPyg2mbU4Zmq3JM2CUbvVrI5bX1kmo4JBDsiX7cgZZYpr6KkkumDxTgsufEANk2E6fXgv6EOfpFZ8_GBOm-doPnYcKhJBEQ8smF3XnLzgsOVH7N9kV7vt-wPq9bY5FyQzHTQQx; Path=/; Secure; HttpOnly
+2015-06-26 03:51:11.457 1 HTTP status = 200
+2015-06-26 03:51:11.457 1 HTTP reason = OK
+2015-06-26 03:51:11.458 1 HTTP version = HTTP/1.1
+2015-06-26 03:51:11.458 1 API Response = {
+  "basicInfo": {
+    "AllowInvoiceEditing__c": null,
+    "BU1__c": "BU1",
+    "Entity__c": null,
+    "HaveCreditCard__c": null,
+    "IntacctCustomerID__c": null,
+    "NetSuiteInternalID__c": null,
+    "Region1__c": "FO",
+    "accountNumber": "A00000222",
+    "batch": "Batch1",
+    "communicationProfileId": null,
+    "crmId": null,
+    "id": "2c92c0f94e2401b5014e273441506542",
+    "invoiceTemplateId": "2c92c0f94c510a04014c6cd7fc0d4db2",
+    "name": "deepakkumar@rediffmail.com",
+    "notes": null,
+    "status": "Active"
+  },
+  "billToContact": {
+    "address1": "hhhhhhhh",
+    "address2": "jjjjjjjjjjj",
+    "city": "chicago",
+    "country": "United States",
+    "county": null,
+    "fax": null,
+    "firstName": "verma",
+    "homePhone": null,
+    "lastName": "-",
+    "mobilePhone": null,
+    "nickname": null,
+    "otherPhone": null,
+    "otherPhoneType": null,
+    "personalEmail": null,
+    "state": "Illinois",
+    "taxRegion": null,
+    "workEmail": "deepakkumar@rediffmail.com",
+    "workPhone": "+13124550000",
+    "zipCode": "60604"
+  },
+  "billingAndPayment": {
+    "billCycleDay": 24,
+    "currency": "USD",
+    "paymentGateway": null,
+    "paymentTerm": "Due Upon Receipt"
+  },
+  "httpReasonbPhrase": "OK",
+  "httpStatusCode": 200,
+  "metrics": {
+    "balance": 0,
+    "contractedMrr": 600,
+    "creditBalance": 0,
+    "totalInvoiceBalance": 0
+  },
+  "soldToContact": {
+    "address1": "hhhhhhhh",
+    "address2": "jjjjjjjjjjj",
+    "city": "chicago",
+    "country": "United States",
+    "county": null,
+    "fax": null,
+    "firstName": "verma",
+    "homePhone": null,
+    "lastName": "-",
+    "mobilePhone": null,
+    "nickname": null,
+    "otherPhone": null,
+    "otherPhoneType": null,
+    "personalEmail": null,
+    "state": "Illinois",
+    "taxRegion": null,
+    "workEmail": "deepakkumar@rediffmail.com",
+    "workPhone": "+13124550000",
+    "zipCode": "60604"
+  },
+  "success": true
+}
+2015-06-26 03:51:11.460 1 ***** PRE-API TRACE *****
+2015-06-26 03:51:11.460 1 HTTP method = POST
+2015-06-26 03:51:11.460 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts
+2015-06-26 03:51:11.460 1 Request Body = {
+  "ac_Willie__c": "ac_boy",
+  "ac_Winnie__c": "ac_Winnie",
+  "autoPay": true,
+  "billCycleDay": "15",
+  "billToContact": {
+  "address1": "address1",
+  "address2": "address2",
+  "city": "San Francisco",
+  "country": "USA",
+  "firstName": "John",
+  "lastName": "Doe",
+  "mobilePhone": "14156789012",
+  "state": "California",
+  "workEmail": "john.doe@zoura.com"
+},
+  "creditCard": {
+  "cardNumber": "4856200223544175",
+  "cardType": "Visa",
+  "expirationMonth": 2,
+  "expirationYear": 2014,
+  "securityCode": "111"
+},
+  "currency": "USD",
+  "name": "Soho",
+  "notes": "Soho Networks",
+  "paymentTerm": "Net 30",
+  "soldToContact": {
+  "address1": "address1",
+  "address2": "address2",
+  "city": "San Francisco",
+  "country": "USA",
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "mobilePhone": "14156789012",
+  "state": "California",
+  "workEmail": "jane.doe@zoura.com"
+}
+}
+2015-06-26 03:51:11.461 1 Header = Accept: application/json
+2015-06-26 03:51:11.461 1 Header = Content-Type: application/json
+2015-06-26 03:51:12.103 1 ***** POST-API RESPONSE TRACE *****
+2015-06-26 03:51:12.103 1 HTTP method = POST
+2015-06-26 03:51:12.103 1 Proxy = null
+2015-06-26 03:51:12.104 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts
+2015-06-26 03:51:12.104 1 Header = Server: Zuora App
+2015-06-26 03:51:12.104 1 Header = Content-Type: application/json;charset=utf-8
+2015-06-26 03:51:12.104 1 Header = Content-Length: 177
+2015-06-26 03:51:12.104 1 Header = Expires: Fri, 26 Jun 2015 10:21:20 GMT
+2015-06-26 03:51:12.104 1 Header = Cache-Control: max-age=0, no-cache, no-store
+2015-06-26 03:51:12.105 1 Header = Pragma: no-cache
+2015-06-26 03:51:12.105 1 Header = Date: Fri, 26 Jun 2015 10:21:20 GMT
+2015-06-26 03:51:12.105 1 Header = Connection: keep-alive
+2015-06-26 03:51:12.105 1 Header = Set-Cookie: ZSession=r76rmKfR_zp9QLoRrPbfTswkgQSAp1r2Q9Yqv4zm93fOkwLerJGEOS5uBauWbalyxYgzi1hkvIVb-spqiEddXXeGKZpLVgT77VaNgFu1IxnELQqr3kNIdR3IZGQZMonj5eNokQi4Mivw75avBAGJznLc1lP65rl2daTc1a2TJdIgSwm4H3nG5g9spW7aZ0pm; Path=/; Secure; HttpOnly
+2015-06-26 03:51:12.105 1 HTTP status = 200
+2015-06-26 03:51:12.105 1 HTTP reason = OK
+2015-06-26 03:51:12.106 1 HTTP version = HTTP/1.1
+2015-06-26 03:51:12.106 1 API Response = {
+  "httpReasonbPhrase": "OK",
+  "httpStatusCode": 200,
+  "processId": "7EF62CC19DA06A37",
+  "reasons": [{
+    "code": 51001020,
+    "message": "Invalid custom fields: 'ac_Willie__c,ac_Winnie__c'."
+  }],
+  "success": false
+}
+2015-06-26 03:53:42.963 1 ***** SDK loggers initialized *****
+2015-06-26 03:53:42.984 1 ***** PRE-API TRACE *****
+2015-06-26 03:53:42.985 1 HTTP method = POST
+2015-06-26 03:53:42.985 1 URL = https://apisandbox-api.zuora.com/rest/connections
+2015-06-26 03:53:42.985 1 Request Body = {}
+2015-06-26 03:53:42.985 1 Header = Accept: application/json
+2015-06-26 03:53:42.985 1 Header = Content-Type: application/json
+2015-06-26 03:53:42.985 1 Header = apiAccessKeyId: harish.k@synthesis-systems.com
+2015-06-26 03:53:42.985 1 Header = apiSecretAccessKey: Techno123
+2015-06-26 03:53:45.747 1 ***** POST-API RESPONSE TRACE *****
+2015-06-26 03:53:45.747 1 HTTP method = POST
+2015-06-26 03:53:45.747 1 Proxy = null
+2015-06-26 03:53:45.748 1 URL = https://apisandbox-api.zuora.com/rest/connections
+2015-06-26 03:53:45.748 1 Header = Server: Zuora App
+2015-06-26 03:53:45.748 1 Header = Content-Type: application/json;charset=utf-8
+2015-06-26 03:53:45.748 1 Header = Content-Length: 22
+2015-06-26 03:53:45.748 1 Header = Expires: Fri, 26 Jun 2015 10:23:53 GMT
+2015-06-26 03:53:45.748 1 Header = Cache-Control: max-age=0, no-cache, no-store
+2015-06-26 03:53:45.748 1 Header = Pragma: no-cache
+2015-06-26 03:53:45.748 1 Header = Date: Fri, 26 Jun 2015 10:23:53 GMT
+2015-06-26 03:53:45.748 1 Header = Connection: keep-alive
+2015-06-26 03:53:45.748 1 Header = Set-Cookie: ZSession=fDMLkdCI2aPQohEAiuWyMLDx95sA5cks5fJZmnOqa60YIjolslQKcivAMy9HcQNHxOL3NwDdS4oL3eTtMKZBLG1qXzaleKgn7Mq_kgWrS1pq7okzW6RYMMGkmKWdFcRldK_VI3cKStoa6TBF_LJfC46UDwWeAMKCkt-oJi97shtidZqrDHX_O-7HhQXUVy_O; Path=/; Secure; HttpOnly
+2015-06-26 03:53:45.749 1 HTTP status = 200
+2015-06-26 03:53:45.749 1 HTTP reason = OK
+2015-06-26 03:53:45.749 1 HTTP version = HTTP/1.1
+2015-06-26 03:53:45.749 1 API Response = {
+  "httpReasonbPhrase": "OK",
+  "httpStatusCode": 200,
+  "success": true
+}
+2015-06-26 03:53:45.752 1 ***** PRE-API TRACE *****
+2015-06-26 03:53:45.752 1 HTTP method = GET
+2015-06-26 03:53:45.752 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts/A00000222/summary
+2015-06-26 03:53:45.753 1 Query String = {}
+2015-06-26 03:53:45.753 1 Header = Accept: application/json
+2015-06-26 03:53:45.753 1 Header = follow_redirect: true
+2015-06-26 03:53:46.184 1 ***** POST-API RESPONSE TRACE *****
+2015-06-26 03:53:46.184 1 HTTP method = GET
+2015-06-26 03:53:46.184 1 Proxy = null
+2015-06-26 03:53:46.185 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts/A00000222/summary
+2015-06-26 03:53:46.185 1 Header = Server: Zuora App
+2015-06-26 03:53:46.185 1 Header = Content-Type: application/json;charset=utf-8
+2015-06-26 03:53:46.185 1 Header = Content-Length: 3372
+2015-06-26 03:53:46.185 1 Header = Expires: Fri, 26 Jun 2015 10:23:54 GMT
+2015-06-26 03:53:46.186 1 Header = Cache-Control: max-age=0, no-cache, no-store
+2015-06-26 03:53:46.186 1 Header = Pragma: no-cache
+2015-06-26 03:53:46.186 1 Header = Date: Fri, 26 Jun 2015 10:23:54 GMT
+2015-06-26 03:53:46.186 1 Header = Connection: keep-alive
+2015-06-26 03:53:46.187 1 Header = Set-Cookie: ZSession=xf-zVSIZvjh9ygvO7RpIUHs_q00QzWhQTFjNXxY8Aw5AMbDBvMnIvjJXOjtmW0WAv-SLuZGCTnDtkEczuVSDnTARQqmyBp3j8PhaqgfqTayjfmSFIEQGhdqHhmRTXW5EZOt71ZeOzAGUxFupdniy8qfeLDJrs9-ksb7wrEW0ZS2k-TCgvzLqn7O7lSZTVrvm; Path=/; Secure; HttpOnly
+2015-06-26 03:53:46.187 1 HTTP status = 200
+2015-06-26 03:53:46.187 1 HTTP reason = OK
+2015-06-26 03:53:46.187 1 HTTP version = HTTP/1.1
+2015-06-26 03:53:46.187 1 API Response = {
+  "basicInfo": {
+    "AllowInvoiceEditing__c": null,
+    "BU1__c": "BU1",
+    "Entity__c": null,
+    "HaveCreditCard__c": null,
+    "IntacctCustomerID__c": null,
+    "NetSuiteInternalID__c": null,
+    "Region1__c": "FO",
+    "accountNumber": "A00000222",
+    "balance": 0,
+    "batch": "Batch1",
+    "billCycleDay": 24,
+    "currency": "USD",
+    "defaultPaymentMethod": {
+      "creditCardExpirationMonth": 4,
+      "creditCardExpirationYear": 2019,
+      "creditCardNumber": "************8855",
+      "creditCardType": "Visa",
+      "id": "2c92c0f94e2401bb014e273435a46730",
+      "paymentMethodType": "CreditCard"
+    },
+    "id": "2c92c0f94e2401b5014e273441506542",
+    "lastInvoiceDate": "2015-06-24",
+    "lastPaymentAmount": 600,
+    "lastPaymentDate": "2015-06-24",
+    "name": "deepakkumar@rediffmail.com",
+    "status": "Active"
+  },
+  "billToContact": {
+    "address1": "hhhhhhhh",
+    "address2": "jjjjjjjjjjj",
+    "city": "chicago",
+    "country": "United States",
+    "county": null,
+    "fax": null,
+    "firstName": "verma",
+    "id": "2c92c0f94e2401b5014e273441596543",
+    "lastName": "-",
+    "state": "Illinois",
+    "taxRegion": null,
+    "workEmail": "deepakkumar@rediffmail.com",
+    "workPhone": "+13124550000",
+    "zipCode": "60604"
+  },
+  "httpReasonbPhrase": "OK",
+  "httpStatusCode": 200,
+  "invoices": [{
+    "amount": 600,
+    "balance": 0,
+    "dueDate": "2015-06-24",
+    "id": "2c92c0f94e2401b5014e273442486561",
+    "invoiceDate": "2015-06-24",
+    "invoiceNumber": "INV00000082",
+    "status": "Posted"
+  }],
+  "payments": [{
+    "effectiveDate": "2015-06-24",
+    "id": "2c92c0f94e2401b5014e273442cb6573",
+    "paidInvoices": [{
+      "appliedPaymentAmount": 600,
+      "invoiceId": "2c92c0f94e2401b5014e273442486561",
+      "invoiceNumber": "INV00000082"
+    }],
+    "paymentNumber": "P-00000011",
+    "paymentType": "Electronic",
+    "status": "Processed"
+  }],
+  "soldToContact": {
+    "address1": "hhhhhhhh",
+    "address2": "jjjjjjjjjjj",
+    "city": "chicago",
+    "country": "United States",
+    "county": null,
+    "fax": null,
+    "firstName": "verma",
+    "id": "2c92c0f94e2401b5014e273441596543",
+    "lastName": "-",
+    "state": "Illinois",
+    "taxRegion": null,
+    "workEmail": "deepakkumar@rediffmail.com",
+    "workPhone": "+13124550000",
+    "zipCode": "60604"
+  },
+  "subscriptions": [{
+    "BU2__c": "BU",
+    "Opportunity_Type__c": null,
+    "Project_ID__c": null,
+    "Text_Testing__c": null,
+    "autoRenew": false,
+    "id": "2c92c0f94e2401b5014e273441836546",
+    "initialTerm": null,
+    "query_123__c": null,
+    "ratePlans": [
+      {
+        "productId": "2c92c0f84da5c6c1014db56f82795757",
+        "productName": "Monthly Rental",
+        "productRatePlanId": "2c92c0f94da5c6bc014db56ffae5088e",
+        "ratePlanName": "Monthly Rental"
+      },
+      {
+        "productId": "2c92c0f84da5c6c1014db56f82795757",
+        "productName": "Monthly Rental",
+        "productRatePlanId": "2c92c0f94da5c6bc014db56ffae5088e",
+        "ratePlanName": "Monthly Rental"
+      }
+    ],
+    "renewalTerm": null,
+    "status": "PendingActivation",
+    "subscriptionNumber": "A-S00000096",
+    "subscriptionStartDate": "2015-06-24",
+    "termEndDate": null,
+    "termStartDate": "2015-06-24",
+    "termType": "EVERGREEN"
+  }],
+  "success": true,
+  "usage": []
+}
+2015-07-01 01:36:33.796 1 ***** SDK loggers initialized *****
+2015-07-01 01:36:33.986 1 ***** PRE-API TRACE *****
+2015-07-01 01:36:33.987 1 HTTP method = POST
+2015-07-01 01:36:33.987 1 URL = https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 01:36:33.987 1 Request Body = {}
+2015-07-01 01:36:33.987 1 Header = Accept: application/json
+2015-07-01 01:36:33.987 1 Header = Content-Type: application/json
+2015-07-01 01:36:33.987 1 Header = apiAccessKeyId: harish.k@synthesis-systems.com
+2015-07-01 01:36:33.988 1 Header = apiSecretAccessKey: Techno123
+2015-07-01 01:36:37.365 1 ***** POST-API RESPONSE TRACE *****
+2015-07-01 01:36:37.365 1 HTTP method = POST
+2015-07-01 01:36:37.366 1 Proxy = null
+2015-07-01 01:36:37.366 1 URL = https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 01:36:37.366 1 Header = Server: Zuora App
+2015-07-01 01:36:37.366 1 Header = Content-Type: application/json;charset=utf-8
+2015-07-01 01:36:37.367 1 Header = Content-Length: 22
+2015-07-01 01:36:37.367 1 Header = Expires: Tue, 30 Jun 2015 20:06:37 GMT
+2015-07-01 01:36:37.367 1 Header = Cache-Control: max-age=0, no-cache, no-store
+2015-07-01 01:36:37.367 1 Header = Pragma: no-cache
+2015-07-01 01:36:37.367 1 Header = Date: Tue, 30 Jun 2015 20:06:37 GMT
+2015-07-01 01:36:37.367 1 Header = Connection: keep-alive
+2015-07-01 01:36:37.367 1 Header = Set-Cookie: ZSession=_0xJcDIo0NrKAeHSBxWY9NI5TH83gMFPDk8dxOZsefcLoJcxWyIgLC_og_z0jK-v4LXFJNSyv4SAf0m6ZYECvzozu5lQQhinLyHXXcB2GkBtn9-fQpoNUBvIweU7RFV3UXoX2pkKHG-WZCgV0vO4nyuyL9OTYu-Uhn13p__riaPqbS9f0xgdoXYNtg9-1dDl; Path=/; Secure; HttpOnly
+2015-07-01 01:36:37.368 1 HTTP status = 200
+2015-07-01 01:36:37.368 1 HTTP reason = OK
+2015-07-01 01:36:37.368 1 HTTP version = HTTP/1.1
+2015-07-01 01:36:37.368 1 API Response = {
+  "httpReasonbPhrase": "OK",
+  "httpStatusCode": 200,
+  "success": true
+}
+2015-07-01 01:36:37.394 1 ***** PRE-API TRACE *****
+2015-07-01 01:36:37.395 1 HTTP method = GET
+2015-07-01 01:36:37.395 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts/A00000222/summary
+2015-07-01 01:36:37.395 1 Query String = {}
+2015-07-01 01:36:37.395 1 Header = Accept: application/json
+2015-07-01 01:36:37.395 1 Header = follow_redirect: true
+2015-07-01 01:36:37.833 1 ***** POST-API RESPONSE TRACE *****
+2015-07-01 01:36:37.833 1 HTTP method = GET
+2015-07-01 01:36:37.833 1 Proxy = null
+2015-07-01 01:36:37.834 1 URL = https://apisandbox-api.zuora.com/rest/v1/accounts/A00000222/summary
+2015-07-01 01:36:37.834 1 Header = Server: Zuora App
+2015-07-01 01:36:37.834 1 Header = Content-Type: application/json;charset=utf-8
+2015-07-01 01:36:37.834 1 Header = Content-Length: 3372
+2015-07-01 01:36:37.834 1 Header = Expires: Tue, 30 Jun 2015 20:06:37 GMT
+2015-07-01 01:36:37.834 1 Header = Cache-Control: max-age=0, no-cache, no-store
+2015-07-01 01:36:37.835 1 Header = Pragma: no-cache
+2015-07-01 01:36:37.835 1 Header = Date: Tue, 30 Jun 2015 20:06:37 GMT
+2015-07-01 01:36:37.835 1 Header = Connection: keep-alive
+2015-07-01 01:36:37.835 1 Header = Set-Cookie: ZSession=Q4MzPFKGCv1XFaY2Qzxlds0r36VDrk2UM6VKbOZ1DZPjZoDAYX3VOaZNjXcrWGkH2cgsOKCbpTb_suXyhXMJ92WPogCOSSoxyoEMqclsM9zgqjBa9qx8x-HuXdjoaaWaeos1gmori5nGerW5J7orTuaOSVJYBdoaGgSfwR4cGlcIngWpPgWHOK5k73l031c2; Path=/; Secure; HttpOnly
+2015-07-01 01:36:37.835 1 HTTP status = 200
+2015-07-01 01:36:37.835 1 HTTP reason = OK
+2015-07-01 01:36:37.835 1 HTTP version = HTTP/1.1
+2015-07-01 01:36:37.836 1 API Response = {
+  "basicInfo": {
+    "AllowInvoiceEditing__c": null,
+    "BU1__c": "BU1",
+    "Entity__c": null,
+    "HaveCreditCard__c": null,
+    "IntacctCustomerID__c": null,
+    "NetSuiteInternalID__c": null,
+    "Region1__c": "FO",
+    "accountNumber": "A00000222",
+    "balance": 0,
+    "batch": "Batch1",
+    "billCycleDay": 24,
+    "currency": "USD",
+    "defaultPaymentMethod": {
+      "creditCardExpirationMonth": 4,
+      "creditCardExpirationYear": 2019,
+      "creditCardNumber": "************8855",
+      "creditCardType": "Visa",
+      "id": "2c92c0f94e2401bb014e273435a46730",
+      "paymentMethodType": "CreditCard"
+    },
+    "id": "2c92c0f94e2401b5014e273441506542",
+    "lastInvoiceDate": "2015-06-24",
+    "lastPaymentAmount": 600,
+    "lastPaymentDate": "2015-06-24",
+    "name": "deepakkumar@rediffmail.com",
+    "status": "Active"
+  },
+  "billToContact": {
+    "address1": "hhhhhhhh",
+    "address2": "jjjjjjjjjjj",
+    "city": "chicago",
+    "country": "United States",
+    "county": null,
+    "fax": null,
+    "firstName": "verma",
+    "id": "2c92c0f94e2401b5014e273441596543",
+    "lastName": "-",
+    "state": "Illinois",
+    "taxRegion": null,
+    "workEmail": "deepakkumar@rediffmail.com",
+    "workPhone": "+13124550000",
+    "zipCode": "60604"
+  },
+  "httpReasonbPhrase": "OK",
+  "httpStatusCode": 200,
+  "invoices": [{
+    "amount": 600,
+    "balance": 0,
+    "dueDate": "2015-06-24",
+    "id": "2c92c0f94e2401b5014e273442486561",
+    "invoiceDate": "2015-06-24",
+    "invoiceNumber": "INV00000082",
+    "status": "Posted"
+  }],
+  "payments": [{
+    "effectiveDate": "2015-06-24",
+    "id": "2c92c0f94e2401b5014e273442cb6573",
+    "paidInvoices": [{
+      "appliedPaymentAmount": 600,
+      "invoiceId": "2c92c0f94e2401b5014e273442486561",
+      "invoiceNumber": "INV00000082"
+    }],
+    "paymentNumber": "P-00000011",
+    "paymentType": "Electronic",
+    "status": "Processed"
+  }],
+  "soldToContact": {
+    "address1": "hhhhhhhh",
+    "address2": "jjjjjjjjjjj",
+    "city": "chicago",
+    "country": "United States",
+    "county": null,
+    "fax": null,
+    "firstName": "verma",
+    "id": "2c92c0f94e2401b5014e273441596543",
+    "lastName": "-",
+    "state": "Illinois",
+    "taxRegion": null,
+    "workEmail": "deepakkumar@rediffmail.com",
+    "workPhone": "+13124550000",
+    "zipCode": "60604"
+  },
+  "subscriptions": [{
+    "BU2__c": "BU",
+    "Opportunity_Type__c": null,
+    "Project_ID__c": null,
+    "Text_Testing__c": null,
+    "autoRenew": false,
+    "id": "2c92c0f94e2401b5014e273441836546",
+    "initialTerm": null,
+    "query_123__c": null,
+    "ratePlans": [
+      {
+        "productId": "2c92c0f84da5c6c1014db56f82795757",
+        "productName": "Monthly Rental",
+        "productRatePlanId": "2c92c0f94da5c6bc014db56ffae5088e",
+        "ratePlanName": "Monthly Rental"
+      },
+      {
+        "productId": "2c92c0f84da5c6c1014db56f82795757",
+        "productName": "Monthly Rental",
+        "productRatePlanId": "2c92c0f94da5c6bc014db56ffae5088e",
+        "ratePlanName": "Monthly Rental"
+      }
+    ],
+    "renewalTerm": null,
+    "status": "PendingActivation",
+    "subscriptionNumber": "A-S00000096",
+    "subscriptionStartDate": "2015-06-24",
+    "termEndDate": null,
+    "termStartDate": "2015-06-24",
+    "termType": "EVERGREEN"
+  }],
+  "success": true,
+  "usage": []
+}
+2015-07-01 02:22:51.095 1 ***** SDK loggers initialized *****
+2015-07-01 02:22:51.116 1 ***** PRE-API TRACE *****
+2015-07-01 02:22:51.116 1 HTTP method = POST
+2015-07-01 02:22:51.116 1 URL = https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 02:22:51.116 1 Request Body = {}
+2015-07-01 02:22:51.117 1 Header = Accept: application/json
+2015-07-01 02:22:51.117 1 Header = Content-Type: application/json
+2015-07-01 02:22:51.117 1 Header = apiAccessKeyId: harish.k@synthesis-systems.com
+2015-07-01 02:22:51.117 1 Header = apiSecretAccessKey: Techno123
+2015-07-01 02:22:51.472 1 This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server
+2015-07-01 02:22:51.505 1 java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+java.net.InetAddress.getAllByName0(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:645)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:480)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:204)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:22:51.506 1 Fatal Error in executing HTTP POST https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 02:22:51.506 1 com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:211)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:22:51.507 1 com.zuora.sdk.lib.ZClient.post(ZClient.java:147)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:23:05.900 1 ***** SDK loggers initialized *****
+2015-07-01 02:23:05.926 1 ***** PRE-API TRACE *****
+2015-07-01 02:23:05.927 1 HTTP method = POST
+2015-07-01 02:23:05.927 1 URL = https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 02:23:05.927 1 Request Body = {}
+2015-07-01 02:23:05.927 1 Header = Accept: application/json
+2015-07-01 02:23:05.927 1 Header = Content-Type: application/json
+2015-07-01 02:23:05.927 1 Header = apiAccessKeyId: harish.k@synthesis-systems.com
+2015-07-01 02:23:05.927 1 Header = apiSecretAccessKey: Techno123
+2015-07-01 02:23:06.281 1 This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server
+2015-07-01 02:23:06.282 1 java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+java.net.InetAddress.getAllByName0(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:645)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:480)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:204)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:23:06.282 1 Fatal Error in executing HTTP POST https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 02:23:06.282 1 com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:211)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:23:06.282 1 com.zuora.sdk.lib.ZClient.post(ZClient.java:147)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:25:05.408 1 ***** SDK loggers initialized *****
+2015-07-01 02:25:05.432 1 ***** PRE-API TRACE *****
+2015-07-01 02:25:05.432 1 HTTP method = POST
+2015-07-01 02:25:05.432 1 URL = https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 02:25:05.432 1 Request Body = {}
+2015-07-01 02:25:05.432 1 Header = Accept: application/json
+2015-07-01 02:25:05.432 1 Header = Content-Type: application/json
+2015-07-01 02:25:05.433 1 Header = apiAccessKeyId: harish.k@synthesis-systems.com
+2015-07-01 02:25:05.433 1 Header = apiSecretAccessKey: Techno123
+2015-07-01 02:25:05.866 1 This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server
+2015-07-01 02:25:05.867 1 java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+java.net.InetAddress.getAllByName0(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+java.net.InetAddress.getAllByName(Unknown Source)
+org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:645)
+org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:480)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:204)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:25:05.867 1 Fatal Error in executing HTTP POST https://apisandbox-api.zuora.com/rest/connections
+2015-07-01 02:25:05.868 1 com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:211)
+com.zuora.sdk.lib.ZAPI.execPostAPI(ZAPI.java:147)
+com.zuora.sdk.lib.ZClient.post(ZClient.java:142)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
+2015-07-01 02:25:05.868 1 com.zuora.sdk.lib.ZClient.post(ZClient.java:147)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:32)
+com.zuora.sdk.samples.ConnectionManager.isConnected(ConnectionManager.java:49)
+com.zuora.sdk.samples.test.AccountManagerTest.testAccountManager(AccountManagerTest.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+
