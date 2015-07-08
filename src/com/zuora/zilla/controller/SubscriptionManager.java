@@ -629,13 +629,20 @@ public class SubscriptionManager {
 	
 	public AmenderSubscription getCurrentSubscriptionByAccNumber(String accountNumber) {
 		// Get Active Subscription
-		AmenderSubscription activeSubscription = new AmenderSubscription();
+AmenderSubscription activeSubscription = new AmenderSubscription();
 
 		
 		// Step #1: get the associated account Id
-		String accountId = accountNumber;
+		String accountId = null;
 
-	
+		try {
+			QueryResult qresAcc = zapi.zQuery("SELECT Id FROM Account WHERE AccountNumber='" + accountNumber + "'");
+			accountId = qresAcc.getRecords()[0].getId();
+		} catch (Exception e) {
+			activeSubscription.setSuccess(false);
+			activeSubscription.setError("ACCOUNT_DOESNT_EXIST");
+			return activeSubscription;
+		}
 		
 		QueryResult qresLastSub = null;
 		try {

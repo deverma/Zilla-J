@@ -145,6 +145,9 @@ a:hover {
     border-bottom: 1px solid #CCCCCC;
     margin: 0 -10px 20px -10px;
 }
+.title .product-search{
+	 margin: -10px 0 10px 10px;
+}
 .title h3{
     height: 39px;
     background: url(../images/bg_title.png) repeat-x;

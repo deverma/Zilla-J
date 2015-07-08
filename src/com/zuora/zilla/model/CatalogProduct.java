@@ -10,6 +10,8 @@ public class CatalogProduct {
 	private String name = "";
 	private String description = "";
 	private ArrayList<CatalogRatePlan> ratePlans;
+	private String category;
+	private String productCategories__c;
 
 	@JsonProperty("Id")
 	public String getId() {
@@ -45,5 +47,21 @@ public class CatalogProduct {
 
 	public void setRatePlans(ArrayList<CatalogRatePlan> ratePlans) {
 		this.ratePlans = ratePlans;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	
+	public String getCategory() {
+		return this.category;
+	}
+
+	public void setProductCategories__c(String productCategories__c) {
+		this.productCategories__c = productCategories__c;
+	}
+	
+	public String getProductCategories__c() {
+		return this.productCategories__c;
 	}
 }

@@ -298,6 +298,7 @@ public class AccountManager {
 		}
 
 		for (ZObject z : qresPms.getRecords()) {
+			if (z == null) continue;
 			PaymentMethod pm = (PaymentMethod) z;
 			PaymentDetail d = new PaymentDetail();
 			d.setId(pm.getId());

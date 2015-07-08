@@ -29,6 +29,20 @@
 		$("#remove_all_button").click(function(){
 			emptyCart();
 		});
+		
+		$.expr[":"].contains = $.expr.createPseudo(function(arg) {
+		    return function( elem ) {
+		        return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+		    };
+		});
+		$('.product-search').off('keyup').on('keyup',function(){
+		  $('.product .c1:not(:contains('+$(this).val()+'))').each(function(){
+		   $(this).closest('li').hide();
+		  });
+		  $('.product .c1:contains('+$(this).val()+')').each(function(){
+		   $(this).closest('li').show();
+		  });
+		});
 	});
 	
 	function isNumberKey(evt){
@@ -190,14 +204,32 @@
 
 
 <div id="web_main">
-  <div id="main" class="edit_dv">
+<!-- <div id="right-sub">
+      <div class="right-sub inner">
+        <div class="title">
+          <h6>Search:</h6>
+        </div>
+        <div>
+        	<input type="search" name="productsearch">
+  			<input type="submit">
+  		</div>        
+      </div>
+    </div> -->
+  <div id="main" class="edit_dv">   
     <div id="left-main">
       <div class="left-main inner">
         <div class="title">
           <h3>Select Products</h3>
         </div>
+         <div class="title">
+          <input type="search" class="product-search" name="productsearch" placeholder="Search">
+        </div>
+        <div>
+  		</div>        
+      
       </div>
     </div>
+   
     <div id="right-sub">
       <div class="right-sub inner">
         <div class="title">
@@ -209,8 +241,9 @@
         <a href="subscribe.html" class="btn_submit item_button floatRight" style="margin-bottom: 15px">Next</a> 
         <div class="clear-block"></div>
       </div>
-    </div>
+    </div>   
   </div>
+  
 </div>
 
 

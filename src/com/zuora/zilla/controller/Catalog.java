@@ -198,8 +198,9 @@ public class Catalog {
 	private static ArrayList<CatalogProduct> getAllProducts() throws Exception {
 		ArrayList<CatalogProduct> products = new ArrayList<CatalogProduct>();
 
-		QueryResult productResult = zapi.zQuery("select Id, Name, Description from Product where EffectiveStartDate < '"
+		QueryResult productResult = zapi.zQuery("select Id, Name, Description, Category, productCategories__c from Product where EffectiveStartDate < '"
 				+ today + "' and EffectiveEndDate > '" + today + "'");
+		
 		
 		// Prepare the response object
 		ZObject[] records = productResult.getRecords();
@@ -208,7 +209,9 @@ public class Catalog {
 			CatalogProduct catalogProduct = new CatalogProduct();
 			catalogProduct.setId(p.getId());
 			catalogProduct.setName(p.getName());
-			catalogProduct.setDescription(p.getDescription());
+			catalogProduct.setDescription(p.getDescription());				
+			catalogProduct.setCategory(p.getCategory());
+			catalogProduct.setProductCategories__c(p.getProductCategories__c());
 			products.add(catalogProduct);
 		}
 
